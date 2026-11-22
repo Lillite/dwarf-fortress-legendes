@@ -1,0 +1,120 @@
+piste,evenement_id,annee,seconds72,type_xml,ligne_original,champs_qui_relient_la_notice,collections_directes,champs_de_la_notice
+P001,11776,41,-1,change hf job,1154514,hfid=1660,,hfid=1660 | site_id=159 | subregion_id=-1 | feature_layer_id=-1
+P001,11801,41,8400,add hf entity link,1154660,hfid=1660,,civ_id=414 | link=position | hfid=1660 | position_id=14
+P001,13111,44,-1,change hf state,1166532,hfid=1660,,"hfid=1660 | state=settled | site_id=103 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P001,13112,44,-1,add hf entity link,1166544,hfid=1660,,civ_id=324 | link=position | hfid=1660 | position_id=0
+P001,18759,54,-1,entity persecuted,1216805,persecutor_hfid=1660,2014,persecutor_hfid=1660 | persecutor_enid=324 | target_enid=389 | site_id=103 | expelled_hfid=585 | expelled_hfid=1622 | expelled_hfid=1741 | expelled_hfid=1742 | expelled_hfid=2658 | expelled_hfid=3530 | expelled_hfid=3903 | expelled_creature=573 | expelled_pop_id=573 | expelled_number=573 | property_confiscated_from_hfid=585 | shrine_amount_destroyed=14
+P001,29453,68,100800,hf abducted,1308124,target_hfid=1660,,target_hfid=1660 | snatcher_hfid=2452 | site_id=103 | subregion_id=-1 | feature_layer_id=-1
+P001,29454,68,100800,hf ransomed,1308135,ransomed_hfid=1660,,ransomed_hfid=1660 | ransomer_hfid=1742 | payer_hfid=822 | moved_to_site_id=159
+P001,43339,81,33600,hf abducted,1425919,target_hfid=1660,,target_hfid=1660 | snatcher_hfid=2452 | site_id=159 | subregion_id=-1 | feature_layer_id=-1
+P001,43340,81,33600,hf enslaved,1425930,enslaved_hfid=1660,,enslaved_hfid=1660 | seller_hfid=580 | payer_entity_id=455 | moved_to_site_id=90
+P001,44415,82,-1,change hf job,1434407,hfid=1660,,hfid=1660 | site_id=90 | subregion_id=-1 | feature_layer_id=-1
+P001,50050,86,184800,hf relationship denied,1483668,seeker_hfid=1660,,seeker_hfid=1660 | target_hfid=3107 | relationship=apprentice | reason=prefers working alone | reason_id=3107 | site_id=112 | subregion_id=-1 | feature_layer_id=-1
+P001,50137,86,260400,add hf hf link,1484644,hfid=1660,,hfid=1660 | hfid_target=1090
+P001,50138,86,260400,add hf entity link,1484652,hfid=1660,,civ_id=746 | link=member | hfid=1660
+P001,50139,86,260400,change hf state,1484661,hfid=1660,,"hfid=1660 | state=settled | reason=be with master | site_id=133 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P001,54289,89,285600,written content composed,1519316,hist_figure_id=1660,,hist_figure_id=1660 | wc_id=1452 | site_id=133
+P001,54324,89,319200,written content composed,1519674,hist_figure_id=1660,,hist_figure_id=1660 | wc_id=1458 | site_id=133
+P001,60043,93,-1,hf died,1568575,slayer_hfid=1660,,hfid=6240 | slayer_hfid=1660 | slayer_race=HUMAN | slayer_caste=FEMALE | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=133 | subregion_id=-1 | feature_layer_id=-1 | cause=murdered
+P001,62347,95,-1,hf died,1589140,hfid=1660,,hfid=1660 | slayer_hfid=-1 | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=-1 | subregion_id=-1 | feature_layer_id=-1 | cause=old age
+P002,12608,43,-1,hf abducted,1162277,target_hfid=2890,1285,target_hfid=2890 | snatcher_hfid=1461 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,12610,43,-1,add hf entity link,1162299,hfid=2890,1285,civ_id=275 | link=prisoner | hfid=2890
+P002,12611,43,-1,change hf state,1162308,hfid=2890,1285,"hfid=2890 | state=settled | site_id=78 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P002,19495,55,-1,change hf state,1223131,hfid=2890,,"hfid=2890 | state=settled | reason=flight | site_id=157 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P002,19496,55,-1,hf reunion,1223144,group_1_hfid=2890,,group_1_hfid=2890 | group_2_hfid=1599 | group_2_hfid=2779 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,23064,60,-1,change hf job,1254262,hfid=2890,,hfid=2890 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,24041,61,-1,add hf entity link,1262561,hfid=2890,,civ_id=409 | link=position | hfid=2890 | position_id=9
+P002,24074,61,25200,failed intrigue corruption,1262912,target_hfid=2890,,corruptor_hfid=2779 | target_hfid=2890 | site_id=157 | subregion_id=-1 | feature_layer_id=-1 | failed_judgment_test (présent) | action=bribe official | method=intimidate | top_facet=fearlessness | top_facet_rating=60 | top_facet_modifier=-2 | top_value=law | top_value_rating=-10 | top_value_modifier=3 | ally_defense_bonus=-3
+P002,29518,68,159600,hfs formed reputation relationship,1308745,hfid2=2890,,hfid1=2286 | identity_id1=78 | hfid2=2890 | identity_id2=-1 | hf_rep_1_of_2=information source | hf_rep_2_of_1=friendly | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,30731,69,336000,failed frame attempt,1319750,fooled_hfid=2890,,target_hfid=3003 | convicter_enid=409 | fooled_hfid=2890 | framer_hfid=1109 | crime=treason
+P002,31327,70,25200,hf simple battle event,1324007,group_1_hfid=2890,,subtype=surprised | group_1_hfid=2890 | group_2_hfid=1742 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,31328,70,25200,hf simple battle event,1324019,group_1_hfid=2890,,subtype=scuffle | group_1_hfid=2890 | group_2_hfid=1742 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,37308,76,-1,entity persecuted,1374796,persecutor_hfid=2890,3602,persecutor_hfid=2890 | persecutor_enid=409 | target_enid=578 | site_id=157 | expelled_hfid=1433 | expelled_creature=573 | expelled_pop_id=573 | expelled_number=573 | expelled_creature=572 | expelled_pop_id=572 | expelled_number=572 | shrine_amount_destroyed=1
+P002,37517,76,168000,hf simple battle event,1376764,group_1_hfid=2890,,subtype=happen upon | group_1_hfid=2890 | group_2_hfid=1742 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,37518,76,168000,hf simple battle event,1376776,group_2_hfid=2890,,subtype=scuffle | group_1_hfid=1742 | group_2_hfid=2890 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,42172,80,117600,hf simple battle event,1416221,group_1_hfid=2890,,subtype=happen upon | group_1_hfid=2890 | group_2_hfid=3268 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,42173,80,117600,hf simple battle event,1416233,group_2_hfid=2890,,subtype=scuffle | group_1_hfid=3268 | group_2_hfid=2890 | site_id=157 | subregion_id=-1 | feature_layer_id=-1
+P002,43587,81,260400,hf convicted,1428484,fooled_hfid=2890,,convicted_hfid=3003 | convicter_enid=409 | plotter_hfid=822 | fooled_hfid=2890 | framer_hfid=1109 | crime=treason | death_penalty (présent) | wrongful_conviction (présent)
+P002,43588,81,260400,hf died,1428498,"épisode associé, voir le registre",,hfid=3003 | slayer_hfid=-1 | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=157 | subregion_id=-1 | feature_layer_id=-1 | cause=exec generic
+P002,45868,83,50400,entity overthrown,1447184,overthrown_hfid=2890,4205,entity_id=409 | position_profile_id=1 | overthrown_hfid=2890 | site_id=157 | pos_taker_hfid=822 | instigator_hfid=1109 | conspirator_hfid=1863 | conspirator_hfid=2659 | conspirator_hfid=5562
+P002,45869,83,50400,add hf entity link,1447199,hfid=2890,4205,civ_id=409 | link=prisoner | hfid=2890
+P002,49871,86,8400,add hf entity link,1481658,hfid=2890,,civ_id=445 | link=member | hfid=2890
+P002,49880,86,16800,hf died,1481750,hfid=2890,,hfid=2890 | slayer_hfid=3268 | slayer_race=HUMAN | slayer_caste=MALE | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=157 | subregion_id=-1 | feature_layer_id=-1 | cause=murdered
+P003,679,1,-1,change hf state,1055143,hfid=634,,"hfid=634 | state=settled | site_id=114 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P003,1019,2,-1,change hf job,1058387,hfid=634,,hfid=634 | site_id=114 | subregion_id=-1 | feature_layer_id=-1
+P003,1456,4,-1,change hf state,1062850,hfid=634,,"hfid=634 | state=settled | site_id=129 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P003,2210,8,126000,knowledge discovered,1070047,hfid=634,,hfid=634 | knowledge=astronomy:phases of the moon | first (présent)
+P003,2452,10,-1,change hf state,1071966,hfid=634,,"hfid=634 | state=settled | site_id=145 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P003,4560,20,260400,knowledge discovered,1090361,hfid=634,,hfid=634 | knowledge=astronomy:summer winter sun | first (présent)
+P003,5665,24,92400,written content composed,1100487,hist_figure_id=634 | wc_id=47,,hist_figure_id=634 | wc_id=47 | site_id=145
+P003,5666,24,92400,artifact created,1100496,artifact_id=61 | hist_figure_id=634,,artifact_id=61 | unit_id=-1 | hist_figure_id=634 | entity_id=-1 | site_id=145
+P003,5667,24,92400,knowledge discovered,1100507,hfid=634,,hfid=634 | knowledge=astronomy:path of the moon | first (présent)
+P003,7558,30,-1,change hf state,1117994,hfid=634,,"hfid=634 | state=settled | site_id=175 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P003,8002,31,-1,add hf entity link,1122626,hfid=634,,civ_id=310 | link=position | hfid=634 | position_id=0
+P003,8003,31,-1,change hf state,1122636,hfid=634,,"hfid=634 | state=settled | site_id=92 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P003,15333,48,120400,competition,1186189,competitor_hfid=634,1602,civ_id=304 | occasion_id=1 | schedule_id=9 | site_id=198 | subregion_id=-1 | feature_layer_id=-1 | winner_hfid=1631 | competitor_hfid=634 | competitor_hfid=1293 | competitor_hfid=1631 | competitor_hfid=1674 | competitor_hfid=1789
+P003,17098,51,120400,competition,1201623,competitor_hfid=634,1818,civ_id=304 | occasion_id=1 | schedule_id=9 | site_id=198 | subregion_id=-1 | feature_layer_id=-1 | winner_hfid=2942 | competitor_hfid=634 | competitor_hfid=1790 | competitor_hfid=1880 | competitor_hfid=1956 | competitor_hfid=2127 | competitor_hfid=2942 | competitor_hfid=3496
+P003,17241,51,277200,gamble,1203267,gambler_hfid=634,,gambler_hfid=634 | site_id=92 | structure_id=2 | old_account=0 | new_account=-5000
+P003,23461,60,243600,hf simple battle event,1258225,group_1_hfid=634,2498,subtype=confront | group_1_hfid=634 | group_2_hfid=2641 | site_id=-1 | subregion_id=330 | feature_layer_id=-1
+P003,23462,60,243600,hf died,1258237,hfid=634,2498,hfid=634 | slayer_hfid=2641 | slayer_race=HUMAN | slayer_caste=MALE | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=-1 | subregion_id=330 | feature_layer_id=-1 | cause=shot
+P003,23463,60,243600,artifact lost,1258253,artifact_id=61,2498,artifact_id=61 | subregion_id=330
+P004,26353,64,-1,change hf job,1282282,hfid=3215,,hfid=3215 | site_id=209 | subregion_id=-1 | feature_layer_id=-1
+P004,27824,66,50400,change hf state,1294354,hfid=3215,,"hfid=3215 | state=settled | reason=scholarship | site_id=197 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P004,36622,75,294000,knowledge discovered,1369762,hfid=3215,,hfid=3215 | knowledge=history:form:autobiographical adventure | first (présent)
+P004,39763,78,117600,written content composed,1395935,hist_figure_id=3215 | wc_id=929,,hist_figure_id=3215 | wc_id=929 | site_id=197 | circumstance=dream
+P004,39764,78,117600,artifact created,1395945,artifact_id=226 | hist_figure_id=3215,,artifact_id=226 | unit_id=-1 | hist_figure_id=3215 | entity_id=-1 | site_id=197
+P004,39765,78,117600,artifact stored,1395956,artifact_id=226 | hist_figure_id=3215,,artifact_id=226 | unit_id=-1 | hist_figure_id=3215 | site_id=197
+P004,40685,79,16800,written content composed,1403250,hist_figure_id=3215 | wc_id=955,,hist_figure_id=3215 | wc_id=955 | site_id=197
+P004,40686,79,16800,artifact created,1403259,artifact_id=232 | hist_figure_id=3215,,artifact_id=232 | unit_id=-1 | hist_figure_id=3215 | entity_id=-1 | site_id=197
+P004,40687,79,16800,artifact stored,1403270,artifact_id=232 | hist_figure_id=3215,,artifact_id=232 | unit_id=-1 | hist_figure_id=3215 | site_id=197
+P004,45775,83,25200,hf died,1446135,hfid=3215,4203,hfid=3215 | slayer_hfid=-1 | slayer_race=BLIZZARD_MAN | slayer_caste=DEFAULT | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=157 | subregion_id=71 | feature_layer_id=-1 | cause=struck
+P005,6495,27,-1,artifact created,1107669,artifact_id=64,,artifact_id=64 | unit_id=-1 | hist_figure_id=1008 | entity_id=-1 | site_id=90
+P005,6496,27,-1,artifact given,1107680,artifact_id=64,,artifact_id=64 | giver_hist_figure_id=1008 | giver_entity_id=-1 | receiver_hist_figure_id=595 | receiver_entity_id=304
+P005,6497,27,-1,artifact claim formed,1107691,artifact_id=64,,artifact_id=64 | claim=treasure | hist_figure_id=-1 | entity_id=304 | position_profile_id=-1
+P005,6498,27,-1,artifact stored,1107702,artifact_id=64,,artifact_id=64 | unit_id=-1 | hist_figure_id=595 | site_id=90
+P005,7055,28,260400,artifact claim formed,1113188,artifact_id=64,749,artifact_id=64 | claim=treasure | hist_figure_id=1934 | entity_id=-1 | position_profile_id=-1
+P005,7305,29,0,artifact lost,1115378,artifact_id=64,761,artifact_id=64 | site_id=123
+P005,7800,30,176400,artifact given,1120488,artifact_id=64,800,artifact_id=64 | giver_hist_figure_id=2013 | giver_entity_id=-1 | receiver_hist_figure_id=2013 | receiver_entity_id=455
+P005,7801,30,176400,artifact claim formed,1120499,artifact_id=64,800,artifact_id=64 | claim=symbol | hist_figure_id=-1 | entity_id=455 | position_profile_id=0
+P005,7920,30,394800,artifact lost,1121845,artifact_id=64,830,artifact_id=64 | site_id=154
+P005,7932,30,394800,artifact given,1121995,artifact_id=64,831,artifact_id=64 | giver_hist_figure_id=2013 | giver_entity_id=-1 | receiver_hist_figure_id=-1 | receiver_entity_id=455
+P005,7933,30,394800,artifact claim formed,1122006,artifact_id=64,831,artifact_id=64 | claim=treasure | hist_figure_id=-1 | entity_id=455 | position_profile_id=-1
+P005,7934,30,394800,artifact stored,1122017,artifact_id=64,831,artifact_id=64 | unit_id=-1 | hist_figure_id=-1 | site_id=90
+P005,8485,32,100800,artifact claim formed,1126918,artifact_id=64,,artifact_id=64 | claim=treasure | hist_figure_id=2150 | entity_id=-1 | position_profile_id=-1 | circumstance=from afar
+P005,8539,32,302400,artifact claim formed,1127568,artifact_id=64,,artifact_id=64 | claim=treasure | hist_figure_id=2095 | entity_id=-1 | position_profile_id=-1 | circumstance=from afar
+P005,8825,33,327600,hf simple battle event,1129977,"épisode associé, voir le registre",935,subtype=attacked | group_1_hfid=14 | group_2_hfid=2149 | site_id=90 | subregion_id=-1 | feature_layer_id=-1
+P005,8826,33,327600,hf simple battle event,1129989,"épisode associé, voir le registre",935,subtype=scuffle | group_1_hfid=14 | group_2_hfid=2149 | site_id=90 | subregion_id=-1 | feature_layer_id=-1
+P005,8827,33,327600,item stolen,1130001,"épisode associé, voir le registre",935,circumstance=historical event collection | circumstance_id=935
+P005,8828,33,327600,artifact claim formed,1130009,artifact_id=64,935,artifact_id=64 | claim=treasure | hist_figure_id=14 | entity_id=-1 | position_profile_id=-1
+P005,8829,33,327600,artifact stored,1130020,artifact_id=64,935,artifact_id=64 | unit_id=-1 | hist_figure_id=14 | site_id=7
+P006,35207,74,-1,created structure,1356879,site_id=159 / structure_id=3,,civ_id=302 | site_civ_id=352 | site_id=159 | structure_id=3
+P006,55707,90,210000,hf profaned structure,1531305,site_id=159 / structure_id=3,,hist_fig_id=823 | site_id=159 | structure_id=3
+P006,55708,90,210000,hf does interaction,1531314,"épisode associé, voir le registre",,doer_hfid=573 | target_hfid=823 | interaction=DEITY_CURSE_WEREBEAST_cat_1
+P006,55709,90,210000,change hf state,1531323,"épisode associé, voir le registre",,"hfid=823 | state=wandering | reason=flight | site_id=-1 | subregion_id=71 | feature_layer_id=-1 | coords=70,26"
+P006,70168,99,75600,hf profaned structure,1653208,site_id=159 / structure_id=3,,hist_fig_id=5428 | site_id=159 | structure_id=3
+P006,70169,99,75600,hf does interaction,1653217,"épisode associé, voir le registre",,doer_hfid=573 | target_hfid=5428 | interaction=DEITY_CURSE_WEREBEAST_rhinoceros_1
+P006,70170,99,75600,change hf state,1653226,"épisode associé, voir le registre",,"hfid=5428 | state=wandering | reason=flight | site_id=-1 | subregion_id=71 | feature_layer_id=-1 | coords=70,26"
+P007,11973,41,352800,artifact created,1156639,artifact_id=85,1232,artifact_id=85 | unit_id=-1 | hist_figure_id=2095 | entity_id=-1 | site_id=-1 | name_only (présent)
+P007,35492,74,268800,hf died,1360010,"épisode associé, voir le registre",3498,hfid=2095 | slayer_hfid=-1 | slayer_race=ELF | slayer_caste=FEMALE | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=123 | subregion_id=149 | feature_layer_id=-1 | cause=struck
+P007,35493,74,268800,artifact lost,1360026,artifact_id=85,3498,artifact_id=85 | site_id=123
+P007,54110,89,176400,hf travel,1517291,"épisode associé, voir le registre",4848,"group_hfid=2449 | group_hfid=5150 | site_id=123 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P007,54111,89,176400,artifact recovered,1517303,artifact_id=85,4848,artifact_id=85 | unit_id=-1 | hist_figure_id=2449 | site_id=123 | structure_id=-1 | subregion_id=-1 | feature_layer_id=-1
+P007,54112,89,176400,artifact given,1517316,artifact_id=85,4848,artifact_id=85 | giver_hist_figure_id=2449 | giver_entity_id=-1 | receiver_hist_figure_id=5150 | receiver_entity_id=-1
+P007,54113,89,176400,hf travel,1517327,"épisode associé, voir le registre",4848,"group_hfid=2449 | group_hfid=5150 | site_id=92 | subregion_id=-1 | feature_layer_id=-1 | return (présent) | coords=33,36"
+P008,71788,100,0,created site,1670644,site_civ_id=993 | site_id=676,,civ_id=304 | site_civ_id=993 | site_id=676
+P008,71789,100,16800,add hf entity link,1670653,civ_id=993,,civ_id=993 | link=member | hfid=12093
+P008,71790,100,16800,change hf state,1670662,site_id=676,,"hfid=12093 | state=settled | site_id=676 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P008,71791,100,16800,add hf entity link,1670674,civ_id=993,,civ_id=993 | link=member | hfid=12092
+P008,71792,100,16800,change hf state,1670683,site_id=676,,"hfid=12092 | state=settled | site_id=676 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P008,71793,100,16800,add hf entity link,1670695,civ_id=993,,civ_id=993 | link=member | hfid=12091
+P008,71794,100,16800,change hf state,1670704,site_id=676,,"hfid=12091 | state=settled | site_id=676 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P008,71795,100,16800,add hf entity link,1670716,civ_id=993,,civ_id=993 | link=member | hfid=12090
+P008,71796,100,16800,change hf state,1670725,site_id=676,,"hfid=12090 | state=settled | site_id=676 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P008,71797,100,16800,add hf entity link,1670737,civ_id=993,,civ_id=993 | link=member | hfid=12089
+P008,71798,100,16800,change hf state,1670746,site_id=676,,"hfid=12089 | state=settled | site_id=676 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P008,71799,100,16800,add hf entity link,1670758,civ_id=993,,civ_id=993 | link=member | hfid=12088
+P008,71800,100,16800,change hf state,1670767,site_id=676,,"hfid=12088 | state=settled | site_id=676 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P008,71801,100,16800,add hf entity link,1670779,civ_id=993,,civ_id=993 | link=member | hfid=12087
+P008,71802,100,16800,change hf state,1670788,site_id=676,,"hfid=12087 | state=settled | site_id=676 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P008,71803,100,16800,add hf entity link,1670800,civ_id=993,,civ_id=993 | link=position | hfid=12087 | position_id=8
+P008,72672,100,66566,site retired,1681405,site_civ_id=993 | site_id=676,,civ_id=304 | site_civ_id=993 | site_id=676 | first (présent)
