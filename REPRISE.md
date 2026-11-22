@@ -2,13 +2,13 @@
 
 | Repère | État enregistré |
 | --- | --- |
-| Étape active | **5 sur 6 · Rédaction de P002** |
+| Étape active | **6 sur 6 · Relecture de P002** |
 | Branche permanente | `legendes/region1-an-100-02-28` |
 | Source | [Original du 28 du mois 02 de l’an 100](sources/region1-00100-02-28-legends.xml) · [Fiche de source et inventaire](sources/README.md). Le nom du monde n’est pas fourni. |
 | Couverture de lecture | 15 sections parcourues et 57 526 événements indexés pour l’exploration. Lecture ciblée des renvois aux figures, lieux, entités, collections, objets, œuvres et formes. |
 | Dernier point atteint | [Les deux poèmes de Buh](manuscrits/fr/P001/01.md), huit chapitres relus jusqu’à la dernière scène d’[À table](manuscrits/fr/P001/08.md). |
 | Piste, langue et plan | P002, français. [Plan de Celle qu’on a crue](manuscrits/fr/P002/plan.md). P001 est terminé. |
-| Prochaine action | Rédiger le roman à partir des deux accusations et des histoires de famille vérifiées. |
+| Prochaine action | Relire les sept chapitres, contrôler le circuit des témoignages et préparer l’édition de lecture. |
 
 ## Journal
 
@@ -23,3 +23,4 @@
 | 2026-11-22 | 6 · Relecture terminée | Cohérence des âges, des personnages présents, des objets et des deux fins vérifiée. Dernier passage relu, le repas des frères au chapitre VIII. | [Bilan éditorial](manuscrits/fr/P001/plan.md) |
 | 2026-11-22 | P002 · Étape 3 | Demande « Ecrit le P002 ». Rédaction française dans la continuité du premier livre. | [Dossier propre à P002](manuscrits/fr/P002/plan.md) |
 | 2026-11-22 | P002 · Étape 4 | Profils de fonction, parentés, tentatives de corruption d’Ac, antécédents d’Omli et de Nastrisp, décisions et dates recoupés. | [Enquête et construction](manuscrits/fr/P002/plan.md) |
+| 2026-11-22 | P002 · Étape 5 | Sept chapitres rédigés depuis la déposition d’Aune jusqu’au dernier appel sur la place. | [Chapitre I](manuscrits/fr/P002/01.md) · [Chapitre VII](manuscrits/fr/P002/07.md) |
