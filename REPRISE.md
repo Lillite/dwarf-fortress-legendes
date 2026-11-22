@@ -2,13 +2,13 @@
 
 | Repère | État enregistré |
 | --- | --- |
-| Étape active | **3 sur 6 · Choix ouvert après la seconde découverte (SPEC 1.11)** |
+| Étape active | **P014 · Étape 3 sur 6 · Choix recueilli** |
 | Branche permanente | `legendes/region1-an-100-02-28` |
 | Source | [Original du 28 du mois 02 de l’an 100](sources/region1-00100-02-28-legends.xml) · [Fiche de source et inventaire](sources/README.md). Le nom du monde n’est pas fourni. |
 | Couverture de lecture | 15 sections parcourues. Seconde lecture des guerres, lieux, charges, concours, échanges et autres domaines consignés dans le [bilan](reperes/pistes.md#bilan-de-la-seconde-lecture). |
-| Dernier point atteint | P009 à P016 proposées et P005 enrichie. [Registre des seize pistes](reperes/pistes.md) et [203 batailles recoupées](reperes/commandements.csv). |
-| Piste, langue et plan | P001 et P002 achevées en français. P003 à P016 disponibles selon leur statut dans le registre. Aucun nouveau manuscrit engagé. |
-| Prochaine action | Recueillir l’identifiant de la prochaine histoire et la langue de rédaction. Repartir ensuite des références indiquées sous la piste choisie. |
+| Dernier point atteint | L’utilisateur a choisi [P014](reperes/pistes.md#p014). |
+| Piste, langue et plan | Longue nouvelle en français. |
+| Prochaine action | Suivre les deux recrutements dans le XML. |
 
 ## Journal
 
@@ -28,3 +28,4 @@
 | 2026-11-22 | P001 · Reprise des étapes 5 et 6 | Intégration sur cette branche de la SPEC 1.10 de main. Reprise de l’ouverture, des ellipses et des passages où une parole rapportée ou une scène imaginée risquait de passer pour un fait. Relecture continue des huit chapitres et contrôle de l’édition EPUB. | [Chapitre I](manuscrits/fr/P001/01.md) · [Bilan de relecture](manuscrits/fr/P001/plan.md#relecture-autonome-de-compréhension) |
 | 2026-11-22 | Reprise de l’étape 2 · SPEC 1.11 | Mise à jour depuis main, puis seconde lecture des domaines peu explorés. Huit propositions ajoutées, P005 enrichie, pistes sans conclusion documentées. | [Bilan et cas écartés](reperes/pistes.md#bilan-de-la-seconde-lecture) · [Commandements](reperes/commandements.csv) |
 | 2026-11-22 | Étape 3 · Choix ouvert | Les seize identifiants figurent au registre. Les deux manuscrits achevés conservent leurs dossiers et leurs bilans. | [Pistes disponibles](reperes/pistes.md) |
+| 2026-11-22 | P014 · Étape 3 | « Travail sur P014 ». Français retenu dans la continuité des deux livres précédents. | [Piste retenue](reperes/pistes.md#p014) |
