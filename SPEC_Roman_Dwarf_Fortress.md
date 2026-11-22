@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.11 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.12 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -8,7 +8,9 @@ Le texte doit se suffire à lui-même. Quelqu’un qui ouvre le livre sans conna
 
 ## 1. Trouver le sujet dans la matière disponible
 
-Commencer par lire l’export du monde concerné. Relever ce qui éveille une curiosité précise : deux rencontres éloignées dans le temps, une œuvre qui survit à son auteur, une charge dont plusieurs titulaires connaissent des destins différents, un départ dont on retrouve la trace ailleurs. Ces pistes servent à interroger le fichier. Seul son contenu permet de décider lesquelles existent dans ce monde.
+Commencer par ouvrir le sommaire `reperes/index-legends/README.md` sur la branche du monde. L’index permet de retrouver, par identifiant, les rôles d’une figure dans les événements et les collections qui réunissent ces derniers. Lors d’une reprise, retrouver les identifiants déjà consignés dans le registre ou le plan. Si l’index manque ou correspond à un autre état des sources, le [régénérer](outils/README.md). La lecture ciblée de l’original reste possible pendant cette opération.
+
+Relever ce qui éveille une curiosité précise : deux rencontres éloignées dans le temps, une œuvre qui survit à son auteur, une charge dont plusieurs titulaires connaissent des destins différents, un départ dont on retrouve la trace ailleurs. Revenir aux passages du XML qui soutiennent la proposition et citer les identifiants retenus. Un champ manquant ou un renvoi non résolu laisse une question ouverte. Une rencontre unique peut fournir une meilleure entrée dans le récit que cinquante mentions de la même personne.
 
 ### Seconde lecture avant de proposer les pistes
 

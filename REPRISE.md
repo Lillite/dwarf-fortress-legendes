@@ -9,6 +9,7 @@ Sur `main`, cette fiche sert de modèle. Pour continuer un export existant, sél
 | Étape active | 1 sur 6 — en attente du premier export anglais. |
 | Branche permanente de l’export | À renseigner sur la branche créée à la réception de l’export. |
 | Source et monde | À renseigner à la réception du fichier. |
+| Index factuel | Après l’analyse, indiquer le sommaire `reperes/index-legends/README.md` sur cette branche. |
 | Couverture de lecture | Lecture à commencer. |
 | Piste, langue et plan actif | Choix à venir après présentation des pistes. |
 | Dernier point atteint | SPEC, processus et modèles disponibles. |
