@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.5 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.6 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -87,6 +87,39 @@ Une fois la piste et la langue choisies, préparer pour chaque scène une courte
 **Faire une place à la vie ordinaire.** Le plaisir peut venir du caractère de quelqu’un, d’un détail drôle, d’une attention inattendue ou du fonctionnement étrange d’un usage. Accorder à ces moments assez de place pour qu’ils existent par eux-mêmes. Savoir de quoi deux amis riaient ensemble donne du poids à la première conversation où l’un d’eux cesse de rire.
 
 **Rendre le temps sensible.** Pour franchir plusieurs générations, choisir ce qui passe de l’une à l’autre et montrer ce qu’il devient entre de nouvelles mains. Une date situe l’ellipse. Une personne qui hésite à utiliser l’outil que son aïeule maniait familièrement en fait sentir la durée. Vérifier séparément quand un événement survient, quand chaque personnage l’apprend et quand le lecteur le comprend.
+
+### Faire vivre un événement décisif
+
+Pour un moment dont dépend le livre, entrer assez tôt pour que le personnage ait encore quelque chose à faire, à espérer ou à redouter. Que voulait-il dans la minute qui précède ? Quel geste l’événement interrompt-il ? Qui devra vivre avec ce qui vient d’arriver ? Ces questions aident à trouver la scène. Selon le sujet, elle pourra tenir dans trois lignes ou prendre tout un chapitre.
+
+**Rechercher le pourquoi.** Distinguer ce qui provoque l’événement, ce qui amène le personnage à cet endroit et ce que voulait l’auteur de l’acte. « Tué par une boule de feu » donne la cause immédiate du décès. Pour savoir qui l’a lancée ou ce que cette personne cherchait à faire, remonter aux notices associées. Si un mobile est attesté, choisir quand et par qui le lecteur pourra le découvrir. Si le mobile demeure inconnu, le romancier peut laisser ouverte cette question et donner au héros une raison intime d’être là. Il peut également prêter une intention plausible à un personnage, en veillant à ce que cette invention respecte ses actes connus. Consigner les choix importants dans les notes : dans la prose, écrire la scène pleinement, sans interrompre le lecteur pour commenter sa fabrication.
+
+Deux outils d’écriture éclairent ce travail.
+
+- **La focalisation.** Choisir à quelle expérience le lecteur a accès. Un ancien adversaire pourrait reconnaître le héros à sa façon de rire tout en ignorant ce qui l’amène à se battre. En racontant depuis cet adversaire, on peut rendre leur rencontre très intime et laisser le reste de la bataille hors de sa vue. [Burkhard Niederhoff, « Focalization », *The Living Handbook of Narratology*](https://www-archiv.fdm.uni-hamburg.de/lhn/node/18.html)
+- **La vraisemblance de l’action.** Aristote invite à penser ce qu’une personne peut vraisemblablement faire dans une situation donnée et comment une action en appelle une autre. À la relecture, chercher le détail qui rend un geste crédible. Quelqu’un qui revient chercher un ancien ennemi peut hésiter à lui offrir la main, puis lui présenter l’épaule. Ces quelques secondes donnent au lecteur le temps de mesurer ce qu’il lui en coûte. [Aristote, *Poétique*, chapitre IX](https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0086.tlg034.butcher1911-eng2:9/)
+
+### Exemple fictif — le héros et la boule de feu
+
+**Données de départ.** Le héros a combattu trois adversaires. Il est mort frappé par une boule de feu. Dans cet exercice, l’origine du projectile, un éventuel mobile et l’intervalle entre les combats et la mort sont inconnus.
+
+> L’homme qui se penchait sur Senn avait une dent de devant cassée en biais. Senn la lui avait cassée lui-même. Il ramena le menton contre sa poitrine et attendit le coup.
+>
+> — Si tu veux que je te relève, dit l’homme, il va falloir lâcher ma manche.
+>
+> Senn desserra les doigts. L’autre s’assit à côté de lui sur la marche, passa son épaule sous son bras et attendit qu’il soit prêt. C’était cette patience qui embarrassait Senn. Il aurait préféré qu’on le tire d’un coup, quitte à lui faire mal.
+>
+> Ils venaient de se mettre debout quand Senn vit leur ombre monter le long du mur. En tournant la tête, il aperçut dans l’embrasure une boule de feu, à hauteur d’homme. Elle frappa son compagnon dans le dos. Ils retombèrent sur la marche. Cette fois, Senn eut beau lui rendre l’épaule, il ne parvint pas à le rasseoir.
+>
+> Une femme les rejoignit. Elle posa la main contre le cou de l’homme et la retira.
+>
+> — Il est mort. Tu le connaissais ?
+>
+> Senn aurait su lui dire de quel côté la dent était cassée. Ce fut elle qui lui apprit qu’il s’appelait Orim.
+
+**Choix de l’auteur.** Senn incarne ici l’un des trois adversaires. La dent cassée, la blessure de Senn et le secours que lui porte le héros sont imaginés. La dent paraît d’abord annoncer un règlement de comptes. À la fin, elle dit combien Senn savait peu de celui qui l’a aidé. Ce fil justifie de raconter la mort depuis sa place. Le lecteur comprend pourquoi le héros se trouvait sur la marche au moment de l’impact, tandis que l’intention à l’origine du feu reste ouverte. Les deux autres combats pourront trouver leur place ailleurs si leur souvenir éclaire une scène.
+
+**Question de relecture.** Une fois refermé le dossier de l’export, que reste-t-il de cette page au-delà de l’information « le héros meurt » ? Ici, c’est le moment où Senn essaie de rendre à cet homme l’épaule qu’il vient de lui offrir. Chercher pour chaque scène importante le geste, la parole ou le silence que le lecteur pourra emporter avec lui.
 
 ## 5. Écrire un texte agréable à lire
 
