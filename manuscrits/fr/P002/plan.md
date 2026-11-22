@@ -33,3 +33,11 @@ La recherche porte sur les figures 2890, 3003, 1109, 822, leurs proches et les r
 | [VII. L’appel](07.md) | En 86, Dothan essaie de rendre publique sa propre part de responsabilité. Le récit s’achève avec les vivants. |
 
 **Frontière de l’invention.** Aune, son frère, les bateliers réfugiés et la Maison d’Amont sont des personnages ou des groupes de fiction. L’accusation de vente de noms donne un contenu narratif au seul mot *treason*. Le dossier de travail distingue le compte de jeu enregistré en 63 de ses suites imaginées. L’enquête s’arrête où la source cesse de renseigner la preuve, les paroles et les mobiles. [Chronologie](../../../reperes/chronologie.csv) · [Glossaire](../../../reperes/glossaire.csv).
+
+## Bilan de relecture
+
+Les deux audiences ont été relues dans l’ordre où Dothan les vit. En 69, elle peut conduire le greffier auprès du batelier et lui faire confirmer l’origine de l’adresse. En 81, la tisserande propose une barque pour aller entendre le garçon dont Omli rapporte les paroles. Dothan refuse le délai. Le lecteur peut retrouver ce moment précis dans [Le prix des noms](05.md).
+
+Une seconde lecture a suivi la planche des gardes, le registre d’Ac et la lettre à la mère d’Aune. Chaque objet a son trajet et son destinataire. Le détail du revers de la planche permet à Dothan de reconnaître en prison l’origine de la liste. La scène entre Omli et Thixil renseigne le lecteur sur le prêt, sans donner à Dothan le bénéfice d’une conversation à laquelle elle n’assiste pas.
+
+La dernière lecture a porté sur les changements de voix, le passage du temps et les gestes qui reviennent sans témoin pour en expliquer le sens. Le manuscrit s’achève sur la rive. Le sort de Sol demeure ouvert et la mort de Dothan garde le mobile inconnu que lui laisse l’export. Une [note destinée au lecteur](note.md) suit le chapitre VII dans l’édition EPUB.
