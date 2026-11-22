@@ -2,7 +2,7 @@ name: Importer l’original Legends vérifié
 on:
   push:
     branches: [legendes/region1-an-100-02-28]
-    paths: ['sources/region1-00100-02-28-legends.xml.gz']
+    paths: ['.github/workflows/import-region1-100.yml']
 permissions:
   contents: write
 jobs:
@@ -15,10 +15,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          curl --fail --silent --show-error --location --retry 2 "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/sources/region1-00100-02-28-legends.xml.gz" --output original.gz
-          gzip -dc original.gz > original.xml
-          echo 'b6c4315398494c30bce5ce6d491bc24e7fa64a8a6ee9a17af7ff55ee02fdfbfc  original.xml' | sha256sum -c -
-          test "$(git hash-object original.xml)" = 90718a486aeadf84e93cfd249068c17de2f15fbc
-          python3 -c 'import base64,json,pathlib; pathlib.Path("blob.json").write_text(json.dumps({"encoding":"base64","content":base64.b64encode(pathlib.Path("original.xml").read_bytes()).decode("ascii")}), encoding="ascii")'
-          blob_sha="$(gh api --method POST "repos/$GITHUB_REPOSITORY/git/blobs" --input blob.json --jq '.sha')"
-          test "$blob_sha" = 90718a486aeadf84e93cfd249068c17de2f15fbc
+          gh auth setup-git
+          git clone --depth=1 --single-branch --branch "$GITHUB_REF_NAME" "https://github.com/$GITHUB_REPOSITORY.git" import
+          cd import
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          source_file=sources/region1-00100-02-28-legends.xml
+          gzip -dc "$source_file.gz" > "$source_file"
+          echo "b6c4315398494c30bce5ce6d491bc24e7fa64a8a6ee9a17af7ff55ee02fdfbfc  $source_file" | sha256sum -c -
+          git -c core.autocrlf=false add -f -- "$source_file"
+          test "$(git rev-parse ":$source_file")" = 90718a486aeadf84e93cfd249068c17de2f15fbc
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Archiver l’original XML vérifié de région 1'
+          git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
