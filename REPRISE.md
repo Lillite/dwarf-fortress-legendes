@@ -2,13 +2,13 @@
 
 | Repère | État enregistré |
 | --- | --- |
-| Étape active | **6 sur 6 · Rédaction et relecture de P001 terminées** |
+| Étape active | **4 sur 6 · Enquête sur P002** |
 | Branche permanente | `legendes/region1-an-100-02-28` |
 | Source | [Original du 28 du mois 02 de l’an 100](sources/region1-00100-02-28-legends.xml) · [Fiche de source et inventaire](sources/README.md). Le nom du monde n’est pas fourni. |
 | Couverture de lecture | 15 sections parcourues et 57 526 événements indexés pour l’exploration. Lecture ciblée des renvois aux figures, lieux, entités, collections, objets, œuvres et formes. |
 | Dernier point atteint | [Les deux poèmes de Buh](manuscrits/fr/P001/01.md), huit chapitres relus jusqu’à la dernière scène d’[À table](manuscrits/fr/P001/08.md). |
-| Piste, langue et plan | P001, français par défaut. [Plan de travail](manuscrits/fr/P001/plan.md). |
-| Prochaine action | Lire le manuscrit. Pour une révision, reprendre le chapitre concerné et le [bilan de relecture](manuscrits/fr/P001/plan.md). Les autres pistes sont disponibles sur la même branche. |
+| Piste, langue et plan | P002, français. [Plan de Celle qu’on a crue](manuscrits/fr/P002/plan.md). P001 est terminé. |
+| Prochaine action | Relier Ac, les deux auteurs des manœuvres, Dothan et les membres de sa famille. |
 
 ## Journal
 
@@ -21,3 +21,4 @@
 | 2026-11-22 | 4 · Enquête et plan | Parentés, rançon, deux ravisseurs des fils, métiers, dates relatives à l’anniversaire et monorime des poèmes vérifiés. | [Plan](manuscrits/fr/P001/plan.md), [chronologie](reperes/chronologie.csv), [glossaire](reperes/glossaire.csv) |
 | 2026-11-22 | 5 · Manuscrit rédigé | Huit chapitres français, de la première lecture du poème à l’arrivée des deux frères à Horrorwaned. | [Premier chapitre](manuscrits/fr/P001/01.md) · [Dernier chapitre](manuscrits/fr/P001/08.md) |
 | 2026-11-22 | 6 · Relecture terminée | Cohérence des âges, des personnages présents, des objets et des deux fins vérifiée. Dernier passage relu, le repas des frères au chapitre VIII. | [Bilan éditorial](manuscrits/fr/P001/plan.md) |
+| 2026-11-22 | P002 · Étape 3 | Demande « Ecrit le P002 ». Rédaction française dans la continuité du premier livre. | [Dossier propre à P002](manuscrits/fr/P002/plan.md) |

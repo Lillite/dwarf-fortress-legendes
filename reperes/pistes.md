@@ -1,6 +1,6 @@
 # Histoires de région 1
 
-**Choix du 22 novembre 2026.** L’utilisateur a répondu « P001 ». Le français est retenu par défaut. [Dossier des Deux Poèmes de Buh](../manuscrits/fr/P001/plan.md). Les autres pistes restent disponibles. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
+**Choix du 22 novembre 2026.** L’utilisateur a répondu « P001 ». Le français est retenu par défaut. [Dossier des Deux Poèmes de Buh](../manuscrits/fr/P001/plan.md). L’utilisateur a ensuite demandé « Ecrit le P002 ». [Dossier français de Celle qu’on a crue](../manuscrits/fr/P002/plan.md). Les autres pistes restent disponibles. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
 
 | ID | Titre de travail | Période proposée | Format envisagé |
 | --- | --- | --- | --- |
