@@ -27,7 +27,8 @@ Adapter cette partie à la forme choisie. Un récit épistolaire peut être esqu
 
 - Personnage ou groupe suivi, voix, point de vue et promesse de lecture
 - Décision littéraire qui engage la suite, si nécessaire : options, préférence de l’utilisateur ou résultat du tirage, choix retenu et raison. Une question encore en attente peut être reportée dans le journal de reprise.
-- Pour les notices utiles, choisir entre scène, résumé ou simple repère de continuité. Laisser de côté les autres. Garder une note sur une coupe si elle affecte la compréhension d’un passage ou une contrainte explicite.
+- La liste des éléments envisagés peut bouger. Essayer en scène ou en passant ceux que l’on a envie de garder, y compris un détail gratuit. À la relecture, ajuster leur place et leur nombre à l’allure du passage.
+- Si un détail ouvre un lien vers une autre histoire, une ligne suffit : détail montré (avec son passage) ou gardé hors texte, référence source ou ajout romanesque, piste future éventuelle. Si ce choix est ouvert, le trancher en écrivant, le proposer à l’utilisateur ou essayer une variante tirée au sort.
 - Pour un raccord important, préciser dans les notes le fait qui relie les scènes, ce qui reste incertain et ce que l’auteur imagine pour l’incarner.
 
 | Scène ou chapitre | Point de vue et enjeu | Événements sources | Ce qui change | Fichier et état |
