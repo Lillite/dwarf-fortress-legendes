@@ -1,1 +1,34 @@
 fichier_source,reference_evenement,date_dans_le_monde,personnages_ou_groupes,lieu,fait_atteste,chapitres_associes
+sources/region1-00100-02-28-legends.xml,historical_events/13111,an 44 / seconds72 -1,"Buh, entité 324",Rawspeak,Installation et charge,manuscrits/fr/P001/02.md
+sources/region1-00100-02-28-legends.xml,historical_events/13112,an 44 / seconds72 -1,"Buh, entité 324",Rawspeak,Installation et charge,manuscrits/fr/P001/02.md
+sources/region1-00100-02-28-legends.xml,historical_events/18759,an 54 / seconds72 -1,"Buh, Usel, Ini, An et Ibu",Rawspeak,"Persécution, confiscation des biens d’Ini, sept figures expulsées, quatorze sanctuaires détruits",manuscrits/fr/P001/02.md
+sources/region1-00100-02-28-legends.xml,historical_events/18763,an 54 / seconds72 -1,"Usel, Ibu, An",Snakesflames,Installation après l’expulsion,manuscrits/fr/P001/02.md
+sources/region1-00100-02-28-legends.xml,historical_events/18764,an 54 / seconds72 -1,"Usel, Ibu, An",Snakesflames,Installation après l’expulsion,manuscrits/fr/P001/02.md
+sources/region1-00100-02-28-legends.xml,historical_events/18766,an 54 / seconds72 -1,"Usel, Ibu, An",Snakesflames,Installation après l’expulsion,manuscrits/fr/P001/02.md
+sources/region1-00100-02-28-legends.xml,historical_events/24292,an 61 / seconds72 176400,"Usel, entité 409",,Condamnation pour détournement de fonds à 120 mois de prison,manuscrits/fr/P001/03.md
+sources/region1-00100-02-28-legends.xml,historical_events/29453,an 68 / seconds72 100800,"Buh, Usbu, Usel, Ado",Rawspeak puis Unitegrips,"Enlèvement, rançon payée par le père et transfert",manuscrits/fr/P001/03.md
+sources/region1-00100-02-28-legends.xml,historical_events/29454,an 68 / seconds72 100800,"Buh, Usbu, Usel, Ado",Rawspeak puis Unitegrips,"Enlèvement, rançon payée par le père et transfert",manuscrits/fr/P001/03.md
+sources/region1-00100-02-28-legends.xml,historical_events/40114,an 79 / seconds72 -1,Papos,Unitegrips puis Graspingdevils,"Enlevé, fait prisonnier, installé au site 78",manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/40117,an 79 / seconds72 -1,Papos,Unitegrips puis Graspingdevils,"Enlevé, fait prisonnier, installé au site 78",manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/40118,an 79 / seconds72 -1,Papos,Unitegrips puis Graspingdevils,"Enlevé, fait prisonnier, installé au site 78",manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/43339,an 81 / seconds72 33600,"Buh, Usbu, Slibtu, entité 455",Unitegrips puis Orbliving,"Nouvel enlèvement, vente en esclavage",manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/43340,an 81 / seconds72 33600,"Buh, Usbu, Slibtu, entité 455",Unitegrips puis Orbliving,"Nouvel enlèvement, vente en esclavage",manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/43850,an 82 / seconds72 -1,Nithros,Unitegrips puis Graspingdevils,Premier enlèvement et captivité,manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/43852,an 82 / seconds72 -1,Nithros,Unitegrips puis Graspingdevils,Premier enlèvement et captivité,manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/43853,an 82 / seconds72 -1,Nithros,Unitegrips puis Graspingdevils,Premier enlèvement et captivité,manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/44415,an 82 / seconds72 -1,Buh,Orbliving,"Changement de travail, métier non précisé",manuscrits/fr/P001/04.md
+sources/region1-00100-02-28-legends.xml,historical_events/48375,an 85 / seconds72 -1,Nithros,Unitegrips,Retour par la fuite,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/49222,an 86 / seconds72 -1,Nithros,Unitegrips puis Graspingdevils,Seconde capture et nouvelle captivité,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/49224,an 86 / seconds72 -1,Nithros,Unitegrips puis Graspingdevils,Seconde capture et nouvelle captivité,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/49225,an 86 / seconds72 -1,Nithros,Unitegrips puis Graspingdevils,Seconde capture et nouvelle captivité,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/50050,an 86 / seconds72 184800,"Buh, Stun",Templecudgel,Refus motivé par la préférence de Stun pour le travail solitaire,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/50137,an 86 / seconds72 260400,"Buh, Odda",Vesselhated,Lien avec Odda et installation auprès du maître,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/50138,an 86 / seconds72 260400,"Buh, Odda",Vesselhated,Lien avec Odda et installation auprès du maître,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/50139,an 86 / seconds72 260400,"Buh, Odda",Vesselhated,Lien avec Odda et installation auprès du maître,manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/54289,an 89 / seconds72 285600,Buh,Vesselhated,"Composition du texte 1452, poème enjoué, forme 28",manuscrits/fr/P001/01.md
+sources/region1-00100-02-28-legends.xml,historical_events/54324,an 89 / seconds72 319200,Buh,Vesselhated,"Composition du texte 1458, poème enjoué, forme 28",manuscrits/fr/P001/05.md
+sources/region1-00100-02-28-legends.xml,historical_events/55188,an 90 / seconds72 -1,Stosbub,Vesselhated,"Changement de travail, nouveau métier non indiqué",manuscrits/fr/P001/06.md
+sources/region1-00100-02-28-legends.xml,historical_events/60043,an 93 / seconds72 -1,"Stosbub, Buh",Vesselhated,"Buh tue Stosbub, cause anglaise murdered",manuscrits/fr/P001/07.md
+sources/region1-00100-02-28-legends.xml,historical_events/62347,an 95 / seconds72 -1,Buh,Inconnu,Mort de vieillesse,manuscrits/fr/P001/07.md
+sources/region1-00100-02-28-legends.xml,historical_events/71408,an 100 / seconds72 1535,"Nithros, Papos",Horrorwaned,Installation des deux fils au même instant,manuscrits/fr/P001/08.md
+sources/region1-00100-02-28-legends.xml,historical_events/71424,an 100 / seconds72 1535,"Nithros, Papos",Horrorwaned,Installation des deux fils au même instant,manuscrits/fr/P001/08.md
