@@ -1,10 +1,12 @@
 # Fiche de l’export Legends
 
-Déposer l’original anglais dans ce dossier. Si plusieurs exports du même monde sont utilisés, dupliquer cette fiche pour chacun et employer le nom du fichier dans les références de la chronologie et du glossaire.
+Remplir cette fiche sur la branche permanente de l’export, créée depuis `main` avant le dépôt. Conserver ici l’original anglais et, le cas échéant, les fichiers complémentaires du même export. Employer leurs chemins dans la chronologie et le glossaire.
 
 | Information | Valeur |
 | --- | --- |
+| Nom exact de la branche de l’export | |
 | Nom du fichier original | |
+| Chemin de l’original et des fichiers associés | |
 | Nom du monde tel qu’il figure dans l’export | |
 | Langue source | Anglais |
 | Version du jeu, si connue | |
@@ -18,4 +20,4 @@ Déposer l’original anglais dans ce dossier. Si plusieurs exports du même mon
 | Fichier et passage observé | Champ, section ou convention de date | Comment retrouver ou suivre le renvoi | Limite ou ambiguïté |
 | --- | --- | --- | --- |
 
-En présence de plusieurs exports, conserver le nom d’origine dans un sous-dossier propre au monde ou à la version si deux fichiers portent le même nom. Dans les relevés, employer alors le chemin qui les distingue.
+Si un nouvel export du même monde est fourni, créer depuis `main` une autre branche avec sa propre fiche. L’identité d’un fichier source associe le nom de la branche à son chemin.

@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.3 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.4 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -48,7 +48,7 @@ Une lacune peut nourrir un récit : on peut raconter ce que l’ignorance du s
 
 ## 3. Respecter les événements et écrire dans les silences de l’export
 
-Identifier l’export anglais dans la fiche de `sources/`. Dans `reperes/chronologie.csv`, consigner chaque événement retenu à la précision disponible, avec son identifiant s’il existe ou un repère de passage vérifiable. La sélection délimite le livre. Une fois ce périmètre fixé, chaque événement retenu doit rester reconnaissable, en scène ou en résumé. Si une révision supprime sa scène, lui trouver une nouvelle place. Une couverture intégrale demandée pour un ensemble donné s’applique à tout cet ensemble.
+Chaque nouvel export anglais ouvre une branche permanente depuis `main`, selon le [processus du dépôt](README.md). Identifier cette branche et l’export dans la fiche de `sources/`. Toutes les histoires et éditions tirées de cet export se travaillent sur cette même branche. La branche est conservée et ne doit jamais être fusionnée dans une autre branche. Dans `reperes/chronologie.csv`, consigner chaque événement retenu à la précision disponible, avec son identifiant s’il existe ou un repère de passage vérifiable. La sélection délimite le livre. Une fois ce périmètre fixé, chaque événement retenu doit rester reconnaissable, en scène ou en résumé. Si une révision supprime sa scène, lui trouver une nouvelle place. Une couverture intégrale demandée pour un ensemble donné s’applique à tout cet ensemble.
 
 | Dans les notes de rédaction | Dans le texte destiné au lecteur |
 | --- | --- |

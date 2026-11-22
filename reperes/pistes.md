@@ -1,6 +1,6 @@
-# Pistes d’écriture tirées des exports Legends
+# Pistes d’écriture de cet export Legends
 
-Aucune piste proposée à ce stade. À la lecture de chaque export, ajouter une ligne par piste et conserver ses références même si l’utilisateur en choisit une autre. Donner à chaque piste un identifiant stable dans le dépôt.
+Aucune piste proposée à ce stade. Sur la branche de cet export, ajouter une ligne par piste et conserver ses références même si l’utilisateur en choisit une autre. Donner à chaque piste un identifiant stable et unique dans ce registre. Toutes les histoires issues de ces pistes se poursuivent sur cette branche.
 
 | ID | Export et passages anglais | Sujet, période et figures | Ce qui mérite d’être lu | Matière disponible et lacunes | Format suggéré et motif | Décision de l’utilisateur |
 | --- | --- | --- | --- | --- | --- | --- |
