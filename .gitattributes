@@ -1,0 +1,4 @@
+*.md text eol=lf
+*.csv text eol=lf
+/sources/** -text
+/sources/*.md text eol=lf
