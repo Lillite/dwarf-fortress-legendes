@@ -15,7 +15,7 @@
 | [P009](#p009) | Des deux côtés des remparts | 2–90, épilogue possible en 96 | Roman de guerre | — |
 | [P010](#p010) | Ceux qui reviennent à Hoaryfingers | 3–80, écho en 99 | Roman choral bref | — |
 | [P011](#p011) | Trois ans sur le siège de Rawspeak | 84–87 | Nouvelle politique | — |
-| [P012](#p012) | Le champion qui écrivait sur les lois | 1–99, scène centrale en 45 | Nouvelle de personnage | — |
+| [P012](#p012) | Le champion qui écrivait sur les lois | 1–99, ouverture en 99 | Nouvelle de personnage | — |
 | [P013](#p013) | La tour de la marchande | 79–99 | Nouvelle | — |
 | [P014](#p014) | Celui qui ne vieillissait pas | 35–96 | Longue nouvelle | 22 novembre 2026 · [Achevé en français](../manuscrits/fr/P014/plan.md) |
 | [P015](#p015) | Le dernier jour du Contingent Fist | 68–90 | Récit de compagnie | — |
@@ -23,7 +23,7 @@
 
 Pour la prochaine histoire, une piste, un thème ou une envie de lecture suffisent pour reprendre ce registre. Si plusieurs histoires correspondent, leurs entrées permettent d’en comparer les points de départ. Un choix peut aussi être confié à l’auteur ou au hasard.
 
-La [relecture des entrées selon la SPEC 1.14](relecture-entrees-1-14.md) compare les seize propositions et situe les trois passages des livres qui méritent un essai.
+La [relecture des entrées selon la SPEC 1.14](relecture-entrees-1-14.md) conserve les variantes comparées avant cette reprise des fiches et des manuscrits.
 
 **Comment retrouver les passages.** Ouvrir le [sommaire de l’index du monde](index-legends/README.md) pour choisir le relevé correspondant au sujet. Les numéros après « événement » désignent des entrées de `historical_events` dans l’[original](../sources/region1-00100-02-28-legends.xml). Les figures, sites, entités, artefacts, textes, formes et collections ont leurs propres séries d’identifiants. Le [relevé des occurrences](occurrences.csv) donne les lignes de l’original, les dates, les rôles et les collections directes pour les événements indexés. Les variantes de nom, les faits de parenté et les rapprochements entre pistes sont précisés ci-dessous.
 
@@ -35,7 +35,7 @@ En 54, à Rawspeak, Buh Toothdiamonds persécute la communauté religieuse *The 
 
 À soixante-deux ans, Buh cherche à entrer en apprentissage. Une première personne refuse parce qu’elle préfère travailler seule. Buh rejoint ensuite Odda Slaughterreleased à Vesselhated. En 89, elle compose deux poèmes classés enjoués, le premier avant ses soixante-six ans, le second après. Tous deux emploient la même forme, une énigme sur les mines où le deuxième vers du tercet donne un autre point de vue sur le premier. Quatre ans plus tard, Buh tue Stosbub Jackalcrabs. En 95, elle meurt de vieillesse.
 
-**Entrée possible.** Ouvrir sur une vieille femme qui cherche comment reprendre la phrase du vers précédent. Le lecteur pourra connaître ses poèmes avant d’apprendre ce qu’elle a fait à Rawspeak. L’expulsion, les deux enlèvements et l’apprentissage donnent assez de matière au milieu du roman pour laisser coexister la persécutrice, la captive et la poète. Le mobile d’Usel, les conditions de sortie de l’esclavage, le mobile du meurtre et les vers de Buh restent inconnus.
+**Entrée retenue.** Au [premier chapitre](../manuscrits/fr/P001/01.md), les laveuses vont monter pour le souper. Buh leur a promis un poème. Elle répète avec Odda, qui vient de manger le caillou de sucre prévu pour la scène. Le souper et les vers sont imaginés. On entend Buh en poète avant de découvrir ce qu’elle a fait à Rawspeak. Le mobile d’Usel, les conditions de sortie de l’esclavage et le mobile du meurtre de Stosbub restent inconnus.
 
 **Passages.** Figure 1660, notamment `hf_link` vers le père 822 et la maîtresse d’apprentissage 1090. Événements 18759 (`expelled_hfid=1742`), 29453–29454 (`ransomer_hfid=1742`, `payer_hfid=822`), 43339–43340, 50050, 50137–50139, 54289, 54324, 60043 et 62347. Textes 1452 et 1458 (`cheerful:2`, `form_id=28`), forme poétique 28, *The Turquoise of Amethysts*. Le deuxième poème porte le titre « Ear et rien de plus ».
 
@@ -47,7 +47,7 @@ Dothan Beastmop, enlevée en 43 alors qu’elle est née en 42, retrouve ses deu
 
 En 83, Omli organise le renversement de Dothan. Ado prend sa place et Dothan est faite prisonnière. Trois ans plus tard, Nastrisp Wondrousheat la tue à Snakesflames. Le dossier laisse ouvert le mobile de ce dernier.
 
-**Entrée possible.** Commencer à la deuxième accusation. Dothan a déjà entendu ces deux noms ensemble. Qu’est-ce qui, cette fois, lui paraît digne de foi ? Le lecteur pourrait découvrir le premier échec en même temps qu’elle essaie de se le rappeler. Les retrouvailles avec sa mère donnent à la question de la confiance une histoire familiale. L’export conserve l’issue judiciaire, mais laisse à imaginer les preuves présentées, les paroles de Dothan et ce qu’elle sut ensuite de son erreur.
+**Entrée retenue.** À la seconde accusation, dans [La place du public](../manuscrits/fr/P002/01.md), Aune partage le coussin d’Ac avant de déposer. Ce bref moment ensemble va compter quand Dothan devra décider si elle peut croire le témoin. Aune, le coussin et sa déposition ont été imaginés. Les deux accusations et leurs issues distinctes viennent de l’export. Ce que Dothan a su de son erreur reste ouvert.
 
 **Passages.** Figure 2890, parents 1599 et 2779. Événements 12608, 19495–19496, 24074 (`method=intimidate`), 30731, 43587–43588 (`wrongful_conviction`, `death_penalty`, puis mort par exécution), 45868–45869 et 49880. Entité 409, *The Occult Society*, site 157, collection 4205. Ado, figure 822, est aussi le père qui paie la rançon dans P001.
 
@@ -57,7 +57,7 @@ En 83, Omli organise le renversement de Dothan. Ado prend sa place et Dothan est
 
 L’elfe Thilu Twinklewing étudie les phases de la Lune en 8, le Soleil d’été et d’hiver en 20, puis le trajet de la Lune en 24. Cette année-là, à Sistersconfined, la composition de son manuel et la création du livre physique portent la même date que sa troisième découverte. Le volume compte 101 pages. En 60, Thilu est tué par un tir dans le *Diamond Desert*. La perte du livre est consignée au même instant et dans la même région.
 
-**Entrée possible.** Suivre Thilu la nuit précédant le duel. Qu’il ouvre le livre à une page ancienne donnerait à entendre, à quelques heures de sa mort, ce qui l’occupait des décennies plus tôt. La première nuit, le contenu des pages et la présence du livre dans ses mains seraient des choix de fiction. Le fichier donne un auteur, un exemplaire et une perte localisée. Il laisse ouverte la destinée ultérieure de l’exemplaire. Ce point de chute porte une nouvelle entière.
+**Entrée possible.** À Sistersconfined en 24, quelqu’un demande à Thilu où la Lune va paraître. Il indique un creux dans la crête. L’autre s’installe pour attendre avec lui. Tant qu’ils sont dans le noir, Thilu peut encore s’être trompé. La nuit d’observation, la prédiction et la présence d’un compagnon sont imaginées. La découverte et la composition du manuel portent la même date. Son exemplaire se perd trente-six ans plus tard. On ignore ce que sont devenues ses 101 pages.
 
 **Passages.** Figure 634. Événements 2210, 4560, 5665–5667 et 23461–23463. Texte 47, intitulé exactement « Le livre de les phases », artefact 61 (`page_number=101`, `page_written_content_id=47`), région 330, duel 2498 au sein de la bataille 2497.
 
@@ -67,7 +67,7 @@ L’elfe Thilu Twinklewing étudie les phases de la Lune en 8, le Soleil d’ét
 
 En 75, Thep Yoreesteem découvre la forme du récit d’aventures autobiographique. À Severetrots, en 78, elle écrit une autobiographie intitulée *Mon ami Thep Yoreesteem*. Le fichier associe sa composition à un rêve. En 79, elle en écrit une seconde, également sous son propre nom, *Le Unwelcome Truss et Thep Yoreesteem*. Les deux œuvres existent sous forme d’objets distincts déposés dans la ville. Thep meurt en 83 à Snakesflames.
 
-**Entrée possible.** Rester dans le temps très bref où Thep doit se donner un titre et choisit de s’appeler sa propre amie. Qui dit « mon » ? La question peut demeurer ouverte entre les deux livres. Le rêve est attesté. Son contenu, le narrateur de chaque autobiographie et leurs rapports réciproques sont inconnus. Une nouvelle peut s’achever lorsqu’elle dépose le second ouvrage, quatre ans avant sa mort.
+**Entrée possible.** À Severetrots, imaginer quelqu’un qui lit tout haut le titre du livre devant Thep et lui demande qui est l’ami qui a écrit sur elle. Que répond une autobiographe à cette première lecture de son nom ? Le titre et le rêve sont attestés. L’échange, le contenu du rêve et la voix à laquelle appartient le mot « mon » sont à imaginer. On pourrait quitter Thep au dépôt du second ouvrage, avant qu’un lecteur ait eu le temps de l’ouvrir.
 
 **Passages.** Figure 3215. Événements 36622 (`history:form:autobiographical adventure`, `first`), 39763–39765 (`circumstance=dream`), 40685–40687 et 45775. Textes 929 et 955, artefacts 226 et 232. Autre fil possible pour le même monde, sa mère Rakfil Creedpockets (figure 1741) figure parmi les personnes expulsées en 54 dans P001. Rien n’indique que Thep ait raconté cet épisode dans l’un de ses livres.
 
@@ -77,7 +77,7 @@ En 75, Thep Yoreesteem découvre la forme du récit d’aventures autobiographiq
 
 À Orbliving, en 27, le nain Logem Glovedhatchet crée Dullboredom puis le remet à Logem Mindfullancers. Les deux Logem sont des personnes distinctes. L’objet est revendiqué comme trésor de *The Earthen Treaty*. Il est perdu à Singedlancers en 29. L’année suivante, il devient symbole d’une charge de *The Pointy Seduction*, puis trésor de ce groupe et se retrouve à Orbliving. En 32, deux personnes éloignées le revendiquent à leur tour. En 33, la dragonne Kadol Ivoryfortune le revendique et le dépose dans une caverne, *Roasthollow the Abyss of Breaches*.
 
-**Entrée possible.** À chaque transmission, reprendre la question « à qui est-il ? » du point de vue de la personne qui doit s’en dessaisir. Entre le premier don et la caverne de Kadol, l’objet a servi d’emblème politique, et l’on a pu s’en dire propriétaire depuis un autre lieu. Ce changement de sens peut soutenir un court roman choral. La matière et la forme exacte de l’objet, le trajet complet lors des pertes et les intentions de la dragonne restent ouverts. Les notices distinguent la revendication de la prise en main.
+**Entrée possible.** En 27, Glovedhatchet tend Dullboredom à Mindfullancers. Au moment de remercier l’autre Logem, le destinataire peut hésiter entre « je » et « nous ». Le don nomme aussi *The Earthen Treaty* parmi les destinataires. L’hésitation serait celle du roman. Plus tard, quelqu’un pourra revendiquer ce même trésor depuis un autre lieu. On ignore sa forme, son trajet complet lors des pertes et ce qui amène Kadol à le déposer dans sa caverne.
 
 **Passages.** Artefact 64, nom d’objet `rumadedod`, site final 7. Événements 6495–6498, 7055, 7305, 7800–7801, 7920, 7932–7934, 8485, 8539 et 8825–8829. La collection 935 regroupe l’attaque, le vol, la revendication et le dépôt. Figures 1008, 595, 1934, 2013, 2150, 2095 et 14. Bosa (2095), qui revendique Dullboredom « de loin » dans l’événement 8539, est aussi associée au nom de Spokendrips dans P007.
 
@@ -89,7 +89,7 @@ En 75, Thep Yoreesteem découvre la forme du récit d’aventures autobiographiq
 
 À Unitegrips, Oqui Princeclinch profane la Chapelle symétrique en 90. *The Divine*, divinité des serments, des lois et de la justice, lui inflige une malédiction féline. Il prend la fuite. En 99, Itni Soundbear profane la même chapelle. La même divinité lui inflige une malédiction de rhinocéros. Sa fuite est enregistrée aux mêmes coordonnées que celle d’Oqui neuf ans auparavant.
 
-**Entrée possible.** Faire entrer le lecteur dans la chapelle avec la seconde personne. Une trace du premier passage pourrait n’avoir de sens qu’après la seconde profanation. Le double épisode donne sa forme à la nouvelle. Le geste de chacun, les témoins et le souvenir que la ville aurait gardé du premier épisode sont à imaginer.
+**Entrée possible.** Suivre Itni au seuil de la chapelle en 99. On pourrait lui demander de tenir la porte pour quelqu’un qui entre prêter serment. Itni attendrait-il que cette personne ait fini avant d’aller au bout de son propre geste ? Les deux profanations donnent sa forme à la nouvelle. Le fidèle, son serment, le geste précis d’Itni et ce qu’il sait du passage d’Oqui sont à imaginer.
 
 **Passages.** Site 159, structure locale 3, *the symmetric chapel*, créée en 74 (événement 35207). Figures 823, 5428 et 573. Événements 55707–55709 et 70168–70170. Les codes exacts sont `DEITY_CURSE_WEREBEAST_cat_1` et `DEITY_CURSE_WEREBEAST_rhinoceros_1`. Les notices de fuite donnent toutes deux `coords=70,26`.
 
@@ -99,7 +99,7 @@ En 75, Thep Yoreesteem découvre la forme du récit d’aventures autobiographiq
 
 En 41, lors d’une bataille, la gobeline Bosa Anguishedlies est associée à la nomination de Spokendrips. En 74, elle meurt à Singedlancers. L’objet s’y perd au même instant. Quinze ans plus tard, l’elfe Iwethi Sunrhymed s’y rend avec le gobelin Dostngosp Yellowmaligned. Iwethi retrouve Spokendrips et le remet à son compagnon. Tous deux rentrent à Acesuns. Il existe un lien familial singulier entre la morte et le destinataire. Bosa est la mère de Dostngosp Balancedwitches. Les généalogies donnent sa fille et le destinataire, Dostngosp Yellowmaligned, comme d’anciens époux. Tous deux portent le même prénom.
 
-**Entrée possible.** Raconter le voyage de retour. L’effort pour retrouver l’objet est derrière eux, mais il leur reste le temps de parler de la personne à qui on vient de le donner. Le geste, le voyage et la parenté suffisent à une nouvelle. L’export laisse ouverte la raison du don et ne date pas la fin de l’union par rapport au voyage. La notice de l’objet le place finalement chez Yellowmaligned.
+**Entrée possible.** À Singedlancers, Iwethi vient de retrouver Spokendrips. Il le tend à Dostngosp. Le temps que celui-ci mettrait à avancer la main suffit pour qu’Iwethi se demande si son compagnon était venu chercher l’objet pour lui-même. Ils auront tout le retour jusqu’à Acesuns pour en parler, ou pour laisser passer le moment. La remise et le retour sont attestés. L’hésitation serait imaginée. On ignore le motif du don et si Dostngosp était encore marié à la fille de Bosa à cette date. La fiche de l’objet le place finalement chez lui.
 
 **Passages.** Artefact 85, `holder_hfid=5150`. Événements 11973 (`name_only`), 35492–35493, 54110–54113. Collections de bataille 1232 et 3498, voyage 4848. Figures 2095, 2449, 4931 et 5150. Le lien `former spouse` est réciproque entre 4931 et 5150. L’origine matérielle de l’objet reste indéterminée.
 
@@ -119,7 +119,7 @@ En 100, *The Earthen Treaty* et l’entité locale *The Rainy Mine* fondent Eart
 
 En l’an 2, l’elfe Yarare Snakestyled commande pour *The Responsible Apes* à Amazedbreaches et à Dentedcradled. Elle revient devant Amazedbreaches. Les défenseurs l’emportent en 5 puis en 24. Elle y gagne en 57. L’index compte 57 batailles où elle commande à l’attaque dans *The Singed War*. Trente-trois ans après la dernière, *The Absolute Sin* attaque Tempestclapped. C’est Yarare qui dirige la défense pour les *Responsible Apes*. Son camp tient. On la retrouve encore en 96, parmi les vainqueurs des compétitions de Boardhammers.
 
-**Entrée possible.** Un roman bref qui commence à Tempestclapped par une décision à prendre. À quel souvenir d’un siège perdu la générale se fierait-elle davantage qu’au souvenir d’une victoire ? La campagne offre assez de moments différents pour choisir les retours en arrière. Le lecteur pourrait aussi rencontrer Yarare hors du commandement, au concours où elle a pour concurrent l’elfe de P012. Son allégeance aux deux dates est la même. Sa pensée sur la guerre reste à écrire.
+**Entrée possible.** À Tempestclapped en 90, avant de connaître l’issue de l’attaque, une habitante pourrait reconnaître le nom de la générale des *Responsible Apes* et lui demander ce qui est arrivé aux gens d’Amazedbreaches le jour de sa victoire. Que peut lui répondre Yarare, qui commande aujourd’hui du côté de la ville assiégée ? La rencontre et la réponse seraient imaginées. Les deux commandements et son allégeance au même peuple sont attestés. Un concours à Boardhammers permet aussi de la retrouver hors du rôle de générale.
 
 **Passages.** Figure 400, civilisation 276. Guerres 14 et 4982. Batailles 51, 53, 114, 605, 2246, 4983. Événements 1121, 1131, 1727, 5670, 21068, 55875. Compétitions 839 et 65338 dans les événements. L’[index des batailles](commandements.csv) permet de retrouver chacune des autres mentions en sélectionnant la figure 400 dans la colonne du commandement concerné.
 
@@ -129,7 +129,7 @@ En l’an 2, l’elfe Yarare Snakestyled commande pour *The Responsible Apes* à
 
 Ce refuge forestier est fondé en 3. L’elfe Nemile Gullykindle s’y installe cette année-là, quitte le lieu pour Gorgeden en 8 et revient en 19. Entre-temps, en 10, l’hydre Atafo a détruit Hoaryfingers. Quatre autres habitants nommés du premier établissement figurent aussi parmi les arrivants de 19. Une seconde destruction, par le colosse de bronze Uzin en 31, précède une nouvelle reprise du site en 80. Iwo Evermeadow fait partie de ces derniers arrivants. Elle revient elle-même en 99 après un séjour ailleurs.
 
-**Entrée possible.** Commencer en 19 avec quelqu’un qui connaît le chemin et ignore ce qu’il trouvera au bout. Nemile avait déménagé avant l’attaque de l’hydre. Qu’un autre lui raconte la destruction change ce que son retour peut signifier. La seconde moitié de ce bref roman choral pourrait passer à Iwo, pour qui le même lieu est neuf. Le fichier permet d’identifier deux générations d’occupants. Une transmission familiale ou une rencontre entre ces deux femmes seraient des inventions.
+**Entrée possible.** En 19, à son retour, Nemile pourrait poser son ballot là où elle compte passer la nuit et voir ses compagnons continuer leur chemin. Tous reconnaissent Hoaryfingers. Où pensaient-ils donc rentrer ? Le désaccord sur le premier campement serait imaginé. Nemile avait quitté les lieux avant l’attaque de l’hydre. Iwo, qui arrive en 80, pourrait prendre le relais du récit sans avoir hérité des souvenirs de Nemile. Un lien familial ou une rencontre entre elles restent à imaginer.
 
 **Passages.** Site 125, civilisation 282, groupes locaux successifs 356, 405 et 771. Fondation 1231. Nemile, figure 436, événements 1235, 2148, 4180 et 5827. Autres retours de 19 aux événements 4174, 4175, 4177 et 4179. Destructions 2564 et 8172, collections 211 et 836, créatures 3 et 12. Reprises 4171 et 41554. Iwo, figure 1078, événements 41566, 48950 et 71064.
 
@@ -149,7 +149,7 @@ En 84, à Rawspeak, Nastrisp Garnishbowels organise le renversement d’Osda Dec
 
 À Boardhammers en l’an 1, Nino Rockparch et Yarare participent à la même épreuve. C’est Thikut Bellminds qui gagne. Nino, un elfe, remporte deux concours sur place en 18. Entre ses premières victoires et celles qu’on lui connaît encore en 99, il tue à Amazedbreaches Quenir Toastglowed en 23, puis Kikrost Bellsdwellings en 42. Entre les deux combats, en 39, une découverte sur le droit lui est attribuée. En 45, il compose un manuel intitulé « Ne sous-estimez jamais Lois ». L’exemplaire de 94 pages est déposé l’année suivante à Kingdomscoal.
 
-**Entrée possible.** Une nouvelle à la table où l’on présente le livre. Quel nom reconnaît-on d’abord sur la couverture, celui du savant ou celui qu’on a tant entendu appeler les jours de concours ? Une voix de lecteur inventée permettrait d’entendre ensemble ces différentes vies. Les résultats distinguent 177 victoires de Nino, mais ne donnent ni les règles des épreuves citées ni le texte de sa pensée juridique. Le dossier ne fait pas de son manuel une confession.
+**Entrée possible.** À Boardhammers en 99, Nino attend son tour dans une épreuve. Imaginons que deux concurrents viennent lui demander de trancher un litige. Tous deux connaissent son livre sur les lois. Nino, lui, vient de comprendre qu’une des décisions lui donnerait un avantage dans l’épreuve. Va-t-il le leur dire ? Les résultats distinguent 177 victoires de Nino. La contestation, la règle invoquée, ces lecteurs de son manuel et sa réponse seraient inventés. Le contenu de sa pensée juridique et le sens qu’il donnait à ses deux combats restent inconnus.
 
 **Passages.** Figure 399. Concours 839, 4110, 4112, 70643 et 70663 dans les événements. Combats 5381 et 12367–12368, collections 575 et 1248. Découverte 10966. Composition, exemplaire et dépôt 13885–13886 et 14196, écrit 204, artefact 91. Quenir, figure 1679, figure la même année parmi les titulaires du profil 0 de l’entité 338.
 
@@ -171,9 +171,9 @@ Les comptes de Gamo Dearjump commencent, pour cette histoire, par une opération
 
 Le nain Asmel Furnacebolted désire l’immortalité dès 35. En 37, à Boardhammers, il prend possession d’un objet nommé *The Fated Tombs* et en apprend un secret. En 61, il recrute Kib Workedsearch en lui offrant l’immortalité. L’année suivante, on le confronte parce qu’il ne vieillit pas. Il fuit et s’établit à Diamondgalley. En 96, à Boardhammers de nouveau, une autre personne, Solon Beachedglaze, accepte d’entrer dans son réseau à la faveur de la même offre.
 
-**Entrée possible.** Commencer avec la seconde personne à qui il fait cette proposition. Qu’est-ce qu’un homme qui revient dans une ville où l’on a remarqué son absence de vieillissement peut promettre de plus convaincant que sa présence ? Une longue nouvelle peut faire entendre successivement l’offre, le soupçon et la nouvelle offre. Le fichier atteste le recrutement et le motif du soupçon. Il laisse ouverts les termes du secret et le devenir biologique de celles qui ont accepté.
+**Entrée retenue.** [Aux bains de Boardhammers](../manuscrits/fr/P014/nouvelle.md), Solon nage quand Asmel lui offre de vivre aussi longtemps qu’elle voudra. Elle veut savoir ce que Kib a entendu dans ces mêmes mots avant de se décider pour elle-même. À Rockglistened en 83, Solon et Kib figuraient parmi les assaillants. Un jaguar y a tué Kib. Leur amitié, le bain et les paroles échangées avec Asmel appartiennent à la nouvelle. Le texte du secret et son effet sur les deux femmes restent inconnus.
 
-**Passages.** Figures 352, 347, 350, artefact 76, sites 76 et 179. Objectif 9484, possession et apprentissage 10137–10138, dépôt 14304. Recrutement 24323. Confrontation 25208, déplacement pour fuite 25209 au même instant. Recrutement 65164. Le code du secret est `SECRET_14`. La fiche de l’objet ne donne ni texte intégral ni mode d’emploi.
+**Passages.** Figures 352, 347, 350, artefact 76, sites 76 et 179. Objectif 9484, possession et apprentissage 10137–10138, dépôt 14304. Recrutement 24323. Confrontation 25208, déplacement pour fuite 25209 au même instant. Recrutement 65164. Bataille de Rockglistened, collection 4235, décès de Kib 46051. Le code du secret est `SECRET_14`. La fiche de l’objet ne donne ni texte intégral ni mode d’emploi.
 
 ## P015
 
@@ -181,7 +181,7 @@ Le nain Asmel Furnacebolted désire l’immortalité dès 35. En 37, à Boardham
 
 En 68, deux nains apparaissent dans les rangs de *The Contingent Fist*. Muthkat Knifecolumns y reçoit une charge et Tekkud Soothedstaves en devient membre. La compagnie sert comme mercenaire pour différents camps au fil des années. En 79, elle fonde le fort de Taxjewels. Les deux s’y installent. En 90, ils sont tous deux nommés dans deux batailles au même instant de l’export. À Tempestclapped, leur compagnie est du côté qui attaque Yarare. À Menacetarget, elle est du côté qui défend la place. C’est à Menacetarget que les deux morts sont localisées. La compagnie est dissoute pour lourdes pertes.
 
-**Entrée possible.** Partir du premier soir au fort, quand « chez nous » peut enfin désigner un endroit pour ces deux mercenaires. Le récit peut s’achever sur deux annonces de bataille qui arrivent ensemble. Dans les listes des combattants, les mêmes noms apparaissent aux deux endroits. Les récits peuvent conserver cette difficulté. Rien n’autorise à inventer comme fait un trajet effectué entre les deux batailles ni à attribuer à une seule toutes les pertes de la compagnie.
+**Entrée possible.** Commencer en 79, le premier soir où Muthkat et Tekkud peuvent appeler le fort « chez nous ». Revenir auprès de l’un des deux à Menacetarget en 90, pendant qu’il peut encore attendre le retour de son compagnon. Cette attente serait imaginée. Les deux morts sont localisées à Menacetarget. Le dossier nomme aussi ces mêmes nains à Tempestclapped au même instant. Le trajet entre les deux batailles, les nouvelles parvenues à chacun et la répartition de toutes les pertes de la compagnie restent inconnus.
 
 **Passages.** Entité 683. Figures 2398 et 2947, profils de charge 0 et 1. Événements 29497–29498, 30328 et 31399. Fondation et installations 40831–40833. Guerre 4982, batailles 4983 et 4984, événements 55875 et 55967. Morts 56047 (Tekkud) et 56115 (Muthkat), dissolution 56177. La paix acceptée 56187 appartient à la même guerre et porte un repère horaire ultérieur.
 
@@ -191,7 +191,7 @@ En 68, deux nains apparaissent dans les rangs de *The Contingent Fist*. Muthkat 
 
 Les hameaux de Straybend et de Siegerumors se disputent en l’an 4 le droit de passage, puis les droits sur l’eau. Viennent les pâturages en 5, la propriété du bétail et le territoire en 7. En 11 la question de l’eau revient entre les mêmes groupes et sur les mêmes sites. En 17, l’hydre Atafo détruit Straybend. C’est aussi la créature qui avait détruit Hoaryfingers sept ans plus tôt. L’export enregistre en 100 la reprise de Straybend par une autre civilisation.
 
-**Entrée possible.** Une nouvelle de voisinage, dans la bouche de quelqu’un venu réclamer une bête et obligé de demander la permission de traverser pour aller la chercher. Les motifs successifs des litiges donnent matière à la scène, sans exiger de faire de l’hydre son dénouement. On peut aussi s’arrêter au retour de la question de l’eau en 11. Les notices donnent les collectivités en présence. L’emplacement concret du passage, les personnes qui négocient et l’issue des litiges sont inconnus.
+**Entrée possible.** Un voisin vient chercher une bête. Pour la ramener, il doit demander le passage à quelqu’un qui a ses propres raisons de le faire attendre. La demande peut tenir en une phrase, la réponse prendre toute une matinée. Cette scène de fiction réunirait deux litiges que l’export date séparément, le droit de passage en 4 et la propriété du bétail en 7. La question de l’eau ressurgit en 11 et pourrait clore la nouvelle. Les plaignants individuels, la géographie du passage et la décision restent inconnus.
 
 **Passages.** Sites 80 et 113, entités 279 et 334, événements 1519, 1538, 1720, 2038, 2045 et 2729. Destruction 3941, figure 3. Reprise 71597 par l’entité 302. Le signe d’un accord ou la continuité d’un droit de 11 à 100 manquent dans ces notices.
 

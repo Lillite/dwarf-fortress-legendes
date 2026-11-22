@@ -58,3 +58,9 @@ Au premier mouvement, Solon demande comment Asmel s’y est pris avec Kib. Au qu
 **Essai d’ordre.** En plaçant la nuit d’hospitalité juste après le repas, le lecteur apprendrait très tôt quel service Kib a rendu. Au bain, Asmel n’aurait plus rien à offrir à la question de Solon sur ce que croyait son amie. La scène garde donc sa place après la rivière et l’aveu sur ce qu’Asmel peut promettre pour demain. L’échange sur la colle donne ensuite à Solon une occasion de le laisser partir. Quand il rechausse sa botte, il reste un instant où elle peut encore se taire.
 
 À la dernière page, le geste décisif appartient à celle qui devait recevoir une leçon. Elle retire sa main et Asmel flotte seul. On peut revenir à la première longueur de Solon et y reconnaître quelque chose qui lui est déjà venu de Kib. La suite de l’enseignement d’Asmel reste ouverte. La relecture a également précisé de quelle botte tombe le caillou et où Solon trace la fourche du sentier.
+
+## Reprise de l’entrée dans le souvenir selon la SPEC 1.14
+
+Au [mouvement IV](nouvelle.md#iv-la-leçon), Asmel raconte ce qui lui est arrivé à la porte de l’inconnue. Il a encore le souci de la reprendre sur son prénom lorsqu’elle lui met la lampe dans la main. Il se rappelle la dernière marche et les bottes mouillées qu’il a laissées en bas. Ce dernier détail a pris la place de la phrase qui expliquait sa gratitude. L’adresse donnée par Kib et les gestes de l’hôtesse appartiennent à la fiction, au même titre que cette nuit d’hospitalité.
+
+La scène a été relue depuis « Est-ce qu’elle t’avait cru ? » jusqu’à la question de Solon sur le logement d’Asmel. Le souvenir tient dans sa réponse au bain. Solon peut le laisser rire, repenser à ce que Kib aurait pu lui dire pendant leurs baignades, puis lui demander où il habite. Le lecteur sait qu’une porte a été ouverte à Asmel. Celle de Solon peut encore rester fermée.

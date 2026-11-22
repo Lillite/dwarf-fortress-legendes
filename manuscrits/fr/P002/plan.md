@@ -47,3 +47,9 @@ La dernière lecture a porté sur les changements de voix, le passage du temps e
 Aune s’assied sur le coussin d’Ac avant de déposer. Lorsqu’elle demande ensuite qui oserait mentir après s’être tenu si près de l’accusé, le lecteur reconnaît dans ce premier geste ce qui lui vaut d’être crue. La tisserande peut encore faire venir le témoin qui manque. Dothan lui dit de garder ses rames.
 
 Si l’aveu d’Aune en prison précédait ce refus, on attendrait que Dothan découvre l’origine d’une liste dont le lecteur connaîtrait déjà le trajet. Dans l’ordre du manuscrit, la barque est disponible, le voyage peut encore se faire, et l’on peut encore espérer que la juge accordera ce délai. Au marché, Aune prononce enfin les deux noms de son frère et apprend à un homme à faire chanter la voile. Un marchand de cordages tourne la tête vers la rivière. Quelqu’un d’autre sait désormais comment appeler Sol. Le récit peut s’achever avant que l’on sache si cet appel le rejoindra.
+
+## Les retrouvailles au chapitre II · SPEC 1.14
+
+Après « Celle qui est revenue avant moi, vous l’avez encore ? », la première version faisait intervenir le narrateur pour raconter les enlèvements de Coni. Dans [Le lait de la veille](02.md), Lusko répond désormais à Dothan. Pathril repose le morceau de fromage que sa fille lui a mis en bouche et se lève pour qu’elle lui montre jusqu’où lui arrive sa sœur. Dothan était venue demander des nouvelles. En quelques mots, son père la met dans la situation d’en donner.
+
+La jeune fille a revu Coni à Graspingdevils dans le récit. Elle ignore si sa sœur est déjà rentrée. Les deux ravisseurs de l’an 43, le retour de Coni en 44, son second enlèvement en 49 et le retour de Dothan en 55 gardent leur ordre. Le bol que Lusko montre à Dothan rattache ces années au repas. Dothan le reprend au [chapitre VII](07.md). Leurs paroles et le bol sont imaginés.

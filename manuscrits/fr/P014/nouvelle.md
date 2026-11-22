@@ -242,9 +242,9 @@ Elle battit doucement des pieds pour faire marche arrière jusqu’à lui.
 
 — Ça m’arrangerait bien, dit Solon. J’aurais quelqu’un à qui m’en prendre.
 
-— Elle m’a dit oui. Il m’est arrivé depuis de coucher une nuit entière chez une femme à laquelle Kib avait recommandé de me recevoir, si un jour j’avais besoin d’un lit. Cette femme avait retenu mon nom de travers. Combien crois-tu qu’il m’a fallu de temps pour comprendre qu’on m’attendait ?
+— Elle m’a dit oui. Un soir que j’avais marché sous la pluie, j’ai frappé chez une femme dont Kib m’avait donné l’adresse. « Amel ? » m’a-t-elle dit en ouvrant. J’ai bien prononcé le *s*. Elle m’a mis sa lampe dans la main. « Ton lit est en haut, Amel. Fais attention à la dernière marche. » J’ai enlevé mes bottes en bas pour lui ménager son plancher.
 
-Il rit à ce souvenir. Il était d’une gratitude tenace envers son ancienne épouse pour cette nuit qu’elle lui avait procurée du fond d’un autre pays. Quant à savoir si, la veille du combat de Rockglistened, Kib aurait su répéter ce qu’il y avait dans les Tombes promises, il n’offrit pas à Solon de réponse. Elle ne le pressa pas. Kib, qui avait traversé plus d’une rivière sans attendre qu’on l’y aidât, aurait bien trouvé le moyen de lui en dire davantage de son vivant si elle avait voulu lui confier cette part de leur histoire.
+Solon le laissa rire. Elle aurait aimé savoir si Kib connaissait le secret des Tombes promises. Elles avaient passé des après-midi entiers dans l’herbe à attendre que leurs chemises sèchent. Si Kib avait voulu lui en dire davantage, elle en aurait trouvé le temps.
 
 — Tu loges où, d’habitude ? demanda-t-elle.
 
