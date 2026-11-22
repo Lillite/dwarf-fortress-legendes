@@ -40,4 +40,10 @@ Les deux audiences ont été relues dans l’ordre où Dothan les vit. En 69, el
 
 Une seconde lecture a suivi la planche des gardes, le registre d’Ac et la lettre à la mère d’Aune. Chaque objet a son trajet et son destinataire. Le détail du revers de la planche permet à Dothan de reconnaître en prison l’origine de la liste. La scène entre Omli et Thixil renseigne le lecteur sur le prêt, sans donner à Dothan le bénéfice d’une conversation à laquelle elle n’assiste pas.
 
-La dernière lecture a porté sur les changements de voix, le passage du temps et les gestes qui reviennent sans témoin pour en expliquer le sens. Le manuscrit s’achève sur la rive. Le sort de Sol demeure ouvert et la mort de Dothan garde le mobile inconnu que lui laisse l’export. Une [note destinée au lecteur](note.md) suit le chapitre VII dans l’édition EPUB.
+La dernière lecture a porté sur les changements de voix, le passage du temps et les gestes qui reviennent sans témoin pour en expliquer le sens. Le manuscrit s’achève au marché, à portée de voix de la rivière. Le sort de Sol demeure ouvert et la mort de Dothan garde le mobile inconnu que lui laisse l’export. Une [note destinée au lecteur](note.md) suit le chapitre VII dans l’édition EPUB.
+
+## Relecture du fil conducteur selon la SPEC 1.13
+
+Aune s’assied sur le coussin d’Ac avant de déposer. Lorsqu’elle demande ensuite qui oserait mentir après s’être tenu si près de l’accusé, le lecteur reconnaît dans ce premier geste ce qui lui vaut d’être crue. La tisserande peut encore faire venir le témoin qui manque. Dothan lui dit de garder ses rames.
+
+Si l’aveu d’Aune en prison précédait ce refus, on attendrait que Dothan découvre l’origine d’une liste dont le lecteur connaîtrait déjà le trajet. Dans l’ordre du manuscrit, la barque est disponible, le voyage peut encore se faire, et l’on peut encore espérer que la juge accordera ce délai. Au marché, Aune prononce enfin les deux noms de son frère et apprend à un homme à faire chanter la voile. Un marchand de cordages tourne la tête vers la rivière. Quelqu’un d’autre sait désormais comment appeler Sol. Le récit peut s’achever avant que l’on sache si cet appel le rejoindra.

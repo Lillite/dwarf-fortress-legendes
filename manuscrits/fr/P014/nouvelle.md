@@ -48,7 +48,7 @@ Il y avait treize ans que Solon avait rapporté de la forêt la nouvelle de sa m
 
 — Assez pour que je me méfie de la réponse que tu tiens toute prête.
 
-Il étendit une jambe et entreprit de se déchausser. Un caillou tomba de la seconde. Asmel le ramassa avec soin pour le mettre dans sa poche. Elle faillit lui demander s’il avait si peur de manquer un jour de cailloux. Puis il risqua le bout d’un pied dans l’eau, le retira et s’essuya contre sa cheville. Voilà un homme qui proposait l’éternité d’une voix raisonnablement ferme et qui trouvait trop hardi d’entrer dans un bain.
+Il étendit une jambe et entreprit de se déchausser. Un caillou tomba de sa seconde botte. Asmel le ramassa avec soin pour le mettre dans sa poche. Elle faillit lui demander s’il avait si peur de manquer un jour de cailloux. Puis il risqua le bout d’un pied dans l’eau, le retira et s’essuya contre sa cheville. Voilà un homme qui proposait l’éternité d’une voix raisonnablement ferme et qui trouvait trop hardi d’entrer dans un bain.
 
 — Commence par ce qu’elle faisait quand tu es arrivé, dit Solon.
 
@@ -238,9 +238,9 @@ Elle battit doucement des pieds pour faire marche arrière jusqu’à lui.
 
 — Est-ce qu’elle t’avait cru ?
 
-— Tu y tiens tant que ça ?
+— Si je te disais qu’elle me croyait, ça t’aiderait ?
 
-— C’est au fond la première chose que je t’ai demandée.
+— Ça m’arrangerait bien, dit Solon. J’aurais quelqu’un à qui m’en prendre.
 
 — Elle m’a dit oui. Il m’est arrivé depuis de coucher une nuit entière chez une femme à laquelle Kib avait recommandé de me recevoir, si un jour j’avais besoin d’un lit. Cette femme avait retenu mon nom de travers. Combien crois-tu qu’il m’a fallu de temps pour comprendre qu’on m’attendait ?
 
@@ -286,7 +286,7 @@ Il reposa sa seconde botte.
 
 — Avant que j’aille travailler.
 
-Il répéta tout haut les indications qui le mèneraient à sa porte. Il avait fallu qu’elle descende près du mur pour lui montrer avec ses mains mouillées la fourche que faisait le sentier en sortant du faubourg. Il prit la peine de lui faire recommencer. Elle lui en sut gré. Leur accord aurait aussi bien pu donner lieu à quelque cérémonie. Les immortels devaient être fournis en mots magnifiques pour ces occasions-là. Elle se trouvait satisfaite, sur le moment, de lui avoir donné le moyen d’arriver chez elle.
+Il répéta tout haut les indications qui le mèneraient à sa porte. Il avait retenu qu’à la sortie du faubourg il fallait prendre à droite. Du doigt, Solon traça sur la margelle sèche la fourche du sentier et suivit la branche de gauche. Il lui demanda de recommencer. Elle lui en sut gré. Leur accord aurait aussi bien pu donner lieu à quelque cérémonie. Les immortels devaient être fournis en mots magnifiques pour ces occasions-là. Elle se trouvait satisfaite, sur le moment, de lui avoir donné le moyen d’arriver chez elle.
 
 Au-dessus d’eux, le gardien défaisait la barre de la porte du haut. Bientôt on entendrait rouler au bas de l’escalier les premières sandales, que les enfants trouvaient ingénieux de porter sur leurs têtes afin de pouvoir descendre pieds nus. Asmel s’était ravisé pour sa botte. Il la retira et trempa de nouveau ses deux pieds, cette fois jusqu’aux chevilles.
 

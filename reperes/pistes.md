@@ -2,26 +2,28 @@
 
 **Choix du 22 novembre 2026.** L’utilisateur a répondu « P001 ». Le français est retenu par défaut. [Dossier des Deux Poèmes de Buh](../manuscrits/fr/P001/plan.md). L’utilisateur a ensuite demandé « Ecrit le P002 ». Les sept chapitres français de [Celle qu’on a crue](../manuscrits/fr/P002/01.md) sont achevés. [Dossier de recherche et de relecture](../manuscrits/fr/P002/plan.md). L’utilisateur a ensuite choisi P014. Les quatre mouvements de [Celui qui ne vieillissait pas](../manuscrits/fr/P014/nouvelle.md) sont achevés en français. Les autres pistes gardent leur statut. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
 
-| ID | Titre de travail | Période proposée | Format envisagé |
-| --- | --- | --- | --- |
-| [P001](#p001) | Les deux poèmes de Buh | 54–95 | Roman de personnage |
-| [P002](#p002) | Celle qu’on a crue | 43–86 | Roman politique |
-| [P003](#p003) | Le livre des phases | 8–60 | Nouvelle |
-| [P004](#p004) | Mon ami Thep Yoreesteem | 75–79, avec une fin possible en 83 | Nouvelle |
-| [P005](#p005) | Le trésor d’Orbliving | 27–33 | Court roman à plusieurs voix |
-| [P006](#p006) | La Chapelle symétrique | 90 et 99 | Nouvelle en deux scènes |
-| [P007](#p007) | À qui rendre Spokendrips ? | 89, avec des antécédents en 41 et 74 | Nouvelle |
-| [P008](#p008) | Les sept d’Earthlenses | 100 | En réserve pour un épisode |
-| [P009](#p009) | Des deux côtés des remparts | 2–90, épilogue possible en 96 | Roman de guerre |
-| [P010](#p010) | Ceux qui reviennent à Hoaryfingers | 3–80, écho en 99 | Roman choral bref |
-| [P011](#p011) | Trois ans sur le siège de Rawspeak | 84–87 | Nouvelle politique |
-| [P012](#p012) | Le champion qui écrivait sur les lois | 1–99, scène centrale en 45 | Nouvelle de personnage |
-| [P013](#p013) | La tour de la marchande | 79–99 | Nouvelle |
-| [P014](#p014) | Celui qui ne vieillissait pas | 35–96 | Longue nouvelle |
-| [P015](#p015) | Le dernier jour du Contingent Fist | 68–90 | Récit de compagnie |
-| [P016](#p016) | L’eau de Straybend | 4–11, prolongements en 17 et 100 | Nouvelle de voisinage |
+| ID | Titre de travail | Période proposée | Format envisagé | Choix du lecteur |
+| --- | --- | --- | --- | --- |
+| [P001](#p001) | Les deux poèmes de Buh | 54–95 | Roman de personnage | 22 novembre 2026 · [Achevé en français](../manuscrits/fr/P001/plan.md) |
+| [P002](#p002) | Celle qu’on a crue | 43–86 | Roman politique | 22 novembre 2026 · [Achevé en français](../manuscrits/fr/P002/plan.md) |
+| [P003](#p003) | Le livre des phases | 8–60 | Nouvelle | — |
+| [P004](#p004) | Mon ami Thep Yoreesteem | 75–79, avec une fin possible en 83 | Nouvelle | — |
+| [P005](#p005) | Le trésor d’Orbliving | 27–33 | Court roman à plusieurs voix | — |
+| [P006](#p006) | La Chapelle symétrique | 90 et 99 | Nouvelle en deux scènes | — |
+| [P007](#p007) | À qui rendre Spokendrips ? | 89, avec des antécédents en 41 et 74 | Nouvelle | — |
+| [P008](#p008) | Les sept d’Earthlenses | 100 | En réserve pour un épisode | — |
+| [P009](#p009) | Des deux côtés des remparts | 2–90, épilogue possible en 96 | Roman de guerre | — |
+| [P010](#p010) | Ceux qui reviennent à Hoaryfingers | 3–80, écho en 99 | Roman choral bref | — |
+| [P011](#p011) | Trois ans sur le siège de Rawspeak | 84–87 | Nouvelle politique | — |
+| [P012](#p012) | Le champion qui écrivait sur les lois | 1–99, scène centrale en 45 | Nouvelle de personnage | — |
+| [P013](#p013) | La tour de la marchande | 79–99 | Nouvelle | — |
+| [P014](#p014) | Celui qui ne vieillissait pas | 35–96 | Longue nouvelle | 22 novembre 2026 · [Achevé en français](../manuscrits/fr/P014/plan.md) |
+| [P015](#p015) | Le dernier jour du Contingent Fist | 68–90 | Récit de compagnie | — |
+| [P016](#p016) | L’eau de Straybend | 4–11, prolongements en 17 et 100 | Nouvelle de voisinage | — |
 
-**Comment retrouver les passages.** Les numéros après « événement » désignent des entrées de `historical_events` dans l’[original](../sources/region1-00100-02-28-legends.xml). Les figures, sites, entités, artefacts, textes, formes et collections ont leurs propres séries d’identifiants. Le [relevé des occurrences](occurrences.csv) donne les lignes de l’original, les dates, les rôles et les collections directes pour les événements indexés. Les variantes de nom, les faits de parenté et les rapprochements entre pistes sont précisés ci-dessous.
+Pour la prochaine histoire, une piste, un thème ou une envie de lecture suffisent pour reprendre ce registre. Si plusieurs histoires correspondent, leurs entrées permettent d’en comparer les points de départ. Un choix peut aussi être confié à l’auteur ou au hasard.
+
+**Comment retrouver les passages.** Ouvrir le [sommaire de l’index du monde](index-legends/README.md) pour choisir le relevé correspondant au sujet. Les numéros après « événement » désignent des entrées de `historical_events` dans l’[original](../sources/region1-00100-02-28-legends.xml). Les figures, sites, entités, artefacts, textes, formes et collections ont leurs propres séries d’identifiants. Le [relevé des occurrences](occurrences.csv) donne les lignes de l’original, les dates, les rôles et les collections directes pour les événements indexés. Les variantes de nom, les faits de parenté et les rapprochements entre pistes sont précisés ci-dessous.
 
 ## P001
 
@@ -199,7 +201,7 @@ Le choix de P001 et le français retenu le 22 novembre 2026 sont consignés dans
 
 ## Bilan de la seconde lecture
 
-Le premier parcours a suivi des personnes, des œuvres, des objets, un sanctuaire et une fondation. Des domaines entiers n’avaient servi que d’inventaire ou de décor à ces pistes. La reprise du 22 novembre 2026 suit la [SPEC 1.11](../SPEC_Roman_Dwarf_Fortress.md#seconde-lecture-avant-de-proposer-les-pistes). Les huit premiers identifiants restent disponibles avec leurs références d’origine.
+Le premier parcours a suivi des personnes, des œuvres, des objets, un sanctuaire et une fondation. Des domaines entiers n’avaient servi que d’inventaire ou de décor à ces pistes. La reprise du 22 novembre 2026 suit la [SPEC 1.11](../SPEC_Roman_Dwarf_Fortress.md#seconde-lecture-avant-de-proposer-les-pistes). Les huit premiers identifiants conservent leur numérotation et leurs références d’origine.
 
 | Domaine repris | Chemin effectivement suivi | Résultat et limite |
 | --- | --- | --- |

@@ -24,4 +24,8 @@ Ces chemins sont des repères à confirmer sur le fichier reçu. [Description de
 
 L’export standard suffit pour commencer. Si le même export comprend un fichier `legends_plus.xml` produit par DFHack, chercher si ce complément précise une notice utile au sujet. Recouper les entrées par monde, catégorie et identifiant, conserver les deux références quand elles se complètent, et ne compter qu’une fois le même événement. Si une référence reste introuvable, consigner cette limite dans la [fiche de l’export](README.md). [Documentation DFHack — exportlegends](https://docs.dfhack.org/en/stable/docs/tools/exportlegends.html)
 
-Pour une lecture volumineuse, il peut être utile de construire un index par catégorie et identifiant et un index inverse des événements qui citent chaque élément. Au prochain chapitre, on peut ainsi retrouver l’ensemble des mentions liées à la piste, puis choisir librement celles que le lecteur gagnera à connaître.
+## Suivre un lien dans l’index du monde
+
+Partir du sommaire `reperes/index-legends/README.md` sur la branche d’export. Si le rapport du domaine ne répond pas à la question, consulter la base SQLite à partir de la catégorie et de l’identifiant. Pour un personnage, la recherche inverse retrouve les notices dont un champ reconnu désigne cette figure. Lire le nom de ce champ : dans une rançon, la personne enlevée, la personne qui exige le paiement et celle qui paie occupent trois rôles différents.
+
+Pour tout fait décisif, revenir à la notice citée, dans le fichier qui la porte. Si un renvoi est signalé comme incomplet ou si un domaine est peu couvert, examiner les champs de l’original avant de conclure qu’une mention manque. Le [mode d’emploi de l’index](../outils/README.md) précise comment reconstruire et interroger la base.
