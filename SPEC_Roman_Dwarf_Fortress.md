@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.9 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.10 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -141,7 +141,7 @@ Deux outils d’écriture éclairent ce travail.
 
 | Élément | Consigne de rédaction ou de reprise |
 | --- | --- |
-| Première page | Donner un lieu ou une situation que l’on peut imaginer, une présence à suivre et quelque chose qu’on a envie de découvrir. Le lecteur peut ignorer le nom du royaume tout en comprenant pourquoi une visite est embarrassante. |
+| Première page | Donner assez d’indices pour que le lecteur puisse se représenter ce qui se passe et sentir pourquoi cela compte pour quelqu’un. On peut entrer en pleine action ou prendre le temps d’installer le cadre. Vérifier l’effet obtenu à la [relecture autonome de compréhension](#relecture-autonome-de-compréhension). |
 | Noms et histoire ancienne | Faire place aux noms selon l’attention que le passage peut leur accorder. Un nom entrevu peut rester en arrière-plan. Pour retrouver quelqu’un après une longue absence, rappeler le lien qui comptait dans la scène précédente. Garder les variantes linguistiques et les homonymes dans le glossaire de travail. |
 | Scènes et transitions | Développer les minutes dont le lecteur a besoin pour croire à une décision. Résumer les années dont seul l’effet compte. Après une ellipse, choisir un repère qui indique où, quand et auprès de qui nous reprenons le fil. |
 | Voix et dialogue | Demander ce que chacun espère obtenir en parlant et ce qu’il préfère taire. Relire le passage en masquant les incises : si les répliques semblent interchangeables, revoir le vocabulaire, les détours ou les silences de chacun. |
@@ -168,7 +168,17 @@ Cet exercice reprend le motif de l’objet passé de main en main, déjà prése
 
 ## 7. Décider si le texte est prêt
 
-Faire une première lecture d’une traite, sans les notes. Lorsque c’est possible, la confier aussi à quelqu’un qui ignore tout du jeu. Poser des questions ouvertes et demander qu’on désigne les passages concernés.
+### Relecture autonome de compréhension
+
+Dès le premier jet, reprendre l’ouverture et les passages où le cadre peut prêter à confusion : changement d’époque ou de point de vue, rêve, spectacle, jeu de rôles ou récit raconté par un personnage. Lire le manuscrit dans l’ordre en laissant de côté le plan, le XML et les notes d’auteur. À chaque passage, s’en tenir à ce que le lecteur a déjà pu apprendre, y compris dans les chapitres précédents. Une explication donnée plus loin aura son effet au moment où il la lira.
+
+À la première pause naturelle, répondre par écrit ou mentalement à deux questions : **« Quelle scène concrète puis-je imaginer avec ces mots ? »** et **« Qu’est-ce qui compte pour quelqu’un ici, et qu’ai-je envie de découvrir ? »** Appuyer les réponses sur les mots du passage. Chercher une autre interprétation plausible dans ce monde. Si elle entretient le mystère ou l’humour voulu, la laisser jouer. Si elle masque ce qui se passe ou pourquoi on s’y intéresserait, avancer le plus petit indice qui éclaire la scène : un geste, un mot précis, la raison d’une visite. Relire ensuite depuis l’entrée du passage pour vérifier l’effet de la correction.
+
+**Exemple du roi de pâte.** Dans un monde fantastique, un petit roi que l’on soulève et dont on soutient le menton peut se lire comme un souverain vivant et fragile. Dire qu’Odda joue la reine éclaire son rôle à elle. Montrer Buh qui pose sur la table le roi qu’elle a *modelé* rend la figurine immédiatement identifiable. Avancer la promesse du poème pour le souper des laveuses répond à l’autre question : on comprend pourquoi Buh tient à réussir sa petite représentation. On peut alors laisser au lecteur le plaisir de découvrir ce qu’Odda a fait du caillou.
+
+### Lecture du manuscrit entier
+
+Relire ensuite le texte d’une traite. Les questions ci-dessous servent à la révision autonome. Si une lecture humaine est souhaitée avant la finalisation ou l’export EPUB, elles peuvent aussi recueillir ce qu’une personne a effectivement compris et ressenti. La rédaction et les reprises courantes avancent sans validation scène par scène.
 
 - **« À quel moment as-tu eu envie de continuer ? »** La réponse aide à voir si le véritable début du récit se trouve plusieurs pages après son ouverture.
 - **« Quel passage as-tu pris plaisir à lire, et où ton attention a-t-elle baissé ? »** Distinguer un ralentissement apprécié d’une accumulation de noms, d’explications ou d’épisodes qui se répètent.
