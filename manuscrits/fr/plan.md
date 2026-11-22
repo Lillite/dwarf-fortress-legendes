@@ -25,8 +25,8 @@ Clore la recherche lorsque les renvois pertinents identifiés ont été traités
 
 Adapter cette partie à la forme choisie. Un récit épistolaire peut être esquissé par l’ordre des lettres, un récit choral par l’entrée successive des voix. Utiliser le tableau de scènes si cela aide.
 
-- Personnage ou groupe suivi, voix, point de vue et promesse de lecture
-- Décision littéraire qui engage la suite, si nécessaire : options, préférence de l’utilisateur ou résultat du tirage, choix retenu et raison. Une question encore en attente peut être reportée dans le journal de reprise.
+- Personnage ou groupe suivi, voix et point de vue. Qu’espère, redoute ou cherche à comprendre le lecteur en suivant ce fil ?
+- Pour un choix qui engage la suite, garder les mots de l’utilisateur, y compris une hésitation, un thème ou une demande de surprise. Préciser ce qu’il se réserve, ce qu’il délègue et, si un tirage a eu lieu, son résultat. Consigner la décision quand elle prend forme. Une question qui exige encore sa réponse peut être reportée dans le journal de reprise.
 - La liste des éléments envisagés peut bouger. Essayer en scène ou en passant ceux que l’on a envie de garder, y compris un détail gratuit. À la relecture, ajuster leur place et leur nombre à l’allure du passage.
 - Si un détail ouvre un lien vers une autre histoire, une ligne suffit : détail montré (avec son passage) ou gardé hors texte, référence source ou ajout romanesque, piste future éventuelle. Si ce choix est ouvert, le trancher en écrivant, le proposer à l’utilisateur ou essayer une variante tirée au sort.
 - Pour un raccord important, préciser dans les notes le fait qui relie les scènes, ce qui reste incertain et ce que l’auteur imagine pour l’incarner.
@@ -38,5 +38,7 @@ Adapter cette partie à la forme choisie. Un récit épistolaire peut être esqu
 
 | Passage ou ensemble relu | Problème repéré | Correction apportée ou décision | État |
 | --- | --- | --- | --- |
+
+À la relecture du manuscrit seul, relever l’attente née à l’ouverture, le passage qui la transforme et ce qu’on emporte à la fin.
 
 Consigner les contrôles de chronologie, lieux, liens, savoirs des personnages et fidélité aux faits racontés. Pour les coupes, vérifier que le lecteur comprend ce qui a changé entre les scènes et que les événements expressément demandés restent couverts. Relire aussi la prose dans la langue choisie, en portant attention aux voix, à la fluidité des dialogues et au plaisir de suivre l’histoire. Distinguer les réserves encore ouvertes et les corrections vérifiées. Indiquer le dernier passage relu et la prochaine action dans le suivi de reprise.
