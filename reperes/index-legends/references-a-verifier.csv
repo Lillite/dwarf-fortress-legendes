@@ -1,0 +1,48 @@
+source,categorie,champ,raison,occurrences,notice_exemple
+region1-00100-02-28-legends.xml,entity,honor/id,identifiant local ou champ non interprété,47,626
+region1-00100-02-28-legends.xml,historical_event,a_squad_id,identifiant local ou champ non interprété,2,72073
+region1-00100-02-28-legends.xml,historical_event,agreement_id,identifiant local ou champ non interprété,342,452
+region1-00100-02-28-legends.xml,historical_event,building_profile_id,identifiant local ou champ non interprété,28,24234
+region1-00100-02-28-legends.xml,historical_event,circumstance_id,identifiant local ou champ non interprété,1049,821
+region1-00100-02-28-legends.xml,historical_event,expelled_pop_id,cible absente : entity_population,7,18321
+region1-00100-02-28-legends.xml,historical_event,feature_layer_id,identifiant local ou champ non interprété,361,68
+region1-00100-02-28-legends.xml,historical_event,honor_id,identifiant local ou champ non interprété,2,42357
+region1-00100-02-28-legends.xml,historical_event,identity_id,identifiant local ou champ non interprété,409,747
+region1-00100-02-28-legends.xml,historical_event,identity_id1,identifiant local ou champ non interprété,447,8206
+region1-00100-02-28-legends.xml,historical_event,identity_id2,identifiant local ou champ non interprété,42,23277
+region1-00100-02-28-legends.xml,historical_event,master_wcid,cible absente : world_construction,85,4734
+region1-00100-02-28-legends.xml,historical_event,new_ab_id,identifiant local ou champ non interprété,1,55011
+region1-00100-02-28-legends.xml,historical_event,occasion_id,identifiant local ou champ non interprété,2717,834
+region1-00100-02-28-legends.xml,historical_event,old_ab_id,identifiant local ou champ non interprété,1,55011
+region1-00100-02-28-legends.xml,historical_event,position_id,identifiant local ou champ non interprété,2601,334
+region1-00100-02-28-legends.xml,historical_event,position_profile_id,identifiant local ou champ non interprété,26,6222
+region1-00100-02-28-legends.xml,historical_event,production_zone_id,identifiant local ou champ non interprété,88,27065
+region1-00100-02-28-legends.xml,historical_event,reason_id,identifiant local ou champ non interprété,860,1562
+region1-00100-02-28-legends.xml,historical_event,relevant_position_profile_id,identifiant local ou champ non interprété,15,3328
+region1-00100-02-28-legends.xml,historical_event,schedule_id,identifiant local ou champ non interprété,2717,834
+region1-00100-02-28-legends.xml,historical_event,site_hfid,identifiant local ou champ non interprété,16,11848
+region1-00100-02-28-legends.xml,historical_event,slayer_item_id,identifiant local ou champ non interprété,15,7290
+region1-00100-02-28-legends.xml,historical_event,wcid,cible absente : world_construction,135,3521
+region1-00100-02-28-legends.xml,historical_event_collection,occasion_id,identifiant local ou champ non interprété,366,7
+region1-00100-02-28-legends.xml,historical_figure,current_identity_id,identifiant local ou champ non interprété,216,875
+region1-00100-02-28-legends.xml,historical_figure,entity_former_position_link/position_profile_id,identifiant local ou champ non interprété,1320,340
+region1-00100-02-28-legends.xml,historical_figure,entity_position_link/position_profile_id,identifiant local ou champ non interprété,1187,342
+region1-00100-02-28-legends.xml,historical_figure,entity_squad_link/squad_id,identifiant local ou champ non interprété,432,1522
+region1-00100-02-28-legends.xml,historical_figure,honor_entity/honor_id,identifiant local ou champ non interprété,12,1984
+region1-00100-02-28-legends.xml,historical_figure,intrigue_actor/handle_actor_id,identifiant local ou champ non interprété,76,352
+region1-00100-02-28-legends.xml,historical_figure,intrigue_actor/local_id,identifiant local ou champ non interprété,1268,346
+region1-00100-02-28-legends.xml,historical_figure,intrigue_actor/strategy_eppid,identifiant local ou champ non interprété,16,1392
+region1-00100-02-28-legends.xml,historical_figure,intrigue_plot/actor_id,identifiant local ou champ non interprété,35,352
+region1-00100-02-28-legends.xml,historical_figure,intrigue_plot/delegated_plot_id,identifiant local ou champ non interprété,3,822
+region1-00100-02-28-legends.xml,historical_figure,intrigue_plot/local_id,identifiant local ou champ non interprété,2900,344
+region1-00100-02-28-legends.xml,historical_figure,intrigue_plot/parent_plot_id,identifiant local ou champ non interprété,1,1766
+region1-00100-02-28-legends.xml,historical_figure,intrigue_plot/plot_actor/actor_id,identifiant local ou champ non interprété,98,713
+region1-00100-02-28-legends.xml,historical_figure,intrigue_plot/plot_actor/agreement_id,identifiant local ou champ non interprété,98,713
+region1-00100-02-28-legends.xml,historical_figure,relationship_profile_hf_visual/known_identity_id,identifiant local ou champ non interprété,456,425
+region1-00100-02-28-legends.xml,historical_figure,site_link/occupation_id,identifiant local ou champ non interprété,142,517
+region1-00100-02-28-legends.xml,historical_figure,site_link/sub_id,identifiant local ou champ non interprété,281,382
+region1-00100-02-28-legends.xml,historical_figure,site_property/property_id,identifiant local ou champ non interprété,21,820
+region1-00100-02-28-legends.xml,historical_figure,used_identity_id,identifiant local ou champ non interprété,405,382
+region1-00100-02-28-legends.xml,site,site_properties/site_property/id,identifiant local ou champ non interprété,26,77
+region1-00100-02-28-legends.xml,site,site_properties/site_property/structure_id,identifiant local ou champ non interprété,6,77
+region1-00100-02-28-legends.xml,written_content,form_id,identifiant local ou champ non interprété,1,2046
