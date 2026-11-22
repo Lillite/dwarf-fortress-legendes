@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.10 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.11 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -10,7 +10,19 @@ Le texte doit se suffire à lui-même. Quelqu’un qui ouvre le livre sans conna
 
 Commencer par lire l’export du monde concerné. Relever ce qui éveille une curiosité précise : deux rencontres éloignées dans le temps, une œuvre qui survit à son auteur, une charge dont plusieurs titulaires connaissent des destins différents, un départ dont on retrouve la trace ailleurs. Ces pistes servent à interroger le fichier. Seul son contenu permet de décider lesquelles existent dans ce monde.
 
-Pour une piste prometteuse, répondre dans le plan à quatre questions.
+### Seconde lecture avant de proposer les pistes
+
+Dès le premier parcours, garder trace des points de départ qui ont produit les pistes et des domaines simplement recensés. Avant de présenter le registre à l’utilisateur, reprendre le fichier par ses domaines les moins explorés, même si plusieurs histoires semblent déjà prometteuses. Une liste de guerres indique combien le monde en a connues. Qui retrouve-t-on d’une bataille à l’autre, et dans quelle position ?
+
+Choisir le point de départ d’après les lacunes du premier parcours. Pour les guerres, ouvrir les batailles rattachées aux conflits et relever, là où le XML les précise, les chefs de chaque camp, leur rôle, leur faction et le lieu. Regrouper les mentions de chaque chef à travers les batailles en conservant le camp qu’il commandait à chaque date. Rechercher ailleurs dans l’export les mentions de ces figures, groupes ou sites par identifiant et par catégorie, y compris dans d’autres conflits. Remettre les occurrences dans l’ordre et comparer les rôles, les alliés, les adversaires ou le sort des lieux. Si les premières pistes venaient surtout de biographies, on peut aussi partir d’une charge, retrouver ses titulaires successifs et chercher ce que chacun a reçu de son prédécesseur.
+
+Ainsi, une générale qui commande l’attaque d’une ville en l’an 57 puis la défense d’une autre en l’an 90 offre un angle de récit. Qu’est-ce que défendre une ville pour quelqu’un qui en a attaqué une ? Les deux notices peuvent attester ce changement de rôle. Un changement d’allégeance, un remords ou une leçon tirée de la première attaque demanderaient d’autres indices pour être tenus pour acquis.
+
+Consigner dans le [registre des pistes](reperes/pistes.md) le domaine repris, le chemin réellement suivi et les références trouvées. Selon la matière, ouvrir une piste, enrichir une piste existante ou noter en une phrase où la recherche s’arrête. Si les renvois manquent, préciser lesquels. Présenter les propositions après cette seconde lecture. Aucun thème n’a de place réservée et le nombre de pistes dépend de ce que les occurrences permettent de raconter.
+
+### Examiner une piste prometteuse
+
+Répondre dans le plan à quatre questions.
 
 1. **Qu’avons-nous réellement ?** Citer les passages qui permettent de suivre la piste. Distinguer ce qui est connu à chaque extrémité et ce qui manque entre les deux.
 2. **Par où le lecteur peut-il entrer ?** Trouver une personne, un geste ou une situation à sa portée. Pour raconter une migration ancienne, on peut entrer le matin où quelqu’un doit choisir ce qu’il emporte. Le lecteur découvrira la géographie quand le trajet lui donnera un sens.
