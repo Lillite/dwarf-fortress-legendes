@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.8 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.9 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -64,7 +64,7 @@ Chaque nouvel export anglais ouvre une branche permanente depuis `main`, selon l
 
 ### Choisir ce qui entre dans l’histoire
 
-La première sélection est une réserve de matière. Si dix éléments ont été repérés, l’auteur peut en couper au montage, en ajouter en cours d’écriture ou en réserver un pour une autre histoire du même monde. Le bon dosage s’entend sur la page. Un enfant qui réclame toujours le quignon brûlé peut avoir sa place au repas de famille pour le simple plaisir de l’y rencontrer. Ce goût peut rester son seul trait connu, même à la dernière page du livre.
+Le nombre d’éléments repérés pour une piste découle de l’analyse des occurrences et des renvois du XML, sans minimum, plafond ni cible par histoire. Plusieurs notices peuvent éclairer le même événement sous des angles différents : conserver leurs apports et compter le fait une seule fois. Cette première sélection forme une réserve de matière. Pendant l’écriture, l’auteur peut en retrancher, y ajouter un élément découvert plus tard ou en garder un pour un autre récit du même monde. Le bon dosage s’entend sur la page. Un enfant qui réclame toujours le quignon brûlé peut avoir sa place au repas de famille pour le simple plaisir de l’y rencontrer. Ce goût peut rester son seul trait connu, même à la dernière page du livre.
 
 Un détail peut aussi passer discrètement dans le récit actuel et prendre de l’importance dans un autre roman. On peut tout aussi bien le garder dans les notes pour que le prochain livre ait le plaisir de le faire découvrir. Si un rapprochement mérite d’être retrouvé, noter dans le plan ce que le lecteur a effectivement vu, ou ce qui est resté hors texte, puis renvoyer vers la piste future dans le [registre de la branche](reperes/pistes.md) si elle existe déjà. Une reprise ultérieure reste une possibilité.
 
