@@ -1,0 +1,10 @@
+# Pistes d’écriture tirées des exports Legends
+
+Aucune piste proposée à ce stade. À la lecture de chaque export, ajouter une ligne par piste et conserver ses références même si l’utilisateur en choisit une autre. Donner à chaque piste un identifiant stable dans le dépôt.
+
+| ID | Export et passages anglais | Sujet, période et figures | Ce qui mérite d’être lu | Matière disponible et lacunes | Format suggéré et motif | Décision de l’utilisateur |
+| --- | --- | --- | --- | --- | --- | --- |
+
+Une proposition doit permettre de comprendre en quelques lignes qui ou quoi suivre, ce qui change et quels passages l’attestent. Si la piste repose sur une mention isolée, expliquer ce qui manque. Employer les décisions de la [SPEC](../SPEC_Roman_Dwarf_Fortress.md) pour distinguer piste en réserve, scène à intégrer, nouvelle autonome et roman soutenu par plusieurs étapes. Plusieurs notices décrivant le même événement comptent comme un seul événement.
+
+Présenter les identifiants et les propositions à l’utilisateur. Reporter dans la dernière colonne le choix exprimé, la date, la langue et le lien vers le plan dès sa création. Conserver les autres pistes pour une sélection ultérieure. Si le choix évolue, dater également la nouvelle décision dans le [journal](../REPRISE.md).
