@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.13 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.14 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -21,6 +21,12 @@ Choisir le point de départ d’après les lacunes du premier parcours. Pour les
 Ainsi, une générale qui commande l’attaque d’une ville en l’an 57 puis la défense d’une autre en l’an 90 offre un angle de récit. Qu’est-ce que défendre une ville pour quelqu’un qui en a attaqué une ? Les deux notices peuvent attester ce changement de rôle. Un changement d’allégeance, un remords ou une leçon tirée de la première attaque demanderaient d’autres indices pour être tenus pour acquis.
 
 Consigner dans le [registre des pistes](reperes/pistes.md) le domaine repris, le chemin réellement suivi et les références trouvées. Selon la matière, ouvrir une piste, enrichir une piste existante ou noter en une phrase où la recherche s’arrête. Si les renvois manquent, préciser lesquels. Présenter les propositions après cette seconde lecture. Aucun thème n’a de place réservée et le nombre de pistes dépend de ce que les occurrences permettent de raconter.
+
+### Choisir le moment où le lecteur entre dans l’histoire
+
+Avant de présenter les pistes, chercher pour chacune ce que le lecteur pourrait vivre auprès de quelqu’un. L’export donne souvent l’issue d’un événement en une ligne. Revenir au moment où cette issue était encore inconnue de ceux qui la vivaient. Qu’essayaient-ils de faire ? Qui pouvait leur répondre ou leur résister ? Même lorsque le lecteur connaît déjà le dénouement, il peut tenir à savoir comment deux personnes vont se traiter en y arrivant. Dans la proposition, donner à sentir cette possibilité en quelques mots, en distinguant ce que les notices établissent de l’angle de fiction envisagé.
+
+Comparer les propositions entre elles et, s’il en existe, aux récits déjà écrits sur la branche. Des sujets très différents peuvent inviter chaque fois à recueillir un témoignage ou à déchiffrer la trace d’un événement ancien. Si ce mouvement revient par habitude, essayer un autre point d’entrée dans la matière disponible et retenir celui qui sert le mieux le sujet. Un récit de mémoire peut trouver tout son enjeu le jour où quelqu’un se décide enfin à raconter, jusque dans la façon dont l’autre l’écoute. Le choix reste libre, y compris pour un recueil qui fait de cette parenté entre les récits un parti pris.
 
 ### Examiner une piste prometteuse
 
@@ -206,6 +212,8 @@ Relire ensuite le texte d’une traite. Les questions ci-dessous servent à la r
 - **« Quelle image, quelle personne ou quelle phrase t’est restée ? »** S’en servir pour identifier ce que le texte fait particulièrement bien et préserver cette qualité lors des coupes.
 
 Reprendre le fil du livre en s’appuyant uniquement sur le manuscrit. Qu’attendait-on à l’ouverture ? Quel passage a fait évoluer cette attente ? Après la dernière page, quel geste du début comprend-on autrement, ou quelle question reste avec nous ? Si des épisodes majeurs semblent interchangeables, imaginer leur ordre inversé et repérer ce qui perd de sa force ou devient plus clair. Appliquer cet essai là où l’intérêt retombe. Une conversation dont on aime la compagnie peut garder tout son temps.
+
+À l’endroit où le récit paraît surtout rapporter ce qui a eu lieu, chercher ce qui est encore en jeu et pour qui. Si le moment qu’on aurait voulu vivre est enfoui dans une explication, essayer d’y entrer un peu plus tôt et relire les deux versions. Garder celle où l’on éprouve le mieux ce qui compte. Parfois, c’est pendant l’événement. Parfois, c’est bien plus tard, dans le silence qui suit son récit.
 
 Faire ensuite une lecture de contrôle. Vérifier les faits racontés contre l’export, puis relire les passages qui encadrent une ellipse pour repérer un personnage, un savoir ou un objet qui apparaîtrait sans explication. Vérifier aussi les éventuels événements expressément demandés. Suivre les déplacements, les changements de détenteur, les savoirs des personnages et les noms d’une scène à l’autre. Pour une autre langue, `reperes/glossaire.csv` relie les formes d’origine et les formes retenues. La traduction doit aussi retrouver la voix et le rythme propres au livre.
 
