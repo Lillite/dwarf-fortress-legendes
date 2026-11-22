@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.4 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.5 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -48,7 +48,21 @@ Une lacune peut nourrir un récit : on peut raconter ce que l’ignorance du s
 
 ## 3. Respecter les événements et écrire dans les silences de l’export
 
-Chaque nouvel export anglais ouvre une branche permanente depuis `main`, selon le [processus du dépôt](README.md). Identifier cette branche et l’export dans la fiche de `sources/`. Toutes les histoires et éditions tirées de cet export se travaillent sur cette même branche. La branche est conservée et ne doit jamais être fusionnée dans une autre branche. Dans `reperes/chronologie.csv`, consigner chaque événement retenu à la précision disponible, avec son identifiant s’il existe ou un repère de passage vérifiable. La sélection délimite le livre. Une fois ce périmètre fixé, chaque événement retenu doit rester reconnaissable, en scène ou en résumé. Si une révision supprime sa scène, lui trouver une nouvelle place. Une couverture intégrale demandée pour un ensemble donné s’applique à tout cet ensemble.
+Chaque nouvel export anglais ouvre une branche permanente depuis `main`, selon le [processus du dépôt](README.md). Identifier cette branche et l’export dans la fiche de `sources/`. Toutes les histoires et éditions tirées de cet export se travaillent sur cette même branche. La branche est conservée et ne doit jamais être fusionnée dans une autre branche.
+
+### Choisir ce qui entre dans l’histoire
+
+L’enquête peut suivre largement les renvois d’une piste. Au moment d’écrire, se demander pour chaque notice : « Si je l’enlève, qu’est-ce que le lecteur perd ? » Elle peut mériter une scène parce qu’elle change une décision, fait sentir une relation, révèle une coutume ou donne au monde une présence particulière. Si seul le résultat compte, une phrase de transition suffit. Si sa disparition laisse intacts le sens, l’émotion et la continuité, on peut l’omettre, même si elle figurait dans le premier plan. Une demande explicite de couverture intégrale demeure applicable à l’ensemble précis désigné par l’utilisateur.
+
+Dans `reperes/chronologie.csv`, garder les références utiles aux faits exploités ou nécessaires pour vérifier la continuité. Un fait peut servir de repère de travail sans apparaître dans le livre. Une notice sans intérêt pour la piste peut être laissée de côté sans entrée ni justification individuelle. Lors d’une coupe, vérifier ce que sauront encore le lecteur et les personnages : si l’objet a changé de mains entre deux scènes, un détail à sa réapparition peut suffire à rendre ce passage intelligible.
+
+### Relier et enrichir les notices brèves
+
+Deux notices peuvent désigner le même lieu, la même personne ou le même objet. Vérifier les identifiants et les rôles, puis choisir ce qui rend leur rapprochement lisible : une conséquence établie, le retour d’un objet, deux souvenirs divergents, ou une simple ellipse. Une proximité de dates permet de situer deux épisodes. Une affirmation sur leur cause demande un appui distinct. Une motivation imaginée peut vivre dans la voix d’un personnage. Une rencontre inventée, un dialogue ou un détail sensoriel peuvent donner corps au passage dès lors qu’ils respectent les faits et le point de vue.
+
+**Exemple fictif.** Une artisane grave une coupe. Des années plus tard, sa fille la rend à sa mère. Entre ces deux notices, l’export mentionne aussi la nomination d’un dignitaire local. Si cette nomination ne change rien aux retrouvailles, le texte peut passer directement à la coupe rendue. La fille passe le pouce dans une rainure avant de lâcher l’objet : ce geste inventé donne à la mère le temps de reconnaître son travail. Si l’export tait la manière dont la fille a obtenu la coupe, le récit peut laisser ce trajet dans l’ombre. Dans les notes de scène, conserver les références de la gravure et de la restitution et signaler les inventions qui engagent la suite.
+
+Pour qualifier ces raccords, utiliser les distinctions suivantes.
 
 | Dans les notes de rédaction | Dans le texte destiné au lecteur |
 | --- | --- |
@@ -112,10 +126,10 @@ Faire une première lecture d’une traite, sans les notes. Lorsque c’est poss
 - **« Qu’as-tu compris de son choix, et qu’as-tu ressenti à la fin ? »** Accueillir les interprétations différentes. Reprendre le texte si un élément indispensable pour comprendre ce qui arrive manque sur la page.
 - **« Quelle image, quelle personne ou quelle phrase t’est restée ? »** S’en servir pour identifier ce que le texte fait particulièrement bien et préserver cette qualité lors des coupes.
 
-Faire ensuite une lecture de contrôle. Vérifier les événements retenus dans les deux sens, de la chronologie au récit et du récit à l’export. Suivre les déplacements, les changements de détenteur, les savoirs des personnages et les noms d’une scène à l’autre. Pour une autre langue, `reperes/glossaire.csv` relie les formes d’origine et les formes retenues. La traduction doit aussi retrouver la voix et le rythme propres au livre.
+Faire ensuite une lecture de contrôle. Vérifier les faits racontés contre l’export, puis relire les passages qui encadrent une ellipse pour repérer un personnage, un savoir ou un objet qui apparaîtrait sans explication. Vérifier aussi les éventuels événements expressément demandés. Suivre les déplacements, les changements de détenteur, les savoirs des personnages et les noms d’une scène à l’autre. Pour une autre langue, `reperes/glossaire.csv` relie les formes d’origine et les formes retenues. La traduction doit aussi retrouver la voix et le rythme propres au livre.
 
-Avant de valider la longueur définitive, reprendre la justification du format dans le plan. Si plusieurs chapitres répètent la même information ou si les épisodes inventés portent désormais toute l’intrigue, resserrer le récit autour des passages les plus féconds et vérifier de nouveau la couverture des événements retenus.
+Avant de valider la longueur définitive, reprendre la justification du format dans le plan. Si plusieurs chapitres répètent la même information ou si les épisodes inventés portent désormais toute l’intrigue, resserrer le récit autour des passages les plus féconds et vérifier que les coupes laissent les transitions compréhensibles.
 
-Le manuscrit est prêt pour la validation éditoriale lorsque les faits retenus sont présents, que le lecteur peut suivre le récit de façon autonome et que la forme choisie donne à ses meilleurs moments la place qu’ils méritent.
+Le manuscrit est prêt pour la validation éditoriale lorsque les faits racontés respectent la source, que les événements expressément demandés sont couverts, que le lecteur peut suivre le récit de façon autonome et que la forme choisie donne à ses meilleurs moments la place qu’ils méritent.
 
 **Documents de travail du projet** — [Processus éditorial](README.md) · [Suivi de reprise](REPRISE.md) · [Fiche de l’export](sources/README.md) · [Pistes](reperes/pistes.md) · [Chronologie](reperes/chronologie.csv) · [Glossaire](reperes/glossaire.csv) · [Modèle de plan](manuscrits/fr/plan.md) · [Modèle de chapitre](modeles/chapitre.md)

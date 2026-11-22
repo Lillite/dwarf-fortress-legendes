@@ -24,7 +24,8 @@ Clore la recherche lorsque les renvois pertinents identifiés ont été traités
 ## Choix de narration et ordre de lecture
 
 - Personnage ou groupe suivi, voix, point de vue et promesse de lecture
-- Ce que chaque événement change, ce qui reste incertain et la place des ajouts romanesques
+- Pour les notices utiles, choisir entre scène, résumé ou simple repère de continuité. Laisser de côté les autres. Garder une note sur une coupe si elle affecte la compréhension d’un passage ou une contrainte explicite.
+- Pour un raccord important, préciser dans les notes le fait qui relie les scènes, ce qui reste incertain et ce que l’auteur imagine pour l’incarner.
 
 | Scène ou chapitre | Point de vue et enjeu | Événements sources | Ce qui change | Fichier et état |
 | --- | --- | --- | --- | --- |
@@ -34,4 +35,4 @@ Clore la recherche lorsque les renvois pertinents identifiés ont été traités
 | Passage ou ensemble relu | Problème repéré | Correction apportée ou décision | État |
 | --- | --- | --- | --- |
 
-Consigner les contrôles de chronologie, lieux, liens, savoirs des personnages et couverture des faits. Relire aussi la prose dans la langue choisie, en portant attention aux voix, à la fluidité des dialogues et au plaisir de suivre l’histoire. Distinguer les réserves encore ouvertes et les corrections vérifiées. Indiquer le dernier passage relu et la prochaine action dans le suivi de reprise.
+Consigner les contrôles de chronologie, lieux, liens, savoirs des personnages et fidélité aux faits racontés. Pour les coupes, vérifier que le lecteur comprend ce qui a changé entre les scènes et que les événements expressément demandés restent couverts. Relire aussi la prose dans la langue choisie, en portant attention aux voix, à la fluidité des dialogues et au plaisir de suivre l’histoire. Distinguer les réserves encore ouvertes et les corrections vérifiées. Indiquer le dernier passage relu et la prochaine action dans le suivi de reprise.

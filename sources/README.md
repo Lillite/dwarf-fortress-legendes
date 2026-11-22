@@ -15,6 +15,8 @@ Remplir cette fiche sur la branche permanente de l’export, créée depuis `mai
 
 ## Notes sur le format rencontré
 
+Le [guide de lecture du XML](guide-xml.md) donne les principales sections à reconnaître et un exemple de recherche par identifiant. Consigner ci-dessous les particularités effectivement observées pour cet export.
+
 À compléter si la structure de cet export demande une explication. Pour chaque observation, noter le fichier et le passage où elle a été vérifiée. Décrire comment retrouver une entrée, quels champs contiennent des identifiants et vers quelles sections ils renvoient. En l’absence d’identifiant, conserver le titre de section et un bref extrait anglais identifiable.
 
 | Fichier et passage observé | Champ, section ou convention de date | Comment retrouver ou suivre le renvoi | Limite ou ambiguïté |
