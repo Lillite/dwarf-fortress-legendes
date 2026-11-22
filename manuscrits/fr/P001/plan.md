@@ -14,7 +14,7 @@ Le dossier croise les événements où les personnes apparaissent sous des rôle
 | --- | --- | --- |
 | Buh à Rawspeak | Figure 1660, événements 13111–13112 et 18759, collection 2014. La charge auprès de l’entité 324 court de 44 à 81 dans sa notice. | Buh dispose d’une autorité locale. Les objets pris à Ini et les quatorze sanctuaires relèvent de rubriques distinctes. Le motif de la persécution et le détail des biens saisis restent inconnus. |
 | Usel et ses enfants | Fiches 1742, 3530 et 3903. Usel est la mère d’An, né en 50, et d’Ibu, née en 54. Ils figurent tous trois dans les expulsions de 18759, puis à Snakesflames (18763, 18764, 18766). | Faire éprouver le départ à ceux qui doivent emporter deux enfants. Le nourrisson n’est pas une silhouette ajoutée à la scène. |
-| Ado et Usel | 1660 désigne son père 822. Événements 29453–29454. Usel, condamnée en 61 à 120 mois de prison (24292), est dite ancienne prisonnière dans sa fiche. Aucun lieu ni moyen de négociation n’est donné pour elle en 68. | Usel intervient par écrit dans la fiction. Son mobile, le prix et la conduite d’Ado à la remise sont inventés. Le captor est Usbu et le paiement vient d’Ado. |
+| Ado et Usel | 1660 désigne son père 822. Événements 29453–29454. Usel, condamnée en 61 à 120 mois de prison (24292), est dite ancienne prisonnière dans sa fiche. Aucun lieu ni moyen de négociation n’est donné pour elle en 68. | Usel intervient par écrit dans la fiction. Son mobile, le prix et la conduite d’Ado à la remise sont inventés. Le ravisseur est Usbu et le paiement vient d’Ado. |
 | Seconde capture | 43339–43340. Même ravisseur, Usbu (2452) ; Slibtu (580) est le vendeur, l’entité 455 paie. 44415 situe un changement de travail à Orbliving en 82. | L’export ne précise ni le métier, ni la date, ni les conditions de la sortie de l’esclavage. Les pièces et les travaux de la forteresse décrits ici relèvent de la fiction. |
 | Les enfants de Buh | Cinq fils (7300, 7442, 7874, 8059, 8223). Les fiches désignent également Mel (2782) comme père. Papos est enlevé en 79, l’année de sa naissance (40114–40118). Nithros est enlevé en 82, revient par la fuite en 85 et est repris en 86 (43850–43853, 48375, 49222–49225). | Les ravisseurs de ces enfants diffèrent d’Usbu. Les deux fils aînés sont à Graspingdevils puis au même endroit, au même instant de l’an 100 (71408 et 71424). Ces deux mentions soutiennent une coda indépendante de ce que Buh peut savoir. |
 | Les autres fils | Stozu (7874) meurt en 90, tué par un jaguar (55498). Song (8059) est réfugié en 83 (45426). La fiche 8223 identifie Nako. | Pas de mort collective, pas de connaissance de toutes les destinées attribuée à Buh. L’intrigue des messages concerne les deux aînés. |
@@ -39,3 +39,18 @@ Récit bref en huit chapitres. Entrer par une plaisanterie de Buh à soixante-ci
 | [VIII. À table](08.md) | Coda en 100. Papos et Nithros ont des goûts et des métiers à eux. La scène commune est inventée. | 71408, 71424, figures 7300 et 7442 |
 
 **Autres pistes.** Le renversement de Dothan par Ado en 83 (45868) reste pour P002. Usel est aussi la fille d’Oqui (823), l’un des profanateurs de P006. La fiction ne fait pas dire à Buh ce qu’elle n’a aucune raison de savoir. Le faux imaginé ici n’est pas une preuve contre Ado, Dothan ou Usel dans un autre livre.
+
+
+## Bilan de relecture · 22 novembre 2026
+
+Les huit chapitres ont été relus dans l’ordre de lecture, puis les passages des deux enlèvements, des deux poèmes et des deux fins ont été confrontés à l’export.
+
+| Passage | Révision et contrôle |
+| --- | --- |
+| I–II | Rendu lisible le partage du petit roi de pâte et le passage du poème du singulier au pluriel. Clarifié le comptage des sanctuaires. La mère d’An et d’Ibu est Usel. La maison et les biens confisqués appartiennent à Ini. |
+| III–IV | Distingué la préparation imaginée de la rançon et l’épisode daté de la capture et du paiement. Supprimé une parenté inventée dans le souvenir de l’assiette. Mel, père des garçons, est documenté ailleurs. Belde, voisine fictive, assiste Buh. Les gestes du très jeune Nithros ont été repris compte tenu de sa date de naissance. |
+| I et V | Buh est née au repère 314160 de l’an 23. Les deux poèmes français encadrent son anniversaire de l’an 89 et comportent chacun deux tercets à monorime. L’âge lors de la demande à Stun est 62 ans. Aucun dialogue, caillou de sucre, cahier, anniversaire célébré ni vers français n’est présenté comme la transcription d’un document du jeu. |
+| VI–VII | Repris les comptes du manteau de Stosbub, la circulation du cahier et du billet, et la manière dont s’interrompt le voyage prévu. Le contrat, le billet, les deux convoyeurs, le mobile, la chute et l’aveu sont de la fiction. Le meurtre et son auteur sont attestés. La mort naturelle de Buh deux ans plus tard est distincte. |
+| VIII | Les frères emménagent au même endroit au même instant en 100. La cuisine, le convoi, l’intimité fraternelle et leur dialogue sont imaginés. Leurs compétences respectives en pêche et en brassage figurent dans les notices. Aucun retour auprès de Buh n’est supposé. |
+
+**Lecture et sources.** Pour la lecture continue, les notes de scène sont réunies dans ce dossier. L’édition EPUB reprend les huit chapitres et une brève note finale distinguant les faits conservés et la fiction. La relecture est éditoriale et interne au projet.
