@@ -23,6 +23,10 @@ Conserver sur cette branche l’original anglais, les fiches, toutes les pistes,
 | 5. Rédiger dans la langue choisie | Préparer les faits de chaque scène dans cette langue, puis écrire directement le texte littéraire. Choisir ce qui mérite une scène, un résumé ou une ellipse. Pour les moments décisifs, partir de ce que le personnage veut, mettre en scène le déroulement et faire sentir la conséquence. Rechercher les raisons connues et donner chair aux silences par des gestes, des dialogues et des détails plausibles. À la fin de chaque chapitre, contrôler les faits dans l’original anglais. | Plan, [chapitre ou nouvelle](modeles/chapitre.md), références aux scènes et dernier passage rédigé. |
 | 6. Relire et corriger | Relire la nouvelle d’une traite ou plusieurs chapitres consécutifs du roman. Corriger continuité, voix, rythme et clarté. Vérifier aussi ce qu’une scène fait éprouver au lecteur au-delà du fait qu’elle rapporte. Vérifier les faits racontés et l’effet des coupes sur la continuité. Écarter les épisodes qui n’apportent rien au texte. | Manuscrit corrigé et bilan de relecture dans le plan. Consigner les passages revus, les corrections et les questions encore ouvertes. |
 
+## Choisir une direction littéraire
+
+Une fois la piste et la langue choisies par l’utilisateur, l’auteur peut l’associer à une décision de voix, de structure ou de ton si elle change l’expérience de lecture. Présenter les alternatives en termes concrets. Pour une décision laissée libre, l’auteur peut aussi trancher, ou essayer une option tirée au sort parmi celles qui conviennent au récit. Consigner dans le plan les choix qui engagent la suite. [Méthode et exemple dans la SPEC](SPEC_Roman_Dwarf_Fortress.md#laisser-chaque-histoire-trouver-sa-forme)
+
 ## Classer les fichiers pour retrouver une histoire
 
 - Attribuer à chaque piste un identifiant unique dans le registre, par exemple `P001`. La référence complète d’une piste est le nom de sa branche d’export accompagné de son identifiant dans le registre.

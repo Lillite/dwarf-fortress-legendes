@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.6 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.7 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -32,7 +32,19 @@ Pour chaque moment décisif envisagé, noter dans le plan **le passage source, c
 
 Une lacune peut nourrir un récit : on peut raconter ce que l’ignorance du sort d’un disparu fait à ses proches, si l’export donne prise sur leur histoire. En revanche, si l’on doit inventer la disparition, la recherche et les retrouvailles pour que la piste tienne, chercher un autre angle. **Le format est retenu lorsque le plan peut le justifier par des passages précis et par l’expérience de lecture qu’ils rendent possible.**
 
-**Décision à consigner.** Écrire quelques lignes dans le plan de l’histoire retenue : « Le texte suivra… Les passages qui le soutiennent sont… La forme retenue est… parce que… Le lecteur entrera au moment où… À la fin, il comprendra ou éprouvera… » Si ces lignes pourraient convenir à des dizaines d’autres mondes, y faire entrer un détail propre à cet export.
+**Décision à consigner.** Noter dans le plan le matériau retenu et la forme envisagée. Au besoin, esquisser ce que le lecteur découvrira en entrant dans l’histoire et ce qui pourrait lui rester à la fin. Si ces lignes pourraient convenir à des dizaines d’autres mondes, y faire entrer un détail propre à cet export.
+
+### Laisser chaque histoire trouver sa forme
+
+Les outils de cette SPEC servent à résoudre des problèmes d’écriture quand ils se présentent. Choisir la voix, l’ordre des révélations et l’allure à partir de ce qui attire dans cette légende. Une histoire peut prendre la forme d’une lettre qui reste sans réponse, suivre une journée presque en temps réel ou laisser les décennies passer entre trois repas de famille. Le plan peut consigner cette intuition en une phrase et se préciser en écrivant.
+
+**Quand faire intervenir l’utilisateur.** Si deux directions crédibles promettent des plaisirs de lecture vraiment différents, poser une question concrète, au moment où sa réponse sera utile. Par exemple, si les notices attestent plusieurs changements de nom d’une ville : « Préfères-tu suivre une factrice le matin où toutes les adresses deviennent fausses, ou lire les lettres de deux sœurs qui, pendant des années, continuent d’appeler leur ville de deux noms différents ? » La première voie ouvre une comédie de situation. La seconde fait sentir peu à peu ce que chacune a quitté. Les personnages et les lettres sont ici des inventions d’illustration. L’utilisateur peut proposer une troisième voie, combiner les deux ou laisser l’auteur décider.
+
+**Quand tirer au sort.** Si la préférence reste ouverte et que plusieurs partis pris conviennent à la piste, on peut faire un essai au hasard. Choisir une décision précise et réversible, préparer les options avant le tirage, puis attribuer une face de pièce à chacune, ou tirer un numéro pour une liste plus longue. Écrire quelques lignes selon le résultat. Si elles ouvrent une possibilité intéressante, la poursuivre. Si une autre voix se révèle plus juste à la lecture, l’adopter et garder la raison de ce choix. Le tirage porte sur la manière de raconter, par exemple le moment où le lecteur reçoit une lettre. Les faits de l’export, la piste, la langue et les préférences déjà exprimées restent les points d’appui de l’essai. Une question déjà posée à l’utilisateur et laissée en attente reste ouverte jusqu’à sa réponse ou sa délégation.
+
+**Quand décider en écrivant.** Si une forme s’impose, la suivre librement. Pour une décision qui engage la suite, consigner une ligne dans le plan : options envisagées, réponse de l’utilisateur ou résultat du tirage le cas échéant, choix finalement retenu et effet recherché. À la reprise, repartir de ce choix. Les décisions locales qui se lisent dans la prose peuvent y rester.
+
+**À la relecture**, si d’autres histoires de cette branche existent, rapprocher leurs premières pages ou leurs fins. Retrouve-t-on par habitude le même témoin qui raconte longtemps après les faits, la même révélation au même endroit, la même dernière phrase qui explique l’émotion ? Essayer un autre traitement là où la répétition affaiblit la singularité de la légende. Un motif récurrent peut aussi être un choix heureux, notamment dans un recueil.
 
 ## 2. Choisir entre la nouvelle et le roman
 

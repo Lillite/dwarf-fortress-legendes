@@ -23,7 +23,10 @@ Clore la recherche lorsque les renvois pertinents identifiés ont été traités
 
 ## Choix de narration et ordre de lecture
 
+Adapter cette partie à la forme choisie. Un récit épistolaire peut être esquissé par l’ordre des lettres, un récit choral par l’entrée successive des voix. Utiliser le tableau de scènes si cela aide.
+
 - Personnage ou groupe suivi, voix, point de vue et promesse de lecture
+- Décision littéraire qui engage la suite, si nécessaire : options, préférence de l’utilisateur ou résultat du tirage, choix retenu et raison. Une question encore en attente peut être reportée dans le journal de reprise.
 - Pour les notices utiles, choisir entre scène, résumé ou simple repère de continuité. Laisser de côté les autres. Garder une note sur une coupe si elle affecte la compréhension d’un passage ou une contrainte explicite.
 - Pour un raccord important, préciser dans les notes le fait qui relie les scènes, ce qui reste incertain et ce que l’auteur imagine pour l’incarner.
 

@@ -2,12 +2,14 @@
 
 ## Texte
 
-<!-- Composer dans la langue choisie. Pour une scène décisive, entrer dans le moment vécu et suivre ce qui change pour le personnage. -->
+<!-- Composer dans la langue choisie, avec la structure et le rythme propres à cette histoire. -->
 
 ## Notes de travail
 
+Garder les références utiles à la reprise. Les autres entrées sont des pistes facultatives, à adapter à la forme de ce passage.
+
 - Période et lieu
-- Point de vue et chose concrète que le personnage essaie de faire à l’entrée de la scène
+- Regard suivi, destinataire d’une lettre ou autre principe qui organise le passage
 - Événements attestés et références dans l’export
 - Cause et mobile connus, interprétations possibles et questions ouvertes
 - Ajouts romanesques, dont les dialogues imaginés
