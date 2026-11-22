@@ -41,3 +41,22 @@ sources/region1-00100-02-28-legends.xml,entities/578,entities,the imprisoned doc
 sources/region1-00100-02-28-legends.xml,sites/157/structures/1,bâtiment,the charcoal towers,fr,les Tours de charbon,Identifiant local au site 157.
 sources/region1-00100-02-28-legends.xml,sites/157/structures/2,bâtiment,the padded fruit,fr,le Fruit matelassé,Identifiant local au site 157.
 sources/region1-00100-02-28-legends.xml,sites/157/structures/4,bâtiment,ghoulshadow,fr,Ghoulshadow,Identifiant local au site 157.
+sources/region1-00100-02-28-legends.xml,historical_figures/352,historical_figures,asmel furnacebolted,fr,Asmel Furnacebolted,"Nain. Seule figure de cet export avec SECRET_14 en interaction active. Onze enfants communs avec Kib, figures 735, 832, 1113, 1197, 1289, 1330, 1382, 2016, 2181, 2283, 2492."
+sources/region1-00100-02-28-legends.xml,historical_figures/347,historical_figures,kib workedsearch,fr,Kib Workedsearch,"Naine, ancienne épouse d’Asmel. Sa fiche porte sa promesse d’immortalité. Aucun secret appris n’y figure."
+sources/region1-00100-02-28-legends.xml,historical_figures/350,historical_figures,solon beachedglaze,fr,Solon Beachedglaze,Naine cultivatrice. Sa fiche porte la promesse d’Asmel. Aucun secret appris ni décès n’y figure.
+sources/region1-00100-02-28-legends.xml,historical_figures/1330,historical_figures,feb assaultrocks,fr,Feb Assaultrocks,Fils de Kib et d’Asmel. La fiche de Solon le donne pour camarade de guerre.
+sources/region1-00100-02-28-legends.xml,historical_figures/336,historical_figures,os,fr,Os,Divinité naine associée à la mort et au meurtre. Connaît SECRET_14 et crée l’artefact 76.
+sources/region1-00100-02-28-legends.xml,sites/76,sites,boardhammers,fr,Boardhammers,Forteresse où Asmel acquiert puis dépose l’artefact.
+sources/region1-00100-02-28-legends.xml,sites/210,sites,blockadedeath,fr,Blockadedeath,Salles creusées dans la montagne. Lieu du recrutement de Kib.
+sources/region1-00100-02-28-legends.xml,sites/179,sites,diamondgalley,fr,Diamondgalley,Localité où Asmel se réfugie en 62.
+sources/region1-00100-02-28-legends.xml,sites/197,sites,severetrots,fr,Severetrots,Ville où Asmel se consacre à l’étude.
+sources/region1-00100-02-28-legends.xml,sites/293,sites,rockglistened,fr,Rockglistened,Retraite forestière où meurt Kib.
+sources/region1-00100-02-28-legends.xml,artifacts/76,artefact,the fated tombs,fr,Les Tombes promises,"Nom de l’item dans l’export, taremrakust. La nature matérielle et la formule du secret ne sont pas précisées."
+sources/region1-00100-02-28-legends.xml,written_contents/1642,manuel,A propos de Colle,fr,À propos de colle,Titre donné en français dans l’export. Accentuation et casse normalisées.
+sources/region1-00100-02-28-legends.xml,artifacts/363,exemplaire,a propos de colle,fr,À propos de colle,"Exemplaire du manuel 1642, page_number 84. Sa fiche le place dans la bibliothèque de Severetrots, structure locale 2."
+sources/region1-00100-02-28-legends.xml,historical_figures/351,historical_figures,fikod cobaltstab,fr,Fikod Cobaltstab,"Époux d’Asmel, tué à Diamondgalley."
+sources/region1-00100-02-28-legends.xml,historical_figures/1197,historical_figures,risen clenchedbridged,fr,Risen Clenchedbridged,"Fils de Kib et d’Asmel, tué à Diamondgalley."
+sources/region1-00100-02-28-legends.xml,historical_figures/1382,historical_figures,goden passionbolted,fr,Goden Passionbolted,"Fils de Kib et d’Asmel, tué à Labortakers. Distinct de Goden Laborcalled, figure 346."
+sources/region1-00100-02-28-legends.xml,historical_figures/1113,historical_figures,zuglar postdove,fr,Zuglar Postdove,"Fils de Kib et d’Asmel, tué à Labortakers."
+sources/region1-00100-02-28-legends.xml,historical_figures/170,historical_figures,maga drinkdemon the god-forsaken,fr,Maga,"Bête oubliée, nommée Maga dans les notices de travail. Tue Zuglar et Goden Passionbolted."
+sources/region1-00100-02-28-legends.xml,sites/150,sites,labortakers,fr,Labortakers,Lieu des morts de Zuglar et Goden.

@@ -2,13 +2,13 @@
 
 | Repère | État enregistré |
 | --- | --- |
-| Étape active | **P014 · Étape 3 sur 6 · Choix recueilli** |
+| Étape active | **P014 · Étape 4 sur 6 · Enquête et plan** |
 | Branche permanente | `legendes/region1-an-100-02-28` |
 | Source | [Original du 28 du mois 02 de l’an 100](sources/region1-00100-02-28-legends.xml) · [Fiche de source et inventaire](sources/README.md). Le nom du monde n’est pas fourni. |
 | Couverture de lecture | 15 sections parcourues. Seconde lecture des guerres, lieux, charges, concours, échanges et autres domaines consignés dans le [bilan](reperes/pistes.md#bilan-de-la-seconde-lecture). |
-| Dernier point atteint | L’utilisateur a choisi [P014](reperes/pistes.md#p014). |
-| Piste, langue et plan | Longue nouvelle en français. |
-| Prochaine action | Suivre les deux recrutements dans le XML. |
+| Dernier point atteint | Les onze enfants, les deux offres et les neuf batailles communes aux deux naines ont été vérifiés. |
+| Piste, langue et plan | [Plan de la nouvelle](manuscrits/fr/P014/plan.md). |
+| Prochaine action | Rédiger la rencontre aux bains, le repas de Kib et le souvenir de la rivière. |
 
 ## Journal
 
@@ -29,3 +29,4 @@
 | 2026-11-22 | Reprise de l’étape 2 · SPEC 1.11 | Mise à jour depuis main, puis seconde lecture des domaines peu explorés. Huit propositions ajoutées, P005 enrichie, pistes sans conclusion documentées. | [Bilan et cas écartés](reperes/pistes.md#bilan-de-la-seconde-lecture) · [Commandements](reperes/commandements.csv) |
 | 2026-11-22 | Étape 3 · Choix ouvert | Les seize identifiants figurent au registre. Les deux manuscrits achevés conservent leurs dossiers et leurs bilans. | [Pistes disponibles](reperes/pistes.md) |
 | 2026-11-22 | P014 · Étape 3 | « Travail sur P014 ». Français retenu dans la continuité des deux livres précédents. | [Piste retenue](reperes/pistes.md#p014) |
+| 2026-11-22 | P014 · Étape 4 | Parenté, batailles, mort de Kib et livre sur la colle recoupés. Choix d’une longue nouvelle autour de la matinée de Solon. | [Plan](manuscrits/fr/P014/plan.md) · [Chronologie](reperes/chronologie.csv) |
