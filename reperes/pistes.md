@@ -104,3 +104,10 @@ En 100, *The Earthen Treaty* et l’entité locale *The Rainy Mine* fondent Eart
 Les quinze sections ont été parcourues, puis les rapprochements ci-dessus ont été vérifiés en revenant aux notices. Le CSV conserve une ligne par événement et par piste dans le périmètre suivant. Il couvre les champs de personne pour Buh, Dothan, Thilu et Thep, les champs des textes et livres qui leur sont associés pour P003–P004, et le champ d’artefact pour Dullboredom et Spokendrips. Pour P006, il retient le couple site–structure et les interactions et fuites correspondantes. Pour P008, il retient les renvois explicites au site 676 et à l’entité 993. Quelques notices jointes éclairent une exécution, un vol, un décès ou le voyage de retour. Les relations de famille et les descriptions d’œuvres se vérifient dans les fiches citées sous chaque titre. Une ligne du relevé ne vaut pas une scène à écrire.
 
 Le choix de P001 et le français retenu le 22 novembre 2026 sont consignés dans le [plan](../manuscrits/fr/P001/plan.md) et le [journal de branche](../REPRISE.md).
+
+## Bilan de la seconde lecture
+
+Noter ici ce qui a guidé les premières pistes, puis quels domaines de l’export étaient restés peu explorés. Pour chaque parcours repris, conserver une ligne, même si la recherche s’arrête sans nouvelle proposition. Si la séance est interrompue, reporter le prochain renvoi à examiner dans le [suivi de reprise](../REPRISE.md).
+
+| Domaine repris et raison | Point de départ et renvois suivis (sections, identifiants) | Ce que le rapprochement révèle ou laisse inconnu | Piste créée ou enrichie (ID), mise en réserve ou fin de recherche |
+| --- | --- | --- | --- |
