@@ -6,7 +6,7 @@ La première promesse d’immortalité que reçut Solon Beachedglaze lui entra p
 
 — Tu pourrais au moins te mettre de ce côté-ci, dit-elle. Voilà trois fois que je traverse pour t’entendre.
 
-Asmel fit le tour du bassin. Il portait encore ses bottes. Les baigneurs de Boardhammers avaient pour habitude de laisser leurs chaussures à la porte, et les semelles de cuir mouillées faisaient sur la dalle un petit cri qui avertit Solon de sa présence avant qu’elle eût rouvert les yeux. Ce matin-là de l’an 96, la vieille naine reconnaissait fort bien les gens de son âge au bruit. Asmel, qui était son aîné de huit ans, avait toujours la même façon de tomber d’aplomb sur ses deux pieds.
+Asmel Furnacebolted fit le tour du bassin. Il portait encore ses bottes. Les baigneurs de Boardhammers avaient pour habitude de laisser leurs chaussures à la porte, et les semelles de cuir mouillées faisaient sur la dalle un petit cri qui avertit Solon de sa présence avant qu’elle eût rouvert les yeux. En l’an 96, la vieille naine reconnaissait les gens de sa génération rien qu’à leur pas. Asmel, qui était son aîné de huit ans, avait toujours la même façon de tomber d’aplomb sur ses deux pieds.
 
 — Je peux t’offrir de vivre aussi longtemps que tu voudras, répéta-t-il.
 
@@ -22,7 +22,7 @@ Il sortit un morceau de galette qu’elle commença par mettre en sûreté sur l
 
 Elle l’avait invité à venir de bonne heure. Il avait demandé combien de gens seraient présents. Ce fut seulement alors qu’elle se décida à le faire venir tout à fait seul.
 
-En attendant que ses mains sèchent, elle lui montra comment, entre deux doigts écartés sous l’eau, un même gros orteil se dédoublait. Elle se livrait chaque matin à cette expérience. Jusqu’ici personne n’avait eu à en subir le spectacle. Asmel s’accroupit. Il regarda de travers.
+Pendant que sa main droite séchait sur la margelle, elle écarta deux doigts de la gauche sous l’eau pour lui montrer comment un même gros orteil se dédoublait. Elle se livrait chaque matin à cette expérience. Jusqu’ici personne n’avait eu à en subir le spectacle. Asmel s’accroupit. Il regarda de travers.
 
 — Trois, dit-il.
 
@@ -40,7 +40,7 @@ Elle reprit son pain sans répondre. Il détacha le fermoir de son manteau, éta
 
 — Kib, dit-il enfin.
 
-Il y avait treize ans que Solon avait rapporté de la forêt la nouvelle de sa mort. Pendant ces treize années, quantité de gens avaient trouvé le moyen de lui apprendre quelque chose sur Kib. On lui avait raconté ce qu’elle avait forgé, qui elle avait épousé après tel autre, quelle chanson elle prétendait détester et savait jusqu’au neuvième couplet. Il suffisait d’avoir servi près d’une morte pour qu’on devînt un endroit commode où déposer ses souvenirs. Asmel était le premier qui aurait pu lui dire la seule chose qu’elle avait voulu savoir du vivant de son amie.
+Il y avait treize ans que Solon avait rapporté de la forêt la nouvelle de sa mort. Pendant ces treize années, quantité de gens avaient trouvé le moyen de lui apprendre quelque chose sur Kib. On lui avait raconté ce qu’elle avait forgé, quel homme elle avait épousé après Asmel, quelle chanson elle prétendait détester et savait jusqu’au neuvième couplet. Il suffisait d’avoir servi près d’une morte pour qu’on devînt un endroit commode où déposer ses souvenirs. Asmel était le premier qui aurait pu lui dire la seule chose qu’elle avait voulu savoir du vivant de son amie.
 
 — Je sais qu’elle t’a dit oui, reprit Solon. Je voudrais savoir ce qu’elle avait entendu.
 
@@ -48,7 +48,7 @@ Il y avait treize ans que Solon avait rapporté de la forêt la nouvelle de sa m
 
 — Assez pour que je me méfie de la réponse que tu tiens toute prête.
 
-Il tira ses bottes de sous son manteau et entreprit de les enlever. Un caillou tomba de la seconde. Asmel le ramassa avec soin pour le mettre dans sa poche. Elle faillit lui demander s’il avait si peur de manquer un jour de cailloux. Puis il risqua le bout d’un pied dans l’eau, le retira et s’essuya contre sa cheville. Voilà un homme qui proposait l’éternité d’une voix raisonnablement ferme et qui trouvait trop hardi d’entrer dans un bain.
+Il étendit une jambe et entreprit de se déchausser. Un caillou tomba de la seconde. Asmel le ramassa avec soin pour le mettre dans sa poche. Elle faillit lui demander s’il avait si peur de manquer un jour de cailloux. Puis il risqua le bout d’un pied dans l’eau, le retira et s’essuya contre sa cheville. Voilà un homme qui proposait l’éternité d’une voix raisonnablement ferme et qui trouvait trop hardi d’entrer dans un bain.
 
 — Commence par ce qu’elle faisait quand tu es arrivé, dit Solon.
 
@@ -92,7 +92,7 @@ Elle se remit à rire sans relever la tête. Ce rire dura peu. Assez cependant p
 
 — Fikod aurait aimé nous entendre, dit-elle.
 
-Le nom de son mari lui fit du bien. À Diamondgalley, l’an passé, on avait eu à lui annoncer la mort de deux personnes dans le même combat. L’homme qui lui avait dit « Risen, votre fils » avait repris sa respiration pour dire ensuite « votre mari Fikod ». C’était la reprise de souffle, plus que les deux noms, qui revenait à Asmel lorsqu’il s’éveillait trop tôt.
+Asmel fut content qu’elle eût nommé Fikod. À Diamondgalley, l’an passé, on était venu lui annoncer la mort de deux personnes dans le même combat. L’homme qui lui avait dit « Risen, votre fils » avait repris sa respiration pour dire ensuite « votre mari Fikod ». C’était la reprise de souffle, plus que les deux noms, qui revenait à Asmel lorsqu’il s’éveillait trop tôt.
 
 — Fikod aurait su lequel faisait le bruit, dit-il. Il avait l’oreille pour les choses d’aucune utilité.
 
@@ -110,7 +110,7 @@ Neuf ans après, il avait déposé les Tombes à Boardhammers. Il se rappelait l
 
 — À présent, dit-il, regarde-moi.
 
-Kib s’essuya les doigts avant de lui prendre le menton, ce qu’elle n’avait plus fait depuis leur séparation. Elle le tourna vers la lampe. Il y avait sous la lèvre une petite irrégularité, un défaut du rasoir qu’il avait laissée là autrefois, de son temps à elle. Elle la trouva sous son pouce.
+Kib s’essuya les doigts avant de lui prendre le menton, ce qu’elle n’avait plus fait depuis leur séparation. Elle le tourna vers la lampe. Il y avait sous la lèvre une petite irrégularité que le rasoir d’Asmel y avait laissée du temps où ils vivaient ensemble. Elle la trouva sous son pouce.
 
 — Tu as toujours cette cochonnerie de cicatrice.
 
@@ -124,7 +124,7 @@ Il fut touché qu’elle en eût tenu le compte.
 
 — Tu y as pensé, pourtant.
 
-Il convint que oui. Des repas de noces, il y en avait eu de magnifiques du temps qu’ils vivaient ensemble et qu’il ne pouvait ouvrir la bouche sur ce qui comptait le plus pour lui. Il avait même préparé une petite phrase, qu’il retrouva à ce moment précis, si affreusement solennelle qu’il préféra ne pas la lui dire. Kib leva le plat pour examiner à la lumière une joue grasse que le reflet de l’huile faisait paraître grande comme un abricot.
+Il convint que oui. Des repas de noces, il y en avait eu de magnifiques du temps qu’ils vivaient ensemble et qu’il ne pouvait ouvrir la bouche sur ce qui comptait le plus pour lui. Il avait même préparé une petite phrase, qu’il retrouva à ce moment précis, si affreusement solennelle qu’il la garda pour lui. Kib leva le plat pour examiner à la lumière une joue grasse que le reflet de l’huile faisait paraître grande comme un abricot.
 
 — Je ne vais pas rajeunir ?
 
@@ -140,9 +140,11 @@ Elle réfléchit en mâchant. C’était un visage qu’il connaissait, celui de
 
 Elle lui tendit la seconde joue. Lorsqu’il l’eut prise, elle garda les doigts un instant sur les siens.
 
-— Si tu revois les petits un jour, demande pour le bruit.
+— Si tu vois un des petits, demande pour le bruit.
 
-C’était arrivé souvent, après leurs premières pertes. Ils appelaient *les petits* ceux qui vivaient encore, et tout à coup, dans la même phrase, on ne savait plus très bien de quels enfants on avait dit le nom à voix haute et quels étaient ceux qu’on avait laissés entrer sans y prendre garde.
+— Ils vont tous dire que c’était le voisin.
+
+Elle en convint. Il poussa hors de portée le petit pot de sel, comme il avait pris l’habitude de le faire quand il y avait des enfants à table.
 
 L’année suivante, à Boardhammers, un homme arrêta Asmel sur une rampe et lui demanda depuis quand il avait exactement cette figure-là. Il y eut bientôt autour d’eux une petite assemblée où de vieux nains que connaissait Asmel se laissaient devancer par de tout jeunes qui le voyaient pour la première fois. Une blanchisseuse se souvenait des traits de son père et les reconnaissait sur lui. Quelqu’un lui fit remarquer que cette ressemblance ne menait nulle part. Elle en fut fâchée et posa sur le bras d’Asmel une main familière qui changea de sens pendant qu’elle le tenait. Il ne savait plus si elle comptait le défendre ou le retenir.
 
@@ -180,7 +182,7 @@ Solon entra jusqu’aux hanches. Elle prit un caillou plat et le lui posa sur le
 
 Une fois les soldats partis, Solon se rendit compte qu’elle flottait. Les oiseaux passaient de l’autre côté de ses gros orteils. Elle se sentait capable de s’en aller jusqu’à la mer, pour peu que Kib consentît à faire le chemin avec elle et à régler la question des cascades, dont Solon avait entendu dire un mal considérable. Elle voulut lui en parler. Il n’y avait plus personne à ses côtés. À quinze pas de là, sur la rive, Kib, qui avait repris sa chemise, s’acharnait à faire entrer sa seconde oreille.
 
-D’une campagne à l’autre, elles retrouvèrent des eaux froides où on n’aurait pas mis à tremper une botte, des mares que leur passage transformait en bols de soupe, un ruisseau limpide et si mince qu’elles s’y couchèrent tout habillées, pour laver ce qu’on pouvait de leurs deux personnes ensemble. Solon reprenait sa culture entre deux départs. Kib retrouvait sa forge. Quand elles se rencontraient à Boardhammers, s’il y avait du monde, elles en étaient revenues aux conversations sur la santé d’autrui. Elles prétendaient qu’elles conservaient à cet usage une certaine quantité d’oncles très mal portants, quitte à les louer à la soirée aux gens qui en avaient besoin.
+D’une campagne à l’autre, elles retrouvèrent des eaux froides où on n’aurait pas mis à tremper une botte, des mares que leur passage transformait en bols de soupe, un ruisseau limpide et si mince qu’elles s’y couchèrent tout habillées, pour laver ce qu’on pouvait de leurs deux personnes ensemble. Entre deux départs, Solon retournait à son champ. Kib retrouvait sa forge. Quand elles se rencontraient à Boardhammers, s’il y avait du monde, elles en étaient revenues aux conversations sur la santé d’autrui. Elles prétendaient qu’elles conservaient à cet usage une certaine quantité d’oncles très mal portants, quitte à les louer à la soirée aux gens qui en avaient besoin.
 
 En l’an 81, après un combat où elles avaient défendu le même terrain, elles trouvèrent une eau délicieuse. Solon eut envie de savoir si Kib avait peur de la mort. La question lui parut idiote dès qu’elle se l’entendit poser. Kib, qui nageait derrière elle, lui répondit qu’elle avait surtout peur des pommes de terre trop grosses. Il lui était arrivé, réellement, de manquer s’étouffer à un repas de noces. Il fallait à présent qu’on la prévînt s’il devait y avoir des pommes de terre pour qu’elle fît un effort et se rendît tout de même à la noce. Puis elle se tut. Un moment après, en repassant devant Solon, elle lui dit qu’Asmel lui avait promis l’immortalité.
 
@@ -202,7 +204,7 @@ Elle garda de cet instant le souvenir d’avoir causé à ce pauvre homme une di
 
 On les repoussait de la lisière. Solon essaya de se charger du corps de Kib. Du vivant de son amie, elle avait eu souvent l’occasion de souhaiter qu’elle occupât un peu moins de place. Une morte avec un soulier de moins pouvait en occuper tout autant. Elle arriva jusqu’à l’eau, en s’aidant du terrain qui descendait, et s’y assit pour reprendre haleine. Il y avait sur l’autre rive, tout près, de grands saules. Personne dans leurs branches basses. Des bruits de pas se dispersaient à travers le bois et elle n’en distinguait aucun qui revînt vers elles.
 
-La tête de Kib était près de son coude. Elle la souleva hors des herbes et entra en marchant à reculons dans la rivière. Quand elle eut de l’eau jusqu’à la ceinture, elle s’attendit à ce que son amie lui pesât moins lourd. Ce qui la surprit fut le moment où elle cessa de peser tout à fait. La grande naine vint prendre naturellement sous son menton la place où la main de Solon la tenait. Sa barbe s’étala dans le courant. Elles firent ensemble, en dérivant vers les saules, une longueur qui dura pour Solon le temps nécessaire pour voir chaque poil blanc se séparer des autres au gré de l’eau. Quelqu’un finit par la héler depuis la rive. Elle eut besoin d’une seconde paire de bras pour remonter Kib sur la terre sèche.
+La tête de Kib était près de son coude. Elle la souleva hors des herbes et entra en marchant à reculons dans la rivière. Quand elle eut de l’eau jusqu’à la ceinture, elle s’attendit à ce que son amie lui pesât moins lourd. Ce qui la surprit fut le moment où le poids de son amie la quitta tout à fait. La nuque de Kib vint se caler sous le menton de Solon. Sa barbe s’étala dans le courant. Elles firent ensemble, en dérivant vers les saules, une longueur qui dura pour Solon le temps nécessaire pour voir chaque poil blanc se séparer des autres au gré de l’eau. Quelqu’un finit par la héler depuis la rive. Elle eut besoin d’une seconde paire de bras pour remonter Kib sur la terre sèche.
 
 Des années après, elle revint en armes à Rockglistened. Le chemin avait changé, les nains passèrent plus haut. Elle aperçut au loin ce qui lui semblait être les saules et l’espèce de jour que faisaient toujours entre les arbres les travaux et le passage des gens. Un elfe courait en ramassant de place en place du linge sur une longue corde. Il tirait à poignées, les pinces sautaient. Elle revit les deux chausses rouges. Elle se demanda souvent, par la suite, si ce qu’elle y avait pris pour deux rouges était de l’étoffe dépareillée, ou simplement la lumière du bois.
 
@@ -218,7 +220,7 @@ Il fit un effort pour se rappeler.
 
 — Je te demande si tu t’en souviens.
 
-— Je me souviens d’un seul poil tout blanc qu’elle avait dans la moustache le jour où elle m’a épousé. Elle refusait que je le lui arrache. C’est bien peu pour faire le compte de ceux qui ont suivi.
+— Je me souviens d’un seul poil tout blanc qu’elle avait dans la moustache le jour où on s’est mariés. Elle refusait que je le lui arrache. C’est bien peu pour faire le compte de ceux qui ont suivi.
 
 Solon se frotta la bouche du revers de la main. Il lui restait sur les lèvres le goût du pain qu’il lui avait donné. Ce pain sec l’avait réjouie plus qu’elle n’aurait su dire, prise comme elle était depuis une heure entre les nourritures des morts et les repas qu’on pouvait toujours faire demain.
 
@@ -242,13 +244,13 @@ Elle battit doucement des pieds pour faire marche arrière jusqu’à lui.
 
 — Elle m’a dit oui. Il m’est arrivé depuis de coucher une nuit entière chez une femme à laquelle Kib avait recommandé de me recevoir, si un jour j’avais besoin d’un lit. Cette femme avait retenu mon nom de travers. Combien crois-tu qu’il m’a fallu de temps pour comprendre qu’on m’attendait ?
 
-Il rit à ce souvenir. Il était d’une gratitude tenace envers son ancienne épouse pour cette nuit qu’elle lui avait procurée du fond d’un autre pays. Quant à savoir si, au moment d’entrer dans l’eau une dernière fois, Kib aurait su répéter ce qu’il y avait dans les Tombes promises, il n’offrit pas à Solon de réponse. Elle ne le pressa pas. Kib, qui avait traversé plus d’une rivière sans attendre qu’on l’y aidât, aurait bien trouvé le moyen de lui en dire davantage de son vivant si elle avait voulu lui confier cette part de leur histoire.
+Il rit à ce souvenir. Il était d’une gratitude tenace envers son ancienne épouse pour cette nuit qu’elle lui avait procurée du fond d’un autre pays. Quant à savoir si, la veille du combat de Rockglistened, Kib aurait su répéter ce qu’il y avait dans les Tombes promises, il n’offrit pas à Solon de réponse. Elle ne le pressa pas. Kib, qui avait traversé plus d’une rivière sans attendre qu’on l’y aidât, aurait bien trouvé le moyen de lui en dire davantage de son vivant si elle avait voulu lui confier cette part de leur histoire.
 
 — Tu loges où, d’habitude ? demanda-t-elle.
 
 — À Severetrots. J’y suis allé pour étudier, du temps que vos oncles avaient une si mauvaise santé.
 
-Alors, à la surprise de Solon, il lui demanda si elle connaissait quelque chose aux colles. C’était un sujet sur lequel, parmi ceux qui vieillissaient, on finissait par nourrir de grandes exigences. Une écuelle réparée devait pouvoir aller au feu. Une semelle recollée devait pouvoir aller sous la pluie. Elle s’attendait à ce qu’il fallût, pour entrer chez les immortels, être capable d’ajuster deux morceaux d’une poterie sans que la jointure se vît. Au lieu de quoi il lui expliqua que, quatre ans plus tôt, après un cauchemar qui lui avait donné une nuit épouvantable, il avait composé un ouvrage intitulé *À propos de colle*.
+Alors, à la surprise de Solon, il lui demanda si elle connaissait quelque chose aux colles. C’était un sujet sur lequel, parmi ceux qui vieillissaient, on finissait par avoir des idées précises. Une écuelle réparée devait pouvoir aller au feu. Une semelle recollée devait pouvoir aller sous la pluie. Elle s’attendait à ce qu’il fallût, pour entrer chez les immortels, être capable d’ajuster deux morceaux d’une poterie sans que la jointure se vît. Au lieu de quoi il lui expliqua que, quatre ans plus tôt, après un cauchemar qui lui avait donné une nuit épouvantable, il avait composé un ouvrage intitulé *À propos de colle*.
 
 — Et c’était ça, ton cauchemar ?
 
@@ -274,9 +276,9 @@ Cette perspective avait du bon. Elle avait du travail pour tout l’été. La te
 
 Il reposa sa seconde botte.
 
-— J’ai une pièce à moi. Les gens que tu ne peux pas recevoir en ville, tu les verras chez moi. J’ouvrirai même s’il est tard. S’il faut choisir qui faire entrer, tu me le diras en face. Tes noms, je les veux de ta bouche.
+— Chez moi, j’ai une chambre avec une porte sur le chemin. Les gens que tu ne peux pas recevoir en ville, tu les verras là. J’ouvrirai même s’il est tard. S’il faut choisir qui faire entrer, tu me le diras en face. Tes noms, je les veux de ta bouche.
 
-— Certains jours, reprit-il en regardant le plafond, tu m’en voudras d’avoir dit oui avant de savoir qui viendrait.
+— Certains jours, reprit-il en regardant le plafond, tu m’en voudras peut-être de t’avoir laissée dire oui avant de savoir qui viendrait.
 
 — C’est fort possible. Et toi, qu’est-ce que tu m’apprends ? À quel moment tu commences ?
 
@@ -292,7 +294,7 @@ Au-dessus d’eux, le gardien défaisait la barre de la porte du haut. Bientôt 
 
 Solon lui aurait bien fait observer qu’ils s’étaient donné rendez-vous pour les leçons dès le lendemain, et qu’il y avait un sens dans lequel ils avaient convenu ensemble que le savoir devrait circuler. Seulement il y avait en cet homme, quand il lui demandait quelque chose dont il avait envie, une sorte de jeunesse qu’elle lui aurait reconnue même ridé jusqu’aux oreilles.
 
-Il entra dans l’eau. Il était trapu et un peu lourd par le milieu, avec quelques poils rouges autour du nombril. Il voulut ôter la main qu’elle lui avait mise sous la tête, pour lui dire qu’il avait compris. Ses talons touchèrent aussitôt le fond. Elle attendit qu’il cessât de rire, ce qui prit quelque temps parce qu’il essayait de le faire la bouche fermée et que chaque nouvel essai l’étonnait davantage. Elle lui redonna la main, et ils firent quelques pas ensemble.
+Il posa ses habits en tas sur son manteau et entra dans l’eau. Il était trapu et un peu lourd par le milieu, avec quelques poils rouges autour du nombril. Il voulut ôter la main qu’elle lui avait mise sous la tête, pour lui dire qu’il avait compris. Ses talons touchèrent aussitôt le fond. Elle attendit qu’il cessât de rire, ce qui prit quelque temps parce qu’il essayait de le faire la bouche fermée et que chaque nouvel essai l’étonnait davantage. Elle lui redonna la main, et ils firent quelques pas ensemble.
 
 Une des premières sandales dégringola dans l’escalier.
 

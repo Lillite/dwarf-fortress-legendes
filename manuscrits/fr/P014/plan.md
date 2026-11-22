@@ -33,3 +33,16 @@ Une biographie continue d’Asmel aurait mené de l’objet merveilleux au soup�
 | IV. La leçon | De retour devant Asmel, Solon l’interroge sur les poils blancs de Kib. Ni l’un ni l’autre n’en sait assez. La cultivatrice prend sa décision en imaginant la vie qu’elle pourrait avoir, les choses dont elle se lasserait et même le voisin qu’elle n’aime guère. Elle donne un lieu à l’accord. Une autre leçon commence avant le lendemain. |
 
 Les bains de Boardhammers, le champ, la chambre et le détail du fonctionnement du réseau sont imaginés. Les Tombes figurent dans le souvenir d’Asmel. Elles ne passent pas aux mains de Solon. La liste des combattants de l’an 90, étudiée pour P009, reste disponible pour cette autre histoire.
+
+## Bilan de relecture
+
+| Passage relu | Difficulté de lecture et correction retenue |
+| --- | --- |
+| Ouverture, puis retour du pain dans le dialogue | Une oreille sous l’eau suffit à faire voir Solon en train de nager, avant qu’on sache pourquoi elle a fait venir Asmel. Les deux mains séchaient puis replongeaient ensemble. Le texte réserve désormais une main sèche à la galette. |
+| Repas, décès à Diamondgalley, puis départ | « Son mari » pouvait d’abord se rapporter à Kib. La phrase désigne Asmel avant l’annonce de la mort de son époux et de son fils. La plaisanterie sur les enfants et le bruit remplace une explication sur les sens du mot « petits ». |
+| Rockglistened, puis questions au bain | Les corps prêtaient à confusion dans la traversée. La nuque de Kib et le menton de Solon permettent de retrouver leurs places. Une formulation ultérieure qui faisait entrer dans l’eau Kib déjà morte a été remplacée par « la veille du combat ». |
+| Accord et dernière baignade | La chambre de Solon est distinguée de sa parcelle. Les bottes quittent les pieds d’Asmel avant son entrée dans le bain. La sandale des enfants donne la distance qui les sépare encore de la salle. La dernière phrase reste auprès d’Asmel qui regarde le plafond. |
+
+La relecture autonome du texte seul a retrouvé deux attentes dès la première page. Solon a organisé le rendez-vous, mais que voulait-elle entendre d’Asmel sur Kib ? Quand elle aura obtenu ses réponses, pourra-t-elle encore dire oui pour des raisons à elle ? Le passage au repas change de temps et de point de vue dès sa première phrase. Le retour au bain, puis le récit de la forêt, rendent la parole à une personne qui était sur place. Le cauchemar a une entrée et une sortie dans le dialogue du quatrième mouvement.
+
+En regard des premières pages de P001 et de P002, l’ouverture se joue ici dans une longueur de nage. L’entretien revient au même bassin après le repas familial et la campagne. La dernière lecture s’est arrêtée lorsque Solon retire la main, sans ajouter de commentaire sur ce que devient la nageuse. La leçon promise pour le lendemain demeure à venir. La [note sur les sources](note.md), séparée de la nouvelle, donne au lecteur les limites précises de ce que l’on sait sur les deux femmes.

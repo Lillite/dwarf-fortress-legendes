@@ -2,13 +2,13 @@
 
 | Repère | État enregistré |
 | --- | --- |
-| Étape active | **P014 · Étape 5 sur 6 · Manuscrit rédigé** |
+| Étape active | **P014 · Étape 6 sur 6 · Nouvelle relue et achevée** |
 | Branche permanente | `legendes/region1-an-100-02-28` |
 | Source | [Original du 28 du mois 02 de l’an 100](sources/region1-00100-02-28-legends.xml) · [Fiche de source et inventaire](sources/README.md). Le nom du monde n’est pas fourni. |
 | Couverture de lecture | 15 sections parcourues. Seconde lecture des guerres, lieux, charges, concours, échanges et autres domaines consignés dans le [bilan](reperes/pistes.md#bilan-de-la-seconde-lecture). |
-| Dernier point atteint | Les quatre mouvements vont de l’offre faite à Solon à la leçon de nage. |
-| Piste, langue et plan | [Nouvelle française](manuscrits/fr/P014/nouvelle.md). |
-| Prochaine action | Relire le texte seul, puis vérifier les scènes et les savoirs dans l’export. |
+| Dernier point atteint | [Celui qui ne vieillissait pas](manuscrits/fr/P014/nouvelle.md), du rendez-vous aux bains à la dernière leçon. |
+| Piste, langue et plan | P001, P002 et P014 achevées en français. [Dossier de P014](manuscrits/fr/P014/plan.md). |
+| Prochaine action | Pour une nouvelle histoire, repartir du [registre des pistes](reperes/pistes.md). |
 
 ## Journal
 
@@ -31,3 +31,4 @@
 | 2026-11-22 | P014 · Étape 3 | « Travail sur P014 ». Français retenu dans la continuité des deux livres précédents. | [Piste retenue](reperes/pistes.md#p014) |
 | 2026-11-22 | P014 · Étape 4 | Parenté, batailles, mort de Kib et livre sur la colle recoupés. Choix d’une longue nouvelle autour de la matinée de Solon. | [Plan](manuscrits/fr/P014/plan.md) · [Chronologie](reperes/chronologie.csv) |
 | 2026-11-22 | P014 · Étape 5 | Rédaction du repas de l’an 61, de la fuite, des campagnes et du rendez-vous aux bains. | [Les quatre mouvements](manuscrits/fr/P014/nouvelle.md) |
+| 2026-11-22 | P014 · Étape 6 | Relecture à froid des quatre mouvements. Reprise des gestes au bain, des liens de parenté et du transport de Kib. Vérification de la note et de l’édition EPUB. | [Bilan](manuscrits/fr/P014/plan.md#bilan-de-relecture) · [Note](manuscrits/fr/P014/note.md) |

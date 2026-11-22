@@ -1,6 +1,6 @@
 # Histoires de région 1
 
-**Choix du 22 novembre 2026.** L’utilisateur a répondu « P001 ». Le français est retenu par défaut. [Dossier des Deux Poèmes de Buh](../manuscrits/fr/P001/plan.md). L’utilisateur a ensuite demandé « Ecrit le P002 ». Les sept chapitres français de [Celle qu’on a crue](../manuscrits/fr/P002/01.md) sont achevés. [Dossier de recherche et de relecture](../manuscrits/fr/P002/plan.md). L’utilisateur a ensuite choisi P014, « Celui qui ne vieillissait pas », pour une rédaction en français. Les autres pistes gardent leur statut. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
+**Choix du 22 novembre 2026.** L’utilisateur a répondu « P001 ». Le français est retenu par défaut. [Dossier des Deux Poèmes de Buh](../manuscrits/fr/P001/plan.md). L’utilisateur a ensuite demandé « Ecrit le P002 ». Les sept chapitres français de [Celle qu’on a crue](../manuscrits/fr/P002/01.md) sont achevés. [Dossier de recherche et de relecture](../manuscrits/fr/P002/plan.md). L’utilisateur a ensuite choisi P014. Les quatre mouvements de [Celui qui ne vieillissait pas](../manuscrits/fr/P014/nouvelle.md) sont achevés en français. Les autres pistes gardent leur statut. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
 
 | ID | Titre de travail | Période proposée | Format envisagé |
 | --- | --- | --- | --- |
@@ -162,6 +162,8 @@ Les comptes de Gamo Dearjump commencent, pour cette histoire, par une opération
 ## P014
 
 ### Celui qui ne vieillissait pas
+
+**Nouvelle achevée en français.** [Lire les quatre mouvements](../manuscrits/fr/P014/nouvelle.md) · [Enquête et relecture](../manuscrits/fr/P014/plan.md) · [Note sur les sources](../manuscrits/fr/P014/note.md).
 
 Le nain Asmel Furnacebolted désire l’immortalité dès 35. En 37, à Boardhammers, il prend possession d’un objet nommé *The Fated Tombs* et en apprend un secret. En 61, il recrute Kib Workedsearch en lui offrant l’immortalité. L’année suivante, on le confronte parce qu’il ne vieillit pas. Il fuit et s’établit à Diamondgalley. En 96, à Boardhammers de nouveau, une autre personne, Solon Beachedglaze, accepte d’entrer dans son réseau à la faveur de la même offre.
 

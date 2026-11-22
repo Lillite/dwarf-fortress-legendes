@@ -1,0 +1,13 @@
+# Note sur les sources
+
+À Boardhammers, en l’an 37, un nain nommé Asmel Furnacebolted entre en possession d’un objet créé par Os, divinité de la mort et du meurtre. Il apprend un secret par son intermédiaire. L’objet porte le nom de *The Fated Tombs*, rendu ici par « les Tombes promises ». Sa forme et sa matière nous échappent. Asmel le dépose à Boardhammers en 46. En 62, les soupçons que suscite son absence de vieillissement l’obligent à fuir à Diamondgalley.
+
+Deux femmes gardent dans leurs notices des mots qu’on pourrait prendre pour le début d’un livre, *promised me immortality*, « m’a promis l’immortalité ». Asmel a fait cette offre à Kib Workedsearch en 61 à Blockadedeath, puis à Solon Beachedglaze en 96 à Boardhammers. Elles ont toutes les deux accepté de se joindre à lui. Une autre figure, Goden Laborcalled, garde elle aussi la trace d’une promesse d’Asmel. Aucune scène datée de leur accord n’a été retrouvée. C’est encore un autre Goden, le fils de Kib et d’Asmel, dont ses parents se souviennent au repas de Blockadedeath.
+
+Asmel et Kib ont eu onze enfants ensemble. Quand ils se retrouvent en 61, ils sont séparés depuis sept ans. L’année précédente, Risen, l’un de leurs fils, et Fikod, le mari d’Asmel, ont été tués au cours de la même bataille à Diamondgalley. Deux autres de leurs fils, Zuglar et Goden, meurent à Labortakers avant qu’Asmel retrouve Kib. Kib et Solon apparaissent ensuite dans le même camp au fil de neuf batailles. À la dernière, en 83, elles participent à l’attaque de Rockglistened. Un jaguar y tue Kib. En 94, Solon revient combattre au même endroit. Asmel, de son côté, a réellement composé un manuel sur la colle à la suite d’un cauchemar. L’exemplaire conservé compte quatre-vingt-quatre pages.
+
+Le repas, les baignades et la conversation sur le lendemain appartiennent à la nouvelle. La liste des combattants permet de placer Solon et Kib dans la même bataille. Il a fallu imaginer où se trouvait Solon quand son amie est tombée et ce qu’elle a pu faire pour elle. De même, l’export donne le sujet du livre d’Asmel. Les cheveux du cauchemar, les sabots du lecteur et sa lettre sont des inventions.
+
+Le fichier garde un identifiant pour le secret d’Asmel. Il conserve aussi les noms des personnes à qui il a promis l’immortalité. Il reste muet sur ce que Kib et Solon ont reçu après avoir dit oui. C’est dans l’espace d’une matinée, entre l’offre et le lendemain promis, que j’ai choisi de laisser Solon.
+
+[Enquête, références du monde et choix de rédaction](https://github.com/Lillite/dwarf-fortress-legendes/blob/legendes/region1-an-100-02-28/manuscrits/fr/P014/plan.md)
