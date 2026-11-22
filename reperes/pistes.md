@@ -1,6 +1,6 @@
 # Histoires de région 1
 
-**Décision en attente.** Sept histoires sont proposées et une huitième piste reste en réserve. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
+**Choix du 22 novembre 2026.** L’utilisateur a répondu « P001 ». Le français est retenu par défaut. [Dossier des Deux Poèmes de Buh](../manuscrits/fr/P001/plan.md). Les autres pistes restent disponibles. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
 
 | ID | Titre de travail | Période proposée | Format envisagé |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@
 
 En 54, à Rawspeak, Buh Toothdiamonds persécute la communauté religieuse *The Creed of Mirth*. La notice nomme sept personnes expulsées et dénombre quatorze sanctuaires détruits. Parmi les expulsées figure Usel Hoofspring. Quatorze ans plus tard, le gobelin Usbu Spellfiend enlève Buh. C’est Usel qui demande la rançon, et Ado Chamberinched, le père de Buh, qui la paie. En 81, Usbu enlève Buh une seconde fois. Cette fois elle est vendue et emmenée à Orbliving.
 
-À soixante-trois ans, Buh cherche à entrer en apprentissage. Une première personne refuse parce qu’elle préfère travailler seule. Buh rejoint ensuite Odda Slaughterreleased à Vesselhated. En 89, elle compose deux poèmes classés enjoués. Tous deux emploient la même forme, une énigme sur les mines où le deuxième vers du tercet donne un autre point de vue sur le premier. Quatre ans plus tard, Buh tue Stosbub Jackalcrabs. En 95, elle meurt de vieillesse.
+À soixante-deux ans, Buh cherche à entrer en apprentissage. Une première personne refuse parce qu’elle préfère travailler seule. Buh rejoint ensuite Odda Slaughterreleased à Vesselhated. En 89, elle compose deux poèmes classés enjoués, le premier avant ses soixante-six ans, le second après. Tous deux emploient la même forme, une énigme sur les mines où le deuxième vers du tercet donne un autre point de vue sur le premier. Quatre ans plus tard, Buh tue Stosbub Jackalcrabs. En 95, elle meurt de vieillesse.
 
 **Entrée possible.** Ouvrir sur une vieille femme qui cherche comment reprendre la phrase du vers précédent. Le lecteur pourra connaître ses poèmes avant d’apprendre ce qu’elle a fait à Rawspeak. L’expulsion, les deux enlèvements et l’apprentissage donnent assez de matière au milieu du roman pour laisser coexister la persécutrice, la captive et la poète. Le mobile d’Usel, les conditions de sortie de l’esclavage, le mobile du meurtre et les vers de Buh restent inconnus.
 
@@ -103,4 +103,4 @@ En 100, *The Earthen Treaty* et l’entité locale *The Rainy Mine* fondent Eart
 
 Les quinze sections ont été parcourues, puis les rapprochements ci-dessus ont été vérifiés en revenant aux notices. Le CSV conserve une ligne par événement et par piste dans le périmètre suivant. Il couvre les champs de personne pour Buh, Dothan, Thilu et Thep, les champs des textes et livres qui leur sont associés pour P003–P004, et le champ d’artefact pour Dullboredom et Spokendrips. Pour P006, il retient le couple site–structure et les interactions et fuites correspondantes. Pour P008, il retient les renvois explicites au site 676 et à l’entité 993. Quelques notices jointes éclairent une exécution, un vol, un décès ou le voyage de retour. Les relations de famille et les descriptions d’œuvres se vérifient dans les fiches citées sous chaque titre. Une ligne du relevé ne vaut pas une scène à écrire.
 
-Après le choix de l’utilisateur, consigner ici l’identifiant, la langue, la date et toute demande de couverture, puis ouvrir le dossier de recherche de cette histoire, conformément au [suivi de reprise](../REPRISE.md).
+Le choix de P001 et le français retenu le 22 novembre 2026 sont consignés dans le [plan](../manuscrits/fr/P001/plan.md) et le [journal de branche](../REPRISE.md).
