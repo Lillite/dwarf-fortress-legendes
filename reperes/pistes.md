@@ -23,6 +23,8 @@
 
 Pour la prochaine histoire, une piste, un thème ou une envie de lecture suffisent pour reprendre ce registre. Si plusieurs histoires correspondent, leurs entrées permettent d’en comparer les points de départ. Un choix peut aussi être confié à l’auteur ou au hasard.
 
+La [relecture des entrées selon la SPEC 1.14](relecture-entrees-1-14.md) compare les seize propositions et situe les trois passages des livres qui méritent un essai.
+
 **Comment retrouver les passages.** Ouvrir le [sommaire de l’index du monde](index-legends/README.md) pour choisir le relevé correspondant au sujet. Les numéros après « événement » désignent des entrées de `historical_events` dans l’[original](../sources/region1-00100-02-28-legends.xml). Les figures, sites, entités, artefacts, textes, formes et collections ont leurs propres séries d’identifiants. Le [relevé des occurrences](occurrences.csv) donne les lignes de l’original, les dates, les rôles et les collections directes pour les événements indexés. Les variantes de nom, les faits de parenté et les rapprochements entre pistes sont précisés ci-dessous.
 
 ## P001
