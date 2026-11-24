@@ -62,17 +62,33 @@ Les liens des fiches sont préparés pour leur emplacement publié sous `reperes
 
 ## Journal des tokens
 
-Une demande peut comporter plusieurs appels. Employer le même identifiant pour ses appels et un nouvel identifiant pour la demande suivante. À la fin du travail sur un monde, consigner les compteurs dans `reperes/usage-llm/<demande>.json` sur sa branche. L’interface de conversation peut ne fournir aucune mesure par demande. Dans ce cas, consigner « indisponible ». La CI Python/SQLite effectue ses calculs sans appel LLM. Un commit Git ou un temps d’exécution ne fournit aucune mesure de la conversation.
+Une fiche correspond à une demande utilisateur. Choisir un identifiant unique, par exemple une date suivie d’un sujet et d’un suffixe si nécessaire. Réutiliser cet identifiant uniquement pour les tentatives ou les appels de cette même demande. Sur `main`, le journal se trouve dans `suivi/usage-llm/<demande>.json`. Sur `legendes/<monde>`, il se trouve dans `reperes/usage-llm/<demande>.json`. Les anciens échanges restent hors du calcul. La publication de la fiche fait partie de la clôture de la demande. [Consignes de clôture](../AGENTS.md)
 
-Le workflow **[Journal des tokens d’une demande](https://github.com/Lillite/dwarf-fortress-legendes/actions/workflows/journal-tokens.yml)** se lance depuis main. Indiquer la branche du monde, l’identifiant de demande et éventuellement sa piste. Laisser les reçus vides en l’absence de compteurs. En cas d’appels API, fournir uniquement les objets minimaux `id`, `model` et `usage`, en tableau JSON si plusieurs appels. Cocher **Tous les appels** seulement si la liste est exhaustive. Le workflow publie directement le journal dans la branche choisie. GitHub reçoit les entrées du lancement : y saisir exclusivement ces métadonnées, jamais la conversation ni une clé.
+| Donnée disponible à la clôture | Ce qui est enregistré |
+| --- | --- |
+| Reçus API de tous les appels effectués pour cette demande | `statut: mesuré` et somme dans `total_demande`. Un identifiant de réponse compte une fois. Les tokens de cache et de raisonnement sont déjà inclus dans les compteurs correspondants. |
+| Reçus d’une partie des appels | `statut: partiel`, somme dans `sous_total_appels_mesurés` et `total_demande: null`. |
+| Aucun reçu de consommation | `statut: indisponible` et `total_demande: null`. |
+| Total inconnu et texte visible accessible | `indication_visible` donne l’encodage, la taille du seul message utilisateur courant, celle de la réponse finale préparée et leur somme. Cette mesure exclut les messages précédents, les pièces jointes, les outils et le travail interne. |
 
-Depuis un checkout de la branche du monde, l’équivalent local est :
+Un reçu peut inclure du contexte relu par le modèle lors de cet appel. Utiliser le reçu tel quel. Les reçus des demandes antérieures, les compteurs de session et le quota du compte n’entrent jamais dans le calcul. [Documentation des compteurs API](https://help.openai.com/en/articles/10478918-reviewing-api-usage-and-costs)
+
+### Publier avant de répondre
+
+Depuis le dépôt avec un accès en écriture à `origin`, utiliser le script de `main`. Pour une conversation dont le total est inconnu, préparer la réponse définitive et copier uniquement les deux textes dans des fichiers UTF-8 temporaires hors du dépôt. Installer le module Python `tiktoken` pour ce comptage. Le premier chargement de l’encodage peut télécharger son vocabulaire.
 
 ```sh
-python3 outils/journal_tokens.py --demande reprise-001 --piste P014
-python3 outils/journal_tokens.py --demande reprise-002 --recu appel-1.json --recu appel-2.json --complet
+python3 outils/journal_tokens.py --publier --branche main --demande 20261125-regle-01 \
+  --message-utilisateur /tmp/demande.txt --reponse-finale /tmp/reponse.txt --encodage o200k_base
 ```
 
-Inclure ensuite uniquement le JSON produit dans le commit de la séance. Les états sont **indisponible**, **partiel** et **mesuré**. Un reçu rejoué pour la même demande compte une fois. Les compteurs de cache et de raisonnement sont des sous-ensembles du total. Le programme ne copie ni les prompts ni les réponses dans le journal. Les champs `total_demande` et `sous_total_appels_mesurés` distinguent une consommation intégrale d’une somme connue sur quelques appels. [Compteurs officiels](https://help.openai.com/en/articles/10478918-reviewing-api-usage-and-costs)
+Pour un monde, remplacer `main` par sa branche exacte. Avec des compteurs API, fournir les reçus du tour. Ajouter `--complet` lorsque tous les appels sont couverts.
 
-Pour comparer la taille de deux fiches ou mesurer le seul texte visible d’une demande, installer localement le module optionnel `tiktoken`, puis utiliser par exemple `--texte fiche.md --encodage o200k_base` avec le journal local. Chaque mesure conserve le nom de l’encodage, l’empreinte du texte et sa longueur en tokens pour cet encodage. Ce comptage reste indépendant des reçus et du quota ChatGPT. La première utilisation d’un encodage peut télécharger son vocabulaire.
+```sh
+python3 outils/journal_tokens.py --publier --branche legendes/monde-exemple --demande 20261125-p014-01 \
+  --piste P014 --recu /tmp/appel-1.json --recu /tmp/appel-2.json --complet
+```
+
+`--publier` écrit uniquement la fiche sur la branche distante et vérifie sa présence et ses compteurs. En mode local, omettre `--publier` et `--branche` pour préparer le JSON sur la branche courante. On peut alors publier cette fiche via le connecteur GitHub et relire le fichier sur la branche cible. L’option distincte `--texte fiche.md --encodage o200k_base` permet aussi de mesurer un document de travail.
+
+Le workflow **Journal des tokens d’une demande** se lance depuis `main`, y compris pour les branches d’export anciennes. Renseigner la branche cible et l’identifiant de la demande. Les entrées facultatives acceptent les reçus minimaux (`id`, `model`, `usage`) et les compteurs visibles déjà calculés localement, par exemple `{"encodage":"o200k_base","message_utilisateur":20,"reponse_finale":80}`. Attendre la réussite de l’exécution. GitHub ne reçoit que les métadonnées. La CI ne voit pas les conversations ChatGPT et n’appelle aucun LLM pour cette opération. [Ouvrir le workflow](https://github.com/Lillite/dwarf-fortress-legendes/actions/workflows/journal-tokens.yml)

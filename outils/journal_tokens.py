@@ -1,4 +1,4 @@
-"""Consigner uniquement les compteurs de consommation d'une demande sur sa branche Legends."""
+"""Consigner uniquement les compteurs de consommation d'une demande sur la branche concernée."""
 
 import argparse
 import hashlib
@@ -10,10 +10,19 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-from ci_legendes import fetch, git, git_text
+from ci_legendes import git, git_text
 
-ROOT = Path("reperes/usage-llm")
+WORLD_JOURNAL = Path("reperes/usage-llm")
+MAIN_JOURNAL = Path("suivi/usage-llm")
 KEY = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,119}\Z")
+
+
+def journal_for(branch):
+    if branch == "main":
+        return MAIN_JOURNAL
+    if branch.startswith("legendes/"):
+        return WORLD_JOURNAL
+    raise ValueError("Le journal appartient à main ou à une branche legendes/.")
 
 
 def safe(value, label):
@@ -98,6 +107,20 @@ def compter_texte(path, encoding):
     }
 
 
+def visible_measure(values):
+    if not isinstance(values, dict) or set(values) != {"encodage", "message_utilisateur", "reponse_finale"}:
+        raise ValueError("L’indication visible attend encodage, message_utilisateur et reponse_finale.")
+    encoding = safe(values["encodage"], "encodage")
+    user = meter(values["message_utilisateur"], "message_utilisateur")
+    answer = meter(values["reponse_finale"], "reponse_finale")
+    return {
+        "encodage": encoding,
+        "message_utilisateur": user,
+        "reponse_finale": answer,
+        "total_visible": user + answer,
+    }
+
+
 def encode(value):
     return json.dumps(value, indent=2, ensure_ascii=False) + "\n"
 
@@ -107,11 +130,20 @@ def from_env():
     return payload if isinstance(payload, list) else [payload]
 
 
+def remote_tip(ref):
+    # FETCH_HEAD est partagé entre les processus du même clone. Lire le SHA de la branche demandée.
+    tip = git_text("ls-remote", "--refs", "--exit-code", "origin", ref).split()[0]
+    if subprocess.run(["git", "cat-file", "-e", tip + "^{commit}"], stderr=subprocess.DEVNULL).returncode:
+        depth = ["--depth=1"] if git_text("rev-parse", "--is-shallow-repository") == "true" else []
+        git("fetch", "--quiet", "--no-tags", "--no-write-fetch-head", *depth, "origin", tip)
+    return tip
+
+
 def write_ci(ref, path, update):
     # Mise à jour d'un seul blob depuis le code de main, sans exécuter de code du monde.
     for _ in range(3):
-        tip = fetch(ref)
-        for parent in (ROOT.parent, ROOT):
+        tip = remote_tip(ref)
+        for parent in (path.parent.parent, path.parent):
             ancestor = git_text("ls-tree", tip, "--", parent)
             if ancestor and not ancestor.startswith("040000 tree "):
                 raise ValueError(f"Emplacement du journal non ordinaire : {parent}.")
@@ -142,9 +174,14 @@ def write_ci(ref, path, update):
         )
         run = subprocess.run(["git", "push", f"--force-with-lease={ref}:{tip}", "origin", f"{commit}:{ref}"])
         if run.returncode == 0:
-            return
-        if fetch(ref) == tip:
-            raise ValueError("Publication du journal refusée sur la branche du monde.")
+            head = remote_tip(ref)
+            saved = json.loads(git_text("show", f"{head}:{path}"))
+            if saved == json.loads(new):
+                return
+            # Une autre publication a pu enrichir la fiche avant la relecture.
+            continue
+        if remote_tip(ref) == tip:
+            raise ValueError("Publication du journal refusée sur la branche demandée.")
     raise ValueError("La branche a changé pendant la publication. La demande peut être rejouée.")
 
 
@@ -154,13 +191,17 @@ def main():
         "--demande", required=True, help="identifiant stable de la demande, réutilisé pour tous ses appels"
     )
     p.add_argument("--piste")
+    p.add_argument("--publier", action="store_true", help="publier et vérifier uniquement la fiche sur origin")
+    p.add_argument("--branche", help="branche cible avec --publier (par défaut, la branche courante)")
+    p.add_argument("--message-utilisateur", type=Path, help="texte UTF-8 du seul message courant")
+    p.add_argument("--reponse-finale", type=Path, help="texte UTF-8 de la réponse finale préparée")
     p.add_argument(
         "--recu", action="append", default=[], type=Path, help="réponse API JSON ou objet minimal id/model/usage"
     )
     p.add_argument(
         "--texte", type=Path, action="append", default=[], help="fichier UTF-8 visible à mesurer séparément"
     )
-    p.add_argument("--encodage", help="encodage tiktoken explicite pour --texte, par exemple o200k_base")
+    p.add_argument("--encodage", help="encodage tiktoken explicite des textes, par exemple o200k_base")
     p.add_argument("--complet", action="store_true", help="tous les appels de cette demande sont comptabilisés")
     p.add_argument("--ci", action="store_true", help=argparse.SUPPRESS)
     args = p.parse_args()
@@ -168,9 +209,12 @@ def main():
         key = safe(args.demande, "demande")
         if args.piste and not re.fullmatch(r"P\d+", args.piste):
             raise ValueError("Identifiant de piste invalide.")
-        branch = os.environ["BRANCHE"] if args.ci else git_text("branch", "--show-current")
-        if not branch.startswith("legendes/"):
-            raise ValueError("Le journal appartient à une branche legendes/.")
+        if args.branche and not args.publier:
+            raise ValueError("--branche s’utilise avec --publier.")
+        branch = os.environ["BRANCHE"] if args.ci else (args.branche or git_text("branch", "--show-current"))
+        journal = journal_for(branch)
+        if branch == "main" and args.piste:
+            raise ValueError("Une piste appartient au journal de sa branche XML.")
         ref = "refs/heads/" + branch
         git("check-ref-format", ref)
         if args.ci:
@@ -181,19 +225,36 @@ def main():
             raise ValueError("Un reçu JSON par appel est attendu.")
         measured = [receipt(r) for r in payload]
         complete = args.complet or (args.ci and os.environ.get("COMPLET") == "true")
-        if bool(args.texte) != bool(args.encodage):
-            raise ValueError("Associer --texte à son --encodage de référence.")
+        if bool(args.message_utilisateur) != bool(args.reponse_finale):
+            raise ValueError("Fournir le message courant et la réponse finale ensemble.")
+        if bool(args.texte or args.message_utilisateur) != bool(args.encodage):
+            raise ValueError("Associer les textes à leur --encodage de référence.")
+        visible = None
+        if args.message_utilisateur:
+            visible = visible_measure(
+                {
+                    "encodage": args.encodage,
+                    "message_utilisateur": compter_texte(args.message_utilisateur, args.encodage)[
+                        "tokens_texte_visible"
+                    ],
+                    "reponse_finale": compter_texte(args.reponse_finale, args.encodage)["tokens_texte_visible"],
+                }
+            )
+        elif args.ci and os.environ.get("INDICATION"):
+            visible = visible_measure(json.loads(os.environ["INDICATION"]))
         texts = [compter_texte(path, args.encodage) for path in args.texte]
 
         def update(old):
             result = merge(old, branch, key, args.piste or None, measured, complete)
             counts = {(t["sha256"], t["encodage"]): t for t in result.get("textes_visibles", []) + texts}
+            if visible is not None:
+                result["indication_visible"] = visible
             if counts:
                 result["textes_visibles"] = [counts[k] for k in sorted(counts)]
             return result
 
-        path = ROOT / (key + ".json")
-        if args.ci:
+        path = journal / (key + ".json")
+        if args.ci or args.publier:
             write_ci(ref, path, update)
         else:
             root = Path(git_text("rev-parse", "--show-toplevel"))

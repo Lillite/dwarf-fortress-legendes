@@ -10,7 +10,7 @@ from pathlib import Path
 TOOLS = Path(__file__).resolve().parents[1] / "outils"
 sys.path.insert(0, str(TOOLS))
 from dossiers_pistes import generate
-from journal_tokens import merge, receipt
+from journal_tokens import merge, receipt, visible_measure
 from legends_index import build_index
 from legends_rapports import _open
 from test_legendes import STANDARD
@@ -114,6 +114,19 @@ class TokenTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             merge(None, b, "edition", None, [], True)
 
+    def test_visible_indication_accepts_only_token_counts(self):
+        counts = {"encodage": "o200k_base", "message_utilisateur": 20, "reponse_finale": 30}
+        self.assertEqual(visible_measure(counts), dict(counts, total_visible=50))
+        for bad in (
+            {"texte": "privé"},
+            dict(counts, reponse_finale=-1),
+            dict(counts, message_utilisateur=True),
+            dict(counts, texte="privé"),
+            [],
+        ):
+            with self.subTest(bad=bad), self.assertRaises(ValueError):
+                visible_measure(bad)
+
     def test_manual_ci_only_writes_the_requested_branch_and_file(self):
         with tempfile.TemporaryDirectory() as temp:
             repo = Path(temp) / "repo"
@@ -155,5 +168,66 @@ class TokenTests(unittest.TestCase):
             self.assertEqual(data["statut"], "indisponible")
             self.assertIsNone(data["total_demande"])
             self.assertEqual(run("git", "diff", "--name-only", start, "FETCH_HEAD").stdout.strip(), p)
-            self.assertNotEqual(run(*cli, env=dict(env, BRANCHE="main"), check=False).returncode, 0)
             self.assertEqual(tip("main"), start)
+            second_env = dict(
+                env,
+                BRANCHE="main",
+                INDICATION=json.dumps(
+                    {
+                        "encodage": "o200k_base",
+                        "message_utilisateur": 3,
+                        "reponse_finale": 4,
+                    }
+                ),
+            )
+            run(*cli, env=second_env)
+            main_first = tip("main")
+            entry = "suivi/usage-llm/reprise-2.json"
+            self.assertEqual(run("git", "diff", "--name-only", start, main_first).stdout.strip(), entry)
+            data = json.loads(run("git", "show", main_first + ":" + entry).stdout)
+            self.assertEqual(data["branche"], "main")
+            self.assertEqual(data["indication_visible"]["total_visible"], 7)
+            self.assertIsNone(data["total_demande"])
+            run(*cli, env=second_env)
+            self.assertEqual(tip("main"), main_first)
+
+            # Une nouvelle demande a ses propres compteurs. Les changements locaux ne partent pas avec elle.
+            pending = repo / "travail-en-cours.md"
+            pending.write_text("brouillon")
+            run("git", "add", pending.name)
+            recu = Path(temp) / "appel.json"
+            recu.write_text(
+                json.dumps(
+                    {
+                        "id": "nouvel_appel",
+                        "usage": {
+                            "input_tokens": 9,
+                            "output_tokens": 2,
+                            "total_tokens": 11,
+                        },
+                    }
+                )
+            )
+            run(
+                sys.executable,
+                str(TOOLS / "journal_tokens.py"),
+                "--publier",
+                "--branche",
+                "main",
+                "--demande",
+                "autre",
+                "--recu",
+                str(recu),
+                "--complet",
+            )
+            second = "suivi/usage-llm/autre.json"
+            main_second = tip("main")
+            self.assertEqual(run("git", "diff", "--name-only", main_first, main_second).stdout.strip(), second)
+            new = json.loads(run("git", "show", main_second + ":" + second).stdout)
+            self.assertEqual(new["total_demande"], 11)
+            self.assertNotIn("indication_visible", new)
+            self.assertEqual(run("git", "diff", "--cached", "--name-only").stdout.strip(), pending.name)
+            self.assertEqual(tip("legendes/test"), first)
+            self.assertNotEqual(run(*cli, "--piste", "P014", env=second_env, check=False).returncode, 0)
+            self.assertNotEqual(run(*cli, env=dict(env, BRANCHE="autre"), check=False).returncode, 0)
+            self.assertEqual(tip("main"), main_second)

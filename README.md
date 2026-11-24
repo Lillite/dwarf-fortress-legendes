@@ -12,11 +12,15 @@ Conserver sur cette branche l’original anglais, les fiches, toutes les pistes,
 
 **Chaque branche d’export est conservée, même après la dernière relecture. Elle ne doit jamais être fusionnée dans `main` ni dans une autre branche.** La fin d’une histoire se consigne dans le journal de sa branche.
 
+## Consommation de chaque demande
+
+Avant de rendre la main, l’assistant publie et vérifie une fiche pour la demande qui vient de se terminer. Une question sur la méthode, la SPEC ou les outils se consigne dans `suivi/usage-llm/` sur `main`. Une demande sur un XML, une piste ou un manuscrit se consigne dans `reperes/usage-llm/` sur la branche de cet export. Le comptage commence avec la demande courante. [Règle de clôture](AGENTS.md) · [Utiliser le journal](outils/README.md#journal-des-tokens)
+
 ## Retrouver les événements liés
 
 Quand le commit qui ajoute ou modifie le XML dans `sources/` est poussé sur la branche d’export, GitHub Actions indexe les notices et recoupe leurs références sans appel à un modèle de langage. Les rapports sont conservés dans `reperes/index-legends/` sur cette branche. Pour analyser un monde déposé avant l’installation du workflow, lancer l’analyse manuellement depuis `main` en indiquant la branche de ce monde. La [notice technique](outils/README.md) décrit les deux modes et l’accès à la base SQLite.
 
-Au début d’une conversation, ouvrir le suivi de reprise, puis le sommaire `reperes/index-legends/README.md` si la prochaine étape demande une recherche. Pour une piste déjà choisie, ouvrir sa fiche dans `reperes/index-legends/dossiers/`, puis les notices et les décisions associées à la scène. Une modification éditoriale actualise les fiches et les contrôles Markdown. Le [journal des tokens](outils/README.md#journal-des-tokens) accueille les mesures de chaque demande sur la branche du monde. Pour une nouvelle découverte, utiliser aussi le bilan des recherches précédentes afin de choisir les domaines à explorer.
+Au début d’une conversation, ouvrir le suivi de reprise, puis le sommaire `reperes/index-legends/README.md` si la prochaine étape demande une recherche. Pour une piste déjà choisie, ouvrir sa fiche dans `reperes/index-legends/dossiers/`, puis les notices et les décisions associées à la scène. Une modification éditoriale actualise les fiches et les contrôles Markdown. Pour une nouvelle découverte, utiliser aussi le bilan des recherches précédentes afin de choisir les domaines à explorer.
 
 ## Du fichier anglais au manuscrit relu
 
