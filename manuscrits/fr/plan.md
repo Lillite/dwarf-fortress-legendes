@@ -6,7 +6,7 @@ Modèle à copier dans le dossier de la piste et de la langue choisies.
 
 - Identifiant de piste, lien vers son entrée et vers l’export utilisé
 - Date et formulation du choix, langue de rédaction, contraintes de couverture
-- Titre de travail, période, forme retenue et raison de ce choix
+- Titre de travail, période, forme retenue et raison de ce choix. Le titre destiné au lecteur et la quatrième de couverture vont dans `0.md`, à côté de ce plan.
 
 ## Dossier de recherche
 

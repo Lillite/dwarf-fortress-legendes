@@ -1,8 +1,6 @@
-# [Titre de la nouvelle ou du chapitre]
+# Chapitre 1
 
-## Texte
-
-<!-- Composer dans la langue choisie, avec la structure et le rythme propres à cette histoire. -->
+<!-- Adapter le numéro et le mot « Chapitre » à l’édition. Pour une nouvelle d’un seul tenant, supprimer cet en-tête. Écrire ici le texte dans la langue choisie. -->
 
 ## Notes de travail
 
