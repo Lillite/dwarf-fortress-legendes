@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.15 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.16 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -11,6 +11,14 @@ Le texte doit se suffire à lui-même. Quelqu’un qui ouvre le livre sans conna
 Commencer par ouvrir le sommaire `reperes/index-legends/README.md` sur la branche du monde. L’index permet de retrouver, par identifiant, les rôles d’une figure dans les événements et les collections qui réunissent ces derniers. Lors d’une reprise, retrouver les identifiants déjà consignés dans le registre ou le plan. Si l’index manque ou correspond à un autre état des sources, le [régénérer](outils/README.md). La lecture ciblée de l’original reste possible pendant cette opération.
 
 Relever ce qui éveille une curiosité précise : deux rencontres éloignées dans le temps, une œuvre qui survit à son auteur, une charge dont plusieurs titulaires connaissent des destins différents, un départ dont on retrouve la trace ailleurs. Revenir aux passages du XML qui soutiennent la proposition et citer les identifiants retenus. Un champ manquant ou un renvoi non résolu laisse une question ouverte. Une rencontre unique peut fournir une meilleure entrée dans le récit que cinquante mentions de la même personne.
+
+### Préparer une piste avec les outils de la branche
+
+À la reprise, ouvrir la fiche `reperes/index-legends/dossiers/Pxxx.md` du monde. Lire d’abord toute la chronologie documentée de la piste. Suivre ensuite, selon la scène à écrire, les liens vers les notices, les collections et les décisions du plan. Les références communes entre pistes et les rapprochements supplémentaires sont des départs d’enquête. Deux offres successives, deux témoins d’un même fait ou deux notices simultanées gardent chacun leur référence. Pour une séquence dont l’ordre est incertain, conserver cette incertitude dans les notes de travail.
+
+Consulter les écarts de structure et les passages à relire après une modification des sources, du plan ou du manuscrit. Comparer les ouvertures dans leur contexte. Le programme prépare la matière, l’auteur décide des coupes, de la voix et de l’ordre de narration. La présentation et le manuscrit sont écrits en Markdown sur la branche du monde.
+
+Pour chaque demande de travail sur ce monde, conserver un identifiant stable dans le [journal de consommation](outils/README.md#journal-des-tokens). Consigner les reçus réellement disponibles, ou l’état « indisponible » pour un échange sans compteur accessible. Un comptage facultatif des textes visibles reste distinct du total de la demande.
 
 ### Seconde lecture avant de proposer les pistes
 

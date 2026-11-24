@@ -191,10 +191,99 @@ def _sites(db):
     return events, returns
 
 
+def _discovery(db, out):
+    routes = defaultdict(list)
+    positions = defaultdict(list)
+    objects = defaultdict(list)
+    encounters = defaultdict(set)
+    target_types = (
+        "trade",
+        "entity overthrown",
+        "artifact possessed",
+        "artifact lost",
+        "artifact stored",
+        "hf confronted",
+        "hfs formed intrigue relationship",
+        "hf abducted",
+        "hf learns secret",
+    )
+    rows = db.execute(
+        "SELECT id,type,year,seconds72 FROM records WHERE category=? AND type IN ("
+        + ",".join("?" for _ in target_types)
+        + ") ORDER BY year,seconds72,id",
+        (EVENT, *target_types),
+    )
+    for event, kind, year, seconds in rows:
+        fields = _fields(db, EVENT, event)
+        if kind == "trade":
+            key = tuple(fields.get(p, "-1") for p in ("trader_hfid", "source_site_id", "dest_site_id"))
+            if "-1" not in key and "" not in key:
+                routes[key].append(event)
+        elif kind == "entity overthrown":
+            entity, position = fields.get("entity_id"), fields.get("position_profile_id")
+            if entity not in (None, "-1") and position not in (None, "-1"):
+                positions[entity, position].append(
+                    (
+                        year,
+                        seconds,
+                        event,
+                        fields.get("overthrown_hfid"),
+                        fields.get("pos_taker_hfid"),
+                        fields.get("instigator_hfid"),
+                    )
+                )
+        elif kind.startswith("artifact "):
+            obj = fields.get("artifact_id")
+            if obj not in (None, "-1"):
+                objects[obj].append(
+                    (year, seconds, event, kind, fields.get("hist_figure_id"), fields.get("site_id"))
+                )
+        else:
+            people = {
+                row[0]
+                for row in db.execute(
+                    "SELECT DISTINCT target_id FROM refs WHERE category=? AND owner_id=? AND target_category='historical_figure'",
+                    (EVENT, event),
+                )
+            }
+            if len(people) == 2:
+                encounters[tuple(sorted(people))].add(event)
+    _csv(
+        out / "routes.csv",
+        ("marchand", "origine", "destination", "transactions", "evenements"),
+        [(*k, len(v), " ".join(map(str, v))) for k, v in sorted(routes.items())],
+    )
+    _csv(
+        out / "successions.csv",
+        (
+            "entite",
+            "profil_local",
+            "annee",
+            "seconds72",
+            "evenement",
+            "renverse",
+            "nouveau_titulaire",
+            "instigateur",
+        ),
+        [(*k, *v) for k, vs in sorted(positions.items()) for v in vs],
+    )
+    _csv(
+        out / "objets.csv",
+        ("artefact", "annee", "seconds72", "evenement", "type", "figure_indiquee", "site"),
+        [(k, *v) for k, vs in sorted(objects.items()) for v in vs],
+    )
+    _csv(
+        out / "rencontres.csv",
+        ("figure_1", "figure_2", "evenements_relations_directes"),
+        [(*k, " ".join(map(str, sorted(v)))) for k, v in sorted(encounters.items()) if len(v) > 1],
+    )
+
+
 def write_reports(database: Path, destination: Path):
     """Générer les tables de découverte et le sommaire sans intervention éditoriale."""
     destination.mkdir(parents=True, exist_ok=True)
     with closing(_open(database)) as db:
+        _discovery(db, destination)
         battles = _battles(db)
         changes = _command_changes(battles)
         _csv(destination / "commandements.csv", BATTLE_COLUMNS, battles)
@@ -229,6 +318,10 @@ def write_reports(database: Path, destination: Path):
         "Consulter un relevé selon la question posée. Les numéros renvoient aux notices du XML de ce monde.", "",
         "| Relevé | Ce qu’il permet de retrouver |",
         "| --- | --- |",
+        "| [Routes commerciales](routes.csv) | Transactions par marchand, site de départ et destination. |",
+        "| [Successions](successions.csv) | Renversements groupés par entité et profil local de charge. |",
+        "| [Parcours des artefacts](objets.csv) | Notices de possession, perte ou dépôt pour le même objet. |",
+        "| [Rencontres répétées](rencontres.csv) | Paires de figures citées dans plusieurs notices de confrontation, intrigue, enlèvement ou apprentissage. |",
         f"| [Types d’événements](types-evenements.csv) | {sum(r[1] for r in types)} événements dans {len(types)} types. Un exemple par type pour explorer d’autres domaines. |",
         f"| [Batailles](commandements.csv) | {len({r[4] for r in battles})} batailles. Camp et chef pour chaque notice d’attaque ou de bataille en rase campagne. |",
         f"| [Chefs ayant attaqué et défendu](chefs-attaque-defense.csv) | {len(changes)} figures. Les deux événements donnés en exemple renvoient au relevé des batailles. |",
