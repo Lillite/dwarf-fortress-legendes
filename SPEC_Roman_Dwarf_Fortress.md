@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.17 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.18 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -212,9 +212,15 @@ Cet exercice reprend le motif de l’objet passé de main en main, déjà prése
 
 ### Relecture autonome de compréhension
 
-Dès le premier jet, reprendre l’ouverture et les passages où le cadre peut prêter à confusion : changement d’époque ou de point de vue, rêve, spectacle, jeu de rôles ou récit raconté par un personnage. Lire le manuscrit dans l’ordre en laissant de côté le plan, le XML et les notes d’auteur. À chaque passage, s’en tenir à ce que le lecteur a déjà pu apprendre, y compris dans les chapitres précédents. Une explication donnée plus loin aura son effet au moment où il la lira.
+Dès le premier jet, reprendre l’ouverture et les passages où le cadre peut prêter à confusion : changement d’époque ou de point de vue, rêve, spectacle, jeu de rôles ou récit raconté par un personnage. Lire le manuscrit dans l’ordre en laissant de côté le plan, la quatrième de couverture, le XML et les notes d’auteur. À chaque passage, s’en tenir à ce que le lecteur a déjà pu apprendre, y compris dans les chapitres précédents. Une explication donnée plus loin aura son effet au moment où il la lira.
 
 À la première pause naturelle, répondre par écrit ou mentalement à deux questions : **« Quelle scène concrète puis-je imaginer avec ces mots ? »** et **« Qu’est-ce qui compte pour quelqu’un ici, et qu’ai-je envie de découvrir ? »** Appuyer les réponses sur les mots du passage. Chercher une autre interprétation plausible dans ce monde. Si elle entretient le mystère ou l’humour voulu, la laisser jouer. Si elle masque ce qui se passe ou pourquoi on s’y intéresserait, avancer le plus petit indice qui éclaire la scène : un geste, un mot précis, la raison d’une visite. Relire ensuite depuis l’entrée du passage pour vérifier l’effet de la correction.
+
+**Lire l’image au pied de la lettre.** « Si je prends ces mots au pied de la lettre, qui est devant moi et qu’est-ce que je vois ? » Dans P018, « j’avais vu sous son coude la bouche de mon mari » peut faire apparaître le mari aux côtés du garçon. Boki reconnaît pourtant un trait du père sur le visage de son fils. Si une image déplace ainsi un corps ou un geste d’une personne à une autre, nommer le détail visible et celui à qui il appartient. On pourrait écrire « Le garçon avait levé le bras. J’avais aperçu sa dent de travers, en bas, au milieu. Son père avait la même. »
+
+**S’arrêter à ce que le lecteur sait déjà.** Quand le récit passe au souvenir ou qu’un personnage change de rôle dans la famille, s’arrêter à la phrase de bascule. « Qui se souvient, de qui et de quel moment ? Quels mots m’ont permis de le comprendre jusqu’ici ? » Dans « les deux fois où elle m’avait vue revenir », le lecteur connaît Boki comme la mère qui accueille son fils. Il lui manque encore le moment où Boki était elle-même l’enfant qui rentrait. Boki peut donner le repère dans sa propre voix. « Enfant, j’avais été enlevée deux fois. Comment ma mère m’avait-elle accueillie à mon retour ? »
+
+**Préserver l’ambiguïté voulue.** On peut laisser le lecteur se demander si Boki osera prendre son fils dans ses bras. Il doit pouvoir se représenter à qui appartiennent ces bras et lequel des deux vient de rentrer. Apporter la correction la plus légère qui rétablit ces repères, puis relire depuis la phrase précédente, avec le seul manuscrit, pour vérifier l’image obtenue et la question qui reste ouverte.
 
 **Exemple du roi de pâte.** Dans un monde fantastique, un petit roi que l’on soulève et dont on soutient le menton peut se lire comme un souverain vivant et fragile. Dire qu’Odda joue la reine éclaire son rôle à elle. Montrer Buh qui pose sur la table le roi qu’elle a *modelé* rend la figurine immédiatement identifiable. Avancer la promesse du poème pour le souper des laveuses répond à l’autre question : on comprend pourquoi Buh tient à réussir sa petite représentation. On peut alors laisser au lecteur le plaisir de découvrir ce qu’Odda a fait du caillou.
 
