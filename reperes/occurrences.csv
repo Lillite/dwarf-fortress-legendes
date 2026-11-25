@@ -291,3 +291,31 @@ P016,2045,7,134400,site dispute,1068547,"Même couple de sites pour six litiges,
 P016,2729,11,0,site dispute,1074192,"Même couple de sites pour six litiges, puis destin de Straybend",,dispute=water rights | entity_id_1=279 | entity_id_2=334 | site_id_1=80 | site_id_2=113
 P016,3941,17,184800,hf destroyed site,1084630,"Même couple de sites pour six litiges, puis destin de Straybend",387,attacker_hfid=3 | defender_civ_id=278 | site_civ_id=279 | site_id=80
 P016,71597,100,3197,reclaim site,1668093,"Même couple de sites pour six litiges, puis destin de Straybend",,civ_id=302 | site_civ_id=985 | site_id=80
+P017,31266,70,-1,artifact created,1323585,Dons et dépôts des deux trésors,,artifact_id=171 | unit_id=-1 | hist_figure_id=3029 | entity_id=-1 | site_id=198
+P017,31267,70,-1,artifact given,1323596,Dons et dépôts des deux trésors,,artifact_id=171 | giver_hist_figure_id=3029 | giver_entity_id=-1 | receiver_hist_figure_id=2592 | receiver_entity_id=304
+P017,31268,70,-1,artifact claim formed,1323607,Dons et dépôts des deux trésors,,artifact_id=171 | claim=treasure | hist_figure_id=-1 | entity_id=304 | position_profile_id=-1
+P017,31269,70,-1,artifact stored,1323618,Dons et dépôts des deux trésors,,artifact_id=171 | unit_id=-1 | hist_figure_id=2592 | site_id=90
+P017,32079,71,-1,item stolen,1331420,Vols à Orbliving et dépôts à Portaldeep,3208,circumstance=historical event collection | circumstance_id=3208
+P017,32080,71,-1,artifact stored,1331428,Vols à Orbliving et dépôts à Portaldeep,3208,artifact_id=171 | unit_id=-1 | hist_figure_id=1536 | site_id=22
+P017,49744,86,-1,artifact created,1480901,Dons et dépôts des deux trésors,,artifact_id=290 | unit_id=-1 | hist_figure_id=5007 | entity_id=-1 | site_id=198
+P017,49745,86,-1,artifact given,1480912,Dons et dépôts des deux trésors,,artifact_id=290 | giver_hist_figure_id=5007 | giver_entity_id=-1 | receiver_hist_figure_id=2592 | receiver_entity_id=304
+P017,49746,86,-1,artifact claim formed,1480923,Dons et dépôts des deux trésors,,artifact_id=290 | claim=treasure | hist_figure_id=-1 | entity_id=304 | position_profile_id=-1
+P017,49747,86,-1,artifact stored,1480934,Dons et dépôts des deux trésors,,artifact_id=290 | unit_id=-1 | hist_figure_id=2592 | site_id=90
+P017,64148,96,-1,item stolen,1604252,Vols à Orbliving et dépôts à Portaldeep,5528,circumstance=historical event collection | circumstance_id=5528
+P017,64149,96,-1,artifact stored,1604260,Vols à Orbliving et dépôts à Portaldeep,5528,artifact_id=290 | unit_id=-1 | hist_figure_id=1536 | site_id=22
+P017,64150,96,-1,item stolen,1604270,Vols à Orbliving et dépôts à Portaldeep,5528,circumstance=historical event collection | circumstance_id=5528
+P018,28247,67,-1,hf abducted,1298339,Captivités et retours de Boki,2915,target_hfid=5364 | snatcher_hfid=3396 | site_id=193 | subregion_id=-1 | feature_layer_id=-1
+P018,28249,67,-1,add hf entity link,1298361,Captivités et retours de Boki,2915,civ_id=291 | link=prisoner | hfid=5364
+P018,28250,67,-1,change hf state,1298370,Captivités et retours de Boki,2915,"hfid=5364 | state=settled | site_id=85 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P018,32139,71,-1,change hf state,1331893,Captivités et retours de Boki,,"hfid=5364 | state=settled | reason=flight | site_id=193 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P018,32140,71,-1,hf reunion,1331906,Captivités et retours de Boki,,group_1_hfid=5364 | group_2_hfid=1722 | site_id=193 | subregion_id=-1 | feature_layer_id=-1
+P018,34732,74,-1,hf abducted,1354330,Captivités et retours de Boki,3429,target_hfid=5364 | snatcher_hfid=3396 | site_id=193 | subregion_id=-1 | feature_layer_id=-1
+P018,34733,74,-1,add hf entity link,1354341,Captivités et retours de Boki,3429,civ_id=291 | link=prisoner | hfid=5364
+P018,34734,74,-1,change hf state,1354350,Captivités et retours de Boki,3429,"hfid=5364 | state=settled | site_id=85 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P018,44391,82,-1,change hf state,1434155,Captivités et retours de Boki,,"hfid=5364 | state=settled | reason=flight | site_id=193 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P018,44392,82,-1,hf reunion,1434168,Captivités et retours de Boki,,group_1_hfid=5364 | group_2_hfid=1722 | site_id=193 | subregion_id=-1 | feature_layer_id=-1
+P018,53037,89,-1,hf abducted,1509234,Captivité et retour de Dof,4791,target_hfid=9044 | snatcher_hfid=3567 | site_id=193 | subregion_id=-1 | feature_layer_id=-1
+P018,53039,89,-1,add hf entity link,1509256,Captivité et retour de Dof,4791,civ_id=291 | link=prisoner | hfid=9044
+P018,53040,89,-1,change hf state,1509265,Captivité et retour de Dof,4791,"hfid=9044 | state=settled | site_id=85 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P018,69715,99,-1,change hf state,1649538,Captivité et retour de Dof,,"hfid=9044 | state=settled | reason=flight | site_id=193 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
+P018,69716,99,-1,hf reunion,1649551,Captivité et retour de Dof,,group_1_hfid=9044 | group_2_hfid=5364 | site_id=193 | subregion_id=-1 | feature_layer_id=-1

@@ -1,6 +1,4 @@
-# Celui qui ne vieillissait pas
-
-## I. L’oreille hors de l’eau
+# Chapitre 1
 
 La première promesse d’immortalité que reçut Solon Beachedglaze lui entra par une seule oreille. L’autre était sous l’eau. Elle acheva sa longueur, prit le rebord à deux mains et cracha dans la rigole.
 
@@ -56,7 +54,7 @@ Cette demande parut lui procurer un grand soulagement.
 
 — Elle essayait de manger un poisson qu’elle avait trop salé.
 
-## II. Les joues du poisson
+# Chapitre 2
 
 Trente-cinq ans plus tôt, à Blockadedeath, Kib avait posé le poisson au milieu d’une table mise pour une personne. En voyant son ancien mari sur le seuil, elle repoussa du coude un petit pot de sel qui entrait encore dans son champ de vision, comme s’il y avait à craindre de cet animal blanc un dernier tour de malice.
 
@@ -152,7 +150,7 @@ L’année suivante, à Boardhammers, un homme arrêta Asmel sur une rampe et lu
 
 Il quitta la forteresse pour Diamondgalley. Cette nuit-là, dans le pays où il avait perdu son mari et son fils, il dormit avec ses bottes. Il croyait qu’il lui serait difficile de s’endormir. Au réveil il trouva sur le drap, imprimé par ses deux talons, un peu de la terre de Boardhammers.
 
-## III. Ce qu’on peut tirer d’une rivière
+# Chapitre 3
 
 Aux bains de Boardhammers, la lumière du soupirail venait d’atteindre le fond du bassin. Solon la regarda cheminer sur les carreaux. Elle laissa Asmel lui raconter sa fuite jusqu’au bout. Il avait marché, il avait trouvé une chambre, il avait eu très froid aux pieds. Quant à Kib, il en revenait à ce fichu poisson. On aurait dit qu’à partir de la joue qu’elle lui avait mise dans la main, il ne savait rien faire de ses souvenirs que les remonter jusqu’à leur commencement pour les lui raconter à nouveau.
 
@@ -208,7 +206,7 @@ La tête de Kib était près de son coude. Elle la souleva hors des herbes et en
 
 Des années après, elle revint en armes à Rockglistened. Le chemin avait changé, les nains passèrent plus haut. Elle aperçut au loin ce qui lui semblait être les saules et l’espèce de jour que faisaient toujours entre les arbres les travaux et le passage des gens. Un elfe courait en ramassant de place en place du linge sur une longue corde. Il tirait à poignées, les pinces sautaient. Elle revit les deux chausses rouges. Elle se demanda souvent, par la suite, si ce qu’elle y avait pris pour deux rouges était de l’étoffe dépareillée, ou simplement la lumière du bois.
 
-## IV. La leçon
+# Chapitre 4
 
 Il y avait longtemps qu’Asmel avait cessé de faire des ronds avec son pied dans l’eau du bain. Solon s’entendit lui parler de linge. Tout à coup cela lui parut insupportable, ce linge qu’elle rapportait encore une fois de la forêt comme si quelqu’un, à Boardhammers, le lui avait donné à laver.
 

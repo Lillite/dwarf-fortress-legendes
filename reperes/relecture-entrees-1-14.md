@@ -2,7 +2,7 @@
 
 Relecture du 22 novembre 2026 à partir de la [SPEC 1.14](../SPEC_Roman_Dwarf_Fortress.md#choisir-le-moment-où-le-lecteur-entre-dans-lhistoire) et des [seize propositions](https://github.com/Lillite/dwarf-fortress-legendes/blob/2e0d72c747f2656d1de516485ae58d0fb75c5cc9/reperes/pistes.md). Les variantes ci-dessous sont les essais de fiction qui ont précédé la révision. Les citations et les liens du diagnostic renvoient aux versions lues ce jour-là.
 
-**Application de la relecture.** Les entrées retenues se lisent dans le [registre révisé](pistes.md). Pour comparer les essais ci-dessous aux passages effectivement publiés, voir [le paquet de Belde dans P001](../manuscrits/fr/P001/04.md), [le repas de Dothan dans P002](../manuscrits/fr/P002/02.md) et [la nuit racontée par Asmel dans P014](../manuscrits/fr/P014/nouvelle.md#iv-la-leçon).
+**Application de la relecture.** Les entrées retenues se lisent dans le [registre révisé](pistes.md). Pour comparer les essais ci-dessous aux passages effectivement publiés, voir [le paquet de Belde dans P001](../manuscrits/fr/P001/04.md), [le repas de Dothan dans P002](../manuscrits/fr/P002/02.md) et [la nuit racontée par Asmel dans P014](../manuscrits/fr/P014/nouvelle.md#chapitre-4).
 
 **P003, P007 et P012 sont les premières fiches à reprendre.** Thilu rouvre une page ancienne, les voyageurs parlent d’un objet déjà donné, un lecteur reconnaît le nom d’un champion sur une couverture. Pris séparément, ces débuts peuvent convenir. Lus à la suite, ils demandent trois fois au lecteur de reconstituer ce qui a déjà eu lieu. Chacune de ces histoires possède un instant où quelqu’un a encore une réponse à donner.
 

@@ -1,0 +1,561 @@
+evenement_a_examiner,references_communes
+334,entity/268 | historical_figure/340
+354,entity/276 | historical_figure/393
+355,entity/276 | historical_figure/394
+357,entity/276 | historical_figure/396
+358,entity/276 | historical_figure/397
+706,historical_figure/660 | site/117
+709,historical_figure/657 | site/117
+857,historical_figure/660 | site/94
+897,historical_figure/340 | site/76
+935,entity/276 | historical_figure/396
+936,entity/276 | historical_figure/400
+1070,historical_figure/657 | site/117
+1091,historical_figure/784 | site/94
+1120,entity/315 | historical_figure/784
+1126,historical_figure/657 | site/117
+1132,historical_figure/784 | site/94
+1208,historical_figure/397 | historical_figure/399
+1537,historical_figure/340 | site/76
+1729,historical_figure/394 | site/117
+1730,historical_figure/394 | site/117
+1770,historical_figure/340 | site/76
+2043,historical_figure/402 | site/117
+3121,entity/338 | historical_figure/1279
+3321,historical_figure/1279 | site/117
+3322,historical_figure/1279 | site/117
+3335,historical_figure/1279 | site/117
+3507,entity/338 | historical_figure/1357
+3540,historical_figure/1357 | site/117
+3541,historical_figure/1357 | site/117
+3546,entity/290 | historical_figure/501
+3571,historical_figure/400 | historical_figure/1357 | site/117
+3678,historical_figure/397 | historical_figure/399
+3723,entity/338 | historical_figure/1402
+4101,entity/268 | historical_figure/393 | historical_figure/396 | historical_figure/1082 | site/76
+4110,entity/268 | historical_figure/349 | historical_figure/399 | site/76
+4112,entity/268 | historical_figure/399 | site/76
+4260,historical_figure/396 | historical_figure/1402
+4354,entity/268 | historical_figure/394 | historical_figure/397 | historical_figure/399 | site/76
+4365,entity/268 | historical_figure/349 | site/76
+4366,entity/268 | historical_figure/399 | site/76
+4445,entity/338 | historical_figure/1557
+4498,historical_figure/1557 | site/117
+4499,historical_figure/1557 | site/117
+4555,entity/268 | historical_figure/394 | historical_figure/396 | historical_figure/399 | historical_figure/400 | site/76
+4562,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+4563,entity/268 | historical_figure/399 | site/76
+4823,entity/268 | historical_figure/394 | historical_figure/396 | historical_figure/397 | historical_figure/400 | historical_figure/805 | site/76
+4842,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+4844,entity/268 | historical_figure/399 | site/76
+5046,historical_figure/1557 | site/117
+5089,entity/268 | historical_figure/396 | historical_figure/397 | historical_figure/805 | site/76
+5121,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+5125,entity/268 | historical_figure/399 | site/76
+5283,entity/338 | historical_figure/1679
+5378,historical_figure/394 | historical_figure/1679 | site/117
+5379,historical_figure/394 | historical_figure/1679 | site/117
+5381,historical_figure/399 | historical_figure/1679 | site/117
+5421,entity/268 | historical_figure/393 | historical_figure/394 | historical_figure/805 | historical_figure/1082 | site/76
+5438,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+5439,entity/268 | historical_figure/399 | site/76
+5671,historical_figure/973 | site/117
+5726,entity/268 | historical_figure/394 | historical_figure/399 | historical_figure/805 | site/76
+5738,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+5746,entity/268 | historical_figure/399 | site/76
+6008,historical_figure/397 | site/117
+6058,entity/268 | historical_figure/393 | historical_figure/397 | historical_figure/399 | historical_figure/400 | historical_figure/1082 | site/76
+6078,entity/268 | historical_figure/349 | site/76
+6080,entity/268 | historical_figure/399 | site/76
+6265,entity/338 | historical_figure/1816
+6349,entity/268 | historical_figure/393 | historical_figure/396 | historical_figure/399 | historical_figure/1082 | site/76
+6355,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+6356,entity/268 | historical_figure/399 | site/76
+6633,entity/268 | historical_figure/393 | historical_figure/394 | historical_figure/399 | historical_figure/400 | historical_figure/1082 | site/76
+6640,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+6641,entity/268 | historical_figure/399 | site/76
+6673,historical_figure/1816 | site/117
+6674,historical_figure/1816 | site/117
+6843,historical_figure/1926 | site/138
+6864,entity/338 | historical_figure/1927
+6956,historical_figure/397 | historical_figure/1927
+7003,entity/268 | historical_figure/394 | historical_figure/399 | historical_figure/805 | site/76
+7095,entity/268 | historical_figure/349 | site/76
+7099,entity/268 | historical_figure/399 | site/76
+7210,entity/338 | historical_figure/2004
+7347,historical_figure/2004 | site/117
+7348,historical_figure/2004 | site/117
+7591,entity/338 | historical_figure/2073
+7748,historical_figure/1142 | site/117
+7749,historical_figure/1222 | historical_figure/2073 | site/117
+7839,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+7840,entity/268 | historical_figure/399 | site/76
+8100,entity/338 | historical_figure/2167
+8229,entity/268 | historical_figure/805 | site/76
+8242,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+8256,entity/268 | historical_figure/399 | site/76
+8488,historical_figure/2167 | site/117
+8514,entity/268 | historical_figure/399 | historical_figure/1082 | historical_figure/1926 | site/76
+8527,entity/268 | historical_figure/349 | site/76
+8528,entity/268 | historical_figure/399 | site/76
+8653,entity/338 | historical_figure/2313
+8801,entity/268 | historical_figure/394 | historical_figure/973 | historical_figure/1142 | site/76
+8811,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+8814,entity/268 | historical_figure/399 | site/76
+9066,entity/268 | historical_figure/393 | historical_figure/399 | historical_figure/1142 | site/76
+9083,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+9084,entity/268 | historical_figure/399 | site/76
+9420,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+9430,entity/268 | historical_figure/399 | site/76
+9790,entity/268 | historical_figure/396 | historical_figure/400 | site/76
+9801,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+9807,entity/268 | historical_figure/399 | site/76
+9812,historical_figure/2313 | site/117
+9813,historical_figure/2313 | site/117
+10147,historical_figure/397 | historical_figure/2313 | site/117
+10148,historical_figure/2313 | site/117
+10149,historical_figure/2313 | site/117
+10150,historical_figure/2313 | site/117
+10151,historical_figure/400 | site/117
+10254,entity/268 | historical_figure/393 | historical_figure/399 | historical_figure/400 | historical_figure/1082 | historical_figure/1390 | site/76
+10266,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+10269,entity/268 | historical_figure/399 | site/76
+10457,entity/338 | historical_figure/2648
+10602,entity/268 | historical_figure/394 | historical_figure/1222 | site/76
+10631,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+10641,entity/268 | historical_figure/399 | site/76
+10970,historical_figure/1547 | site/117
+10971,historical_figure/1199 | historical_figure/2648 | site/117
+10972,historical_figure/2648 | site/117
+10973,historical_figure/2648 | site/117
+11029,entity/268 | historical_figure/393 | historical_figure/1199 | site/76
+11265,entity/338 | historical_figure/2780
+11454,historical_figure/2780 | site/117
+11455,historical_figure/2780 | site/117
+11456,historical_figure/2780 | site/117
+11466,entity/268 | historical_figure/1390 | site/76
+11474,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+11479,entity/268 | historical_figure/399 | site/76
+11840,historical_figure/805 | historical_figure/2780
+11899,entity/268 | historical_figure/394 | historical_figure/399 | historical_figure/805 | historical_figure/1926 | site/76
+11922,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+11928,entity/268 | historical_figure/399 | site/76
+12229,entity/338 | historical_figure/2940
+12365,historical_figure/2940 | site/117
+12367,historical_figure/399 | site/117
+12368,historical_figure/399 | site/117
+12425,entity/268 | historical_figure/397 | historical_figure/1142 | historical_figure/1547 | site/76
+12443,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+12444,entity/268 | historical_figure/399 | site/76
+12719,entity/338 | historical_figure/3016
+12817,historical_figure/3016 | site/117
+12818,historical_figure/3016 | site/117
+12885,historical_figure/805 | historical_figure/3016 | site/117
+12925,historical_figure/340 | site/76
+12930,entity/268 | historical_figure/400 | historical_figure/805 | historical_figure/973 | site/76
+12941,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+12942,entity/268 | historical_figure/399 | site/76
+12959,entity/302 | historical_figure/1199
+12960,historical_figure/1199 | site/185
+13150,entity/338 | historical_figure/3090
+13317,historical_figure/346 | site/76
+13330,historical_figure/3090 | site/117
+13331,historical_figure/3090 | site/117
+13348,entity/302 | historical_figure/340 | historical_figure/349 | site/185
+13359,entity/302 | historical_figure/393 | historical_figure/1222 | site/185
+13363,entity/302 | historical_figure/393 | historical_figure/394 | historical_figure/399 | site/185
+13404,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+13407,entity/268 | historical_figure/399 | site/76
+13815,entity/302 | historical_figure/340 | historical_figure/349 | site/185
+13819,entity/302 | historical_figure/397 | historical_figure/399 | historical_figure/805 | historical_figure/1142 | historical_figure/1926 | site/185
+13841,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+13852,entity/268 | historical_figure/805 | historical_figure/1926 | site/76
+13860,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+13865,entity/268 | historical_figure/399 | site/76
+14031,historical_figure/1390 | historical_figure/1567
+14318,entity/302 | historical_figure/399 | site/185
+14330,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+14336,entity/268 | historical_figure/1567 | historical_figure/1926 | site/76
+14345,entity/290 | historical_figure/501
+14394,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+14403,entity/268 | historical_figure/399 | site/76
+14796,historical_figure/1222 | site/76
+14797,historical_figure/1222 | site/76
+14806,historical_figure/396 | historical_figure/3090 | site/117
+14877,entity/302 | historical_figure/399 | site/185
+14888,entity/302 | historical_figure/973 | historical_figure/1567 | historical_figure/1749 | historical_figure/1975 | site/185
+14896,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+14926,entity/268 | historical_figure/394 | historical_figure/397 | historical_figure/1926 | site/76
+14935,entity/268 | historical_figure/349 | site/76
+14943,entity/268 | historical_figure/399 | site/76
+15043,historical_figure/1975 | historical_figure/1978
+15256,entity/338 | historical_figure/3422
+15379,entity/302 | historical_figure/399 | site/185
+15382,entity/302 | historical_figure/396 | site/185
+15385,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+15398,entity/268 | historical_figure/973 | historical_figure/1975 | site/76
+15405,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+15406,entity/268 | historical_figure/399 | site/76
+15915,historical_figure/3422 | site/117
+15995,entity/302 | historical_figure/399 | site/185
+16000,entity/302 | historical_figure/399 | site/185
+16035,entity/268 | historical_figure/973 | historical_figure/1142 | historical_figure/1749 | site/76
+16067,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+16069,entity/268 | historical_figure/399 | site/76
+16325,entity/338 | historical_figure/3588
+16532,entity/302 | historical_figure/399 | site/185
+16535,entity/302 | historical_figure/1609 | site/185
+16543,entity/302 | historical_figure/399 | site/185
+16555,entity/268 | historical_figure/399 | historical_figure/1199 | historical_figure/1547 | historical_figure/1609 | historical_figure/1926 | historical_figure/2086 | site/76
+16581,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+16582,entity/268 | historical_figure/399 | site/76
+16589,historical_figure/3588 | site/117
+16590,historical_figure/3588 | site/117
+16922,entity/338 | historical_figure/3681
+17100,historical_figure/397 | historical_figure/3681
+17182,entity/302 | historical_figure/399 | site/185
+17193,entity/302 | historical_figure/393 | historical_figure/397 | historical_figure/400 | site/185
+17202,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+17212,entity/268 | historical_figure/394 | historical_figure/397 | historical_figure/1142 | historical_figure/1199 | historical_figure/1390 | site/76
+17226,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+17232,entity/268 | historical_figure/399 | site/76
+17253,entity/302 | historical_figure/2086
+17726,historical_figure/349 | site/76
+17742,historical_figure/973 | site/117
+17744,historical_figure/3681 | site/117
+17745,historical_figure/400 | site/117
+17796,entity/302 | historical_figure/399 | site/185
+17810,entity/302 | historical_figure/1609 | historical_figure/2086 | historical_figure/2088 | site/185
+17815,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+17826,entity/268 | historical_figure/1609 | historical_figure/1749 | site/76
+17840,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+17844,entity/268 | historical_figure/399 | site/76
+18252,entity/338 | historical_figure/3900
+18420,historical_figure/3900 | site/117
+18474,entity/302 | historical_figure/399 | site/185
+18476,entity/302 | historical_figure/399 | site/185
+18481,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+18501,entity/268 | historical_figure/397 | historical_figure/1978 | historical_figure/2086 | site/76
+18515,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+18521,entity/268 | historical_figure/399 | site/76
+18865,entity/338 | historical_figure/4008
+18974,historical_figure/1199 | site/185
+19052,historical_figure/1142 | historical_figure/4008 | site/117
+19110,entity/302 | historical_figure/399 | site/185
+19119,entity/302 | historical_figure/1390 | historical_figure/2088 | site/185
+19128,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+19131,historical_figure/1222 | site/76
+19134,entity/268 | historical_figure/393 | historical_figure/1567 | historical_figure/1975 | site/76
+19144,entity/268 | historical_figure/349 | site/76
+19146,entity/268 | historical_figure/399 | site/76
+19573,entity/338 | historical_figure/4101
+19694,historical_figure/4101 | site/117
+19695,historical_figure/4101 | site/117
+19696,historical_figure/4101 | site/117
+19697,historical_figure/4101 | site/117
+19747,entity/302 | historical_figure/399 | site/185
+19755,entity/302 | historical_figure/1609 | historical_figure/2086 | site/185
+19761,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+19770,entity/268 | historical_figure/397 | historical_figure/399 | historical_figure/1199 | site/76
+19801,historical_figure/1222 | site/76
+19804,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+19807,entity/268 | historical_figure/399 | site/76
+20160,entity/338 | historical_figure/4198
+20381,historical_figure/805 | historical_figure/4198 | site/117
+20399,historical_figure/346 | site/76
+20421,entity/302 | historical_figure/399 | site/185
+20424,entity/302 | historical_figure/973 | historical_figure/1142 | historical_figure/1749 | site/185
+20427,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+20432,entity/268 | historical_figure/1142 | historical_figure/1390 | historical_figure/2086 | historical_figure/2088 | site/76
+20452,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+20457,entity/268 | historical_figure/399 | site/76
+20899,entity/338 | historical_figure/4316
+21023,historical_figure/1222 | site/76
+21069,historical_figure/4316 | site/117
+21070,historical_figure/4316 | site/117
+21130,entity/302 | historical_figure/399 | site/185
+21136,entity/302 | historical_figure/397 | historical_figure/1390 | historical_figure/1547 | historical_figure/1567 | historical_figure/2218 | site/185
+21139,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+21159,entity/268 | historical_figure/1199 | historical_figure/2218 | site/76
+21178,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+21181,entity/268 | historical_figure/399 | site/76
+21770,historical_figure/1222 | historical_figure/1978
+21771,historical_figure/1978 | site/76
+21849,entity/302 | historical_figure/399 | site/185
+21874,entity/302 | historical_figure/973 | site/185
+21880,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+21889,entity/268 | historical_figure/1142 | site/76
+21924,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+21938,entity/268 | historical_figure/399 | site/76
+22169,historical_figure/1609 | historical_figure/2086
+22177,historical_figure/394 | site/76
+22623,entity/302 | historical_figure/399 | site/185
+22626,entity/302 | historical_figure/805 | site/185
+22631,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+22644,entity/302 | historical_figure/2088
+22647,entity/268 | historical_figure/394 | historical_figure/399 | historical_figure/1390 | site/76
+22671,entity/268 | historical_figure/340 | historical_figure/349 | site/76
+22672,entity/268 | historical_figure/399 | site/76
+22896,historical_figure/1390 | historical_figure/1567
+23315,historical_figure/1222 | site/76
+23336,entity/302 | historical_figure/399 | site/185
+23340,entity/302 | historical_figure/2218 | site/185
+23346,entity/268 | historical_figure/340
+23414,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+23437,entity/268 | historical_figure/1222 | historical_figure/1390 | site/76
+23510,entity/268 | historical_figure/346 | historical_figure/349 | site/76
+23544,entity/268 | historical_figure/399 | site/76
+23679,historical_figure/1609 | historical_figure/2086
+24305,entity/302 | historical_figure/399 | site/185
+24314,entity/302 | historical_figure/2086 | site/185
+24329,entity/302 | historical_figure/399 | site/185
+24338,entity/268 | historical_figure/397 | historical_figure/2086 | site/76
+24391,entity/268 | historical_figure/349 | site/76
+24396,entity/268 | historical_figure/399 | site/76
+24447,historical_figure/1222 | site/76
+25064,entity/302 | historical_figure/399 | site/185
+25069,entity/302 | historical_figure/400 | historical_figure/2086 | site/185
+25086,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+25142,entity/268 | historical_figure/805 | historical_figure/1749 | historical_figure/1978 | site/76
+25157,entity/268 | historical_figure/349 | site/76
+25165,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+25711,historical_figure/394 | site/76
+25742,entity/302 | historical_figure/399 | site/185
+25744,entity/302 | historical_figure/1749 | historical_figure/2218 | site/185
+25748,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+25779,entity/268 | historical_figure/349 | site/76
+25795,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+26492,entity/302 | historical_figure/399 | site/185
+26493,entity/302 | historical_figure/397 | historical_figure/973 | historical_figure/1975 | historical_figure/2218 | site/185
+26497,entity/302 | historical_figure/399 | site/185
+26501,entity/302 | historical_figure/2476
+26505,entity/268 | historical_figure/805 | historical_figure/1609 | historical_figure/1978 | historical_figure/2086 | historical_figure/2218 | site/76
+26521,entity/268 | historical_figure/349 | site/76
+26525,entity/268 | historical_figure/399 | site/76
+27194,entity/302 | historical_figure/399 | site/185
+27197,entity/302 | historical_figure/396 | site/185
+27203,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+27916,entity/302 | historical_figure/399 | site/185
+27921,entity/302 | historical_figure/396 | historical_figure/973 | site/185
+27930,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+27963,entity/268 | historical_figure/1199 | historical_figure/1567 | historical_figure/2218 | site/76
+27977,entity/268 | historical_figure/349 | site/76
+27979,entity/268 | historical_figure/399 | site/76
+28713,entity/302 | historical_figure/399 | site/185
+28720,entity/302 | historical_figure/397 | historical_figure/1978 | site/185
+28731,entity/302 | historical_figure/399 | site/185
+28738,entity/268 | historical_figure/394 | historical_figure/400 | historical_figure/973 | historical_figure/2218 | site/76
+28759,entity/268 | historical_figure/349 | site/76
+28761,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+29471,entity/290 | historical_figure/501
+29581,entity/302 | historical_figure/399 | site/185
+29594,entity/302 | historical_figure/1926 | historical_figure/2086 | site/185
+29598,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+29616,entity/268 | historical_figure/973 | historical_figure/1547 | site/76
+29675,entity/268 | historical_figure/349 | site/76
+29677,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+30340,entity/276 | historical_figure/397
+30600,entity/302 | historical_figure/399 | site/185
+30604,entity/302 | historical_figure/1926 | site/185
+30646,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+30657,entity/268 | historical_figure/400 | historical_figure/1749 | historical_figure/1978 | historical_figure/2086 | site/76
+30677,entity/268 | historical_figure/349 | site/76
+30680,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+31603,entity/302 | historical_figure/399 | site/185
+31613,entity/302 | historical_figure/400 | historical_figure/805 | historical_figure/973 | site/185
+31617,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+31704,entity/268 | historical_figure/349 | site/76
+31725,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+32752,entity/302 | historical_figure/399 | site/185
+32772,entity/302 | historical_figure/393 | historical_figure/1567 | site/185
+32776,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+32806,entity/268 | historical_figure/1142 | historical_figure/1926 | site/76
+32826,entity/268 | historical_figure/349 | site/76
+32833,entity/268 | historical_figure/399 | site/76
+33640,entity/302 | historical_figure/394 | historical_figure/399
+33641,entity/302 | historical_figure/396 | historical_figure/1142 | historical_figure/2218
+33673,entity/302 | historical_figure/399
+33755,entity/302 | historical_figure/399 | site/185
+33758,entity/302 | historical_figure/394 | historical_figure/397 | historical_figure/2086 | site/185
+33768,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+33776,entity/268 | historical_figure/393 | historical_figure/396 | historical_figure/400 | site/76
+33788,entity/268 | historical_figure/399 | site/76
+33794,entity/268 | historical_figure/399 | site/76
+33943,historical_figure/805 | historical_figure/1222
+33945,historical_figure/805 | site/76
+34574,entity/302 | historical_figure/399 | site/185
+34576,entity/302 | historical_figure/393 | historical_figure/1222 | historical_figure/1567 | historical_figure/1749 | site/185
+34581,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+34588,entity/268 | historical_figure/1142 | historical_figure/1978 | historical_figure/2088 | site/76
+34610,entity/268 | historical_figure/399 | site/76
+34613,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+35385,entity/302 | historical_figure/399 | site/185
+35398,entity/302 | historical_figure/396 | historical_figure/400 | historical_figure/1222 | historical_figure/1390 | historical_figure/1547 | site/185
+35405,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+35435,entity/268 | historical_figure/396 | historical_figure/1978 | site/76
+35450,entity/268 | historical_figure/399 | site/76
+35541,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+36506,entity/302 | historical_figure/399 | site/185
+36511,entity/302 | historical_figure/397 | historical_figure/1222 | site/185
+36517,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+36556,entity/268 | historical_figure/1749 | historical_figure/1926 | site/76
+36580,entity/268 | historical_figure/399 | site/76
+36585,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+37538,entity/302 | historical_figure/399 | site/185
+37559,entity/302 | historical_figure/394 | historical_figure/396 | historical_figure/2088 | site/185
+37569,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+37577,entity/268 | historical_figure/394 | historical_figure/1749 | historical_figure/2088 | site/76
+37597,historical_figure/346 | site/76
+37624,entity/268 | historical_figure/399 | site/76
+37630,entity/268 | historical_figure/399 | site/76
+38724,entity/302 | historical_figure/399 | site/185
+38734,historical_figure/1978 | site/76
+38737,entity/302 | historical_figure/394 | historical_figure/1142 | historical_figure/1199 | historical_figure/1567 | historical_figure/1749 | site/185
+38766,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+38790,entity/268 | historical_figure/399 | historical_figure/1609 | site/76
+38799,entity/268 | historical_figure/399 | site/76
+38806,entity/268 | historical_figure/399 | site/76
+39811,entity/302 | historical_figure/399 | site/185
+39817,entity/302 | historical_figure/396 | historical_figure/1609 | site/185
+39820,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+39841,entity/268 | historical_figure/1978 | historical_figure/2086 | site/76
+39876,entity/268 | historical_figure/349 | site/76
+39884,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+40425,historical_figure/349 | site/76
+40707,historical_figure/805 | site/76
+40884,entity/302 | historical_figure/399 | site/185
+40900,entity/302 | historical_figure/400 | historical_figure/1749 | site/185
+40917,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+40926,entity/268 | historical_figure/394 | historical_figure/399 | historical_figure/400 | historical_figure/1390 | historical_figure/1609 | site/76
+40940,entity/268 | historical_figure/349 | site/76
+40955,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+42259,entity/290 | entity/683 | historical_figure/501
+42346,entity/302 | historical_figure/399 | site/185
+42358,entity/302 | historical_figure/393 | historical_figure/1199 | historical_figure/1547 | historical_figure/1926 | site/185
+42372,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+42385,entity/268 | historical_figure/1199 | historical_figure/1609 | historical_figure/2218 | site/76
+42416,entity/268 | historical_figure/349 | site/76
+42418,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+43422,historical_figure/349 | site/76
+43533,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+43552,entity/302 | historical_figure/805 | historical_figure/1926 | site/185
+43559,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+43568,entity/268 | historical_figure/399 | historical_figure/2088 | site/76
+43590,entity/268 | historical_figure/349 | site/76
+43597,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+44747,entity/302 | historical_figure/349 | site/185
+44751,entity/302 | historical_figure/805 | historical_figure/973 | site/185
+44755,entity/302 | historical_figure/399 | site/185
+44784,entity/268 | historical_figure/397 | site/76
+44814,entity/268 | historical_figure/349 | site/76
+44822,entity/268 | historical_figure/399 | site/76
+44944,historical_figure/349 | site/76
+46285,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+46291,entity/302 | historical_figure/396 | historical_figure/399 | historical_figure/805 | historical_figure/973 | historical_figure/1978 | site/185
+46298,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+46313,entity/268 | historical_figure/1390 | historical_figure/1978 | historical_figure/2086 | site/76
+46364,entity/268 | historical_figure/349 | site/76
+46368,entity/268 | historical_figure/399 | site/76
+47580,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+47588,entity/302 | historical_figure/805 | historical_figure/1142 | historical_figure/1390 | historical_figure/1609 | site/185
+47596,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+47669,entity/268 | historical_figure/349 | site/76
+47676,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+48884,entity/302 | historical_figure/349 | site/185
+48886,entity/302 | historical_figure/400 | historical_figure/805 | historical_figure/1547 | historical_figure/1749 | historical_figure/2086 | historical_figure/2088 | site/185
+48898,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+48925,entity/268 | historical_figure/396 | site/76
+48968,entity/268 | historical_figure/349 | site/76
+48973,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+50078,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+50090,entity/302 | historical_figure/1142 | historical_figure/1609 | site/185
+50096,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+50108,entity/268 | historical_figure/394 | historical_figure/396 | historical_figure/2088 | site/76
+50144,entity/268 | historical_figure/349 | site/76
+50145,entity/268 | historical_figure/399 | site/76
+51390,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+51395,entity/302 | historical_figure/396 | historical_figure/1609 | site/185
+51414,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+51433,entity/268 | historical_figure/1222 | site/76
+51454,entity/268 | historical_figure/349 | site/76
+51460,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+52786,entity/302 | historical_figure/399
+52787,entity/302 | historical_figure/394 | historical_figure/396 | historical_figure/1222
+52797,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+52805,entity/302 | historical_figure/396 | site/185
+52817,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+52835,entity/268 | historical_figure/399 | historical_figure/1390 | historical_figure/1926 | site/76
+52856,entity/268 | historical_figure/349 | site/76
+52864,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+52867,historical_figure/394 | site/76
+52931,historical_figure/1978 | site/76
+53266,historical_figure/1978 | site/185
+54151,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+54153,entity/302 | historical_figure/397 | historical_figure/400 | site/185
+54169,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+54228,entity/268 | historical_figure/349 | site/76
+54243,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+55388,historical_figure/346 | site/76
+55689,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+55712,entity/302 | historical_figure/393 | historical_figure/1547 | historical_figure/1567 | historical_figure/1609 | site/185
+55721,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+55747,entity/268 | historical_figure/1390 | historical_figure/1567 | site/76
+55772,entity/268 | historical_figure/349 | site/76
+55781,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+55880,historical_figure/1926 | site/138
+55967,entity/290 | entity/302 | entity/683 | historical_figure/501
+57397,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+57431,entity/302 | historical_figure/399 | site/185
+57541,entity/268 | historical_figure/349 | site/76
+57548,entity/268 | historical_figure/399 | site/76
+58956,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+58973,entity/302 | historical_figure/397 | historical_figure/399 | historical_figure/805 | historical_figure/1749 | site/185
+58982,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+59013,entity/268 | historical_figure/1222 | site/76
+59091,entity/268 | historical_figure/349 | site/76
+59093,entity/268 | historical_figure/393 | historical_figure/394 | historical_figure/399 | site/76
+60379,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+60381,entity/302 | historical_figure/397 | historical_figure/1142 | historical_figure/1978 | site/185
+60392,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+60408,entity/268 | historical_figure/394 | historical_figure/400 | historical_figure/1222 | historical_figure/1390 | site/76
+60454,entity/268 | historical_figure/349 | site/76
+60479,entity/268 | historical_figure/393 | historical_figure/394 | historical_figure/399 | site/76
+61958,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+61970,entity/302 | historical_figure/805 | site/185
+61979,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+61997,entity/268 | historical_figure/973 | historical_figure/1199 | site/76
+62033,entity/268 | historical_figure/349 | site/76
+62044,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+63730,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+63749,entity/302 | historical_figure/394 | historical_figure/1142 | historical_figure/1199 | historical_figure/1567 | site/185
+63759,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+63804,entity/268 | historical_figure/973 | site/76
+63835,entity/268 | historical_figure/349 | site/76
+63841,entity/268 | historical_figure/399 | site/76
+65291,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+65298,entity/302 | historical_figure/393 | historical_figure/394 | historical_figure/805 | historical_figure/1547 | site/185
+65309,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+65391,entity/268 | historical_figure/349 | site/76
+65393,entity/268 | historical_figure/394 | historical_figure/399 | site/76
+66875,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+66877,entity/302 | historical_figure/1142 | historical_figure/1199 | historical_figure/2086 | site/185
+66889,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+66989,entity/268 | historical_figure/1199 | site/76
+67031,entity/268 | historical_figure/349 | historical_figure/399 | site/76
+67041,entity/268 | historical_figure/393 | historical_figure/394 | historical_figure/399 | site/76
+68585,historical_figure/1978 | site/185
+68708,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+68743,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+68767,entity/268 | historical_figure/1567 | site/76
+68823,entity/268 | historical_figure/399 | site/76
+68840,entity/268 | historical_figure/393 | historical_figure/394 | historical_figure/399 | site/76
+70141,historical_figure/2086 | site/185
+70507,entity/302 | historical_figure/349 | historical_figure/399 | site/185
+70518,entity/302 | historical_figure/396 | historical_figure/400 | site/185
+70541,entity/302 | historical_figure/394 | historical_figure/399 | site/185
+70591,entity/268 | historical_figure/805 | site/76
+70643,entity/268 | historical_figure/349 | historical_figure/399 | site/76
+70663,entity/268 | historical_figure/393 | historical_figure/394 | historical_figure/399 | site/76
+70895,entity/268 | historical_figure/346
+71902,historical_figure/1978 | site/76
+72457,historical_figure/1142 | historical_figure/1978

@@ -2,13 +2,13 @@
 
 | Repère | État enregistré |
 | --- | --- |
-| Étape active | **Étape 6 achevée pour P001, P002 et P014 · Relecture selon la SPEC 1.14** |
+| Étape active | **Trois livres relus selon la SPEC 1.17. Étape 3 ouverte pour le choix d’une nouvelle histoire.** |
 | Branche permanente | `legendes/region1-an-100-02-28` |
 | Source | [Original du 28 du mois 02 de l’an 100](sources/region1-00100-02-28-legends.xml) · [Fiche de source et inventaire](sources/README.md). Le nom du monde n’est pas fourni. |
-| Index factuel | [Sommaire des rapports déjà produits](reperes/index-legends/README.md) · [Manifeste de l’original](reperes/index-legends/manifest.json). Indexation manuelle publiée au commit `81b3bdd`. |
+| Index factuel | [Relevés du monde](reperes/index-legends/README.md) · [Dossiers des 18 pistes](reperes/index-legends/dossiers/README.md). La base de l’indexation manuelle du 22 novembre et le [manifeste](reperes/index-legends/manifest.json) correspondent au même XML. |
 | Couverture de lecture | 15 sections parcourues. Seconde lecture des guerres, lieux, charges, concours, échanges et autres domaines consignés dans le [bilan](reperes/pistes.md#bilan-de-la-seconde-lecture). |
-| Dernier point atteint | [Entrées du registre reprises](reperes/pistes.md). Révision du chapitre IV de P001, du chapitre II de P002 et du mouvement IV de P014. [Diagnostic et passages retenus](reperes/relecture-entrees-1-14.md). |
-| Piste, langue et plan | Trois livres achevés en français. [P001 · Les deux poèmes de Buh](manuscrits/fr/P001/plan.md) · [P002 · Celle qu’on a crue](manuscrits/fr/P002/plan.md) · [P014 · Celui qui ne vieillissait pas](manuscrits/fr/P014/plan.md). |
+| Dernier point atteint | Deux propositions issues des nouveaux relevés, [P017](reperes/pistes.md#p017) et [P018](reperes/pistes.md#p018). Présentations et chapitres des trois livres vérifiés. [Contrôles](reperes/index-legends/dossiers/controles.md) · [Ouvertures](reperes/index-legends/dossiers/relecture.md). |
+| Livres en français | [P001 · Les deux poèmes de Buh](manuscrits/fr/P001/0.md) · [P002 · Celle qu’on a crue](manuscrits/fr/P002/0.md) · [P014 · Celui qui ne vieillissait pas](manuscrits/fr/P014/0.md). |
 | Prochaine action | Pour une nouvelle histoire, partir du [registre des pistes](reperes/pistes.md). Un identifiant ou une envie de lecture permettent de reprendre le choix. |
 
 ## Journal
@@ -35,4 +35,5 @@
 | 2026-11-22 | P014 · Étape 6 | Relecture à froid des quatre mouvements. Reprise des gestes au bain, des liens de parenté et du transport de Kib. Vérification de la note et de l’édition EPUB. | [Bilan](manuscrits/fr/P014/plan.md#bilan-de-relecture) · [Note](manuscrits/fr/P014/note.md) |
 | 2026-11-22 | Reprise selon la SPEC 1.13 | Travail de `main` (`0997faf`) intégré. Empreinte de l’index manuel vérifiée. Rapports des batailles et des œuvres repris pour P014. Relecture de l’attente du lecteur sur les trois textes, essai d’ordre et reprise du dialogue de Solon. | [P001](manuscrits/fr/P001/plan.md#relecture-du-fil-conducteur-selon-la-spec-113) · [P002](manuscrits/fr/P002/plan.md#relecture-du-fil-conducteur-selon-la-spec-113) · [P014](manuscrits/fr/P014/plan.md#relecture-du-fil-conducteur-selon-la-spec-113) |
 | 2026-11-22 | Reprise selon la SPEC 1.14 | Comparaison des entrées du registre et des trois livres. Variantes essayées sur la veste de Nithros, le retour de Dothan et le souvenir d’Asmel. Recommandations soumises à la lecture. | [Diagnostic éditorial](reperes/relecture-entrees-1-14.md) |
-| 2026-11-22 | Application du diagnostic 1.14 | Reprise des propositions, dont l’observation de Thilu, le don de Spokendrips et le concours de Nino. Relecture des trois scènes modifiées et comparaison du texte des EPUB au manuscrit de chaque livre. | [Pistes](reperes/pistes.md) · [P001, IV](manuscrits/fr/P001/04.md) · [P002, II](manuscrits/fr/P002/02.md) · [P014, IV](manuscrits/fr/P014/nouvelle.md#iv-la-leçon) |
+| 2026-11-22 | Application du diagnostic 1.14 | Reprise des propositions, dont l’observation de Thilu, le don de Spokendrips et le concours de Nino. Relecture des trois scènes modifiées et comparaison du texte des EPUB au manuscrit de chaque livre. | [Pistes](reperes/pistes.md) · [P001, IV](manuscrits/fr/P001/04.md) · [P002, II](manuscrits/fr/P002/02.md) · [P014, IV](manuscrits/fr/P014/nouvelle.md#chapitre-4) |
+| 2026-11-25 | SPEC 1.17 · Découverte et relecture | Reprise de la base SQLite manuelle. Les vols d’Orbliving et les retours de trois générations à Stylesurprise ouvrent deux pistes. Trois quatrièmes de couverture, numérotation des dix-neuf chapitres et rattachement des deux affaires d’Ac au chapitre d’ouverture. | [Bilan de découverte](reperes/pistes.md#reprise-du-25-novembre-2026) · [Dossiers, dépendances et contrôles](reperes/index-legends/dossiers/README.md) |

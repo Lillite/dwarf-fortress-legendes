@@ -4,6 +4,10 @@ Consulter un relevé selon la question posée. Les numéros renvoient aux notice
 
 | Relevé | Ce qu’il permet de retrouver |
 | --- | --- |
+| [Routes commerciales](routes.csv) | Transactions par marchand, site de départ et destination. |
+| [Successions](successions.csv) | Renversements groupés par entité et profil local de charge. |
+| [Parcours des artefacts](objets.csv) | Notices de possession, perte ou dépôt pour le même objet. |
+| [Rencontres répétées](rencontres.csv) | Paires de figures citées dans plusieurs notices de confrontation, intrigue, enlèvement ou apprentissage. |
 | [Types d’événements](types-evenements.csv) | 57526 événements dans 96 types. Un exemple par type pour explorer d’autres domaines. |
 | [Batailles](commandements.csv) | 203 batailles. Camp et chef pour chaque notice d’attaque ou de bataille en rase campagne. |
 | [Chefs ayant attaqué et défendu](chefs-attaque-defense.csv) | 8 figures. Les deux événements donnés en exemple renvoient au relevé des batailles. |
@@ -17,3 +21,5 @@ Une même notice peut documenter plusieurs histoires. Un rôle militaire indique
 ## Sources indexées
 
 - region1-00100-02-28-legends.xml · SHA-256 `b6c4315398494c30bce5ce6d491bc24e7fa64a8a6ee9a17af7ff55ee02fdfbfc`
+
+[Dossiers par piste, contrôles et relecture](dossiers/README.md)

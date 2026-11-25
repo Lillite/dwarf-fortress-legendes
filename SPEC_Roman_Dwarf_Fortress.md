@@ -1,16 +1,24 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.14 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.17 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
 Le texte doit se suffire à lui-même. Quelqu’un qui ouvre le livre sans connaître le jeu doit pouvoir s’orienter, découvrir quelque chose qui l’intéresse et avoir envie de rester en compagnie de la voix qui raconte. L’exactitude se vérifie dans les sources. Le plaisir de lecture se travaille dans la façon d’entrer dans une scène, de faire entendre une pensée et de choisir l’instant où l’on quitte un personnage.
+
+Toute demande sur le projet, y compris une question ou une vérification, se clôt par la publication et la relecture de sa fiche de consommation sur la branche concernée. La méthode commune relève de `main`, le travail sur un XML de sa branche d’export. Appliquer la [règle de clôture](AGENTS.md) avant de répondre et utiliser uniquement les mesures de la demande courante.
 
 ## 1. Trouver le sujet dans la matière disponible
 
 Commencer par ouvrir le sommaire `reperes/index-legends/README.md` sur la branche du monde. L’index permet de retrouver, par identifiant, les rôles d’une figure dans les événements et les collections qui réunissent ces derniers. Lors d’une reprise, retrouver les identifiants déjà consignés dans le registre ou le plan. Si l’index manque ou correspond à un autre état des sources, le [régénérer](outils/README.md). La lecture ciblée de l’original reste possible pendant cette opération.
 
 Relever ce qui éveille une curiosité précise : deux rencontres éloignées dans le temps, une œuvre qui survit à son auteur, une charge dont plusieurs titulaires connaissent des destins différents, un départ dont on retrouve la trace ailleurs. Revenir aux passages du XML qui soutiennent la proposition et citer les identifiants retenus. Un champ manquant ou un renvoi non résolu laisse une question ouverte. Une rencontre unique peut fournir une meilleure entrée dans le récit que cinquante mentions de la même personne.
+
+### Préparer une piste avec les outils de la branche
+
+À la reprise, ouvrir la fiche `reperes/index-legends/dossiers/Pxxx.md` du monde. Lire d’abord toute la chronologie documentée de la piste. Suivre ensuite, selon la scène à écrire, les liens vers les notices, les collections et les décisions du plan. Les références communes entre pistes et les rapprochements supplémentaires sont des départs d’enquête. Deux offres successives, deux témoins d’un même fait ou deux notices simultanées gardent chacun leur référence. Pour une séquence dont l’ordre est incertain, conserver cette incertitude dans les notes de travail.
+
+Consulter les écarts de structure et les passages à relire après une modification des sources, du plan ou du manuscrit. Comparer les ouvertures dans leur contexte. Le programme prépare la matière, l’auteur décide des coupes, de la voix et de l’ordre de narration. La présentation et le manuscrit sont écrits en Markdown sur la branche du monde.
 
 ### Seconde lecture avant de proposer les pistes
 
@@ -81,6 +89,14 @@ Au moment de choisir une piste, « quelque chose sur l’exil » permet de rappr
 | Que développer ? | Accorder de la place au geste, au dialogue ou à la perception qui donne son effet au récit. Quelques lignes peuvent franchir un siècle. | Développer les décisions et leurs conséquences. Un fil secondaire peut faire découvrir un autre milieu, éclairer le conflit depuis une position adverse ou mener sa propre vie en marge de l’intrigue. |
 | Où finir ? | Au moment où le lecteur perçoit pleinement ce qui vient de changer. Une prise de conscience, un apaisement ou une image juste peuvent suffire. | Quand le lecteur peut éprouver ce qu’est devenue la question principale. Une réponse peut avoir un prix. Une incertitude peut désormais peser autrement sur les êtres qu’il a suivis. |
 | Comment vérifier le choix ? | Si le récit continue après sa phrase la plus juste pour expliquer l’émotion, essayer de finir plus tôt. | Si le milieu répète la même situation avec d’autres dates, essayer une forme plus courte. Si le résumé escamote plusieurs choix dont dépend la fin, développer ces étapes. |
+
+### Présenter le livre et numéroter les chapitres
+
+Dans le dossier de chaque histoire et de chaque langue, réserver `0.md` au titre du livre et à sa quatrième de couverture. Mettre le titre en tête du fichier, puis écrire directement le texte que lirait quelqu’un qui hésite à ouvrir le livre. Partir de ce qui rend cette histoire singulière. Un désir, une rencontre ou une situation précise peut suffire à faire sentir le ton et à donner envie de lire. Préserver le dénouement et les révélations qui font le plaisir de la découverte. Le [modèle de présentation](modeles/0.md) convient au roman comme à la nouvelle.
+
+Le premier chapitre s’intitule **Chapitre 1**, le suivant **Chapitre 2**, et ainsi de suite, en chiffres arabes et sans intitulé supplémentaire. Employer l’équivalent de « Chapitre » dans la langue du récit. Appliquer la même numérotation dans le texte et dans le sommaire d’une éventuelle édition. `0.md` est la présentation du livre, hors numérotation. Une nouvelle d’un seul tenant peut commencer directement par sa première phrase dans `nouvelle.md`. Si elle comporte des chapitres, leur appliquer la même convention.
+
+En dernière relecture, confronter la quatrième au manuscrit achevé. Donne-t-elle envie de lire le livre que l’on a effectivement écrit ? Relire ensuite l’ouverture seule pour vérifier qu’un lecteur qui a sauté la présentation peut entrer dans l’histoire.
 
 ## 3. Respecter les événements et écrire dans les silences de l’export
 

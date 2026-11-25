@@ -5,6 +5,14 @@ on:
     branches: ['legendes/**']
     paths:
       - 'sources/**/*.[xX][mM][lL]'
+      - 'manuscrits/**/*.md'
+      - 'reperes/occurrences.csv'
+      - 'reperes/chronologie.csv'
+      - 'reperes/glossaire.csv'
+      - 'reperes/pistes.md'
+      - 'SPEC_Roman_Dwarf_Fortress.md'
+      - 'outils/dossiers_pistes.py'
+      - 'outils/relecture_monde.py'
       - 'outils/analyser_legendes.py'
       - 'outils/legends_*.py'
       - 'outils/ci_legendes.py'
@@ -15,6 +23,9 @@ on:
         description: "Branche d’export (legendes/…), à analyser avec les outils de main"
         type: string
         required: true
+      depuis:
+        description: Commit antérieur à comparer (SHA complet, facultatif)
+        type: string
 
 concurrency:
   group: indexer-legendes-${{ inputs.branche || github.ref_name }}
@@ -28,6 +39,7 @@ jobs:
     if: ${{ !github.event.deleted }}
     runs-on: ubuntu-latest
     env:
+      DOSSIERS: '1'
       BRANCHE: ${{ inputs.branche || github.ref_name }}
     steps:
       - name: Vérifier la branche de lancement manuel
@@ -43,19 +55,40 @@ jobs:
         with:
           ref: ${{ github.event_name == 'workflow_dispatch' && github.sha || 'refs/heads/main' }}
 
-      - name: Extraire les XML du commit sélectionné
+      - name: Extraire les sources et les fichiers éditoriaux
         id: source
         env:
           COMMIT_POUSSE: ${{ github.event_name == 'push' && github.sha || '' }}
         run: python3 outils/ci_legendes.py preparer
 
-      - name: Indexer et préparer les rapports
+      - name: Réutiliser la base et les relevés du même export
         if: steps.source.outputs.xml == 'true'
+        id: cache
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: ${{ runner.temp }}/legends-ci/index-cache
+          key: legends-index-v2-${{ steps.source.outputs.cle_xml }}-${{ hashFiles('outils/analyser_legendes.py', 'outils/legends_index.py', 'outils/legends_rapports.py') }}
+
+      - name: Construire la base sur cache froid
+        if: steps.source.outputs.xml == 'true' && steps.cache.outputs.cache-hit != 'true'
         run: |
-          python3 outils/analyser_legendes.py \
-            --sources "$RUNNER_TEMP/legends-ci/sources" \
-            --rapports "$RUNNER_TEMP/legends-ci/publication/reperes/index-legends" \
-            --base "$RUNNER_TEMP/legends-ci/legendes.sqlite"
+          w="$RUNNER_TEMP/legends-ci"
+          python3 outils/analyser_legendes.py --sources "$w/sources" --base "$w/index-cache/legendes.sqlite" --rapports "$w/index-cache/rapports"
+
+      - name: Préparer les dossiers de lecture et les contrôles Markdown
+        if: steps.source.outputs.xml == 'true'
+        env:
+          COMMIT_SOURCE: ${{ steps.source.outputs.commit }}
+          DEPUIS: ${{ inputs.depuis || github.event.before }}
+        run: |
+          w="$RUNNER_TEMP/legends-ci"
+          p="$w/publication/reperes/index-legends"
+          mkdir -p "$p"
+          cp -R "$w/index-cache/rapports/." "$p/"
+          python3 outils/dossiers_pistes.py "$w/index-cache/legendes.sqlite" --monde "$w" --sortie "$p/dossiers"
+          echo >> "$p/README.md"
+          echo '[Dossiers par piste, contrôles et relecture](dossiers/README.md)' >> "$p/README.md"
+          python3 outils/ci_legendes.py comparer
 
       - name: Publier les rapports sur la branche du monde
         env:
@@ -63,9 +96,18 @@ jobs:
         run: python3 outils/ci_legendes.py publier
 
       - name: Proposer la base SQLite au téléchargement
-        if: steps.source.outputs.xml == 'true'
+        if: steps.source.outputs.xml == 'true' && (steps.cache.outputs.cache-hit != 'true' || github.event_name == 'workflow_dispatch')
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: legendes-sqlite-${{ steps.source.outputs.commit }}-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/legends-ci/legendes.sqlite
+          path: ${{ runner.temp }}/legends-ci/index-cache/legendes.sqlite
+          if-no-files-found: error
+
+
+      - name: Conserver les changements à relire
+        if: steps.source.outputs.xml == 'true'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: comparaison-${{ steps.source.outputs.commit }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/legends-ci/comparaison/
           if-no-files-found: error

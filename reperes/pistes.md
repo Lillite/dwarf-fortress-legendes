@@ -1,6 +1,14 @@
 # Histoires de région 1
 
-**Choix du 22 novembre 2026.** L’utilisateur a répondu « P001 ». Le français est retenu par défaut. [Dossier des Deux Poèmes de Buh](../manuscrits/fr/P001/plan.md). L’utilisateur a ensuite demandé « Ecrit le P002 ». Les sept chapitres français de [Celle qu’on a crue](../manuscrits/fr/P002/01.md) sont achevés. [Dossier de recherche et de relecture](../manuscrits/fr/P002/plan.md). L’utilisateur a ensuite choisi P014. Les quatre mouvements de [Celui qui ne vieillissait pas](../manuscrits/fr/P014/nouvelle.md) sont achevés en français. Les autres pistes gardent leur statut. Les titres français sont des titres de travail. Les noms des personnes et des lieux gardent ici leur forme source, avec des majuscules de lecture.
+Le 22 novembre 2026, trois pistes ont été choisies et rédigées en français. Pour lire un livre, ouvrir sa présentation ou commencer directement par sa première page.
+
+| Livre | Présentation | Première page |
+| --- | --- | --- |
+| P001 · Les deux poèmes de Buh | [Quatrième de couverture](../manuscrits/fr/P001/0.md) | [Chapitre 1](../manuscrits/fr/P001/01.md) |
+| P002 · Celle qu’on a crue | [Quatrième de couverture](../manuscrits/fr/P002/0.md) | [Chapitre 1](../manuscrits/fr/P002/01.md) |
+| P014 · Celui qui ne vieillissait pas | [Quatrième de couverture](../manuscrits/fr/P014/0.md) | [Chapitre 1](../manuscrits/fr/P014/nouvelle.md#chapitre-1) |
+
+Les autres titres sont provisoires. Les noms des personnes et des lieux suivent les graphies de l’export, avec des majuscules de lecture. Les [dossiers par piste](index-legends/dossiers/README.md) réunissent les notices et leurs renvois.
 
 | ID | Titre de travail | Période proposée | Format envisagé | Choix du lecteur |
 | --- | --- | --- | --- | --- |
@@ -20,6 +28,8 @@
 | [P014](#p014) | Celui qui ne vieillissait pas | 35–96 | Longue nouvelle | 22 novembre 2026 · [Achevé en français](../manuscrits/fr/P014/plan.md) |
 | [P015](#p015) | Le dernier jour du Contingent Fist | 68–90 | Récit de compagnie | — |
 | [P016](#p016) | L’eau de Straybend | 4–11, prolongements en 17 et 100 | Nouvelle de voisinage | — |
+| [P017](#p017) | La place du premier trésor | 70–96 | Nouvelle à deux voix | — |
+| [P018](#p018) | Celle qui ouvre la porte | 67–99 | Nouvelle familiale | — |
 
 Pour la prochaine histoire, une piste, un thème ou une envie de lecture suffisent pour reprendre ce registre. Si plusieurs histoires correspondent, leurs entrées permettent d’en comparer les points de départ. Un choix peut aussi être confié à l’auteur ou au hasard.
 
@@ -195,6 +205,26 @@ Les hameaux de Straybend et de Siegerumors se disputent en l’an 4 le droit de 
 
 **Passages.** Sites 80 et 113, entités 279 et 334, événements 1519, 1538, 1720, 2038, 2045 et 2729. Destruction 3941, figure 3. Reprise 71597 par l’entité 302. Le signe d’un accord ou la continuité d’un droit de 11 à 100 manquent dans ces notices.
 
+## P017
+
+### La place du premier trésor
+
+À Orbliving, Erith Townages reçoit et dépose deux trésors à seize ans d’intervalle. Le premier, *The Counsellor of Skunks*, se retrouve dès l’année suivante dans la grotte de Portaldeep, où Slaglalbin le dépose. Dix ans s’écoulent entre les deux dépôts du second, *The Ferocity of Dreams*. À Portaldeep, c’est encore Slaglalbin qui s’en charge.
+
+**Entrée possible.** En 96, quelqu’un doit faire de la place pour un nouvel objet dans la grotte. Slaglalbin se souvient très bien de l’endroit où elle a posé le premier il y a vingt-cinq ans. L’a-t-on laissé là ? Une scène à Portaldeep et une autre auprès d’Erith à Orbliving feraient sentir ce que signifie garder un trésor dans chacune des deux communautés. La place exacte des objets, une rencontre entre les deux femmes et leurs intentions restent à imaginer.
+
+**Passages.** Artefacts 171 et 290, figures 2592 et 1536, sites 90 et 22. Pour le premier objet, événements 31266–31269 et 32079–32080. Pour le second, 49744–49747 et 64148–64150. Les collections de vol 3208 (an 71) et 5528 (an 96) rattachent chacune le dépôt de Slaglalbin à un vol à Orbliving entre les mêmes camps. En 96, deux événements de vol figurent dans la collection. Aucun des deux ne nomme l’objet ni la personne qui l’a pris. Le dépôt est le geste que l’on peut attribuer à Slaglalbin.
+
+## P018
+
+### Celle qui ouvre la porte
+
+À Stylesurprise, Boki Bladechanted retrouve sa mère Ebka en 71 et en 82. Chaque fois, la même gobeline, Ozud Redghoul, a enlevé Boki au hameau, et chaque fois le retour est enregistré comme une fuite. En 99, Boki figure de nouveau dans une scène de retrouvailles au même endroit. Cette fois, c’est son fils Dof qui rentre. Il avait été enlevé dix ans auparavant par Zolak Sternmaligned.
+
+**Entrée possible.** Boki reconnaît Dof de loin. Que faisait sa mère de ses mains, autrefois, pendant les quelques pas qu’il restait à franchir ? Elle pensait le savoir. Devant ce garçon qui a grandi loin d’elle, le geste lui échappe. Les deux souvenirs pourraient tenir dans le temps qu’il met à arriver. Le seuil, la reconnaissance et les gestes seraient inventés. On sait qui a retrouvé qui, et dans quel village.
+
+**Passages.** Figures 5364 (Boki), 1722 (Ebka) et 9044 (Dof), liens mère–enfant vérifiés dans les trois notices. Sites 193 et 85. Deux enlèvements de Boki (28247, 34732), deux fuites et retrouvailles (32139–32140, 44391–44392). Pour Dof, enlèvement 53037, captivité et installation 53039–53040, fuite et retrouvailles 69715–69716. L’export ne décrit ni le trajet des fugitifs ni les paroles échangées.
+
 ## Périmètre du premier relevé
 
 Les quinze sections ont été parcourues, puis les rapprochements ci-dessus ont été vérifiés en revenant aux notices. Le CSV conserve une ligne par événement et par piste dans le périmètre suivant. Il couvre les champs de personne pour Buh, Dothan, Thilu et Thep, les champs des textes et livres qui leur sont associés pour P003–P004, et le champ d’artefact pour Dullboredom et Spokendrips. Pour P006, il retient le couple site–structure et les interactions et fuites correspondantes. Pour P008, il retient les renvois explicites au site 676 et à l’entité 993. Quelques notices jointes éclairent une exécution, un vol, un décès ou le voyage de retour. Les relations de famille et les descriptions d’œuvres se vérifient dans les fiches citées sous chaque titre. Une ligne du relevé ne vaut pas une scène à écrire.
@@ -222,3 +252,7 @@ Le premier parcours a suivi des personnes, des œuvres, des objets, un sanctuair
 L’[index des commandements](commandements.csv) contient une ligne par bataille, le numéro et la ligne de l’événement dans l’original, le site ou la sous-région, les camps, leurs chefs lorsqu’ils sont renseignés et l’issue telle que l’export la donne. Une cellule vide ou la valeur source `-1` laisse le champ inconnu. Les batailles se retrouvent par leur propre identifiant, même si un nom se répète.
 
 Le [relevé des occurrences](occurrences.csv) conserve les lignes du premier parcours et ajoute les passages utilisés ici. Pour P009, il comprend tous les commandements de Yarare. Pour P013, toutes les transactions qui désignent Gamo comme marchande. Pour P012, les épreuves citées servent à retrouver des moments distincts de son parcours, tandis que le total de 177 provient de l’ensemble des notices portant `winner_hfid=399`. Une occurrence commune à deux pistes y apparaît pour chacune. Le choix de la prochaine histoire reste ouvert.
+
+## Reprise du 25 novembre 2026
+
+Les [routes commerciales](index-legends/routes.csv) permettent de retrouver les trajets de Gamo (P013). Les cinq [renversements](index-legends/successions.csv) comprennent les deux changements de titulaire à Rawspeak (P011) et la chute de Dothan (P002). Les [parcours des artefacts](index-legends/objets.csv), recoupés avec les collections de vols, ouvrent P017. Parmi les cinq paires du [relevé des rencontres](index-legends/rencontres.csv), deux concernent déjà Buh et son fils Nithros (P001). Pour Boki, le suivi des deux enlèvements jusqu’aux notices de parenté a fait apparaître les retrouvailles avec son propre fils (P018). Les rapprochements supplémentaires de chaque dossier restent disponibles pour une prochaine enquête.

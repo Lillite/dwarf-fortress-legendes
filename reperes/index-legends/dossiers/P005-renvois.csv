@@ -1,0 +1,84 @@
+evenement_a_examiner,references_communes
+14,historical_figure/14 | site/7
+421,entity/304 | historical_figure/595
+423,entity/305 | historical_figure/597
+5934,historical_figure/1008 | site/90
+6492,historical_figure/1008 | site/90
+6494,historical_figure/1008 | site/90
+7013,entity/455 | historical_figure/1934
+7022,historical_figure/1934 | site/90
+7023,historical_figure/1934 | site/90
+7027,historical_figure/597 | site/90
+7037,historical_figure/1934 | site/90
+7043,historical_figure/1934 | site/90
+7044,historical_figure/1934 | site/90
+7045,historical_figure/1934 | site/90
+7047,historical_figure/1008 | site/90
+7048,historical_figure/595 | site/90
+7051,historical_figure/1934 | site/90
+7058,historical_figure/1934 | site/90
+7059,historical_figure/1934 | site/90
+7060,historical_figure/1934 | site/90
+7061,historical_figure/1934 | site/90
+7086,historical_figure/1934 | site/90
+7272,entity/304 | entity/455 | historical_figure/1934 | site/123
+7290,historical_figure/1934 | site/123
+7298,historical_figure/1934 | site/123
+7299,historical_figure/1934 | site/123
+7300,historical_figure/1934 | site/123
+7301,historical_figure/1934 | site/123
+7304,historical_figure/1934 | site/123
+7399,entity/456 | historical_figure/14
+7400,entity/455 | historical_figure/14
+7472,entity/455 | historical_figure/2013
+7621,historical_figure/2013 | site/90
+7650,entity/455 | historical_figure/2013
+7683,entity/455 | historical_figure/2013
+7795,entity/304 | entity/455 | historical_figure/2013 | site/123
+7809,entity/304 | entity/455 | historical_figure/2013
+7902,entity/304 | entity/455 | historical_figure/2013
+7918,entity/304 | entity/455 | historical_figure/2013 | site/154
+7919,historical_figure/2013 | site/154
+7949,entity/455 | historical_figure/2095
+8042,entity/456 | historical_figure/2149
+8043,historical_figure/2150 | site/90
+8144,entity/455 | historical_figure/2150
+8823,historical_figure/2095 | site/90
+9482,historical_figure/2095 | site/90
+11970,entity/304 | entity/455 | historical_figure/2095
+12320,historical_figure/2149 | site/90
+14270,entity/304 | historical_figure/2149
+14792,entity/304 | historical_figure/2149
+15905,entity/304 | historical_figure/2149
+16488,entity/304 | historical_figure/2149
+17089,entity/304 | historical_figure/2149
+17730,entity/304 | historical_figure/2149
+17864,entity/304 | entity/455 | historical_figure/2095
+18161,historical_figure/2150 | site/90
+18390,entity/304 | historical_figure/2149
+19037,entity/304 | historical_figure/2149
+19061,historical_figure/2150 | site/90
+20374,entity/304 | historical_figure/2149
+21058,entity/304 | historical_figure/2149
+21803,entity/304 | historical_figure/2149
+22538,entity/304 | historical_figure/2149
+23274,entity/304 | historical_figure/2149
+24241,entity/304 | historical_figure/2149
+25016,entity/304 | historical_figure/2149
+25317,historical_figure/14 | site/7
+25318,historical_figure/14 | site/7
+25664,entity/304 | historical_figure/2149
+25797,entity/304 | entity/455 | historical_figure/2095
+27138,entity/304 | historical_figure/2149
+27868,entity/304 | historical_figure/2149
+28617,entity/304 | historical_figure/2149
+29466,entity/304 | historical_figure/2149
+31445,entity/304 | historical_figure/2149
+32710,entity/304 | historical_figure/2149
+35323,entity/304 | historical_figure/2149
+35466,entity/304 | entity/455 | historical_figure/2095 | site/123
+35490,historical_figure/2150 | site/123
+35491,historical_figure/2150 | site/123
+35492,historical_figure/2095 | site/123
+35495,historical_figure/2150 | site/123
+35528,historical_figure/2149 | site/123

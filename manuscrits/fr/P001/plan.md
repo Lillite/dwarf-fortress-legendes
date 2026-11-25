@@ -29,14 +29,14 @@ Récit bref en huit chapitres. Entrer par une plaisanterie de Buh à soixante-ci
 
 | Chapitre | Point d’entrée et changement | Principaux appuis |
 | --- | --- | --- |
-| [I. Le roi se déchausse](01.md) | À Vesselhated, Buh essaie son premier poème devant des gens qui ont du travail. Une audience imprévue lui donne une raison d’aller jusqu’au bout. | 54289, écrit 1452, forme 28 |
-| [II. Les biens d’Ini](02.md) | La confiscation vue depuis la maison d’Ini. Usel repart avec deux enfants et sait désormais ce que vaut une faveur de Buh. | 18759–18766, figures 585, 1742, 3530, 3903 |
-| [III. Une quittance](03.md) | Ado doit décider de payer sans obtenir les garanties qu’il exige d’ordinaire. | 29453, 29454, figures 822 et 1660 |
-| [IV. La manche de Nithros](04.md) | L’enlèvement d’un fils précède la seconde capture de Buh. L’acheteur, le vendeur et le ravisseur sont trois acteurs différents. | 40114–40118, 43339–43340, 44415, 43850 |
-| [V. De l’oreille](05.md) | Laisser Stun tranquille, puis apprendre auprès d’Odda qu’on peut entendre deux personnes dans une seule phrase. Le second poème trouve sa fin. | 50050, 50137–50139, 54324, écrit 1458 |
-| [VI. La part du charbon](06.md) | Stosbub a besoin d’une commande de charbon à elle. La correspondance des garçons entre dans sa vie par les gens du roulage. | 55188, figure 6240, deux fils au site 78 |
-| [VII. De sa main](07.md) | En 93, Stosbub choisit ce qu’elle est prête à transporter. Buh la tue. Fin de la vie de Buh en 95. | 60043, 62347 |
-| [VIII. À table](08.md) | Coda en 100. Papos et Nithros ont des goûts et des métiers à eux. La scène commune est inventée. | 71408, 71424, figures 7300 et 7442 |
+| [Chapitre 1](01.md) | À Vesselhated, Buh essaie son premier poème devant des gens qui ont du travail. Une audience imprévue lui donne une raison d’aller jusqu’au bout. | 54289, écrit 1452, forme 28 |
+| [Chapitre 2](02.md) | La confiscation vue depuis la maison d’Ini. Usel repart avec deux enfants et sait désormais ce que vaut une faveur de Buh. | 18759–18766, figures 585, 1742, 3530, 3903 |
+| [Chapitre 3](03.md) | Ado doit décider de payer sans obtenir les garanties qu’il exige d’ordinaire. | 29453, 29454, figures 822 et 1660 |
+| [Chapitre 4](04.md) | L’enlèvement d’un fils précède la seconde capture de Buh. L’acheteur, le vendeur et le ravisseur sont trois acteurs différents. | 40114–40118, 43339–43340, 44415, 43850 |
+| [Chapitre 5](05.md) | Laisser Stun tranquille, puis apprendre auprès d’Odda qu’on peut entendre deux personnes dans une seule phrase. Le second poème trouve sa fin. | 50050, 50137–50139, 54324, écrit 1458 |
+| [Chapitre 6](06.md) | Stosbub a besoin d’une commande de charbon à elle. La correspondance des garçons entre dans sa vie par les gens du roulage. | 55188, figure 6240, deux fils au site 78 |
+| [Chapitre 7](07.md) | En 93, Stosbub choisit ce qu’elle est prête à transporter. Buh la tue. Fin de la vie de Buh en 95. | 60043, 62347 |
+| [Chapitre 8](08.md) | Coda en 100. Papos et Nithros ont des goûts et des métiers à eux. La scène commune est inventée. | 71408, 71424, figures 7300 et 7442 |
 
 **Autres pistes.** Le renversement de Dothan par Ado en 83 (45868) reste pour P002. Usel est aussi la fille d’Oqui (823), l’un des profanateurs de P006. La fiction ne fait pas dire à Buh ce qu’elle n’a aucune raison de savoir. Le faux imaginé ici n’est pas une preuve contre Ado, Dothan ou Usel dans un autre livre.
 
@@ -82,4 +82,8 @@ Placer ce billet avant le voyage du cahier affaiblirait le refus de Stosbub. Ell
 
 ## Reprise du chapitre IV selon la SPEC 1.14
 
-Dans [La manche de Nithros](04.md), la phrase d’annonce a cédé sa place à l’arrivée du paquet de Belde. À travers la toile, Buh reconnaît un bouton de la veste qu’elle a fait coudre au début du chapitre. Sa première question porte sur la taille de son fils. Le roulier lui répond et transmet aussitôt la nouvelle de l’enlèvement. L’événement 43850 situe la disparition à Unitegrips en 82. La veste, le messager et leur échange appartiennent au roman. À la relecture, les six boutons retrouvent successivement le prix qu’ils ont coûté à Buh et celui que le roulier leur prête encore. Quand il s’en va, la main de Buh entre seule dans la manche.
+Dans [chapitre 4](04.md), la phrase d’annonce a cédé sa place à l’arrivée du paquet de Belde. À travers la toile, Buh reconnaît un bouton de la veste qu’elle a fait coudre au début du chapitre. Sa première question porte sur la taille de son fils. Le roulier lui répond et transmet aussitôt la nouvelle de l’enlèvement. L’événement 43850 situe la disparition à Unitegrips en 82. La veste, le messager et leur échange appartiennent au roman. À la relecture, les six boutons retrouvent successivement le prix qu’ils ont coûté à Buh et celui que le roulier leur prête encore. Quand il s’en va, la main de Buh entre seule dans la manche.
+
+## Présentation et ouverture selon la SPEC 1.17
+
+Le roi en pâte et le caillou mangé par Odda donnent le ton du souper. La quatrième suit ensuite le cahier jusqu’à Stosbub et s’arrête avant sa réponse. À l’ouverture, la promesse faite aux six laveuses suffit à expliquer pourquoi Buh répète son poème. [Quatrième de couverture](0.md) · [Dossier des événements](../../../reperes/index-legends/dossiers/P001.md).

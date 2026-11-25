@@ -1,0 +1,65 @@
+evenement_a_examiner,references_communes
+7998,entity/310 | historical_figure/2127
+7999,historical_figure/2127 | site/92
+8392,historical_figure/1293 | site/145
+11254,historical_figure/1631 | site/92
+11687,historical_figure/1674 | site/92
+12265,historical_figure/2942 | site/175
+13132,historical_figure/1789 | site/92
+13133,historical_figure/1790 | site/92
+13625,historical_figure/1790 | site/92
+14097,historical_figure/1880 | site/129
+14283,entity/304 | historical_figure/1674 | historical_figure/1789 | historical_figure/2942 | site/198
+14540,historical_figure/1674 | historical_figure/1789
+14541,historical_figure/1674 | site/92
+14650,historical_figure/1956 | site/129
+14755,historical_figure/2942 | site/175
+15101,historical_figure/1789 | site/92
+15166,historical_figure/1956 | site/129
+15334,historical_figure/1631 | site/92
+15749,historical_figure/3496 | site/114
+15911,entity/304 | historical_figure/1789 | historical_figure/1956 | historical_figure/2127 | historical_figure/3496 | site/198
+15927,historical_figure/1631 | site/92
+16492,entity/304 | historical_figure/1293 | historical_figure/1631 | site/198
+16493,historical_figure/3496 | site/114
+17053,historical_figure/1293 | site/92
+17736,entity/304 | historical_figure/1674 | site/198
+19047,entity/304 | historical_figure/1880 | site/198
+19691,entity/304 | historical_figure/1956 | historical_figure/2942 | historical_figure/3496 | site/198
+20379,entity/304 | historical_figure/1789 | historical_figure/2942 | site/198
+21066,entity/304 | historical_figure/1880 | historical_figure/2127 | site/198
+21531,historical_figure/2942 | site/129
+21914,historical_figure/1956 | site/129
+21915,historical_figure/1956 | site/129
+22669,historical_figure/2127 | site/92
+23280,entity/304 | historical_figure/1674 | historical_figure/2127 | historical_figure/3496 | site/198
+23458,historical_figure/1956 | historical_figure/2641
+23734,entity/310 | historical_figure/1880
+23735,historical_figure/1880 | site/92
+24248,entity/304 | historical_figure/1293 | site/198
+25020,entity/304 | historical_figure/1674 | historical_figure/1790 | historical_figure/2127 | site/198
+25675,entity/304 | historical_figure/1674 | historical_figure/1790 | site/198
+25929,entity/310 | historical_figure/3496
+25930,historical_figure/3496 | site/92
+26467,entity/304 | historical_figure/1789 | site/198
+27149,entity/304 | historical_figure/1789 | historical_figure/3496 | site/198
+28626,entity/304 | historical_figure/1674 | historical_figure/1789 | site/198
+29499,entity/304 | historical_figure/1293 | site/198
+33007,entity/310 | historical_figure/1790
+33008,historical_figure/1790 | site/92
+34496,entity/304 | historical_figure/1674 | historical_figure/1789 | site/198
+35949,entity/310 | historical_figure/3496
+36437,entity/304 | historical_figure/1674 | historical_figure/1790 | historical_figure/2127 | site/198
+37724,entity/304 | historical_figure/2127
+39766,entity/304 | historical_figure/1674 | site/198
+41019,entity/304 | historical_figure/1790
+42502,entity/304 | historical_figure/1790 | historical_figure/3496
+43659,historical_figure/1790 | site/92
+45969,entity/304 | historical_figure/3496 | site/198
+45999,entity/310 | historical_figure/1790
+50228,entity/304 | historical_figure/1674
+55593,entity/304 | historical_figure/1674 | site/198
+57656,entity/304 | historical_figure/3496
+60293,entity/304 | historical_figure/1674 | site/198
+63965,entity/304 | historical_figure/3496
+71905,historical_figure/3496 | site/92

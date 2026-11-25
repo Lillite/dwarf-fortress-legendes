@@ -1,0 +1,42 @@
+name: Journal des tokens d’une demande
+on:
+  workflow_dispatch:
+    inputs:
+      branche:
+        description: Branche concernée (main pour la méthode ou legendes/… pour un monde)
+        required: true
+        type: string
+      demande:
+        description: Identifiant stable de la demande
+        required: true
+        type: string
+      piste:
+        description: Piste éventuelle (P014, etc.)
+        type: string
+      recus:
+        description: 'Compteurs API JSON minimaux (id, model, usage), ou laisser vide pour ChatGPT sans mesure'
+        type: string
+      indication:
+        description: 'Facultatif, compteurs seuls JSON : encodage, message_utilisateur, reponse_finale'
+        type: string
+      complet:
+        description: Tous les appels de cette demande ont fourni leurs compteurs
+        default: false
+        type: boolean
+permissions:
+  contents: write
+jobs:
+  journal:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Consigner les compteurs sur la branche concernée
+        env:
+          BRANCHE: ${{ inputs.branche }}
+          DEMANDE: ${{ inputs.demande }}
+          PISTE: ${{ inputs.piste }}
+          RECUS: ${{ inputs.recus }}
+          INDICATION: ${{ inputs.indication }}
+          COMPLET: ${{ inputs.complet }}
+        run: python3 outils/journal_tokens.py --ci --demande "$DEMANDE" --piste "$PISTE"

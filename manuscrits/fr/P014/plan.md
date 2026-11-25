@@ -29,12 +29,12 @@ Recherche par identifiants dans les figures, leurs liens familiaux, leurs entré
 
 Une biographie continue d’Asmel aurait mené de l’objet merveilleux au soupçon, puis d’un domaine d’étude à l’autre. Le recoupement des deux femmes dans neuf batailles fait préférer une autre entrée. Solon a connu Kib dans une situation où son ancien mari ne l’a pas suivie. Le plaisir attendu est d’entendre ce que ces deux personnes peuvent s’apprendre de la même morte, jusque dans un détail que ni l’une ni l’autre ne sait restituer.
 
-| Mouvement | Point de vue et enjeu |
+| Chapitre | Point de vue et enjeu |
 | --- | --- |
-| I. L’oreille hors de l’eau | À l’an 96, Solon nage dans les bains où elle a invité Asmel. La promesse arrive à l’oreille qui dépasse. Sa question sur Kib oblige le visiteur à reprendre l’histoire à une table de cuisine. |
-| II. Les joues du poisson | Au cours du repas de l’an 61, le souvenir qu’Asmel cherche avec Kib lui rend pendant un instant sa place dans sa vie. Les ans 35, 37 et 46 entrent par ce que les époux avaient eu le temps de se dire. En 62, il éprouve à son tour ce que signifie être regardé par quelqu’un qui veut savoir si vous vieillissez. |
-| III. Ce qu’on peut tirer d’une rivière | Retour au bain de 96, puis souvenirs de Solon. L’amitié a eu le temps d’être drôle avant la mort de Kib. À Rockglistened, Solon peut rendre à son amie un geste appris dans l’eau. Le passage ultérieur au même endroit laisse voir les habitants qui y vivaient avant et après les assauts. |
-| IV. La leçon | De retour devant Asmel, Solon l’interroge sur les poils blancs de Kib. Ni l’un ni l’autre n’en sait assez. La cultivatrice prend sa décision en imaginant la vie qu’elle pourrait avoir, les choses dont elle se lasserait et même le voisin qu’elle n’aime guère. Elle donne un lieu à l’accord. Une autre leçon commence avant le lendemain. |
+| [Chapitre 1](nouvelle.md#chapitre-1) | À l’an 96, Solon nage dans les bains où elle a invité Asmel. La promesse arrive à l’oreille qui dépasse. Sa question sur Kib oblige le visiteur à reprendre l’histoire à une table de cuisine. |
+| [Chapitre 2](nouvelle.md#chapitre-2) | Au cours du repas de l’an 61, le souvenir qu’Asmel cherche avec Kib lui rend pendant un instant sa place dans sa vie. Les ans 35, 37 et 46 entrent par ce que les époux avaient eu le temps de se dire. En 62, il éprouve à son tour ce que signifie être regardé par quelqu’un qui veut savoir si vous vieillissez. |
+| [Chapitre 3](nouvelle.md#chapitre-3) | Retour au bain de 96, puis souvenirs de Solon. L’amitié a eu le temps d’être drôle avant la mort de Kib. À Rockglistened, Solon peut rendre à son amie un geste appris dans l’eau. Le passage ultérieur au même endroit laisse voir les habitants qui y vivaient avant et après les assauts. |
+| [Chapitre 4](nouvelle.md#chapitre-4) | De retour devant Asmel, Solon l’interroge sur les poils blancs de Kib. Ni l’un ni l’autre n’en sait assez. La cultivatrice prend sa décision en imaginant la vie qu’elle pourrait avoir, les choses dont elle se lasserait et même le voisin qu’elle n’aime guère. Elle donne un lieu à l’accord. Une autre leçon commence avant le lendemain. |
 
 Les bains de Boardhammers, le champ, la chambre et le détail du fonctionnement du réseau sont imaginés. Les Tombes figurent dans le souvenir d’Asmel. Elles ne passent pas aux mains de Solon. La liste des combattants de l’an 90, étudiée pour P009, reste disponible pour cette autre histoire.
 
@@ -61,6 +61,10 @@ Au premier mouvement, Solon demande comment Asmel s’y est pris avec Kib. Au qu
 
 ## Reprise de l’entrée dans le souvenir selon la SPEC 1.14
 
-Au [mouvement IV](nouvelle.md#iv-la-leçon), Asmel raconte ce qui lui est arrivé à la porte de l’inconnue. Il a encore le souci de la reprendre sur son prénom lorsqu’elle lui met la lampe dans la main. Il se rappelle la dernière marche et les bottes mouillées qu’il a laissées en bas. Ce dernier détail a pris la place de la phrase qui expliquait sa gratitude. L’adresse donnée par Kib et les gestes de l’hôtesse appartiennent à la fiction, au même titre que cette nuit d’hospitalité.
+Au [mouvement IV](nouvelle.md#chapitre-4), Asmel raconte ce qui lui est arrivé à la porte de l’inconnue. Il a encore le souci de la reprendre sur son prénom lorsqu’elle lui met la lampe dans la main. Il se rappelle la dernière marche et les bottes mouillées qu’il a laissées en bas. Ce dernier détail a pris la place de la phrase qui expliquait sa gratitude. L’adresse donnée par Kib et les gestes de l’hôtesse appartiennent à la fiction, au même titre que cette nuit d’hospitalité.
 
 La scène a été relue depuis « Est-ce qu’elle t’avait cru ? » jusqu’à la question de Solon sur le logement d’Asmel. Le souvenir tient dans sa réponse au bain. Solon peut le laisser rire, repenser à ce que Kib aurait pu lui dire pendant leurs baignades, puis lui demander où il habite. Le lecteur sait qu’une porte a été ouverte à Asmel. Celle de Solon peut encore rester fermée.
+
+## Présentation et ouverture selon la SPEC 1.17
+
+La quatrième laisse Solon avec sa question sur Kib. En commençant directement au bassin, on entend l’offre avant de connaître le passé des deux femmes. Les silences du repas et la réponse de Solon restent à découvrir dans la nouvelle. [Quatrième de couverture](0.md) · [Dossier des événements](../../../reperes/index-legends/dossiers/P014.md).

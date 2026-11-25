@@ -1,0 +1,142 @@
+evenement_a_examiner,references_communes
+839,entity/268 | historical_figure/400
+936,entity/276 | historical_figure/400
+1121,entity/276 | historical_figure/400
+1131,entity/276 | historical_figure/400
+1335,entity/276 | historical_figure/400
+1522,entity/276 | historical_figure/400
+1727,entity/276 | historical_figure/400
+1877,entity/276 | historical_figure/400
+2042,entity/276 | historical_figure/400
+2211,entity/276 | historical_figure/400
+2379,entity/276 | historical_figure/400
+2565,entity/276 | historical_figure/400
+2771,entity/276 | historical_figure/400
+2945,entity/276 | historical_figure/400
+3153,entity/276 | historical_figure/400
+3334,entity/276 | historical_figure/400
+3546,entity/290 | historical_figure/501
+3570,entity/276 | historical_figure/400
+3773,entity/276 | historical_figure/400
+3933,entity/276 | historical_figure/400
+4060,entity/276 | historical_figure/400
+4259,entity/276 | historical_figure/400
+4539,entity/276 | historical_figure/400
+4555,entity/268 | historical_figure/400
+4791,entity/276 | historical_figure/400
+4823,entity/268 | historical_figure/400
+5044,entity/276 | historical_figure/400
+5377,entity/276 | historical_figure/400
+5670,entity/276 | historical_figure/400
+6007,entity/276 | historical_figure/400
+6058,entity/268 | historical_figure/400
+6311,entity/276 | historical_figure/400
+6592,entity/276 | historical_figure/400
+6633,entity/268 | historical_figure/400
+6955,entity/276 | historical_figure/400
+7346,entity/276 | historical_figure/400
+7747,entity/276 | historical_figure/400
+8191,entity/276 | historical_figure/400
+8487,entity/276 | historical_figure/400
+8768,entity/276 | historical_figure/400
+9037,entity/276 | historical_figure/400
+9395,entity/276 | historical_figure/400
+9412,entity/268 | historical_figure/400
+9758,entity/276 | historical_figure/400
+9790,entity/268 | historical_figure/400
+10146,entity/276 | historical_figure/400
+10254,entity/268 | historical_figure/400
+10554,entity/276 | historical_figure/400
+10969,entity/276 | historical_figure/400
+11425,entity/276 | historical_figure/400
+11655,entity/294 | historical_figure/1147
+11839,entity/276 | historical_figure/400
+12364,entity/276 | historical_figure/400
+12884,entity/276 | historical_figure/400
+12930,entity/268 | historical_figure/400
+13304,entity/276 | historical_figure/400
+13798,entity/276 | historical_figure/400
+14284,entity/276 | historical_figure/400
+14326,entity/302 | historical_figure/3021
+14345,entity/288 | entity/290 | historical_figure/501
+14502,entity/288 | historical_figure/1670
+14805,entity/276 | historical_figure/400
+15335,entity/276 | historical_figure/400
+15914,entity/276 | historical_figure/400
+15997,entity/302 | historical_figure/400
+16494,entity/276 | historical_figure/400
+16535,entity/302 | historical_figure/3021
+17099,entity/276 | historical_figure/400
+17193,entity/302 | historical_figure/400
+17741,entity/276 | historical_figure/400
+18419,entity/276 | historical_figure/400
+19051,entity/276 | historical_figure/400
+19422,entity/302 | historical_figure/2273
+19693,entity/276 | historical_figure/400
+20380,entity/276 | historical_figure/400
+21068,entity/276 | historical_figure/400
+21583,entity/611 | historical_figure/4425
+22610,historical_figure/2273 | historical_figure/3021
+22765,entity/294 | entity/514 | historical_figure/1147
+22848,entity/282 | historical_figure/756
+22946,entity/312 | historical_figure/3791
+23543,historical_figure/4425 | site/275
+23787,entity/268 | historical_figure/2490
+24054,entity/268 | historical_figure/2490
+24314,entity/302 | historical_figure/3021
+25069,entity/302 | historical_figure/400
+25765,entity/268 | historical_figure/400
+28044,entity/302 | historical_figure/3021
+28681,entity/302 | entity/611 | historical_figure/4425
+28738,entity/268 | historical_figure/400
+29471,entity/288 | entity/290 | historical_figure/501 | historical_figure/1670
+29519,entity/302 | entity/611 | historical_figure/4425
+29594,entity/302 | historical_figure/3021
+30332,historical_figure/4425 | site/275
+30657,entity/268 | historical_figure/400
+31232,entity/611 | historical_figure/5970
+31415,historical_figure/3791 | site/234
+31540,entity/302 | entity/611 | historical_figure/5970 | site/275
+31541,historical_figure/5970 | site/275
+31613,entity/302 | historical_figure/400
+32116,entity/611 | historical_figure/6115
+32731,entity/302 | entity/611 | historical_figure/6115
+32772,entity/302 | historical_figure/3021
+32849,entity/683 | historical_figure/2947
+33108,entity/302 | historical_figure/2273
+33524,historical_figure/6115 | site/275
+33525,historical_figure/6115 | site/275
+33702,entity/302 | historical_figure/2273
+33776,entity/268 | historical_figure/400
+35238,entity/288 | historical_figure/1147
+35398,entity/302 | historical_figure/400
+39688,historical_figure/7081 | site/319
+40689,entity/621 | historical_figure/7418
+40716,historical_figure/7418 | site/319
+40900,entity/302 | historical_figure/400
+40926,entity/268 | historical_figure/400
+42004,historical_figure/7595 | site/319
+44751,entity/302 | historical_figure/3021
+45716,entity/302 | historical_figure/2273
+45771,entity/302 | historical_figure/2273
+47321,entity/683 | historical_figure/2947
+47358,entity/302 | historical_figure/2273 | historical_figure/3021
+47359,entity/302 | historical_figure/2273
+48703,entity/302 | historical_figure/3021
+48886,entity/302 | historical_figure/400
+51247,entity/302 | historical_figure/3021
+51249,entity/302 | historical_figure/3021
+54153,entity/302 | historical_figure/400
+55712,entity/302 | historical_figure/3021
+56026,historical_figure/501 | site/280
+57492,entity/288 | entity/312 | historical_figure/1670
+58602,entity/282 | entity/312 | historical_figure/756
+60108,entity/288 | historical_figure/1147
+60408,entity/268 | historical_figure/400
+61707,entity/282 | entity/312 | entity/561 | historical_figure/756 | site/234
+65338,entity/268 | historical_figure/400
+66910,entity/282 | entity/312 | entity/561 | historical_figure/756 | site/234
+67077,entity/282 | entity/312 | historical_figure/756
+70354,entity/282 | entity/312 | historical_figure/756
+70518,entity/302 | historical_figure/400
+70679,entity/282 | historical_figure/756

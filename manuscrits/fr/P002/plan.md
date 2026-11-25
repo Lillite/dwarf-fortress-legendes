@@ -24,19 +24,19 @@ La recherche porte sur les figures 2890, 3003, 1109, 822, leurs proches et les r
 
 | Chapitre | Situation et question du lecteur |
 | --- | --- |
-| [I. La place du public](01.md) | À Snakesflames en 81, Aune attend de déposer. Six personnes, sept noms. À quoi s’engage-t-elle en répondant pour les autres ? |
-| [II. Le lait de la veille](02.md) | En 55 puis en 61, les retrouvailles, le travail auprès du père, sa disparition et la demande de Lusko. |
-| [III. Le Fruit matelassé](03.md) | En 69, entendre la première accusation du côté d’Ac. La vérification est possible parce qu’un intéressé présent peut parler pour lui-même. |
-| [IV. De l’autre côté de l’eau](04.md) | En 76, la médecin Thixil accompagne le départ forcé de Shato. Les plaintes confidentielles prennent une place nouvelle dans la ville. |
-| [V. Le prix des noms](05.md) | Retour à l’audience de 81. Des faits vrais soutiennent une conclusion fausse. Le choix d’Aune et la décision de Dothan. |
-| [VI. Une chambre donnant sur la cour](06.md) | En 83, le renversement et la captivité. Ce qu’Aune peut enfin dire, ce que Dothan peut encore réparer. |
-| [VII. L’appel](07.md) | En 86, Dothan essaie de rendre publique sa propre part de responsabilité. Le récit s’achève avec les vivants. |
+| [Chapitre 1](01.md) | À Snakesflames en 81, Aune attend de déposer. Six personnes, sept noms. À quoi s’engage-t-elle en répondant pour les autres ? |
+| [Chapitre 2](02.md) | En 55 puis en 61, les retrouvailles, le travail auprès du père, sa disparition et la demande de Lusko. |
+| [Chapitre 3](03.md) | En 69, entendre la première accusation du côté d’Ac. La vérification est possible parce qu’un intéressé présent peut parler pour lui-même. |
+| [Chapitre 4](04.md) | En 76, la médecin Thixil accompagne le départ forcé de Shato. Les plaintes confidentielles prennent une place nouvelle dans la ville. |
+| [Chapitre 5](05.md) | Retour à l’audience de 81. Des faits vrais soutiennent une conclusion fausse. Le choix d’Aune et la décision de Dothan. |
+| [Chapitre 6](06.md) | En 83, le renversement et la captivité. Ce qu’Aune peut enfin dire, ce que Dothan peut encore réparer. |
+| [Chapitre 7](07.md) | En 86, Dothan essaie de rendre publique sa propre part de responsabilité. Le récit s’achève avec les vivants. |
 
 **Frontière de l’invention.** Aune, son frère, les bateliers réfugiés et la Maison d’Amont sont des personnages ou des groupes de fiction. L’accusation de vente de noms donne un contenu narratif au seul mot *treason*. Le dossier de travail distingue le compte de jeu enregistré en 63 de ses suites imaginées. L’enquête s’arrête où la source cesse de renseigner la preuve, les paroles et les mobiles. [Chronologie](../../../reperes/chronologie.csv) · [Glossaire](../../../reperes/glossaire.csv).
 
 ## Bilan de relecture
 
-Les deux audiences ont été relues dans l’ordre où Dothan les vit. En 69, elle peut conduire le greffier auprès du batelier et lui faire confirmer l’origine de l’adresse. En 81, la tisserande propose une barque pour aller entendre le garçon dont Omli rapporte les paroles. Dothan refuse le délai. Le lecteur peut retrouver ce moment précis dans [Le prix des noms](05.md).
+Les deux audiences ont été relues dans l’ordre où Dothan les vit. En 69, elle peut conduire le greffier auprès du batelier et lui faire confirmer l’origine de l’adresse. En 81, la tisserande propose une barque pour aller entendre le garçon dont Omli rapporte les paroles. Dothan refuse le délai. Le lecteur peut retrouver ce moment précis dans [chapitre 5](05.md).
 
 Une seconde lecture a suivi la planche des gardes, le registre d’Ac et la lettre à la mère d’Aune. Chaque objet a son trajet et son destinataire. Le détail du revers de la planche permet à Dothan de reconnaître en prison l’origine de la liste. La scène entre Omli et Thixil renseigne le lecteur sur le prêt, sans donner à Dothan le bénéfice d’une conversation à laquelle elle n’assiste pas.
 
@@ -50,6 +50,10 @@ Si l’aveu d’Aune en prison précédait ce refus, on attendrait que Dothan d�
 
 ## Les retrouvailles au chapitre II · SPEC 1.14
 
-Après « Celle qui est revenue avant moi, vous l’avez encore ? », la première version faisait intervenir le narrateur pour raconter les enlèvements de Coni. Dans [Le lait de la veille](02.md), Lusko répond désormais à Dothan. Pathril repose le morceau de fromage que sa fille lui a mis en bouche et se lève pour qu’elle lui montre jusqu’où lui arrive sa sœur. Dothan était venue demander des nouvelles. En quelques mots, son père la met dans la situation d’en donner.
+Après « Celle qui est revenue avant moi, vous l’avez encore ? », la première version faisait intervenir le narrateur pour raconter les enlèvements de Coni. Dans [chapitre 2](02.md), Lusko répond désormais à Dothan. Pathril repose le morceau de fromage que sa fille lui a mis en bouche et se lève pour qu’elle lui montre jusqu’où lui arrive sa sœur. Dothan était venue demander des nouvelles. En quelques mots, son père la met dans la situation d’en donner.
 
 La jeune fille a revu Coni à Graspingdevils dans le récit. Elle ignore si sa sœur est déjà rentrée. Les deux ravisseurs de l’an 43, le retour de Coni en 44, son second enlèvement en 49 et le retour de Dothan en 55 gardent leur ordre. Le bol que Lusko montre à Dothan rattache ces années au repas. Dothan le reprend au [chapitre VII](07.md). Leurs paroles et le bol sont imaginés.
+
+## Présentation et ouverture selon la SPEC 1.17
+
+La quatrième s’arrête au moment où Aune peut encore espérer apprendre ce qu’est devenu Sol. À l’ouverture, sa place sur le banc et le garçon qui cherche où la conduire font comprendre son rôle avant sa déposition. La planche et le premier procès prennent leur sens dans la suite du chapitre. [Quatrième de couverture](0.md) · [Dossier des événements](../../../reperes/index-legends/dossiers/P002.md).
