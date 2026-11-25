@@ -31,11 +31,11 @@ class EditorialTests(unittest.TestCase):
             (world / "sources").mkdir(parents=True)
             study = world / "reperes"
             study.mkdir()
-            book = world / "manuscrits/fr/P001"
+            book = world / "manuscrits/fr/P901"
             book.mkdir(parents=True)
             (book / "01.md").write_text("# Chapitre 1\n\nLe récit commence au gué.\n", encoding="utf-8")
             (book / "plan.md").write_text("Décision du chapitre, événement 70.\n", encoding="utf-8")
-            (study / "pistes.md").write_text("## P001\n\n## P007\n", encoding="utf-8")
+            (study / "pistes.md").write_text("## P901 — Au gué\n", encoding="utf-8")
             xml = world / "sources" / "a-legends.xml"
             xml.write_bytes(STANDARD.encode("cp437"))
             db_path = root / "a.sqlite"
@@ -44,18 +44,18 @@ class EditorialTests(unittest.TestCase):
                 study / "occurrences.csv",
                 "piste evenement_id champs_qui_relient_la_notice",
                 [
-                    ("P001", 70, "motif commun"),
-                    ("P001", 90, "motif commun"),
-                    ("P007", 70, "autre motif"),
-                    ("P007", 99999, "à vérifier"),
+                    ("P901", 70, "motif commun"),
+                    ("P901", 90, "motif commun"),
+                    ("P907", 70, "autre motif"),
+                    ("P907", 99999, "à vérifier"),
                 ],
             )
             write_csv(
                 study / "chronologie.csv",
                 "reference_evenement chapitres_associes date_dans_le_monde",
                 [
-                    ("historical_events/70", "manuscrits/fr/P001/01.md", "an 4"),
-                    ("historical_event_collections/16", "manuscrits/fr/P001/01.md", ""),
+                    ("historical_events/70", "manuscrits/fr/P901/01.md", "an 4"),
+                    ("historical_event_collections/16", "manuscrits/fr/P901/01.md", ""),
                 ],
             )
             dest = root / "rapport"
@@ -64,18 +64,50 @@ class EditorialTests(unittest.TestCase):
                 generate(db, world, dest, "SPEC test")
             finally:
                 db.close()
-            summary = (dest / "P001.md").read_text()
+            summary = (dest / "P901.md").read_text()
             self.assertEqual(summary.count("motif commun"), 1)
+            self.assertIn("[Registre](../../pistes.md?plain=1#L1)", summary)
+            self.assertIn("[Registre](../../pistes.md)", (dest / "P907.md").read_text())
             self.assertIn("[70](notices/70.md)", summary)
             self.assertIn("[90](notices/90.md)", summary)
-            self.assertIn("[P007](P007.md)", summary)
+            self.assertIn("[P907](P907.md)", summary)
             self.assertTrue((dest / "notices/collection-16.md").is_file())
-            self.assertIn("Décision du chapitre", (dest / "scenes/fr/P001/01.md").read_text())
+            self.assertIn("Décision du chapitre", (dest / "scenes/fr/P901/01.md").read_text())
             self.assertIn("99999", (dest / "controles.md").read_text())
             self.assertIn("0.md absente", (dest / "controles.md").read_text())
             deps = json.loads((dest / "dependances.json").read_text())
-            self.assertEqual(deps["70"]["pistes"], ["P001", "P007"])
-            self.assertEqual(deps["70"]["chapitres"], ["manuscrits/fr/P001/01.md"])
+            self.assertEqual(deps["70"]["pistes"], ["P901", "P907"])
+            self.assertEqual(deps["70"]["chapitres"], ["manuscrits/fr/P901/01.md"])
+
+    def test_table_tracks_without_occurrences_and_mentions_in_review(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            world = Path(tmp)
+            study = world / "reperes"
+            study.mkdir()
+            (study / "pistes.md").write_text(
+                "| ID | Export et passages anglais | Sujet |\n"
+                "| --- | --- | --- |\n"
+                "| P912 | | Voir aussi P919 |\n"
+                "\n## Bilan de la seconde lecture\n\n"
+                "| Domaine repris et raison | Piste |\n"
+                "| --- | --- |\n"
+                "| P918 | P919 |\n",
+                encoding="utf-8",
+            )
+            (world / "manuscrits/fr/P913").mkdir(parents=True)
+            xml = world / "essai.xml"
+            xml.write_text("<df_world/>", encoding="utf-8")
+            db_path = world / "index.sqlite"
+            build_index([xml], db_path)
+            out = world / "rapport"
+            db = _open(db_path)
+            try:
+                generate(db, world, out, "SPEC test")
+            finally:
+                db.close()
+            self.assertEqual({p.stem for p in out.glob("P*.md")}, {"P912", "P913"})
+            self.assertIn("[Registre](../../pistes.md?plain=1#L3)", (out / "P912.md").read_text())
+            self.assertIn("[Registre](../../pistes.md)", (out / "P913.md").read_text())
 
 
 class TokenTests(unittest.TestCase):
@@ -97,10 +129,10 @@ class TokenTests(unittest.TestCase):
         self.assertNotIn("output", r)
         empty = merge(None, b, "edition", None, [], False)
         self.assertIsNone(empty["total_demande"])
-        partial = merge(empty, b, "edition", "P001", [r, r], False)
+        partial = merge(empty, b, "edition", "P901", [r, r], False)
         self.assertEqual(partial["sous_total_appels_mesurés"], 100)
         self.assertIsNone(partial["total_demande"])
-        measured = merge(partial, b, "edition", "P001", [r], True)
+        measured = merge(partial, b, "edition", "P901", [r], True)
         self.assertEqual(measured["total_demande"], 100)
         self.assertEqual(merge(measured, b, "edition", None, [r], False), measured)
         r2 = receipt(
@@ -228,6 +260,6 @@ class TokenTests(unittest.TestCase):
             self.assertNotIn("indication_visible", new)
             self.assertEqual(run("git", "diff", "--cached", "--name-only").stdout.strip(), pending.name)
             self.assertEqual(tip("legendes/test"), first)
-            self.assertNotEqual(run(*cli, "--piste", "P014", env=second_env, check=False).returncode, 0)
+            self.assertNotEqual(run(*cli, "--piste", "P914", env=second_env, check=False).returncode, 0)
             self.assertNotEqual(run(*cli, env=dict(env, BRANCHE="autre"), check=False).returncode, 0)
             self.assertEqual(tip("main"), main_second)

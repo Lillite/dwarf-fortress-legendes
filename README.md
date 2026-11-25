@@ -2,11 +2,11 @@
 
 Ce projet transforme des épisodes d’un export *Legends* anglais en œuvres de fiction textuelles. Le récit peut suivre toute période documentée, y compris des siècles d’histoire antérieurs à la partie. L’utilisateur choisit la piste et la langue d’écriture ou indique quel choix il souhaite déléguer.
 
-**Pour reprendre une histoire, sélectionner sa branche d’export dans la [liste des branches](https://github.com/Lillite/dwarf-fortress-legendes/branches), puis ouvrir le [suivi de reprise](REPRISE.md) sur cette branche.** Les critères de sélection du sujet, de suffisance de la matière, d’écriture et de relecture sont réunis dans la [SPEC éditoriale](SPEC_Roman_Dwarf_Fortress.md).
+**Pour commencer avec un nouvel export, créer sa branche depuis `main`, puis y remplir la [fiche de source](sources/README.md) et le [suivi de reprise](REPRISE.md).** Pour continuer un travail en cours, retrouver la branche correspondante dans la [liste des branches](https://github.com/Lillite/dwarf-fortress-legendes/branches) et y ouvrir `REPRISE.md`. Les critères de sélection du sujet, de suffisance de la matière, d’écriture et de relecture sont réunis dans la [SPEC éditoriale](SPEC_Roman_Dwarf_Fortress.md).
 
 ## Une branche permanente par export
 
-`main` contient la méthode commune, la SPEC, les modèles et les outils d’analyse. Avant de déposer un nouvel export *Legends*, créer depuis la version courante de `main` une branche nommée `legendes/<monde>-<export>`. Utiliser un nom lisible et un repère qui distingue l’export, par exemple `legendes/monde-des-brumes-an-250`. Si le même monde est exporté à nouveau, lui donner une nouvelle branche. Les fichiers complémentaires issus de la même opération d’export vont ensemble.
+`main` fournit le point de départ commun à toutes les branches d’export. On y maintient la SPEC, les modèles à remplir, les outils et leurs tests. Les exemples de fiction servent à illustrer la méthode. Les observations tirées d’un XML, leurs identifiants et les textes qu’elles inspirent se consignent sur la branche de cet export. Avant de déposer un nouvel export *Legends*, créer depuis la version courante de `main` une branche nommée `legendes/<monde>-<export>`. Choisir un nom lisible pour le monde et un repère qui distingue les exports successifs. Si le même monde est exporté à nouveau, lui donner une nouvelle branche. Les fichiers complémentaires issus de la même opération d’export vont ensemble.
 
 Conserver sur cette branche l’original anglais, les fiches, toutes les pistes, les nouvelles, les romans, leurs traductions et le journal de reprise. Pour une deuxième histoire tirée du même export, sélectionner cette même branche et ouvrir un nouveau dossier de manuscrit. Pour reprendre un export déjà enregistré, retrouver sa branche et vérifier la [fiche de source](sources/README.md).
 
@@ -20,7 +20,7 @@ Avant de rendre la main, l’assistant publie et vérifie une fiche pour la dema
 
 Quand le commit qui ajoute ou modifie le XML dans `sources/` est poussé sur la branche d’export, GitHub Actions indexe les notices et recoupe leurs références sans appel à un modèle de langage. Les rapports sont conservés dans `reperes/index-legends/` sur cette branche. Pour analyser un monde déposé avant l’installation du workflow, lancer l’analyse manuellement depuis `main` en indiquant la branche de ce monde. La [notice technique](outils/README.md) décrit les deux modes et l’accès à la base SQLite.
 
-Au début d’une conversation, ouvrir le suivi de reprise, puis le sommaire `reperes/index-legends/README.md` si la prochaine étape demande une recherche. Pour une piste déjà choisie, ouvrir sa fiche dans `reperes/index-legends/dossiers/`, puis les notices et les décisions associées à la scène. Une modification éditoriale actualise les fiches et les contrôles Markdown. Pour une nouvelle découverte, utiliser aussi le bilan des recherches précédentes afin de choisir les domaines à explorer.
+Pour travailler sur un export, ouvrir le suivi de reprise de sa branche, puis le sommaire `reperes/index-legends/README.md` si la prochaine étape demande une recherche. Pour une piste déjà choisie, ouvrir sa fiche dans `reperes/index-legends/dossiers/`, puis les notices et les décisions associées à la scène. Une modification éditoriale actualise les fiches et les contrôles Markdown. Pour une nouvelle découverte, utiliser aussi le bilan des recherches précédentes afin de choisir les domaines à explorer.
 
 ## Du fichier anglais au manuscrit relu
 
@@ -39,10 +39,10 @@ Pendant l’écriture, l’utilisateur peut donner une ambiance, un thème ou un
 
 ## Classer les fichiers pour retrouver une histoire
 
-- Attribuer à chaque piste un identifiant unique dans le registre, par exemple `P001`. La référence complète d’une piste est le nom de sa branche d’export accompagné de son identifiant dans le registre.
+- Attribuer à chaque piste un identifiant unique dans le registre de l’export. Utiliser la lettre `P` suivie d’un numéro local. La référence complète d’une piste est le nom de sa branche d’export accompagné de son identifiant dans le registre.
 - Après le choix, copier le [modèle de plan](manuscrits/fr/plan.md) dans `manuscrits/<langue>/<piste>/plan.md`. Dans ce même dossier, copier le [modèle de présentation](modeles/0.md) sous le nom exact `0.md` pour le titre du livre et sa quatrième de couverture.
 - Pour un récit en plusieurs fichiers, garder `01.md`, `02.md`, etc., avec les en-têtes `# Chapitre 1`, `# Chapitre 2`, etc., dans la langue du récit. Une nouvelle d’un seul tenant garde son texte dans `nouvelle.md`. Voir le [modèle de chapitre](modeles/chapitre.md).
-- Dans la chronologie, inscrire la destination complète d’un événement mis en récit, par exemple `manuscrits/fr/P001/01.md`. Dans le glossaire, conserver la forme anglaise, la langue cible et la référence qui distingue deux homonymes. Les deux CSV utilisent la virgule et l’encodage UTF-8.
+- Dans la chronologie, inscrire la destination complète d’un événement mis en récit, par exemple `manuscrits/<langue>/<piste>/01.md`. Dans le glossaire, conserver la forme anglaise, la langue cible et la référence qui distingue deux homonymes. Les deux CSV utilisent la virgule et l’encodage UTF-8.
 - Pour une traduction ultérieure, reprendre le manuscrit original stabilisé. Placer l’édition dans le dossier de sa langue avec le même identifiant de piste, et conserver les références communes à l’export.
 
 À la fin de chaque étape ou séance interrompue, enregistrer sur la branche de l’export les fichiers de travail et actualiser le [suivi](REPRISE.md) dans le même commit. À la reprise, ouvrir l’élément indiqué à la ligne « Prochaine action ».

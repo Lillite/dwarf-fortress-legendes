@@ -1,6 +1,6 @@
 # SPEC éditoriale — Écrire une nouvelle ou un roman à partir des légendes de Dwarf Fortress
 
-**Version 1.18 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
+**Version 1.19 · Fiction textuelle · Rédaction originale dans la langue choisie par l’utilisateur**
 
 Toute période documentée par l’export *Legends* peut fournir le sujet d’un livre. Un récit peut se dérouler entièrement dans l’histoire générée à la création du monde, commencer et finir des siècles avant la partie, suivre un peuple, une personne ou un objet à travers plusieurs lieux. Une forteresse peut y tenir la première place, apparaître en chemin ou être entièrement absente.
 
@@ -16,7 +16,7 @@ Relever ce qui éveille une curiosité précise : deux rencontres éloignées 
 
 ### Préparer une piste avec les outils de la branche
 
-À la reprise, ouvrir la fiche `reperes/index-legends/dossiers/Pxxx.md` du monde. Lire d’abord toute la chronologie documentée de la piste. Suivre ensuite, selon la scène à écrire, les liens vers les notices, les collections et les décisions du plan. Les références communes entre pistes et les rapprochements supplémentaires sont des départs d’enquête. Deux offres successives, deux témoins d’un même fait ou deux notices simultanées gardent chacun leur référence. Pour une séquence dont l’ordre est incertain, conserver cette incertitude dans les notes de travail.
+À la reprise, ouvrir la fiche `reperes/index-legends/dossiers/Pxxx.md` du monde. Lire d’abord toute la chronologie documentée de la piste. Suivre ensuite, selon la scène à écrire, les liens vers les notices, les collections et les décisions du plan. Les références communes entre pistes et les rapprochements supplémentaires sont des départs d’enquête. Conserver la référence de chaque notice, même lorsque plusieurs entrées partagent une date ou décrivent un même fait sous des angles différents. Pour une séquence dont l’ordre est incertain, conserver cette incertitude dans les notes de travail.
 
 Consulter les écarts de structure et les passages à relire après une modification des sources, du plan ou du manuscrit. Comparer les ouvertures dans leur contexte. Le programme prépare la matière, l’auteur décide des coupes, de la voix et de l’ordre de narration. La présentation et le manuscrit sont écrits en Markdown sur la branche du monde.
 
@@ -26,7 +26,7 @@ Dès le premier parcours, garder trace des points de départ qui ont produit les
 
 Choisir le point de départ d’après les lacunes du premier parcours. Pour les guerres, ouvrir les batailles rattachées aux conflits et relever, là où le XML les précise, les chefs de chaque camp, leur rôle, leur faction et le lieu. Regrouper les mentions de chaque chef à travers les batailles en conservant le camp qu’il commandait à chaque date. Rechercher ailleurs dans l’export les mentions de ces figures, groupes ou sites par identifiant et par catégorie, y compris dans d’autres conflits. Remettre les occurrences dans l’ordre et comparer les rôles, les alliés, les adversaires ou le sort des lieux. Si les premières pistes venaient surtout de biographies, on peut aussi partir d’une charge, retrouver ses titulaires successifs et chercher ce que chacun a reçu de son prédécesseur.
 
-Ainsi, une générale qui commande l’attaque d’une ville en l’an 57 puis la défense d’une autre en l’an 90 offre un angle de récit. Qu’est-ce que défendre une ville pour quelqu’un qui en a attaqué une ? Les deux notices peuvent attester ce changement de rôle. Un changement d’allégeance, un remords ou une leçon tirée de la première attaque demanderaient d’autres indices pour être tenus pour acquis.
+Pour un lieu, par exemple, des notices de construction et d’abandon pourraient donner deux regards sur une même route. Vérifier dans l’export qui a emprunté cette route et à quelle époque. Si le fichier laisse ouverte la raison de l’abandon, la consigner comme une question.
 
 Consigner dans le [registre des pistes](reperes/pistes.md) le domaine repris, le chemin réellement suivi et les références trouvées. Selon la matière, ouvrir une piste, enrichir une piste existante ou noter en une phrase où la recherche s’arrête. Si les renvois manquent, préciser lesquels. Présenter les propositions après cette seconde lecture. Aucun thème n’a de place réservée et le nombre de pistes dépend de ce que les occurrences permettent de raconter.
 
@@ -194,7 +194,7 @@ Deux outils d’écriture éclairent ce travail.
 
 ## 6. Exemple de travail — un objet transmis pendant un exil
 
-Cet exercice reprend le motif de l’objet passé de main en main, déjà présent dans les notes éditoriales du projet. Les circonstances ci-dessous sont imaginées pour illustrer la méthode. Pour un manuscrit, les personnes, les lieux et les transmissions seraient d’abord à vérifier dans l’export choisi.
+L’exemple qui suit est fictif. Il montre comment un même sujet peut prendre la forme d’une nouvelle ou d’un roman selon les faits disponibles. Lors de l’écriture, vérifier les personnes, les lieux et les transmissions dans l’export choisi.
 
 **Avant d’en faire un livre.** Si l’export mentionne seulement l’existence de l’objet, la scène de restitution ci-dessous reste un exercice d’écriture. S’il documente le départ de sa détentrice avec l’objet et sa remise à son créateur, ces deux faits offrent déjà un point d’appui pour une nouvelle. Pour développer les années d’exil en roman, chercher ce que d’autres passages permettent d’y raconter. Des notices répétant que l’objet est en sa possession justifient la continuité de sa garde. Une transmission contestée en cours de route, si elle est consignée, donne un épisode avec un enjeu propre.
 
@@ -216,13 +216,13 @@ Dès le premier jet, reprendre l’ouverture et les passages où le cadre peut p
 
 À la première pause naturelle, répondre par écrit ou mentalement à deux questions : **« Quelle scène concrète puis-je imaginer avec ces mots ? »** et **« Qu’est-ce qui compte pour quelqu’un ici, et qu’ai-je envie de découvrir ? »** Appuyer les réponses sur les mots du passage. Chercher une autre interprétation plausible dans ce monde. Si elle entretient le mystère ou l’humour voulu, la laisser jouer. Si elle masque ce qui se passe ou pourquoi on s’y intéresserait, avancer le plus petit indice qui éclaire la scène : un geste, un mot précis, la raison d’une visite. Relire ensuite depuis l’entrée du passage pour vérifier l’effet de la correction.
 
-**Lire l’image au pied de la lettre.** « Si je prends ces mots au pied de la lettre, qui est devant moi et qu’est-ce que je vois ? » Dans P018, « j’avais vu sous son coude la bouche de mon mari » peut faire apparaître le mari aux côtés du garçon. Boki reconnaît pourtant un trait du père sur le visage de son fils. Si une image déplace ainsi un corps ou un geste d’une personne à une autre, nommer le détail visible et celui à qui il appartient. On pourrait écrire « Le garçon avait levé le bras. J’avais aperçu sa dent de travers, en bas, au milieu. Son père avait la même. »
+**Lire l’image au pied de la lettre.** « Si je prends ces mots au pied de la lettre, qui est devant moi et qu’est-ce que je vois ? » Pour une ressemblance, vérifier que le lecteur peut identifier la personne présente et celle que le détail rappelle. Dans un exemple fictif, « C’était la démarche de mon maître qui entrait dans l’atelier » pourrait annoncer le maître en personne. « L’apprentie entra en traînant le talon gauche. Son maître usait ses souliers du même côté. » Le lecteur voit qui entre et sur quoi repose la comparaison.
 
-**S’arrêter à ce que le lecteur sait déjà.** Quand le récit passe au souvenir ou qu’un personnage change de rôle dans la famille, s’arrêter à la phrase de bascule. « Qui se souvient, de qui et de quel moment ? Quels mots m’ont permis de le comprendre jusqu’ici ? » Dans « les deux fois où elle m’avait vue revenir », le lecteur connaît Boki comme la mère qui accueille son fils. Il lui manque encore le moment où Boki était elle-même l’enfant qui rentrait. Boki peut donner le repère dans sa propre voix. « Enfant, j’avais été enlevée deux fois. Comment ma mère m’avait-elle accueillie à mon retour ? »
+**S’arrêter à ce que le lecteur sait déjà.** Lors d’un passage au souvenir ou d’un changement de rôle, s’arrêter à la phrase où il se produit. « Qui se souvient, de qui et de quel moment ? Quels mots m’ont permis de le comprendre jusqu’ici ? » Si une artisane guide une élève et se rappelle son propre apprentissage, un bref repère suffit. « À son âge, c’était moi qui tenais la lampe. Ma tante me reprenait si je faisais de l’ombre sur son ouvrage. » Vérifier que cette lecture est possible dès la phrase concernée.
 
-**Préserver l’ambiguïté voulue.** On peut laisser le lecteur se demander si Boki osera prendre son fils dans ses bras. Il doit pouvoir se représenter à qui appartiennent ces bras et lequel des deux vient de rentrer. Apporter la correction la plus légère qui rétablit ces repères, puis relire depuis la phrase précédente, avec le seul manuscrit, pour vérifier l’image obtenue et la question qui reste ouverte.
+**Préserver l’ambiguïté voulue.** Le lecteur peut ignorer si quelqu’un osera parler, tout en comprenant qui se trouve à portée de voix. Si le doute porte sur la mauvaise question, apporter la correction la plus légère. Relire depuis la phrase précédente avec le seul manuscrit, sans le plan ni la quatrième de couverture. Vérifier à la fois l’image obtenue et la question qui reste ouverte.
 
-**Exemple du roi de pâte.** Dans un monde fantastique, un petit roi que l’on soulève et dont on soutient le menton peut se lire comme un souverain vivant et fragile. Dire qu’Odda joue la reine éclaire son rôle à elle. Montrer Buh qui pose sur la table le roi qu’elle a *modelé* rend la figurine immédiatement identifiable. Avancer la promesse du poème pour le souper des laveuses répond à l’autre question : on comprend pourquoi Buh tient à réussir sa petite représentation. On peut alors laisser au lecteur le plaisir de découvrir ce qu’Odda a fait du caillou.
+**Situer une scène jouée ou imaginée.** Lorsqu’un personnage répète un discours, rêve ou joue un rôle, choisir un indice que le lecteur peut interpréter dès son apparition. Une oratrice salue une rangée de chaises vides. « Plus fort, depuis le dernier rang on te perd », lui souffle son compagnon. Ces détails installent la répétition. On peut laisser en suspens la façon dont elle sera reçue devant le véritable auditoire.
 
 ### Lecture du manuscrit entier
 

@@ -1,4 +1,10 @@
-# Clôture de chaque demande
+# Travailler sur le projet
+
+## Préparer une méthode commune sur `main`
+
+Écrire les consignes et les modèles pour une branche qui vient d’être créée. Un retour de lecture peut améliorer la SPEC : en dégager la question de relecture et, si un exemple aide à la comprendre, inventer un exemple indépendant. Consigner les citations de manuscrits, les identifiants du XML et les décisions propres à une histoire sur la branche de l’export concerné. Dans les commandes, indiquer où trouver les valeurs à employer pour le monde en cours.
+
+## Clôture de chaque demande
 
 Appliquer cette règle à toute demande sur le projet, y compris une explication, une vérification ou une relecture sans autre modification du dépôt. L’assistant qui traite la demande est responsable de sa clôture.
 

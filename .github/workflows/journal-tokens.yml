@@ -11,7 +11,7 @@ on:
         required: true
         type: string
       piste:
-        description: Piste éventuelle (P014, etc.)
+        description: Identifiant de la piste sur la branche concernée (facultatif)
         type: string
       recus:
         description: 'Compteurs API JSON minimaux (id, model, usage), ou laisser vide pour ChatGPT sans mesure'

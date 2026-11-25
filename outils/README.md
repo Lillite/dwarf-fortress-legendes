@@ -12,21 +12,21 @@ Réserver `reperes/index-legends/` aux fichiers générés. Les décisions édit
 
 ## En local
 
-Utiliser Python 3.10 ou ultérieur, avec la bibliothèque standard. Dans les commandes suivantes, remplacer les chemins par ceux de l’export. La branche peut contenir le XML standard et son complément DFHack `*-legends_plus.xml` issus de la même opération. Les fichiers standard et complémentaires sont identifiés par leur nom usuel ou leur racine. Les champs observés dans chacun restent disponibles avec le nom de fichier et le numéro de ligne d’origine.
+Utiliser Python 3.10 ou ultérieur, avec la bibliothèque standard. Dans les commandes suivantes, remplacer les chemins par ceux de l’export. La branche peut contenir le XML standard et son complément DFHack `*-legends_plus.xml` issus de la même opération. Les fichiers standard et complémentaires sont identifiés par leur nom usuel ou leur racine. Les champs observés dans chacun restent disponibles avec le nom de fichier et le numéro de ligne d’origine. Pour la commande de consultation, affecter à `CATEGORIE` et `ID_NOTICE` la catégorie et l’identifiant d’une notice présente dans la base. Le relevé `build/rapports/types-evenements.csv` donne un identifiant de départ pour chaque type d’événement observé, dans la catégorie `historical_event`.
 
 ```sh
 python3 outils/analyser_legendes.py --sources sources --base build/legendes.sqlite --rapports build/rapports
-python3 outils/dossier_legendes.py build/legendes.sqlite historical_figure 400 --sortie build/figure-400.md
+python3 outils/dossier_legendes.py build/legendes.sqlite "$CATEGORIE" "$ID_NOTICE" --sortie build/notice.md
 python3 -m unittest discover -s tests -v
 ```
 
-La deuxième commande est un exemple utilisant la figure 400 de région 1. Remplacer sa catégorie et son identifiant pour interroger un autre monde, une œuvre, un événement, un site ou une collection. Le dossier indique qui cite la notice, ce qu’elle cite elle-même, les champs des rôles et les lignes à lire dans les sources. Un dossier se construit à partir de la base existante en quelques requêtes.
+Le dossier indique qui cite la notice, ce qu’elle cite elle-même, les champs des rôles et les lignes à lire dans les sources. Un dossier se construit à partir de la base existante en quelques requêtes.
 
-Si le monde possède déjà un relevé éditorial `reperes/occurrences.csv`, on peut le comparer à la même base. La première commande liste les types d’événement et leur couverture dans ce CSV. La seconde isole les événements déjà associés à une piste. Le CSV se lit sur la branche du monde et peut évoluer indépendamment de la base.
+Si le monde possède déjà un relevé éditorial `reperes/occurrences.csv`, on peut le comparer à la même base. La première commande liste les types d’événement et leur couverture dans ce CSV. La seconde isole les événements déjà associés à une piste. Le CSV se lit sur la branche du monde et peut évoluer indépendamment de la base. Affecter à `PISTE` l’identifiant voulu dans le registre de cette branche.
 
 ```sh
 python3 outils/lire_pistes.py build/legendes.sqlite reperes/occurrences.csv
-python3 outils/lire_pistes.py build/legendes.sqlite reperes/occurrences.csv --piste P014
+python3 outils/lire_pistes.py build/legendes.sqlite reperes/occurrences.csv --piste "$PISTE"
 ```
 
 ## Lire les résultats
@@ -62,7 +62,7 @@ Les liens des fiches sont préparés pour leur emplacement publié sous `reperes
 
 ## Journal des tokens
 
-Une fiche correspond à une demande utilisateur. Choisir un identifiant unique, par exemple une date suivie d’un sujet et d’un suffixe si nécessaire. Réutiliser cet identifiant uniquement pour les tentatives ou les appels de cette même demande. Sur `main`, le journal se trouve dans `suivi/usage-llm/<demande>.json`. Sur `legendes/<monde>`, il se trouve dans `reperes/usage-llm/<demande>.json`. Les anciens échanges restent hors du calcul. La publication de la fiche fait partie de la clôture de la demande. [Consignes de clôture](../AGENTS.md)
+Une fiche correspond à une demande utilisateur. Choisir un identifiant unique, par exemple une date suivie d’un sujet et d’un suffixe si nécessaire. Réutiliser cet identifiant uniquement pour les tentatives ou les appels de cette même demande. Sur `main`, le journal se trouve dans `suivi/usage-llm/<demande>.json`. Sur `legendes/<monde>-<export>`, il se trouve dans `reperes/usage-llm/<demande>.json`. Les anciens échanges restent hors du calcul. La publication de la fiche fait partie de la clôture de la demande. [Consignes de clôture](../AGENTS.md)
 
 | Donnée disponible à la clôture | Ce qui est enregistré |
 | --- | --- |
@@ -75,18 +75,18 @@ Un reçu peut inclure du contexte relu par le modèle lors de cet appel. Utilise
 
 ### Publier avant de répondre
 
-Depuis le dépôt avec un accès en écriture à `origin`, utiliser le script de `main`. Pour une conversation dont le total est inconnu, préparer la réponse définitive et copier uniquement les deux textes dans des fichiers UTF-8 temporaires hors du dépôt. Installer le module Python `tiktoken` pour ce comptage. Le premier chargement de l’encodage peut télécharger son vocabulaire.
+Depuis le dépôt avec un accès en écriture à `origin`, utiliser le script de `main`. Pour une conversation dont le total est inconnu, préparer la réponse définitive et copier uniquement les deux textes dans des fichiers UTF-8 temporaires hors du dépôt. Installer le module Python `tiktoken` pour ce comptage. Le premier chargement de l’encodage peut télécharger son vocabulaire. Dans les commandes suivantes, affecter à `DEMANDE` un identifiant neuf pour la demande courante.
 
 ```sh
-python3 outils/journal_tokens.py --publier --branche main --demande 20261125-regle-01 \
+python3 outils/journal_tokens.py --publier --branche main --demande "$DEMANDE" \
   --message-utilisateur /tmp/demande.txt --reponse-finale /tmp/reponse.txt --encodage o200k_base
 ```
 
-Pour un monde, remplacer `main` par sa branche exacte. Avec des compteurs API, fournir les reçus du tour. Ajouter `--complet` lorsque tous les appels sont couverts.
+Pour un monde, affecter à `BRANCHE_EXPORT` le nom complet de sa branche et à `PISTE` l’identifiant concerné, si la demande porte sur une piste. Avec des compteurs API, fournir les reçus du tour. Ajouter `--complet` lorsque tous les appels sont couverts.
 
 ```sh
-python3 outils/journal_tokens.py --publier --branche legendes/monde-exemple --demande 20261125-p014-01 \
-  --piste P014 --recu /tmp/appel-1.json --recu /tmp/appel-2.json --complet
+python3 outils/journal_tokens.py --publier --branche "$BRANCHE_EXPORT" --demande "$DEMANDE" \
+  --piste "$PISTE" --recu /tmp/appel-1.json --recu /tmp/appel-2.json --complet
 ```
 
 `--publier` écrit uniquement la fiche sur la branche distante et vérifie sa présence et ses compteurs. En mode local, omettre `--publier` et `--branche` pour préparer le JSON sur la branche courante. On peut alors publier cette fiche via le connecteur GitHub et relire le fichier sur la branche cible. L’option distincte `--texte fiche.md --encodage o200k_base` permet aussi de mesurer un document de travail.

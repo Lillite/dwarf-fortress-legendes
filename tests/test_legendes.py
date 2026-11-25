@@ -12,7 +12,7 @@ from pathlib import Path
 
 CLI = Path(__file__).resolve().parents[1] / "outils" / "analyser_legendes.py"
 
-# IDs repeat across categories. Two distinct figures deliberately share a name.
+# Export XML synthétique : les catégories réutilisent des identifiants et deux figures sont homonymes.
 STANDARD = """<?xml version="1.0" encoding="CP437"?>
 <df_world>
   <sites>
@@ -99,10 +99,10 @@ class IndexLegendsTests(unittest.TestCase):
         root = Path(tmp.name)
         self.sources = root / "sources"
         self.sources.mkdir()
-        self.original = self.sources / "region-test-legends.xml"
+        self.original = self.sources / "monde-test-legends.xml"
         self.raw = STANDARD.replace("\n", "\r\n").encode("cp437")
         self.original.write_bytes(self.raw)
-        (self.sources / "region-test-legends_plus.xml").write_text(PLUS, encoding="utf-8")
+        (self.sources / "monde-test-legends_plus.xml").write_text(PLUS, encoding="utf-8")
         self.database = root / "legendes.sqlite"
         self.reports = root / "rapports"
 
@@ -192,7 +192,7 @@ class IndexLegendsTests(unittest.TestCase):
     def test_track_reader_counts_only_explicit_distinct_events(self):
         self.run_cli()
         register = self.database.parent / "occurrences.csv"
-        register.write_text("piste,evenement_id\nP014,90\nP015,70\nP014,70\nP014,90\nP014,7\n",
+        register.write_text("piste,evenement_id\nP914,90\nP915,70\nP914,70\nP914,90\nP914,7\n",
                             encoding="utf-8-sig")
         command = [sys.executable, str(CLI.with_name("lire_pistes.py")), str(self.database), str(register)]
         summary = subprocess.run(command, capture_output=True, text=True, check=True)
@@ -201,7 +201,7 @@ class IndexLegendsTests(unittest.TestCase):
                          "notices_citees_dans_le_csv": "2", "exemple_non_cite": ""})
         self.assertEqual(rows["entity persecuted"]["exemple_non_cite"], "120")
         self.assertIn("7", summary.stderr)  # Figure 7 exists, historical event 7 does not.
-        selected = subprocess.run([*command, "--piste", "P014"], capture_output=True, text=True, check=True)
+        selected = subprocess.run([*command, "--piste", "P914"], capture_output=True, text=True, check=True)
         entries = list(csv.DictReader(io.StringIO(selected.stdout), delimiter="\t"))
         self.assertEqual([r["evenement_id"] for r in entries], ["70", "90", "7"])
         self.assertEqual([r["statut"] for r in entries], ["trouvé", "trouvé", "introuvable"])

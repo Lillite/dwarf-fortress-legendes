@@ -38,6 +38,26 @@ def digest(value):
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 
 
+def register_entries(text):
+    """Localiser les pistes inscrites dans le tableau du modèle ou sous leur propre titre."""
+    entries = {}
+    in_inventory = False
+    for number, line in enumerate(text.splitlines(), 1):
+        row = line.strip()
+        if row.startswith("|"):
+            first = row.split("|", 2)[1].strip()
+            if first == "ID":
+                in_inventory = True
+            elif in_inventory and TRACK.fullmatch(first):
+                entries.setdefault(first, number)
+        else:
+            in_inventory = False
+            heading = re.match(r"^##\s+(P[0-9]+)\b", line)
+            if heading:
+                entries[heading[1]] = number
+    return entries
+
+
 def prep_events(db, world, diagnostics):
     tracks = defaultdict(set)
     reasons = defaultdict(set)
@@ -174,7 +194,8 @@ def generate(db, world, out, version):
     books = controles_manuscrits(world, out, version, diagnostics)
     register = world / "reperes/pistes.md"
     register_text = register.read_text(encoding="utf-8") if register.is_file() else ""
-    ids = set(re.findall(r"^##\s+(P\d+)\b", register_text, re.M)) | set(books)
+    registered = register_entries(register_text)
+    ids = set(registered) | set(books)
     by_track = defaultdict(list)
     details = {}
     by_entity = defaultdict(set)
@@ -317,11 +338,12 @@ def generate(db, world, out, version):
             ),
         )
         page = PUBLISHED / f"{track}.md"
-        lines = (
-            [f"# {track}", "", f"[Registre]({link('reperes/pistes.md', page)}#{track.lower()})"]
-            if register.is_file()
-            else [f"# {track}"]
-        )
+        lines = [f"# {track}"]
+        if register.is_file():
+            target = link("reperes/pistes.md", page)
+            if track in registered:
+                target += f"?plain=1#L{registered[track]}"
+            lines += ["", f"[Registre]({target})"]
         for book in books.get(track, []):
             for source_file in sorted(book.glob("*.md")):
                 if source_file.name in {"plan.md", "note.md", "0.md"}:

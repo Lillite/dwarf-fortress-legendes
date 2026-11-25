@@ -78,7 +78,7 @@ def main():
         "La comparaison porte uniquement sur les références du CSV fourni pour le même monde."))
     parser.add_argument("base", type=Path, help="base SQLite de l’export, ouverte en lecture seule")
     parser.add_argument("occurrences", type=Path, help="relevé CSV des occurrences de la branche")
-    parser.add_argument("--piste", help="identifiant exact (ex. P014) pour lister les notices datées et sourcées")
+    parser.add_argument("--piste", help="identifiant de la piste à consulter dans le registre de cet export")
     args = parser.parse_args()
     try:
         ids = referenced_events(args.occurrences, args.piste)

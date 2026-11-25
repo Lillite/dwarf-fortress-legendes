@@ -61,7 +61,7 @@ class PublicationTests(unittest.TestCase):
             self.assertEqual(git("show", "FETCH_HEAD:reperes/index-legends/README.md"), "Premier relevé")
             git("merge", "--ff-only", "FETCH_HEAD")
             # En mode éditorial, un nouveau chapitre sous manuscrits invalide les dossiers déjà calculés.
-            chapter = local / "manuscrits/fr/P001/01.md"
+            chapter = local / "manuscrits/fr/P901/01.md"
             chapter.parent.mkdir(parents=True)
             chapter.write_text("# Chapitre 1", encoding="utf-8")
             git("add", "manuscrits")
