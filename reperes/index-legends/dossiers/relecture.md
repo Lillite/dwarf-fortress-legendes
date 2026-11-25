@@ -14,6 +14,10 @@
 
 > La première promesse d’immortalité que reçut Solon Beachedglaze lui entra par une seule oreille. L’autre était sous l’eau. Elle acheva sa longueur, prit le rebord à deux mains et cracha dans la rigole.
 
+### manuscrits/fr/P018
+
+> J’ai appelé mon fils par le nom de son frère. Il m’a dit que je le prononçais mal.
+
 ## Paragraphes identiques de 60 caractères ou plus
 
 Aucun relevé.

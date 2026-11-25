@@ -319,3 +319,6 @@ P018,53039,89,-1,add hf entity link,1509256,Captivité et retour de Dof,4791,civ
 P018,53040,89,-1,change hf state,1509265,Captivité et retour de Dof,4791,"hfid=9044 | state=settled | site_id=85 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
 P018,69715,99,-1,change hf state,1649538,Captivité et retour de Dof,,"hfid=9044 | state=settled | reason=flight | site_id=193 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
 P018,69716,99,-1,hf reunion,1649551,Captivité et retour de Dof,,group_1_hfid=9044 | group_2_hfid=5364 | site_id=193 | subregion_id=-1 | feature_layer_id=-1
+P018,53038,89,-1,hf abducted,1509245,"Seba, frère de Dof : enlèvement et captivité",4791,target_hfid=8703 | snatcher_hfid=5058 | site_id=193 | subregion_id=-1 | feature_layer_id=-1
+P018,53041,89,-1,add hf entity link,1509277,"Seba, frère de Dof : enlèvement et captivité",4791,civ_id=291 | link=prisoner | hfid=8703
+P018,53042,89,-1,change hf state,1509286,"Seba, frère de Dof : enlèvement et captivité",4791,"hfid=8703 | state=settled | site_id=85 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"

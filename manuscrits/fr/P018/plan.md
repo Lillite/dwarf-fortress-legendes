@@ -1,0 +1,29 @@
+# Celle qui ouvre la porte
+
+Le 25 novembre 2026, l’utilisateur a choisi « Rédige P018 ». Nouvelle originale en français. La demande laisse à l’auteur la voix, la longueur et l’ordre des scènes. [Piste P018](../../../reperes/pistes.md#p018) · [Fiche de l’export de région 1](../../../sources/README.md) · [Présentation du livre](0.md) · [Manuscrit](nouvelle.md).
+
+## Ce qu’on peut établir
+
+Les numéros d’événements du tableau renvoient aux notices de l’original. Les dates des retrouvailles et des enlèvements y sont données à l’année. Les champs de groupe des retrouvailles nomment les personnes présentes. Leur lien familial se vérifie dans les fiches de figures. [Dossier de piste](../../../reperes/index-legends/dossiers/P018.md) · [Chronologie](../../../reperes/chronologie.csv) · [Glossaire](../../../reperes/glossaire.csv).
+
+| Épisode | Appuis dans l’export | Décision pour la nouvelle |
+| --- | --- | --- |
+| Première enfance de Boki | Ebka Peacefulsubtle (1722) est la mère de Boki Bladechanted (5364), née en 66. Ozud Redghoul (3396) enlève Boki en 67 à Stylesurprise, hameau 193. Boki est inscrite comme prisonnière de l’entité 291 et s’établit à Devilaura, forteresse 85 (28247, 28249, 28250). En 71, fuite et installation au hameau (32139), retrouvailles avec Ebka (32140). | Boki peut se rappeler le premier retour par bribes. La couture, le poisson et le lait appartiennent à sa mémoire imaginée. Elle ne se donne aucun souvenir du premier enlèvement. |
+| Seconde séparation | Ozud enlève de nouveau Boki à Stylesurprise en 74. Même entité et même forteresse (34732–34734). Nouvelle fuite en 82 (44391), puis notice de retrouvailles avec Ebka au hameau (44392). | Adolescente, elle veut arriver bien coiffée. Son recul et la demande d’Ebka donnent une autre issue au geste que sa mère avait fait à la petite fille. Aucun jour précis ni trajet de fuite n’est fourni. |
+| Deux frères | Les figures de Boki et de Niwir Spiraldrive (5361) et celles de Seba Dipcatches (8703, né en 86) et Dof Grippedshadow (9044, né en 88) confirment les parentés. En 89 à Stylesurprise, Zolak Sternmaligned (3567) enlève Dof (53037) et Arstruk Devilcradled (5058), une gobeline, enlève Seba (53038). Les deux sont inscrits comme prisonniers et établis à Devilaura (53039–53042). | Seba était en âge d’avoir entendu sa mère l’appeler, Dof était tout petit. La voix qu’un frère transmet à l’autre est une invention. Leur présence dans la même forteresse est attestée. Leurs conversations, leur logement et les circonstances de leur séparation sont inconnus. |
+| Dof chez Boki | En 99, Dof s’installe à Stylesurprise à la suite d’une fuite (69715). Une seconde notice y nomme Dof dans le premier groupe et Boki dans le second (69716). | C’est Dof qui revient. Aucun retour de Seba auprès de Boki ne figure parmi les événements qui nomment Seba. Sa situation en 99 reste ouverte. Dans le livre, Dof dit seulement ce qu’il sait. |
+
+La piste de Seba est apparue en suivant les liens de parenté de Boki et les événements des deux garçons, au-delà de la liste initiale centrée sur Dof. Le renvoi 54504 concerne Fanu, un autre fils enlevé par Zolak en 90. Boki a aussi d’autres enfants. La rencontre se concentre sur Dof et sur le frère dont il imite la voix. Les changements de métier 47173 et 71000 ne précisent aucun métier. Aucun n’est attribué à Boki. Ebka s’installe ailleurs en 95 (62813) et à Stylesurprise en 100 (71811). Boki ne la situe pas au village en 99. La persécution menée par Ebka en 58 (21680), antérieure à la naissance de Boki, n’éclaire pas à elle seule la façon dont elle a accueilli sa fille.
+
+## Voix et ordre du récit
+
+Boki prend la parole en commençant par sa propre erreur de prénom. Le lecteur sait d’emblée qu’un fils revient. Ce qui reste à découvrir est la façon dont ce garçon veut être appelé. La journée de l’an 99 tient en une visite. Les retours de 71 et 82 y entrent quand Boki hésite à toucher Dof. Racontés dans l’ordre des années avant de le faire paraître, ils donneraient à la mère une avance que le garçon vient justement lui disputer. La forme d’un seul tenant laisse entendre sans nouveau départ les trois voix d’une même famille.
+
+La ressemblance avec le père, le fil de la robe, l’épingle, les prunes, le jeu, l’imitation et tous les dialogues relèvent de la fiction. Boki imagine ses fils côte à côte. Elle ignore comment ils ont vécu à Devilaura. Le récit lui laisse cette limite. Le déplacement du caillou suffit à mener Dof de la table jusqu’à la ruelle, où il peut enfin demander quelque chose pour lui-même.
+
+## Bilan de relecture
+
+- **Ouverture et première ellipse.** Le garçon corrige le nom de Seba avant que Boki prononce celui de Dof. Le gravier et la pelle situent le malentendu sur le seuil. Dans le premier souvenir, une enfant reconnaît Ebka à la façon dont celle-ci répond au fil tiré dans sa robe. Le désaccord sur l’étreinte leur laisse à chacune son souvenir.
+- **Retour de l’adolescente.** Boki protège sa coiffure et retire sa tête. Le bras d’Ebka suspendu, puis sa demande d’être coiffée à son tour, laissent aux deux femmes le temps de sortir de cette méprise. Dans le présent, Dof provoque leur premier contact en toussant au milieu de son imitation.
+- **Contrôle des gestes et des faits.** Le noyau du premier fruit rejoint le gravier dans la main de Boki. Dof récupère les deux pour son jeu. Le sujet de 53038 et la figure 5058 ont été relus dans le XML pour distinguer la ravisseuse de Seba du ravisseur de Dof. L’âge de Dof à l’intérieur de l’an 99 reste imprécisé.
+- **Dernier passage relu.** Du départ du caillou à la réplique dans la porte. Dof demande à entendre son propre nom. Il reconnaît son frère dans la voix de leur mère. La réponse termine la scène et laisse à Seba son histoire ouverte. La quatrième s’arrête avant le jeu et cette demande.

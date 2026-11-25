@@ -21,4 +21,4 @@ Référentiel commun SPEC 1.17. Ouvrir la piste, puis les seules notices utiles.
 - [P015](P015.md) · 22 événements résolus.
 - [P016](P016.md) · 8 événements résolus.
 - [P017](P017.md) · 13 événements résolus.
-- [P018](P018.md) · 15 événements résolus.
+- [P018](P018.md) · 18 événements résolus.

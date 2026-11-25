@@ -2,13 +2,13 @@
 
 | Repère | État enregistré |
 | --- | --- |
-| Étape active | **Trois livres relus selon la SPEC 1.17. Étape 3 ouverte pour le choix d’une nouvelle histoire.** |
+| Étape active | **Quatre livres relus selon la SPEC 1.17. Étape 3 ouverte pour le choix d’une nouvelle histoire.** |
 | Branche permanente | `legendes/region1-an-100-02-28` |
 | Source | [Original du 28 du mois 02 de l’an 100](sources/region1-00100-02-28-legends.xml) · [Fiche de source et inventaire](sources/README.md). Le nom du monde n’est pas fourni. |
 | Index factuel | [Relevés du monde](reperes/index-legends/README.md) · [Dossiers des 18 pistes](reperes/index-legends/dossiers/README.md). La base de l’indexation manuelle du 22 novembre et le [manifeste](reperes/index-legends/manifest.json) correspondent au même XML. |
 | Couverture de lecture | 15 sections parcourues. Seconde lecture des guerres, lieux, charges, concours, échanges et autres domaines consignés dans le [bilan](reperes/pistes.md#bilan-de-la-seconde-lecture). |
-| Dernier point atteint | Deux propositions issues des nouveaux relevés, [P017](reperes/pistes.md#p017) et [P018](reperes/pistes.md#p018). Présentations et chapitres des trois livres vérifiés. [Contrôles](reperes/index-legends/dossiers/controles.md) · [Ouvertures](reperes/index-legends/dossiers/relecture.md). |
-| Livres en français | [P001 · Les deux poèmes de Buh](manuscrits/fr/P001/0.md) · [P002 · Celle qu’on a crue](manuscrits/fr/P002/0.md) · [P014 · Celui qui ne vieillissait pas](manuscrits/fr/P014/0.md). |
+| Dernier point atteint | P018, *Celle qui ouvre la porte*, achevée en français. Dernier passage relu, l’appel de Boki depuis le seuil. [Nouvelle](manuscrits/fr/P018/nouvelle.md) · [Enquête et bilan de relecture](manuscrits/fr/P018/plan.md#bilan-de-relecture). |
+| Livres en français | [P001 · Les deux poèmes de Buh](manuscrits/fr/P001/0.md) · [P002 · Celle qu’on a crue](manuscrits/fr/P002/0.md) · [P014 · Celui qui ne vieillissait pas](manuscrits/fr/P014/0.md) · [P018 · Celle qui ouvre la porte](manuscrits/fr/P018/0.md). |
 | Prochaine action | Pour une nouvelle histoire, partir du [registre des pistes](reperes/pistes.md). Un identifiant ou une envie de lecture permettent de reprendre le choix. |
 
 ## Journal
@@ -37,3 +37,4 @@
 | 2026-11-22 | Reprise selon la SPEC 1.14 | Comparaison des entrées du registre et des trois livres. Variantes essayées sur la veste de Nithros, le retour de Dothan et le souvenir d’Asmel. Recommandations soumises à la lecture. | [Diagnostic éditorial](reperes/relecture-entrees-1-14.md) |
 | 2026-11-22 | Application du diagnostic 1.14 | Reprise des propositions, dont l’observation de Thilu, le don de Spokendrips et le concours de Nino. Relecture des trois scènes modifiées et comparaison du texte des EPUB au manuscrit de chaque livre. | [Pistes](reperes/pistes.md) · [P001, IV](manuscrits/fr/P001/04.md) · [P002, II](manuscrits/fr/P002/02.md) · [P014, IV](manuscrits/fr/P014/nouvelle.md#chapitre-4) |
 | 2026-11-25 | SPEC 1.17 · Découverte et relecture | Reprise de la base SQLite manuelle. Les vols d’Orbliving et les retours de trois générations à Stylesurprise ouvrent deux pistes. Trois quatrièmes de couverture, numérotation des dix-neuf chapitres et rattachement des deux affaires d’Ac au chapitre d’ouverture. | [Bilan de découverte](reperes/pistes.md#reprise-du-25-novembre-2026) · [Dossiers, dépendances et contrôles](reperes/index-legends/dossiers/README.md) |
+| 2026-11-25 | P018 · Étapes 3 à 6 | Choix « Rédige P018 ». Vérification des trois retrouvailles et de la captivité de Seba. Nouvelle d’un seul tenant au point de vue de Boki, présentation et relecture achevées. | [Lire P018](manuscrits/fr/P018/nouvelle.md) · [Dossier de piste](reperes/index-legends/dossiers/P018.md) |

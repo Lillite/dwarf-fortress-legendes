@@ -1,12 +1,13 @@
 # Histoires de région 1
 
-Le 22 novembre 2026, trois pistes ont été choisies et rédigées en français. Pour lire un livre, ouvrir sa présentation ou commencer directement par sa première page.
+Quatre pistes de région 1 ont donné lieu à un livre en français. Pour lire un livre, ouvrir sa présentation ou commencer directement par sa première page.
 
 | Livre | Présentation | Première page |
 | --- | --- | --- |
 | P001 · Les deux poèmes de Buh | [Quatrième de couverture](../manuscrits/fr/P001/0.md) | [Chapitre 1](../manuscrits/fr/P001/01.md) |
 | P002 · Celle qu’on a crue | [Quatrième de couverture](../manuscrits/fr/P002/0.md) | [Chapitre 1](../manuscrits/fr/P002/01.md) |
 | P014 · Celui qui ne vieillissait pas | [Quatrième de couverture](../manuscrits/fr/P014/0.md) | [Chapitre 1](../manuscrits/fr/P014/nouvelle.md#chapitre-1) |
+| P018 · Celle qui ouvre la porte | [Quatrième de couverture](../manuscrits/fr/P018/0.md) | [Lire la nouvelle](../manuscrits/fr/P018/nouvelle.md) |
 
 Les autres titres sont provisoires. Les noms des personnes et des lieux suivent les graphies de l’export, avec des majuscules de lecture. Les [dossiers par piste](index-legends/dossiers/README.md) réunissent les notices et leurs renvois.
 
@@ -29,7 +30,7 @@ Les autres titres sont provisoires. Les noms des personnes et des lieux suivent 
 | [P015](#p015) | Le dernier jour du Contingent Fist | 68–90 | Récit de compagnie | — |
 | [P016](#p016) | L’eau de Straybend | 4–11, prolongements en 17 et 100 | Nouvelle de voisinage | — |
 | [P017](#p017) | La place du premier trésor | 70–96 | Nouvelle à deux voix | — |
-| [P018](#p018) | Celle qui ouvre la porte | 67–99 | Nouvelle familiale | — |
+| [P018](#p018) | Celle qui ouvre la porte | 67–99 | Nouvelle familiale | 25 novembre 2026 · [Achevée en français](../manuscrits/fr/P018/nouvelle.md) |
 
 Pour la prochaine histoire, une piste, un thème ou une envie de lecture suffisent pour reprendre ce registre. Si plusieurs histoires correspondent, leurs entrées permettent d’en comparer les points de départ. Un choix peut aussi être confié à l’auteur ou au hasard.
 
@@ -219,11 +220,13 @@ Les hameaux de Straybend et de Siegerumors se disputent en l’an 4 le droit de 
 
 ### Celle qui ouvre la porte
 
+Choix du 25 novembre 2026, « Rédige P018 ». [Présentation](../manuscrits/fr/P018/0.md) · [Nouvelle](../manuscrits/fr/P018/nouvelle.md) · [Enquête et relecture](../manuscrits/fr/P018/plan.md).
+
 À Stylesurprise, Boki Bladechanted retrouve sa mère Ebka en 71 et en 82. Chaque fois, la même gobeline, Ozud Redghoul, a enlevé Boki au hameau, et chaque fois le retour est enregistré comme une fuite. En 99, Boki figure de nouveau dans une scène de retrouvailles au même endroit. Cette fois, c’est son fils Dof qui rentre. Il avait été enlevé dix ans auparavant par Zolak Sternmaligned.
 
 **Entrée possible.** Boki reconnaît Dof de loin. Que faisait sa mère de ses mains, autrefois, pendant les quelques pas qu’il restait à franchir ? Elle pensait le savoir. Devant ce garçon qui a grandi loin d’elle, le geste lui échappe. Les deux souvenirs pourraient tenir dans le temps qu’il met à arriver. Le seuil, la reconnaissance et les gestes seraient inventés. On sait qui a retrouvé qui, et dans quel village.
 
-**Passages.** Figures 5364 (Boki), 1722 (Ebka) et 9044 (Dof), liens mère–enfant vérifiés dans les trois notices. Sites 193 et 85. Deux enlèvements de Boki (28247, 34732), deux fuites et retrouvailles (32139–32140, 44391–44392). Pour Dof, enlèvement 53037, captivité et installation 53039–53040, fuite et retrouvailles 69715–69716. L’export ne décrit ni le trajet des fugitifs ni les paroles échangées.
+**Passages.** Figures 5364 (Boki), 1722 (Ebka) et 9044 (Dof), liens mère–enfant vérifiés dans les trois notices. Sites 193 et 85. Deux enlèvements de Boki (28247, 34732), deux fuites et retrouvailles (32139–32140, 44391–44392). Pour Dof, enlèvement 53037, captivité et installation 53039–53040, fuite et retrouvailles 69715–69716. Les événements 53038 et 53041–53042 attestent aussi l’enlèvement de Seba, frère aîné de Dof, et son installation à Devilaura. Arstruk a pris Seba, Zolak a pris Dof. L’export ne décrit ni le trajet des fugitifs ni les paroles échangées.
 
 ## Périmètre du premier relevé
 
