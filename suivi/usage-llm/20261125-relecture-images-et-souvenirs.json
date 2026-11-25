@@ -1,0 +1,16 @@
+{
+  "branche": "main",
+  "demande": "20261125-relecture-images-et-souvenirs",
+  "date_utc": "2026-11-25",
+  "piste": null,
+  "appels": [],
+  "statut": "indisponible",
+  "sous_total_appels_mesurés": null,
+  "total_demande": null,
+  "indication_visible": {
+    "encodage": "o200k_base",
+    "message_utilisateur": 416,
+    "reponse_finale": 279,
+    "total_visible": 695
+  }
+}
