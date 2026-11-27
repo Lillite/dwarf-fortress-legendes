@@ -1,0 +1,16 @@
+{
+  "branche": "legendes/region1-an-100-02-28-story-writer",
+  "demande": "20261127-region1-sw-choix",
+  "date_utc": "2026-11-27",
+  "piste": null,
+  "appels": [],
+  "statut": "indisponible",
+  "sous_total_appels_mesurés": null,
+  "total_demande": null,
+  "indication_visible": {
+    "encodage": "o200k_base",
+    "message_utilisateur": 35,
+    "reponse_finale": 1143,
+    "total_visible": 1178
+  }
+}
