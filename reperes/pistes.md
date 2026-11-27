@@ -1,10 +1,10 @@
 # Pistes documentaires de région 1
 
-Les vingt pistes portent sur le même [export Legends](../sources/README.md). Les identifiants P001 à P018 reprennent ceux déjà associés à ce XML. P019 et P020 proviennent de la seconde lecture du 27 novembre 2026. Le 27 novembre 2026, l’utilisateur a choisi P014. [Lire la nouvelle en français](../manuscrits/fr/P014/nouvelle.md).
+Les vingt pistes portent sur le même [export Legends](../sources/README.md). Les identifiants P001 à P018 reprennent ceux déjà associés à ce XML. P019 et P020 proviennent de la seconde lecture du 27 novembre 2026. Deux nouvelles sont achevées en français sur cette branche. [P014 · De la main de ton père](../manuscrits/fr/P014/nouvelle.md) et [P001 · La marchande de trous](../manuscrits/fr/P001/nouvelle.md).
 
 | ID | Sujet | Période (années du monde) | État |
 | --- | --- | --- | --- |
-| P001 | [Buh Toothdiamonds, de Rawspeak aux deux poèmes](#p001) | 54–95 | Proposée |
+| P001 | [Buh Toothdiamonds, de Rawspeak aux deux poèmes](#p001) | 54–95 | Choisie · nouvelle achevée en français |
 | P002 | [Dothan Beastmop et les accusations contre Ac](#p002) | 43–86 | Proposée |
 | P003 | [Thilu Twinklewing et son manuel sur la Lune](#p003) | 8–60 | Proposée |
 | P004 | [Thep Yoreesteem et ses deux autobiographies](#p004) | 75–83 | Proposée |
@@ -28,6 +28,8 @@ Les vingt pistes portent sur le même [export Legends](../sources/README.md). Le
 Les [occurrences](occurrences.csv) permettent de retrouver chaque passage par sa ligne et ses champs anglais. La [chronologie](chronologie.csv) rassemble les événements communs une seule fois. Les numéros de structures sont locaux à leur site. Les [notices par piste](index-legends/dossiers/README.md) réunissent les renvois.
 
 ## P001
+
+Choix du 27 novembre 2026. [La marchande de trous · nouvelle intégrale](../manuscrits/fr/P001/nouvelle.md) · [Présentation](../manuscrits/fr/P001/0.md) · [Dossier des sources](../manuscrits/fr/P001/plan.md).
 
 **Buh Toothdiamonds, de Rawspeak aux deux poèmes** · 54–95.
 
