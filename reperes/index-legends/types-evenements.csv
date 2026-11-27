@@ -1,0 +1,97 @@
+type,occurrences,premiere_annee,derniere_annee,evenement_exemple
+add hf entity honor,2,80,84,42357
+add hf entity link,6829,1,100,334
+add hf hf link,2762,2,100,925
+add hf site link,777,1,100,352
+agreement formed,342,1,99,452
+artifact claim formed,109,26,99,6222
+artifact copied,103,54,99,18923
+artifact created,420,1,99,451
+artifact found,4,64,82,26338
+artifact given,40,26,99,6221
+artifact lost,61,29,100,7305
+artifact possessed,8,14,89,3324
+artifact recovered,2,89,99,54111
+artifact stored,258,1,100,453
+assume identity,409,1,100,747
+attacked site,137,1,100,850
+body abused,40,3,60,1361
+building profile acquired,28,61,98,24234
+ceremony,623,1,99,834
+change hf body state,5,41,91,11672
+change hf job,9836,1,100,715
+change hf state,10662,1,100,0
+changed creature type,11,14,86,3333
+competition,889,1,99,839
+create entity position,423,1,99,816
+created site,389,1,100,347
+created structure,295,1,99,349
+created world construction,135,15,87,3521
+creature devoured,1962,1,99,861
+dance form created,1,88,88,52919
+destroyed site,4,59,80,22776
+entity alliance formed,14,29,99,7271
+entity breach feature layer,1,28,28,7012
+entity created,180,2,100,1134
+entity dissolved,2,61,90,24064
+entity incorporated,19,54,95,19202
+entity overthrown,5,73,87,34672
+entity persecuted,8,39,98,10890
+entity primary criminals,15,26,98,6330
+entity relocate,17,29,99,7434
+failed frame attempt,8,69,99,30454
+failed intrigue corruption,220,14,99,3327
+field battle,66,1,99,840
+gamble,155,29,99,7270
+hf abducted,642,3,99,1219
+hf attacked site,48,1,98,822
+hf confronted,3,62,99,25208
+hf convicted,152,21,99,4881
+hf destroyed site,34,1,98,829
+hf died,3957,1,100,815
+hf does interaction,2,90,99,55708
+hf enslaved,1,81,81,43340
+hf equipment purchase,106,5,99,1725
+hf gains secret goal,49,13,99,3105
+hf interrogated,1,95,95,63901
+hf learns secret,28,14,100,3325
+hf new pet,101,1,99,806
+hf prayed inside structure,38,48,99,15331
+hf preach,16,41,99,11848
+hf profaned structure,2,90,99,55707
+hf ransomed,1,68,68,29454
+hf recruited unit type for entity,178,18,99,4055
+hf relationship denied,507,25,99,6052
+hf reunion,37,10,99,2511
+hf simple battle event,5723,1,99,803
+hf travel,224,1,99,805
+hf wounded,948,1,100,824
+hfs formed intrigue relationship,94,28,99,6987
+hfs formed reputation relationship,458,31,100,8206
+holy city declaration,2,74,99,35209
+item stolen,844,1,100,821
+knowledge discovered,231,8,100,2210
+modified building,2,91,97,57350
+musical form created,4,85,98,48697
+new site leader,3,97,99,66945
+peace accepted,31,31,99,8142
+peace rejected,9,31,81,8140
+performance,881,1,99,835
+plundered site,88,1,99,858
+poetic form created,4,78,84,39732
+procession,324,1,99,836
+razed structure,16,5,63,1754
+reclaim site,22,7,100,1995
+regionpop incorporated into entity,7,7,99,2004
+remove hf entity link,155,26,100,6317
+remove hf hf link,679,4,99,1381
+remove hf site link,136,2,100,967
+replaced structure,1,90,90,55011
+site dispute,60,4,94,1519
+site retired,1,100,100,72672
+site taken over,1,28,28,7053
+sneak into site,1,100,100,72416
+squad vs squad,85,100,100,71636
+tactical situation,39,100,100,71635
+trade,88,65,99,27065
+written content composed,2186,2,99,1163
