@@ -1,0 +1,16 @@
+{
+  "branche": "legendes/region1-an-100-02-28-story-writer",
+  "demande": "20261127-region1-sw-p014-redaction",
+  "date_utc": "2026-11-27",
+  "piste": "P014",
+  "appels": [],
+  "statut": "indisponible",
+  "sous_total_appels_mesurés": null,
+  "total_demande": null,
+  "indication_visible": {
+    "encodage": "o200k_base",
+    "message_utilisateur": 4,
+    "reponse_finale": 252,
+    "total_visible": 256
+  }
+}
