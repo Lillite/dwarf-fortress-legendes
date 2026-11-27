@@ -17,7 +17,7 @@ Référentiel commun SPEC 2.0. Ouvrir la piste, puis les seules notices utiles.
 - [P011](P011.md) · 9 événements résolus.
 - [P012](P012.md) · 14 événements résolus.
 - [P013](P013.md) · 20 événements résolus.
-- [P014](P014.md) · 22 événements résolus.
+- [P014](P014.md) · 23 événements résolus.
 - [P015](P015.md) · 22 événements résolus.
 - [P016](P016.md) · 8 événements résolus.
 - [P017](P017.md) · 13 événements résolus.
