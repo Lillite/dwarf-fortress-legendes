@@ -303,6 +303,7 @@ P014,25208,62,386400,hf confronted,1273426,"Secret de la figure 352, offres à K
 P014,25209,62,386400,change hf state,1273439,"Secret de la figure 352, offres à Kib et Solon, explication du départ",,"hfid=352 | state=settled | reason=flight | site_id=179 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
 P014,26389,64,25200,change hf state,1282678,Recoupement avec la chronologie de la figure ou du groupe.,,"hfid=352 | state=settled | reason=scholarship | site_id=197 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
 P014,46051,83,151200,hf died,1449418,Recoupement avec la chronologie de la figure ou du groupe.,4235,hfid=347 | slayer_hfid=-1 | slayer_race=JAGUAR | slayer_caste=MALE | slayer_item_id=-1 | slayer_shooter_item_id=-1 | site_id=293 | subregion_id=272 | feature_layer_id=-1 | cause=struck
+P014,46404,83,294000,change hf state,1453803,"hfid=735 (Tun, fille de Kib et d’Asmel) | site_id=168",,"hfid=735 | state=visiting | site_id=168 | subregion_id=-1 | feature_layer_id=-1 | coords=-1,-1"
 P014,48978,85,285600,knowledge discovered,1475394,Recoupement avec la chronologie de la figure ou du groupe.,,hfid=352 | knowledge=chemistry:laboratory:glass flask
 P014,59157,92,336000,written content composed,1562382,Recoupement avec la chronologie de la figure ou du groupe.,,hist_figure_id=352 | wc_id=1642 | site_id=197 | circumstance=nightmare
 P014,59158,92,336000,artifact created,1562392,Recoupement avec la chronologie de la figure ou du groupe.,,artifact_id=363 | unit_id=-1 | hist_figure_id=352 | entity_id=-1 | site_id=197

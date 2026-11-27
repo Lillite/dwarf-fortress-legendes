@@ -1,6 +1,6 @@
 # Pistes documentaires de région 1
 
-Les vingt pistes portent sur le même [export Legends](../sources/README.md). Les identifiants P001 à P018 reprennent ceux déjà associés à ce XML. P019 et P020 proviennent de la seconde lecture du 27 novembre 2026. Le choix de l’utilisateur est ouvert.
+Les vingt pistes portent sur le même [export Legends](../sources/README.md). Les identifiants P001 à P018 reprennent ceux déjà associés à ce XML. P019 et P020 proviennent de la seconde lecture du 27 novembre 2026. Le 27 novembre 2026, l’utilisateur a choisi P014. [Lire la nouvelle en français](../manuscrits/fr/P014/nouvelle.md).
 
 | ID | Sujet | Période (années du monde) | État |
 | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ Les vingt pistes portent sur le même [export Legends](../sources/README.md). Le
 | P011 | [Les deux renversements de pouvoir à Rawspeak](#p011) | 84–87 | Proposée |
 | P012 | [Nino Rockparch, compétiteur et auteur d’un manuel de droit](#p012) | 1–99 | Proposée |
 | P013 | [Le commerce de Gamo et la tour de Relievewax](#p013) | 79–99 | Proposée |
-| P014 | [Asmel, le secret de l’artefact et deux offres d’immortalité](#p014) | 35–96 | Proposée |
+| P014 | [Asmel, le secret de l’artefact et deux offres d’immortalité](#p014) | 35–96 | Choisie · nouvelle achevée en français |
 | P015 | [Les deux dernières batailles du Contingent Fist](#p015) | 68–90 | Proposée |
 | P016 | [Les litiges entre Straybend et Siegerumors](#p016) | 4–11, puis 17 et 100 | Proposée |
 | P017 | [Erith, Slaglalbin et les deux trésors de Portaldeep](#p017) | 70–96 | Proposée |
@@ -192,6 +192,8 @@ Les comptes de Gamo Dearjump commencent, pour cette histoire, par une opération
 ## P014
 
 **Asmel, le secret de l’artefact et deux offres d’immortalité** · 35–96.
+
+Choix du 27 novembre 2026. [De la main de ton père · nouvelle intégrale](../manuscrits/fr/P014/nouvelle.md) · [Quatrième de couverture](../manuscrits/fr/P014/0.md) · [Dossier de sources](../manuscrits/fr/P014/plan.md).
 
 Le nain Asmel Furnacebolted désire l’immortalité dès 35. En 37, à Boardhammers, il prend possession d’un objet nommé *The Fated Tombs* et en apprend un secret. En 61, il recrute Kib Workedsearch en lui offrant l’immortalité. L’année suivante, on le confronte parce qu’il ne vieillit pas. Il fuit et s’établit à Diamondgalley. En 96, à Boardhammers de nouveau, une autre personne, Solon Beachedglaze, accepte d’entrer dans son réseau à la faveur de la même offre.
 
