@@ -18,11 +18,11 @@ KEY = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,119}\Z")
 
 
 def journal_for(branch):
-    if branch == "main":
+    if branch == "main-story-writer":
         return MAIN_JOURNAL
     if branch.startswith("legendes/"):
         return WORLD_JOURNAL
-    raise ValueError("Le journal appartient à main ou à une branche legendes/.")
+    raise ValueError("Le journal appartient à main-story-writer ou à une branche legendes/.")
 
 
 def safe(value, label):
@@ -140,7 +140,7 @@ def remote_tip(ref):
 
 
 def write_ci(ref, path, update):
-    # Mise à jour d'un seul blob depuis le code de main, sans exécuter de code du monde.
+    # Mise à jour d'un seul blob depuis la branche de méthode, sans exécuter de code du monde.
     for _ in range(3):
         tip = remote_tip(ref)
         for parent in (path.parent.parent, path.parent):
@@ -213,7 +213,7 @@ def main():
             raise ValueError("--branche s’utilise avec --publier.")
         branch = os.environ["BRANCHE"] if args.ci else (args.branche or git_text("branch", "--show-current"))
         journal = journal_for(branch)
-        if branch == "main" and args.piste:
+        if journal == MAIN_JOURNAL and args.piste:
             raise ValueError("Une piste appartient au journal de sa branche XML.")
         ref = "refs/heads/" + branch
         git("check-ref-format", ref)

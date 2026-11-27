@@ -1,4 +1,4 @@
-"""Contrôles structurels des sources éditoriales. Les décisions de lecture restent dans le plan."""
+"""Contrôles de classement, extraits et doublons exacts des manuscrits."""
 
 import csv
 import hashlib
@@ -74,7 +74,7 @@ def controles_manuscrits(world, output, version, diagnostics):
         else set()
     )
     books = defaultdict(list)
-    openings = ["# Passages à relire", "", "## Ouvertures", ""]
+    openings = ["# Relevés textuels", "", "## Ouvertures", ""]
     repeated = defaultdict(list)
     for book in sorted((world / "manuscrits").glob("*/*")):
         if not book.is_dir() or not re.fullmatch(r"P\d+", book.name):
@@ -83,17 +83,18 @@ def controles_manuscrits(world, output, version, diagnostics):
         rel = book.relative_to(world)
         language = book.parent.name.split("-")[0]
         presentation = book / "0.md"
-        if not presentation.is_file():
-            diagnostics.append(f"{rel} : présentation 0.md absente ({version}).")
-        elif not re.match(r"^#\s+[^\n]+\n\s*\n\S", presentation.read_text(encoding="utf-8").strip()):
-            diagnostics.append(f"{rel}/0.md : vérifier le titre et le texte de présentation.")
         chapters = sorted(
             (f for f in book.glob("*.md") if f.stem.isdecimal() and int(f.stem) > 0), key=lambda f: int(f.stem)
         )
         short = book / "nouvelle.md"
+        if presentation.is_file():
+            if not re.match(r"^#\s+[^\n]+\n\s*\n\S", presentation.read_text(encoding="utf-8").strip()):
+                diagnostics.append(f"{rel}/0.md : vérifier le titre et le texte de présentation.")
+        elif chapters or short.is_file():
+            diagnostics.append(f"{rel} : présentation 0.md absente ({version}).")
         if short.is_file() and chapters:
             diagnostics.append(f"{rel} : nouvelle et chapitres séparés présents, vérifier la forme retenue.")
-        if not chapters and not short.is_file():
+        if presentation.is_file() and not chapters and not short.is_file():
             diagnostics.append(f"{rel} : aucun chapitre ni nouvelle rédigé.")
         for n, chapter in enumerate(chapters, 1):
             first = next(
@@ -104,21 +105,6 @@ def controles_manuscrits(world, output, version, diagnostics):
             if n != int(chapter.stem) or not correct:
                 diagnostics.append(
                     f"{chapter.relative_to(world)} : vérifier le numéro et l’en-tête du chapitre {n}."
-                )
-        if short.is_file():
-            text = short.read_text(encoding="utf-8")
-            headings = re.findall(r"^#{1,2}\s+(.+)$", text, re.M)
-            word = CHAPTER_WORD.get(language)
-            parts = [
-                h
-                for h in headings
-                if re.match(
-                    r"(?:[IVXLCDM]+\.|\d+\.|" + (re.escape(word) + r"\b" if word else r"(?!)") + ")", h, re.I
-                )
-            ]
-            if word and any(h != f"{word} {n}" for n, h in enumerate(parts, 1)):
-                diagnostics.append(
-                    f"{rel}/nouvelle.md : vérifier les divisions numérotées au regard de la forme choisie."
                 )
         for i, chapter in enumerate(chapters + ([short] if short.is_file() else [])):
             blocks = [

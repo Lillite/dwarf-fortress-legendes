@@ -1,16 +1,3 @@
 # Chapitre 1
 
-<!-- Adapter le numéro et le mot « Chapitre » à l’édition. Pour une nouvelle d’un seul tenant, supprimer cet en-tête. Écrire ici le texte dans la langue choisie. -->
-
-## Notes de travail
-
-Garder les références utiles à la reprise. Les autres entrées sont des pistes facultatives, à adapter à la forme de ce passage.
-
-- Période et lieu
-- Regard suivi, destinataire d’une lettre ou autre principe qui organise le passage
-- Événements attestés et références dans l’export
-- Cause et mobile connus, interprétations possibles et questions ouvertes
-- Ajouts romanesques, dont les dialogues imaginés
-- Faits utiles à la scène formulés dans la langue de rédaction
-- À la relecture d’une scène importante, quel geste, quelle parole ou quelle conséquence reste en mémoire ?
-- Dernier passage écrit ou relu et question à reprendre, le cas échéant
+<!-- Fichier de classement du chapitre produit par Story Writer. Adapter le numéro et la langue de l’en-tête. Une nouvelle en un fichier se classe dans nouvelle.md. -->

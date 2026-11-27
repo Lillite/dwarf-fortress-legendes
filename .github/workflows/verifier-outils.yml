@@ -2,10 +2,10 @@ name: Vérifier les outils Legends
 
 on:
   push:
-    branches: [main]
+    branches: [main-story-writer]
     paths: ['outils/**', 'tests/**', '.github/workflows/**']
   pull_request:
-    branches: [main]
+    branches: [main-story-writer]
     paths: ['outils/**', 'tests/**', '.github/workflows/**']
 
 permissions:

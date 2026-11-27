@@ -94,7 +94,9 @@ class EditorialTests(unittest.TestCase):
                 "| P918 | P919 |\n",
                 encoding="utf-8",
             )
-            (world / "manuscrits/fr/P913").mkdir(parents=True)
+            book = world / "manuscrits/fr/P913"
+            book.mkdir(parents=True)
+            (book / "plan.md").write_text("# Dossier documentaire", encoding="utf-8")
             xml = world / "essai.xml"
             xml.write_text("<df_world/>", encoding="utf-8")
             db_path = world / "index.sqlite"
@@ -108,6 +110,7 @@ class EditorialTests(unittest.TestCase):
             self.assertEqual({p.stem for p in out.glob("P*.md")}, {"P912", "P913"})
             self.assertIn("[Registre](../../pistes.md?plain=1#L3)", (out / "P912.md").read_text())
             self.assertIn("[Registre](../../pistes.md)", (out / "P913.md").read_text())
+            self.assertNotIn("manuscrits/fr/P913", (out / "controles.md").read_text())
 
 
 class TokenTests(unittest.TestCase):
@@ -169,7 +172,7 @@ class TokenTests(unittest.TestCase):
 
             remote = Path(temp) / "remote.git"
             run("git", "init", "--bare", str(remote))
-            run("git", "init", "-b", "main")
+            run("git", "init", "-b", "main-story-writer")
             run(
                 "git",
                 "-c",
@@ -183,7 +186,7 @@ class TokenTests(unittest.TestCase):
             )
             start = run("git", "rev-parse", "HEAD").stdout.strip()
             run("git", "remote", "add", "origin", str(remote))
-            run("git", "push", "origin", "main", "HEAD:refs/heads/legendes/test")
+            run("git", "push", "origin", "main-story-writer", "HEAD:refs/heads/main", "HEAD:refs/heads/legendes/test")
             cli = [sys.executable, str(TOOLS / "journal_tokens.py"), "--ci", "--demande", "reprise-2"]
             env = dict(os.environ, BRANCHE="legendes/test", COMPLET="false", RECUS="")
             run(*cli, env=env)
@@ -200,10 +203,10 @@ class TokenTests(unittest.TestCase):
             self.assertEqual(data["statut"], "indisponible")
             self.assertIsNone(data["total_demande"])
             self.assertEqual(run("git", "diff", "--name-only", start, "FETCH_HEAD").stdout.strip(), p)
-            self.assertEqual(tip("main"), start)
+            self.assertEqual(tip("main-story-writer"), start)
             second_env = dict(
                 env,
-                BRANCHE="main",
+                BRANCHE="main-story-writer",
                 INDICATION=json.dumps(
                     {
                         "encodage": "o200k_base",
@@ -213,15 +216,15 @@ class TokenTests(unittest.TestCase):
                 ),
             )
             run(*cli, env=second_env)
-            main_first = tip("main")
+            main_first = tip("main-story-writer")
             entry = "suivi/usage-llm/reprise-2.json"
             self.assertEqual(run("git", "diff", "--name-only", start, main_first).stdout.strip(), entry)
             data = json.loads(run("git", "show", main_first + ":" + entry).stdout)
-            self.assertEqual(data["branche"], "main")
+            self.assertEqual(data["branche"], "main-story-writer")
             self.assertEqual(data["indication_visible"]["total_visible"], 7)
             self.assertIsNone(data["total_demande"])
             run(*cli, env=second_env)
-            self.assertEqual(tip("main"), main_first)
+            self.assertEqual(tip("main-story-writer"), main_first)
 
             # Une nouvelle demande a ses propres compteurs. Les changements locaux ne partent pas avec elle.
             pending = repo / "travail-en-cours.md"
@@ -245,7 +248,7 @@ class TokenTests(unittest.TestCase):
                 str(TOOLS / "journal_tokens.py"),
                 "--publier",
                 "--branche",
-                "main",
+                "main-story-writer",
                 "--demande",
                 "autre",
                 "--recu",
@@ -253,7 +256,7 @@ class TokenTests(unittest.TestCase):
                 "--complet",
             )
             second = "suivi/usage-llm/autre.json"
-            main_second = tip("main")
+            main_second = tip("main-story-writer")
             self.assertEqual(run("git", "diff", "--name-only", main_first, main_second).stdout.strip(), second)
             new = json.loads(run("git", "show", main_second + ":" + second).stdout)
             self.assertEqual(new["total_demande"], 11)
@@ -262,4 +265,6 @@ class TokenTests(unittest.TestCase):
             self.assertEqual(tip("legendes/test"), first)
             self.assertNotEqual(run(*cli, "--piste", "P914", env=second_env, check=False).returncode, 0)
             self.assertNotEqual(run(*cli, env=dict(env, BRANCHE="autre"), check=False).returncode, 0)
-            self.assertEqual(tip("main"), main_second)
+            self.assertEqual(tip("main-story-writer"), main_second)
+            self.assertNotEqual(run(*cli, env=dict(env, BRANCHE="main"), check=False).returncode, 0)
+            self.assertEqual(tip("main"), start)

@@ -1,17 +1,15 @@
-# Pistes d’écriture de cet export Legends
+# Pistes d’histoire de cet export Legends
 
-Sur la branche de l’export, remplir ce tableau à mesure que des pistes se dégagent. Ajouter une ligne par piste et conserver ses références même si l’utilisateur en choisit une autre. Donner à chaque piste un identifiant stable et unique dans ce registre. Toutes les histoires issues de ces pistes se poursuivent sur cette branche.
+Attribuer un identifiant stable à chaque piste. Conserver les propositions en réserve ainsi que les références des passages anglais. Un même fait cité dans plusieurs notices garde tous ses renvois.
 
-| ID | Export et passages anglais | Sujet, période et figures | Ce qui mérite d’être lu | Matière disponible et lacunes | Format suggéré et motif | Décision de l’utilisateur |
-| --- | --- | --- | --- | --- | --- | --- |
+| ID | Export et passages anglais | Sujet, période et figures | Évolution documentée | Faits distincts, liens et lacunes | État et décision de l’utilisateur |
+| --- | --- | --- | --- | --- | --- |
 
-Une proposition doit permettre de comprendre en quelques lignes qui ou quoi suivre, ce qui change et quels passages l’attestent. Si la piste repose sur une mention isolée, expliquer ce qui manque. Employer les décisions de la [SPEC](../SPEC_Roman_Dwarf_Fortress.md) pour distinguer piste en réserve, scène à intégrer, nouvelle autonome et roman soutenu par plusieurs étapes. Le nombre d’éléments de chaque piste dépend des occurrences trouvées dans le XML et peut évoluer au fil des renvois examinés. Plusieurs notices décrivant le même événement comptent comme un seul fait, même si chacune en éclaire un aspect différent.
-
-Après la seconde lecture, présenter les identifiants et les propositions à l’utilisateur. Si l’utilisateur indique un thème, lui présenter les pistes correspondantes. S’il confie le choix à l’auteur ou au hasard, noter ses mots et la piste retenue selon sa demande. Reporter dans la dernière colonne la décision, la date, la langue et le lien vers le plan dès sa création. Conserver les autres pistes pour une sélection ultérieure. Si le choix évolue, dater également la nouvelle décision dans le [journal](../REPRISE.md).
+Présenter les identifiants et les éléments qui étayent chaque piste. Consigner la date, la langue et le choix de l’utilisateur, puis lier le dossier documentaire lorsqu’il est ouvert. En cas de changement, conserver aussi la décision antérieure dans le [journal](../REPRISE.md).
 
 ## Bilan de la seconde lecture
 
-Noter ici ce qui a guidé les premières pistes, puis quels domaines de l’export étaient restés peu explorés. Pour chaque parcours repris, conserver une ligne, même si la recherche s’arrête sans nouvelle proposition. Si la séance est interrompue, reporter le prochain renvoi à examiner dans le [suivi de reprise](../REPRISE.md).
-
-| Domaine repris et raison | Point de départ et renvois suivis (sections, identifiants) | Ce que le rapprochement révèle ou laisse inconnu | Piste créée ou enrichie (ID), mise en réserve ou fin de recherche |
+| Domaine repris et raison | Point de départ et renvois suivis (sections, identifiants) | Ce que le rapprochement révèle ou laisse inconnu | Piste créée ou enrichie, mise en réserve ou fin de recherche |
 | --- | --- | --- | --- |
+
+En cas d’interruption, reporter le prochain renvoi dans le [suivi de reprise](../REPRISE.md).

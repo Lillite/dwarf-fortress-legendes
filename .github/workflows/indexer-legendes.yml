@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
     inputs:
       branche:
-        description: "Branche d’export (legendes/…), à analyser avec les outils de main"
+        description: "Branche d’export (legendes/…), à analyser avec les outils de main-story-writer"
         type: string
         required: true
       depuis:
@@ -45,15 +45,15 @@ jobs:
       - name: Vérifier la branche de lancement manuel
         if: github.event_name == 'workflow_dispatch'
         run: |
-          if [[ "$GITHUB_REF" != 'refs/heads/main' ]]; then
-            echo 'Lancer depuis main et renseigner la branche du monde dans le champ branche.' >&2
+          if [[ "$GITHUB_REF" != 'refs/heads/main-story-writer' ]]; then
+            echo 'Lancer depuis main-story-writer et renseigner la branche du monde dans le champ branche.' >&2
             exit 1
           fi
 
-      - name: Récupérer les outils de main
+      - name: Récupérer les outils de main-story-writer
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          ref: ${{ github.event_name == 'workflow_dispatch' && github.sha || 'refs/heads/main' }}
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.sha || 'refs/heads/main-story-writer' }}
 
       - name: Extraire les sources et les fichiers éditoriaux
         id: source

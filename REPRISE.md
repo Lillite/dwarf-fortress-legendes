@@ -1,6 +1,6 @@
 # Reprendre le travail
 
-Ce modèle s’utilise sur la branche permanente de chaque nouvel export. Créer cette branche depuis `main`, puis remplir les champs au fil du travail. Pour reprendre un export existant, ouvrir son `REPRISE.md` sur sa propre branche.
+Ce modèle s’utilise sur la branche permanente de chaque nouvel export. Créer cette branche depuis `main-story-writer`, puis remplir les champs au fil du travail. Pour reprendre un export existant, ouvrir son `REPRISE.md` sur sa propre branche.
 
 ## Situation de l’export
 
@@ -11,7 +11,7 @@ Ce modèle s’utilise sur la branche permanente de chaque nouvel export. Créer
 | Source et monde | |
 | Index factuel | |
 | Couverture de lecture | |
-| Piste, langue et plan actif | |
+| Piste, langue et dossier documentaire actif | |
 | Dernier point atteint | |
 | Prochaine action | |
 

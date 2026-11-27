@@ -1,48 +1,30 @@
-# Nouvelles et romans des légendes de Dwarf Fortress
+# Des légendes de Dwarf Fortress aux manuscrits avec Story Writer
 
-Ce projet transforme des épisodes d’un export *Legends* anglais en œuvres de fiction textuelles. Le récit peut suivre toute période documentée, y compris des siècles d’histoire antérieurs à la partie. L’utilisateur choisit la piste et la langue d’écriture ou indique quel choix il souhaite déléguer.
+`main-story-writer` sert de point de départ aux mondes dont les textes sont confiés exclusivement à [Story Writer](https://chatgpt.com/plugins/plugins_6ab235d1cda08191afa7ba8c81fb0429). La [SPEC](SPEC_Roman_Dwarf_Fortress.md) organise l’enquête dans les sources et les pistes à proposer. Les [instructions du projet](AGENTS.md#écriture-exclusivement-avec-story-writer) définissent comment vérifier le plugin et quelle erreur renvoyer s’il est indisponible.
 
-**Pour commencer avec un nouvel export, créer sa branche depuis `main`, puis y remplir la [fiche de source](sources/README.md) et le [suivi de reprise](REPRISE.md).** Pour continuer un travail en cours, retrouver la branche correspondante dans la [liste des branches](https://github.com/Lillite/dwarf-fortress-legendes/branches) et y ouvrir `REPRISE.md`. Les critères de sélection du sujet, de suffisance de la matière, d’écriture et de relecture sont réunis dans la [SPEC éditoriale](SPEC_Roman_Dwarf_Fortress.md).
+## Commencer ou reprendre un export
 
-## Une branche permanente par export
+1. Créer depuis `main-story-writer` une branche permanente `legendes/<monde>-<export>` portant un nom disponible. Pour explorer avec Story Writer un export déjà traité sur une autre branche, utiliser un nom distinct. Conserver sur cette branche les originaux anglais, les relevés, les pistes, les manuscrits et leurs traductions. Les branches d’export restent séparées.
+2. Déposer dans `sources/` les fichiers d’un même export, remplir la [fiche de source](sources/README.md) et le [suivi](REPRISE.md). Le push du XML déclenche l’indexation. Pour la déclencher manuellement, lancer **Indexer un export Legends** depuis `main-story-writer` et choisir la branche de l’export comme cible. [Guide des outils](outils/README.md)
+3. Explorer l’index et les notices, recouper les événements, puis reprendre les domaines peu explorés. Présenter le [registre des pistes](reperes/pistes.md). Y inscrire la piste et la langue choisies ainsi que la date, les contraintes ou la délégation de l’utilisateur.
+4. Préparer le [dossier documentaire](manuscrits/fr/plan.md) de la piste. L’index, la préparation des événements, les vérifications factuelles et la proposition de pistes fonctionnent sans plugin.
+5. Dès qu’une demande porte sur un plan narratif, un texte littéraire ou sa révision, vérifier l’accès réel à Story Writer dans la session. Lui confier cette partie avec le dossier et les consignes de l’utilisateur. Si Story Writer est indisponible, appliquer l’erreur prévue dans [AGENTS.md](AGENTS.md#écriture-exclusivement-avec-story-writer).
 
-`main` fournit le point de départ commun à toutes les branches d’export. On y maintient la SPEC, les modèles à remplir, les outils et leurs tests. Les exemples de fiction servent à illustrer la méthode. Les observations tirées d’un XML, leurs identifiants et les textes qu’elles inspirent se consignent sur la branche de cet export. Avant de déposer un nouvel export *Legends*, créer depuis la version courante de `main` une branche nommée `legendes/<monde>-<export>`. Choisir un nom lisible pour le monde et un repère qui distingue les exports successifs. Si le même monde est exporté à nouveau, lui donner une nouvelle branche. Les fichiers complémentaires issus de la même opération d’export vont ensemble.
+Pour reprendre un travail, ouvrir le `REPRISE.md` de la branche concernée. À chaque interruption ou fin d’étape, y inscrire l’état réel et la prochaine action.
 
-Conserver sur cette branche l’original anglais, les fiches, toutes les pistes, les nouvelles, les romans, leurs traductions et le journal de reprise. Pour une deuxième histoire tirée du même export, sélectionner cette même branche et ouvrir un nouveau dossier de manuscrit. Pour reprendre un export déjà enregistré, retrouver sa branche et vérifier la [fiche de source](sources/README.md).
+## Classer les fichiers
 
-**Chaque branche d’export est conservée, même après la dernière relecture. Elle ne doit jamais être fusionnée dans `main` ni dans une autre branche.** La fin d’une histoire se consigne dans le journal de sa branche.
+| Fichier sur la branche d’export | Contenu |
+| --- | --- |
+| `reperes/pistes.md` | Pistes et décisions de sélection. L’identifiant complet associe la branche et l’ID local. |
+| `reperes/chronologie.csv`, `reperes/glossaire.csv` | Dates, faits, noms, références anglaises et correspondances avec les fichiers produits. CSV en UTF-8 avec séparateur virgule. |
+| `manuscrits/<langue>/<piste>/plan.md` | Dossier de recherche transmis à Story Writer, puis références des livrables. |
+| `manuscrits/<langue>/<piste>/0.md` | Titre et quatrième de couverture produits par Story Writer. [Gabarit de fichier](modeles/0.md) |
+| `manuscrits/<langue>/<piste>/nouvelle.md` ou `01.md`, `02.md`, etc. | Texte produit par Story Writer. Les chapitres séparés portent leur en-tête numéroté dans la langue de l’édition. [Gabarit de chapitre](modeles/chapitre.md) |
+| `REPRISE.md` | Étape active, dernière action et point de reprise. |
 
-## Consommation de chaque demande
+Chaque histoire du même export conserve son identifiant et son dossier. Une traduction utilise le même identifiant dans le répertoire de sa langue et le manuscrit stabilisé comme référence.
 
-Avant de rendre la main, l’assistant publie et vérifie une fiche pour la demande qui vient de se terminer. Une question sur la méthode, la SPEC ou les outils se consigne dans `suivi/usage-llm/` sur `main`. Une demande sur un XML, une piste ou un manuscrit se consigne dans `reperes/usage-llm/` sur la branche de cet export. Le comptage commence avec la demande courante. [Règle de clôture](AGENTS.md) · [Utiliser le journal](outils/README.md#journal-des-tokens)
+## Journal des demandes
 
-## Retrouver les événements liés
-
-Quand le commit qui ajoute ou modifie le XML dans `sources/` est poussé sur la branche d’export, GitHub Actions indexe les notices et recoupe leurs références sans appel à un modèle de langage. Les rapports sont conservés dans `reperes/index-legends/` sur cette branche. Pour analyser un monde déposé avant l’installation du workflow, lancer l’analyse manuellement depuis `main` en indiquant la branche de ce monde. La [notice technique](outils/README.md) décrit les deux modes et l’accès à la base SQLite.
-
-Pour travailler sur un export, ouvrir le suivi de reprise de sa branche, puis le sommaire `reperes/index-legends/README.md` si la prochaine étape demande une recherche. Pour une piste déjà choisie, ouvrir sa fiche dans `reperes/index-legends/dossiers/`, puis les notices et les décisions associées à la scène. Une modification éditoriale actualise les fiches et les contrôles Markdown. Pour une nouvelle découverte, utiliser aussi le bilan des recherches précédentes afin de choisir les domaines à explorer.
-
-## Du fichier anglais au manuscrit relu
-
-| Étape | Travail | Trace à conserver dans le dépôt |
-| --- | --- | --- |
-| 1. Créer la branche et ajouter l’export | Créer la branche permanente de cet export depuis `main`, puis y déposer l’original anglais dans `sources/` sous son nom d’origine. Identifier le monde, les fichiers associés et la période connue. | Nom exact de la branche et chemin de l’export dans la [fiche de source](sources/README.md) et dans le suivi de cette branche. |
-| 2. Lire et proposer | Explorer les époques du monde, y compris les plus anciennes, à partir de l’index et des notices sources. Repérer les histoires possibles. Reprendre les domaines peu explorés lors de la [seconde lecture](SPEC_Roman_Dwarf_Fortress.md#seconde-lecture-avant-de-proposer-les-pistes) et suivre les renvois du XML sans fixer d’avance le nombre d’éléments. Puis présenter les pistes par identifiant, avec les passages qui les étayent et leur intérêt pour le lecteur. | [Registre des pistes](reperes/pistes.md), avec les recoupements effectués et leur résultat. Si la lecture est interrompue, indiquer le prochain renvoi à examiner. |
-| 3. Recueillir le choix | Accueillir une piste précise ou une envie de lecture. Si le thème évoque plusieurs pistes, présenter les plus proches. Si l’utilisateur délègue le choix, l’exercer dans les limites indiquées. Consigner ses mots, la date, la piste et la langue retenues, ainsi que toute contrainte de couverture. Tant que le choix reste ouvert, garder les pistes disponibles et le suivi à l’étape 3. | Registre des pistes et [suivi de reprise](REPRISE.md). Une fois la piste et la langue retenues, ouvrir le plan de cette histoire. |
-| 4. Rechercher les liens et préparer l’histoire | Repartir des identifiants, des alias et des passages de la piste. Suivre les renvois pertinents dans les deux sens, puis ceux des éléments découverts. Situer chaque lien dans le temps, noter sa source, les incertitudes et son effet possible sur le récit. Réévaluer le format à la lumière de l’enquête. Un renvoi examiné peut rester dans le dossier de recherche. | Dossier de recherche dans le [modèle de plan](manuscrits/fr/plan.md), [chronologie](reperes/chronologie.csv), [glossaire](reperes/glossaire.csv) et, au besoin, [guide de lecture du XML](sources/guide-xml.md) et observations propres au fichier dans la fiche de source. |
-| 5. Rédiger dans la langue choisie | Préparer les faits de chaque scène dans cette langue, puis écrire directement le texte littéraire. Choisir ce qui mérite une scène, un résumé ou une ellipse. Pour les moments décisifs, partir de ce que le personnage veut, mettre en scène le déroulement et faire sentir la conséquence. Rechercher les raisons connues et donner chair aux silences par des gestes, des dialogues et des détails plausibles. À la fin de chaque chapitre, contrôler les faits dans l’original anglais. | Plan, [présentation du livre](modeles/0.md) dans `0.md`, [chapitre ou nouvelle](modeles/chapitre.md), références aux scènes et dernier passage rédigé. |
-| 6. Relire et corriger | Relire la nouvelle d’une traite ou plusieurs chapitres consécutifs du roman. Corriger continuité, voix, rythme et clarté. Vérifier aussi ce qu’une scène fait éprouver au lecteur au-delà du fait qu’elle rapporte. Vérifier les faits racontés et l’effet des coupes sur la continuité. Ajuster la place des détails secondaires à la lecture : en garder pour la vie du monde ou pour un autre livre, en déplacer ou en couper si leur accumulation alourdit le passage. | Manuscrit corrigé, titre et quatrième de couverture relus dans `0.md`, bilan dans le plan. Consigner les passages revus, les corrections et les questions encore ouvertes. |
-
-## Choisir une direction littéraire
-
-Pendant l’écriture, l’utilisateur peut donner une ambiance, un thème ou une simple image, demander à être surpris ou confier une décision au hasard. Une indication qui permet d’avancer suffit. Si l’utilisateur tient à découvrir le récit, poser la question en termes de plaisir de lecture et lui laisser découvrir les conséquences dans le texte. Conserver dans le plan ses mots et les décisions qui engagent la suite. [Méthode et exemple dans la SPEC](SPEC_Roman_Dwarf_Fortress.md#laisser-chaque-histoire-trouver-sa-forme)
-
-## Classer les fichiers pour retrouver une histoire
-
-- Attribuer à chaque piste un identifiant unique dans le registre de l’export. Utiliser la lettre `P` suivie d’un numéro local. La référence complète d’une piste est le nom de sa branche d’export accompagné de son identifiant dans le registre.
-- Après le choix, copier le [modèle de plan](manuscrits/fr/plan.md) dans `manuscrits/<langue>/<piste>/plan.md`. Dans ce même dossier, copier le [modèle de présentation](modeles/0.md) sous le nom exact `0.md` pour le titre du livre et sa quatrième de couverture.
-- Pour un récit en plusieurs fichiers, garder `01.md`, `02.md`, etc., avec les en-têtes `# Chapitre 1`, `# Chapitre 2`, etc., dans la langue du récit. Une nouvelle d’un seul tenant garde son texte dans `nouvelle.md`. Voir le [modèle de chapitre](modeles/chapitre.md).
-- Dans la chronologie, inscrire la destination complète d’un événement mis en récit, par exemple `manuscrits/<langue>/<piste>/01.md`. Dans le glossaire, conserver la forme anglaise, la langue cible et la référence qui distingue deux homonymes. Les deux CSV utilisent la virgule et l’encodage UTF-8.
-- Pour une traduction ultérieure, reprendre le manuscrit original stabilisé. Placer l’édition dans le dossier de sa langue avec le même identifiant de piste, et conserver les références communes à l’export.
-
-À la fin de chaque étape ou séance interrompue, enregistrer sur la branche de l’export les fichiers de travail et actualiser le [suivi](REPRISE.md) dans le même commit. À la reprise, ouvrir l’élément indiqué à la ligne « Prochaine action ».
+Consigner les demandes relatives à cette variante dans `suivi/usage-llm/` sur `main-story-writer`. Pour un monde, utiliser `reperes/usage-llm/` sur sa branche. [Règle de clôture](AGENTS.md#clôture-de-chaque-demande) · [Commandes](outils/README.md#journal-des-tokens)

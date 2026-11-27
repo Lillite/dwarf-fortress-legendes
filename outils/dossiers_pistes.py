@@ -323,7 +323,7 @@ def generate(db, world, out, version):
         "",
         f"Référentiel commun {version}. Ouvrir la piste, puis les seules notices utiles.",
         "",
-        "[Structure et références](controles.md) · [Relecture des manuscrits](relecture.md) · [Dépendances](dependances.csv)",
+        "[Structure et références](controles.md) · [Extraits et répétitions exactes](relecture.md) · [Dépendances](dependances.csv)",
         "",
     ]
     for track in sorted(ids):

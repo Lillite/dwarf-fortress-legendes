@@ -1,6 +1,6 @@
 # Fiche de l’export Legends
 
-Remplir cette fiche sur la branche permanente de l’export, créée depuis `main` avant le dépôt. Conserver ici l’original anglais et, le cas échéant, les fichiers complémentaires du même export. Employer leurs chemins dans la chronologie et le glossaire.
+Remplir cette fiche sur la branche permanente de l’export, créée depuis `main-story-writer` avant le dépôt. Conserver ici l’original anglais et, le cas échéant, les fichiers complémentaires du même export. Employer leurs chemins dans la chronologie et le glossaire.
 
 | Information | Valeur |
 | --- | --- |
@@ -22,4 +22,4 @@ Le [guide de lecture du XML](guide-xml.md) donne les principales sections à rec
 | Fichier et passage observé | Champ, section ou convention de date | Comment retrouver ou suivre le renvoi | Limite ou ambiguïté |
 | --- | --- | --- | --- |
 
-Si un nouvel export du même monde est fourni, créer depuis `main` une autre branche avec sa propre fiche. L’identité d’un fichier source associe le nom de la branche à son chemin.
+Si un nouvel export du même monde est fourni, créer depuis `main-story-writer` une autre branche avec sa propre fiche. L’identité d’un fichier source associe le nom de la branche à son chemin.
